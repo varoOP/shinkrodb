@@ -113889,12 +113889,12 @@
       "releaseDate": "2021-10-03"
    },
    {
-      "title": "Hibike! Euphonium: Kumiko 3 Nensei-hen",
+      "title": "Hibike! Euphonium 3",
       "enTitle": "Sound! Euphonium 3",
       "malid": 39894,
       "anidbid": 14935,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Tabibito no You ni",
@@ -115632,7 +115632,7 @@
       "malid": 40357,
       "anidbid": 15071,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-08-05"
    },
    {
       "title": "Gal to Kyouryuu",
@@ -153065,7 +153065,7 @@
       "malid": 50306,
       "anidbid": 16962,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Tonikaku Kawaii 2nd Season",
@@ -159167,7 +159167,7 @@
       "malid": 52107,
       "anidbid": 17466,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Yu Shen Chuan: Xun Zhao Shen Li",
@@ -160821,7 +160821,7 @@
       "malid": 52588,
       "anidbid": 17550,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "JoJo no Kimyou na Bouken: The Real 4-D Dio no Sekai",
@@ -165105,7 +165105,7 @@
       "malid": 53730,
       "anidbid": 17749,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
    },
    {
       "title": "Big Mac to, Susume",
@@ -171273,7 +171273,7 @@
       "malid": 55310,
       "anidbid": 18029,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2023-10"
    },
    {
       "title": "Chinokate",
@@ -174675,5 +174675,83 @@
       "malid": 56170,
       "type": "music",
       "releaseDate": "2021-11-09"
+   },
+   {
+      "title": "Temple x Kanojo, Okarishimasu",
+      "malid": 56172,
+      "type": "ona",
+      "releaseDate": "2023-08-05"
+   },
+   {
+      "title": "Oomuro-ke",
+      "malid": 56175,
+      "anidbid": 18146,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Celia-sensei no Wakuwaku Magical Kyoushitsu Season 2",
+      "malid": 56178,
+      "type": "ona",
+      "releaseDate": "2023-08-04"
+   },
+   {
+      "title": "Delico's Nursery",
+      "malid": 56179,
+      "anidbid": 18148,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Urahara",
+      "malid": 56182,
+      "anidbid": 18149,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kimi ni Sachi Are",
+      "malid": 56183,
+      "type": "music",
+      "releaseDate": "1997-06-02"
+   },
+   {
+      "title": "A A B C",
+      "malid": 56184,
+      "anidbid": 17393,
+      "type": "music",
+      "releaseDate": "1965-04-13"
+   },
+   {
+      "title": "Grendizer U",
+      "malid": 56189,
+      "anidbid": 18147,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Ai ni Iku no.",
+      "malid": 56190,
+      "anidbid": 17396,
+      "type": "music",
+      "releaseDate": "1998-08-01"
+   },
+   {
+      "title": "I Like U",
+      "malid": 56191,
+      "type": "music",
+      "releaseDate": "2023-08-03"
+   },
+   {
+      "title": "Relief",
+      "malid": 56192,
+      "type": "music",
+      "releaseDate": "2017-05-12"
+   },
+   {
+      "title": "Boku no Hero Academia: The Movie",
+      "malid": 56196,
+      "type": "movie",
+      "releaseDate": ""
    }
 ]
