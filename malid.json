@@ -11763,7 +11763,7 @@
    {
       "title": "Jishu Seisaku Movie Binchou-tan",
       "malid": 1926,
-      "type": "music",
+      "type": "ova",
       "releaseDate": "2005-08-14"
    },
    {
@@ -30455,6 +30455,7 @@
    },
    {
       "title": "Eiga! Tamagotchi Uchuu Ichi Happy na Monogatari!?",
+      "enTitle": "Tamagotchi: Happiest Story in the Universe!",
       "malid": 6517,
       "type": "movie",
       "releaseDate": "2008-12-20"
@@ -46837,7 +46838,7 @@
    },
    {
       "title": "Maoyuu Maou Yuusha",
-      "enTitle": "Maoyu ~ Archenemy \u0026 Hero",
+      "enTitle": "Maoyu",
       "malid": 14833,
       "type": "tv",
       "releaseDate": "2013-01-05"
@@ -86883,13 +86884,6 @@
       "releaseDate": "2010-02-08"
    },
    {
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
-      "enTitle": "Re:ZERO -Starting Life in Another World- Memory Snow",
-      "malid": 36286,
-      "type": "movie",
-      "releaseDate": "2018-10-06"
-   },
-   {
       "title": "Doraemon Eigo Kyoushitsu",
       "enTitle": "Early English with Doraemon",
       "malid": 36287,
@@ -93988,6 +93982,7 @@
    },
    {
       "title": "Chuck Shimezou",
+      "enTitle": "Zip! Shimezo",
       "malid": 38013,
       "type": "movie",
       "releaseDate": "2019-03-09"
@@ -99248,7 +99243,7 @@
       "releaseDate": "2019-05-11"
    },
    {
-      "title": "Shinkaigyo no March",
+      "title": "Shinkaigyo no Machi",
       "malid": 39245,
       "type": "music",
       "releaseDate": "2018-12-01"
@@ -102417,7 +102412,7 @@
       "releaseDate": "2012-04-07"
    },
    {
-      "title": "Nu Sheng Su She Ri Chang Di 2 Ji",
+      "title": "Nu Sheng Su She Ri Chang 2nd Season",
       "enTitle": "Girls Dorm Season 2",
       "malid": 40088,
       "type": "ona",
@@ -109891,13 +109886,6 @@
       "malid": 42507,
       "type": "ona",
       "releaseDate": "2020-05-20"
-   },
-   {
-      "title": "Super Dragon Ball Heroes: Kessen! Time Patrol vs. Ankoku Ou",
-      "enTitle": "Super Dragon Ball Heroes: Decisive Battle! Time Patrol vs. The Dark King",
-      "malid": 42509,
-      "type": "ona",
-      "releaseDate": "2020-02-23"
    },
    {
       "title": "Zhandouban Geji!",
@@ -131775,7 +131763,7 @@
       "title": "Shitou Wa",
       "malid": 47933,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2018"
    },
    {
       "title": "Da Zhentan Xiongmao Zhu",
@@ -136755,7 +136743,7 @@
       "title": "Mignon",
       "malid": 49430,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-08-11"
    },
    {
       "title": "Kanashiki Debu Neko-chan",
@@ -142338,7 +142326,7 @@
       "title": "Ragna Crimson",
       "malid": 51297,
       "type": "tv",
-      "releaseDate": "2023-09-30"
+      "releaseDate": "2023-10-01"
    },
    {
       "title": "Ore, Tsushima x Na Mo Naki Nezumi",
@@ -143929,7 +143917,7 @@
    },
    {
       "title": "Anhe Zhuan",
-      "enTitle": "Legend of Assassin",
+      "enTitle": "Tales Of Dark River",
       "malid": 51727,
       "type": "ona",
       "releaseDate": "2023-08-02"
@@ -144792,6 +144780,7 @@
    },
    {
       "title": "Boku to Roboko",
+      "enTitle": "Me \u0026 Roboco",
       "malid": 51940,
       "type": "tv",
       "releaseDate": "2022-12-05"
@@ -144917,6 +144906,12 @@
       "malid": 51993,
       "type": "movie",
       "releaseDate": "2018"
+   },
+   {
+      "title": "Hibike! Euphonium: Ensemble Contest-hen",
+      "malid": 51995,
+      "type": "movie",
+      "releaseDate": "2023-08-04"
    },
    {
       "title": "Hibike! Euphonium: Ensemble Contest-hen",
@@ -149785,7 +149780,7 @@
       "enTitle": "A Girl \u0026 Her Guard Dog",
       "malid": 53300,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-09-28"
    },
    {
       "title": "Banana Chips",
@@ -151410,7 +151405,7 @@
       "enTitle": "2.5 Dimensional Seduction",
       "malid": 53802,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Kondo, Kimi to",
@@ -151528,7 +151523,7 @@
       "enTitle": "I'm in Love with the Villainess",
       "malid": 53833,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-02"
    },
    {
       "title": "Unnamed Memory",
@@ -151733,7 +151728,7 @@
       "enTitle": "Ron Kamonohashi: Deranged Detective",
       "malid": 53879,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-02"
    },
    {
       "title": "One Piece The Planetarium",
@@ -152518,7 +152513,7 @@
       "title": "16bit Sensation: Another Layer",
       "malid": 54041,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2023-10"
    },
    {
       "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
@@ -153838,7 +153833,7 @@
       "enTitle": "Tamagotchi! McDonald's Happy Set Special DVD with Lovelyn",
       "malid": 54380,
       "type": "special",
-      "releaseDate": "2008"
+      "releaseDate": "2008-12-12"
    },
    {
       "title": "Hot Minute: Aggretsuko",
@@ -156283,6 +156278,7 @@
    },
    {
       "title": "Hokkyoku Hyakkaten no Concierge-san",
+      "enTitle": "The Concierge",
       "malid": 55115,
       "type": "movie",
       "releaseDate": "2023"
@@ -156450,7 +156446,7 @@
       "enTitle": "Komada: A Whisky Family",
       "malid": 55149,
       "type": "movie",
-      "releaseDate": "2023-11"
+      "releaseDate": "2023-11-10"
    },
    {
       "title": "Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu",
@@ -156476,7 +156472,7 @@
       "title": "Yuzuki-san Chi no Yonkyoudai.",
       "malid": 55153,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-05"
    },
    {
       "title": "Giddy Up",
@@ -156742,7 +156738,7 @@
       "enTitle": "Kung Fu Sock",
       "malid": 55219,
       "type": "tv",
-      "releaseDate": "2021-03-08"
+      "releaseDate": "2021-08-03"
    },
    {
       "title": "Bear Bear Bear Kuma Punch!",
@@ -158123,6 +158119,12 @@
       "releaseDate": "2023-06-04"
    },
    {
+      "title": "Kyoufuu All Back",
+      "malid": 55569,
+      "type": "music",
+      "releaseDate": "2023-03-15"
+   },
+   {
       "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
       "enTitle": "The Prince of Tennis: U-17 World Cup Semifinal",
       "malid": 55570,
@@ -158988,7 +158990,7 @@
       "title": "Xian Ni",
       "malid": 55809,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": "2023-09-25"
    },
    {
       "title": "Mashle 2nd Season",
@@ -160094,6 +160096,7 @@
    },
    {
       "title": "Kimi ni Aeta!",
+      "enTitle": "Challenge the World!",
       "malid": 56064,
       "type": "ona",
       "releaseDate": "2023-07-23"
@@ -160165,6 +160168,12 @@
       "malid": 56088,
       "type": "music",
       "releaseDate": "2021-10-27"
+   },
+   {
+      "title": "Suiyoubi no Yakusoku: Another Story",
+      "malid": 56093,
+      "type": "music",
+      "releaseDate": "2020-10-23"
    },
    {
       "title": "Innocent Tyrant",
@@ -160363,6 +160372,12 @@
       "releaseDate": "2024"
    },
    {
+      "title": "Kyozou no Carousel",
+      "malid": 56176,
+      "type": "music",
+      "releaseDate": "2023-08-04"
+   },
+   {
       "title": "Celia-sensei no Wakuwaku Magical Kyoushitsu Season 2",
       "malid": 56178,
       "type": "ona",
@@ -160375,7 +160390,7 @@
       "releaseDate": ""
    },
    {
-      "title": "Urahara",
+      "title": "Urahara (Unknown)",
       "malid": 56182,
       "type": "unknown",
       "releaseDate": ""
@@ -160391,6 +160406,12 @@
       "malid": 56184,
       "type": "music",
       "releaseDate": "1965-04-13"
+   },
+   {
+      "title": "Six Feet Under",
+      "malid": 56186,
+      "type": "music",
+      "releaseDate": "2023-07-25"
    },
    {
       "title": "Grendizer U",
@@ -160417,9 +160438,202 @@
       "releaseDate": "2017-05-12"
    },
    {
+      "title": "Arinko Hepo: Futari no Himitsu Kichi",
+      "enTitle": "Ant Hepo",
+      "malid": 56195,
+      "type": "ona",
+      "releaseDate": "2016-03-24"
+   },
+   {
       "title": "Boku no Hero Academia: The Movie",
       "malid": 56196,
       "type": "movie",
       "releaseDate": ""
+   },
+   {
+      "title": "Run to Run",
+      "malid": 56199,
+      "type": "music",
+      "releaseDate": "2021-12-03"
+   },
+   {
+      "title": "Aji no Hiraki no Sandogasa",
+      "malid": 56200,
+      "type": "music",
+      "releaseDate": "1998-04-01"
+   },
+   {
+      "title": "Akubi no Mukou ni Tobidasou",
+      "malid": 56201,
+      "type": "music",
+      "releaseDate": "1970-05-02"
+   },
+   {
+      "title": "Geats Extra: Geats Anime - Another Grand Prix",
+      "malid": 56206,
+      "type": "ona",
+      "releaseDate": "2023-08-06"
+   },
+   {
+      "title": "Neoki Yashinoki",
+      "malid": 56210,
+      "type": "music",
+      "releaseDate": "2023-07-28"
+   },
+   {
+      "title": "Houkago no Breath",
+      "enTitle": "Pokémon: Paldean Winds",
+      "malid": 56218,
+      "type": "ona",
+      "releaseDate": "2023-09-06"
+   },
+   {
+      "title": "Rekishi ni Nokoru Akujo ni Naru zo: Akuyaku Reijou ni Naru hodo Ouji no Dekiai wa Kasoku suru you desu!",
+      "malid": 56228,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Jiisan Baasan Wakagaeru",
+      "malid": 56230,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Hua Xianzi: Mofa Xiang Dui Lun",
+      "malid": 56234,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Sengoku Youko",
+      "malid": 56242,
+      "type": "tv",
+      "releaseDate": "2024-01"
+   },
+   {
+      "title": "Yi Kong Zhan Ge",
+      "enTitle": "Thrud",
+      "malid": 56246,
+      "type": "ona",
+      "releaseDate": "2023-08-17"
+   },
+   {
+      "title": "The 3 Meisama Anime wa Anime de Arissho!",
+      "malid": 56259,
+      "type": "ova",
+      "releaseDate": "2009-02-04"
+   },
+   {
+      "title": "Super Wings the Movie: Maximum Speed",
+      "enTitle": "Super Wings: Maximum Speed",
+      "malid": 56262,
+      "type": "movie",
+      "releaseDate": "2023-07-20"
+   },
+   {
+      "title": "Charging Topspinner",
+      "enTitle": "Charging Topspinner",
+      "malid": 56267,
+      "type": "tv",
+      "releaseDate": "2023-05-13"
+   },
+   {
+      "title": "Yogoe Mecard",
+      "enTitle": "Ghost Mecard",
+      "malid": 56269,
+      "type": "ona",
+      "releaseDate": "2018-09-08"
+   },
+   {
+      "title": "Yogoe Mecard Wangma",
+      "malid": 56270,
+      "type": "ona",
+      "releaseDate": "2019-08-26"
+   },
+   {
+      "title": "Yogoe Mecard Specials",
+      "malid": 56271,
+      "type": "special",
+      "releaseDate": "2019-10-28"
+   },
+   {
+      "title": "Mecard Ball",
+      "malid": 56272,
+      "type": "tv",
+      "releaseDate": "2021-09-04"
+   },
+   {
+      "title": "Yuanshen: Jiaoxiang Yinyue Hui CM Duanpian",
+      "enTitle": "Genshin Impact: Genshin Concert PV",
+      "malid": 56273,
+      "type": "ona",
+      "releaseDate": "2023-08-13"
+   },
+   {
+      "title": "Mecard Ball Mega",
+      "malid": 56274,
+      "type": "tv",
+      "releaseDate": "2022-11-05"
+   },
+   {
+      "title": "Tea Tea Cherry",
+      "malid": 56275,
+      "type": "tv",
+      "releaseDate": "2021-12-30"
+   },
+   {
+      "title": "Tea Tea Cherry Specials",
+      "malid": 56276,
+      "type": "special",
+      "releaseDate": "2022-12-08"
+   },
+   {
+      "title": "Hello Carbot",
+      "malid": 56277,
+      "type": "tv",
+      "releaseDate": "2014-08-02"
+   },
+   {
+      "title": "Hello Carbot Specials: Pentastorm",
+      "malid": 56278,
+      "type": "special",
+      "releaseDate": "2014-12-08"
+   },
+   {
+      "title": "Hello Carbot Season 2",
+      "malid": 56279,
+      "type": "tv",
+      "releaseDate": "2015-05-30"
+   },
+   {
+      "title": "Hello Carbot Season 3",
+      "malid": 56280,
+      "type": "tv",
+      "releaseDate": "2015-12-19"
+   },
+   {
+      "title": "Hello Carbot Season 3 Specials: Yeongungui Deungjang",
+      "malid": 56281,
+      "type": "special",
+      "releaseDate": "2015-05-05"
+   },
+   {
+      "title": "Hello Carbot Season 4",
+      "malid": 56282,
+      "type": "tv",
+      "releaseDate": "2016-07-16"
+   },
+   {
+      "title": "Hello Carbot Season 5",
+      "malid": 56283,
+      "type": "tv",
+      "releaseDate": "2017-02-18"
+   },
+   {
+      "title": "Hello Carbot Season 5 Specials: Jiguleul Butaghae",
+      "malid": 56284,
+      "type": "special",
+      "releaseDate": "2017-05-06"
    }
 ]
