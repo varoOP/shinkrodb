@@ -9796,7 +9796,7 @@
       "releaseDate": "2006-10-05"
    },
    {
-      "title": "Katekyo Hitman Reborn!",
+      "title": "Katekyou Hitman Reborn!",
       "enTitle": "Reborn!",
       "malid": 1604,
       "type": "tv",
@@ -11045,7 +11045,7 @@
       "releaseDate": "2007-01-05"
    },
    {
-      "title": "Bounty Dog: Getsumen no Ibu",
+      "title": "Bounty Dog: Getsumen no Eve",
       "malid": 1811,
       "type": "ova",
       "releaseDate": "1994-10-01"
@@ -32238,7 +32238,7 @@
       "title": "Hakushaku to Yousei Specials",
       "malid": 7083,
       "type": "special",
-      "releaseDate": "2008-12-29"
+      "releaseDate": "2008-12-26"
    },
    {
       "title": "Ichiban Ushiro no Daimaou",
@@ -35584,7 +35584,7 @@
       "releaseDate": "2010-04-01"
    },
    {
-      "title": "Katekyo Hitman Reborn! Vongola Family Soutoujou! Vongola Shiki Shuugakuryokou, Kuru!!",
+      "title": "Katekyou Hitman Reborn! Vongola Family Soutoujou! Vongola Shiki Shuugakuryokou, Kuru!!",
       "enTitle": "Reborn! Here Comes a Vongola Family-Style School Trip!",
       "malid": 8532,
       "type": "ona",
@@ -36832,7 +36832,7 @@
       "releaseDate": "1991-01-28"
    },
    {
-      "title": "Katekyo Hitman Reborn!: Mr. Rebokku no Ciao Ciao Interview",
+      "title": "Katekyou Hitman Reborn!: Mr. Rebokku no Ciao Ciao Interview",
       "malid": 9023,
       "type": "special",
       "releaseDate": "2010-04-07"
@@ -43794,7 +43794,7 @@
       "releaseDate": "2011-11-28"
    },
    {
-      "title": "Mameushi-kun",
+      "title": "Mameushi-kun (TV)",
       "malid": 12185,
       "type": "tv",
       "releaseDate": "2007-10-06"
@@ -77451,7 +77451,7 @@
       "releaseDate": "2011-10-04"
    },
    {
-      "title": "Katekyo Hitman Reborn! x ēlDLIVE Special",
+      "title": "Katekyou Hitman Reborn! x ēlDLIVE Special",
       "malid": 33740,
       "type": "special",
       "releaseDate": "2016-07-28"
@@ -77537,13 +77537,13 @@
       "releaseDate": "2015-07-16"
    },
    {
-      "title": "Yong Zhe Da Mao Xian",
+      "title": "Yong Zhe Da Maoxian",
       "malid": 33762,
       "type": "ona",
       "releaseDate": "2015-03-31"
    },
    {
-      "title": "Yong Zhe Da Mao Xian 2nd Season",
+      "title": "Yong Zhe Da Maoxian 2nd Season",
       "malid": 33763,
       "type": "ona",
       "releaseDate": "2016-03-25"
@@ -86882,6 +86882,13 @@
       "malid": 36281,
       "type": "ona",
       "releaseDate": "2010-02-08"
+   },
+   {
+      "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
+      "enTitle": "Re:ZERO -Starting Life in Another World- Memory Snow",
+      "malid": 36286,
+      "type": "movie",
+      "releaseDate": "2018-10-06"
    },
    {
       "title": "Doraemon Eigo Kyoushitsu",
@@ -137645,7 +137652,7 @@
       "title": "Under Ninja",
       "malid": 49766,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Felicia (2021)",
@@ -137751,6 +137758,13 @@
       "malid": 49814,
       "type": "ona",
       "releaseDate": "2016-10-14"
+   },
+   {
+      "title": "Guimi Zhi Zhu",
+      "enTitle": "Lord of the Mysteries",
+      "malid": 49818,
+      "type": "ona",
+      "releaseDate": "2025"
    },
    {
       "title": "Cardfight!! Vanguard: will+Dress",
@@ -144914,12 +144928,6 @@
       "releaseDate": "2023-08-04"
    },
    {
-      "title": "Hibike! Euphonium: Ensemble Contest-hen",
-      "malid": 51995,
-      "type": "movie",
-      "releaseDate": "2023-08-04"
-   },
-   {
       "title": "Qian Wu Guren",
       "enTitle": "Without Parallel",
       "malid": 51996,
@@ -147521,11 +147529,10 @@
       "title": "Undead Unluck",
       "malid": 52741,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-06"
    },
    {
-      "title": "Haikyuu!! Final",
-      "enTitle": "Haikyu!! Final",
+      "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
       "malid": 52742,
       "type": "movie",
       "releaseDate": ""
@@ -148335,7 +148342,7 @@
       "enTitle": "Tearmoon Empire",
       "malid": 52962,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-08"
    },
    {
       "title": "Readymade",
@@ -151749,7 +151756,7 @@
       "enTitle": "Sand Land",
       "malid": 53882,
       "type": "movie",
-      "releaseDate": "2023-07-21"
+      "releaseDate": "2023-08-18"
    },
    {
       "title": "Jokaku Gattai OSHIROBOTS",
@@ -152833,7 +152840,7 @@
       "enTitle": "The Vexations of a Shut-In Vampire Princess",
       "malid": 54103,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "The☆Doraemons: Mystery X'Mass Daisakusen",
@@ -155347,7 +155354,7 @@
       "title": "Special Kid Factory",
       "malid": 54833,
       "type": "unknown",
-      "releaseDate": ""
+      "releaseDate": "2023"
    },
    {
       "title": "Funauta",
@@ -155517,7 +155524,7 @@
       "enTitle": "Blue Lock: Episode Nagi",
       "malid": 54866,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Kin-Q Kids☆Otasu K-tai",
@@ -156325,7 +156332,7 @@
       "title": "Ensemble Stars!! Tsuioku Selection Crossroad",
       "malid": 55125,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": "2023-11"
    },
    {
       "title": "Way",
@@ -160506,6 +160513,36 @@
       "releaseDate": ""
    },
    {
+      "title": "Kiyasu Kouhei no Sekai",
+      "malid": 56235,
+      "type": "ova",
+      "releaseDate": "2012-08-08"
+   },
+   {
+      "title": "Niger Monogatari",
+      "malid": 56236,
+      "type": "movie",
+      "releaseDate": "2017"
+   },
+   {
+      "title": "Ashiato",
+      "malid": 56238,
+      "type": "music",
+      "releaseDate": "2020-08-01"
+   },
+   {
+      "title": "I.m.",
+      "malid": 56239,
+      "type": "music",
+      "releaseDate": "2019-08-01"
+   },
+   {
+      "title": "Chessboard",
+      "malid": 56240,
+      "type": "music",
+      "releaseDate": "2023-08-01"
+   },
+   {
       "title": "Sengoku Youko",
       "malid": 56242,
       "type": "tv",
@@ -160525,6 +160562,13 @@
       "releaseDate": "2009-02-04"
    },
    {
+      "title": "Running Man: Revengers",
+      "enTitle": "Running Man: Revengers",
+      "malid": 56261,
+      "type": "movie",
+      "releaseDate": "2023-08-10"
+   },
+   {
       "title": "Super Wings the Movie: Maximum Speed",
       "enTitle": "Super Wings: Maximum Speed",
       "malid": 56262,
@@ -160532,11 +160576,46 @@
       "releaseDate": "2023-07-20"
    },
    {
+      "title": "Chuldong! Super Wings 4",
+      "enTitle": "Super Wings 4",
+      "malid": 56263,
+      "type": "tv",
+      "releaseDate": "2020-03-30"
+   },
+   {
+      "title": "Chuldong! Super Wings 5",
+      "enTitle": "Super Wings 5",
+      "malid": 56264,
+      "type": "tv",
+      "releaseDate": "2021-03-29"
+   },
+   {
+      "title": "Chuldong! Super Wings 6",
+      "enTitle": "Super Wings 6",
+      "malid": 56265,
+      "type": "tv",
+      "releaseDate": "2022-02-28"
+   },
+   {
+      "title": "Chuldong! Super Wings 7",
+      "enTitle": "Super Wings 7",
+      "malid": 56266,
+      "type": "tv",
+      "releaseDate": "2023-02-27"
+   },
+   {
       "title": "Charging Topspinner",
       "enTitle": "Charging Topspinner",
       "malid": 56267,
       "type": "tv",
       "releaseDate": "2023-05-13"
+   },
+   {
+      "title": "Hello Carbot × Mecard Ball",
+      "enTitle": "Hello Carbot × Mecard Ball",
+      "malid": 56268,
+      "type": "special",
+      "releaseDate": "2023-04-02"
    },
    {
       "title": "Yogoe Mecard",
@@ -160635,5 +160714,329 @@
       "malid": 56284,
       "type": "special",
       "releaseDate": "2017-05-06"
+   },
+   {
+      "title": "Huanle Lusasa",
+      "enTitle": "Happy Lusasa",
+      "malid": 56287,
+      "type": "ona",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Sinbi Apateu: Ghost Ball Z",
+      "malid": 56290,
+      "type": "tv",
+      "releaseDate": "2021-09-16"
+   },
+   {
+      "title": "Sinbi Apateu Movie: Chawondokkaebiwa 7 Gaeui Segye",
+      "enTitle": "Shinbi's Haunted House: The Dimension Ghost and the Seven Worlds",
+      "malid": 56291,
+      "type": "movie",
+      "releaseDate": "2022-12-14"
+   },
+   {
+      "title": "Sinbi Apateu: Bichui Baempaieowa Eodumui Ai",
+      "malid": 56292,
+      "type": "ona",
+      "releaseDate": "2021-12-22"
+   },
+   {
+      "title": "Sinbi Apateu: Joseontoemasillog",
+      "malid": 56293,
+      "type": "ona",
+      "releaseDate": "2023-07-14"
+   },
+   {
+      "title": "Sinbi Apateu: Cheolwonui Supsog Toemasa, Cheolgungi",
+      "malid": 56294,
+      "type": "special",
+      "releaseDate": "2021-12-23"
+   },
+   {
+      "title": "Sinbi Apateu: Dasi Mannan Cheolgungiwa Cheolwon Woljeongliui Jeonseol",
+      "malid": 56295,
+      "type": "special",
+      "releaseDate": "2022-12-22"
+   },
+   {
+      "title": "Sinbi Apateu: Bugiui Balmyeongpumeul Chajala!",
+      "malid": 56296,
+      "type": "special",
+      "releaseDate": "2023-06-03"
+   },
+   {
+      "title": "Hello Carbot Season 6",
+      "malid": 56297,
+      "type": "tv",
+      "releaseDate": "2018-04-07"
+   },
+   {
+      "title": "Hello Carbot Season 6 Specials: Dongmul Gujodae",
+      "malid": 56298,
+      "type": "special",
+      "releaseDate": "2019-01-27"
+   },
+   {
+      "title": "Hello Carbot Season 7",
+      "malid": 56299,
+      "type": "tv",
+      "releaseDate": "2019-04-10"
+   },
+   {
+      "title": "Hello Carbot Kung",
+      "malid": 56300,
+      "type": "tv",
+      "releaseDate": "2018-08-03"
+   },
+   {
+      "title": "Hello Carbot Kung Specials: Alkabosgwa Dongmul Chingudeul",
+      "malid": 56301,
+      "type": "special",
+      "releaseDate": "2019-02-24"
+   },
+   {
+      "title": "Hello Carbot Season 7 Specials: Hello Seupineobeul",
+      "malid": 56302,
+      "type": "special",
+      "releaseDate": "2019-04-22"
+   },
+   {
+      "title": "Hello Carbot Season 8",
+      "malid": 56303,
+      "type": "tv",
+      "releaseDate": "2020-01-05"
+   },
+   {
+      "title": "Hello Carbot Season 9",
+      "malid": 56304,
+      "type": "tv",
+      "releaseDate": "2020-07-05"
+   },
+   {
+      "title": "Hello Carbot Season 10",
+      "malid": 56305,
+      "type": "tv",
+      "releaseDate": "2021-02-03"
+   },
+   {
+      "title": "Hello Carbot Season 11",
+      "malid": 56306,
+      "type": "tv",
+      "releaseDate": "2021-08-29"
+   },
+   {
+      "title": "Hello Carbot Season 12",
+      "malid": 56307,
+      "type": "tv",
+      "releaseDate": "2022-04-03"
+   },
+   {
+      "title": "Hello Carbot Season 13",
+      "malid": 56308,
+      "type": "tv",
+      "releaseDate": "2023-04-30"
+   },
+   {
+      "title": "Hello Carbot: Baegaggi Sidae",
+      "enTitle": "Hello Carbot the Movie: The Cretaceous Period",
+      "malid": 56309,
+      "type": "movie",
+      "releaseDate": "2018-08-01"
+   },
+   {
+      "title": "Hello Carbot: Ompaloseu Seomui Bimil",
+      "enTitle": "Hello Carbot the Movie: The Secret of Omphalos Island",
+      "malid": 56310,
+      "type": "movie",
+      "releaseDate": "2019-01-31"
+   },
+   {
+      "title": "Hello Carbot: Dalnalaleul Guhaejwo!",
+      "enTitle": "Hello Carbot the Movie: Save the Moon",
+      "malid": 56311,
+      "type": "movie",
+      "releaseDate": "2019-09-04"
+   },
+   {
+      "title": "Hello Carbot: Susanghan Masuldanui Bimil",
+      "enTitle": "Hello Carbot the Movie: The Secret of the Suspicious Magic Troupe",
+      "malid": 56312,
+      "type": "movie",
+      "releaseDate": "2022-09-28"
+   },
+   {
+      "title": "Fei Xiang Yueqiu",
+      "enTitle": "Journey to the Moon",
+      "malid": 56315,
+      "type": "movie",
+      "releaseDate": "2023-08-13"
+   },
+   {
+      "title": "Qian Ting Zong Dong Yuan 8: Di Xin Youji",
+      "malid": 56317,
+      "type": "movie",
+      "releaseDate": "2021-06-12"
+   },
+   {
+      "title": "Qian Ting Zong Dong Yuan: Huan You Diqiu 80 Tian",
+      "malid": 56318,
+      "type": "movie",
+      "releaseDate": "2023-08-12"
+   },
+   {
+      "title": "Chaoji Yingxiong Mei Hou Wang: Qi Tianer",
+      "enTitle": "The First Superhero: Monkey King",
+      "malid": 56319,
+      "type": "movie",
+      "releaseDate": "2023-07-29"
+   },
+   {
+      "title": "Meng Shu Da Maoxian",
+      "malid": 56320,
+      "type": "movie",
+      "releaseDate": "2023-07-21"
+   },
+   {
+      "title": "Zhongkui",
+      "enTitle": "Master Zhong",
+      "malid": 56321,
+      "type": "movie",
+      "releaseDate": "2023-06-16"
+   },
+   {
+      "title": "Huanle Conglin: Wai Xīng Renda Maoxian",
+      "malid": 56322,
+      "type": "movie",
+      "releaseDate": "2023-07-15"
+   },
+   {
+      "title": "Hantu de Qihuan Zhi Lu",
+      "malid": 56323,
+      "type": "movie",
+      "releaseDate": "2023-06-22"
+   },
+   {
+      "title": "Mianhua Tang He Yunduo Mama: \"Niu\" Zhuan Qiankun",
+      "malid": 56332,
+      "type": "movie",
+      "releaseDate": "2021-02-10"
+   },
+   {
+      "title": "Mianhua Tang He Yunduo Mama: Baobei Xin Jihua",
+      "enTitle": "Happy Mom and Girl 1: Sweetheart On Mission",
+      "malid": 56333,
+      "type": "movie",
+      "releaseDate": "2023-07-01"
+   },
+   {
+      "title": "Cha A Er Zhong Movie",
+      "enTitle": "Oh My School!",
+      "malid": 56334,
+      "type": "movie",
+      "releaseDate": "2023-07-14"
+   },
+   {
+      "title": "Qiaohu Qihuan Wutai Lixian Ji",
+      "enTitle": "Qiaohu and the Fantastic Magic Circus",
+      "malid": 56335,
+      "type": "movie",
+      "releaseDate": "2023-06-01"
+   },
+   {
+      "title": "Bai Bian Mading: Guaishou Da Zuozhan",
+      "enTitle": "Martin Morning The Movie",
+      "malid": 56336,
+      "type": "movie",
+      "releaseDate": "2023-07-22"
+   },
+   {
+      "title": "Fengkuang Xiao Shijie",
+      "malid": 56337,
+      "type": "movie",
+      "releaseDate": "2023-06-22"
+   },
+   {
+      "title": "Mao Nian Haian",
+      "enTitle": "Impurrfection",
+      "malid": 56338,
+      "type": "movie",
+      "releaseDate": "2023-05-05"
+   },
+   {
+      "title": "Shi Yi Nanhai",
+      "enTitle": "Time in a Bottle",
+      "malid": 56339,
+      "type": "movie",
+      "releaseDate": "2023-05-05"
+   },
+   {
+      "title": "Mo Zhuang Chuanshuo",
+      "enTitle": "The Legend of Magic Outfit",
+      "malid": 56342,
+      "type": "ona",
+      "releaseDate": "2023-08-21"
+   },
+   {
+      "title": "Dramatic Nounai",
+      "malid": 56345,
+      "type": "tv",
+      "releaseDate": "2022-05-05"
+   },
+   {
+      "title": "Untouchable",
+      "malid": 56346,
+      "type": "music",
+      "releaseDate": "2022-06-30"
+   },
+   {
+      "title": "Ingel",
+      "malid": 56347,
+      "type": "music",
+      "releaseDate": "2022-09-29"
+   },
+   {
+      "title": "Dungeon no Naka no Hito",
+      "enTitle": "Dungeon People",
+      "malid": 56348,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru",
+      "enTitle": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+      "malid": 56352,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Uchi no Kaisha no Chiisai Senpai no Hanashi Mini Anime",
+      "malid": 56376,
+      "type": "ona",
+      "releaseDate": "2023-07-08"
+   },
+   {
+      "title": "Tarou no Tomodachi",
+      "malid": 56378,
+      "type": "ova",
+      "releaseDate": "2005-10-28"
+   },
+   {
+      "title": "Mameushi-kun",
+      "malid": 56379,
+      "type": "ova",
+      "releaseDate": "2006-08-25"
+   },
+   {
+      "title": "Mugen ∞ 15-byou Animation",
+      "malid": 56380,
+      "type": "movie",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Kaze",
+      "malid": 56381,
+      "type": "movie",
+      "releaseDate": "1992"
    }
 ]
