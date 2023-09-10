@@ -3076,7 +3076,7 @@
       "malid": 422,
       "anidbid": 1858,
       "type": "ova",
-      "releaseDate": "2004-05-25"
+      "releaseDate": "2004-05-28"
    },
    {
       "title": "Stratos 4 Advance",
@@ -18048,6 +18048,13 @@
       "enTitle": "Lucy-May of the Southern Rainbow",
       "malid": 2573,
       "anidbid": 2301,
+      "type": "tv",
+      "releaseDate": "1982-01-10"
+   },
+   {
+      "title": "Minami no Niji no Lucy",
+      "enTitle": "Lucy-May of the Southern Rainbow",
+      "malid": 2573,
       "type": "tv",
       "releaseDate": "1982-01-10"
    },
@@ -33296,7 +33303,7 @@
       "malid": 5947,
       "anidbid": 5783,
       "type": "ova",
-      "releaseDate": "2009-01"
+      "releaseDate": "2009-01-31"
    },
    {
       "title": "Mahou no Princess Minky Momo: Yume wo Dakishimete",
@@ -37222,7 +37229,7 @@
       "releaseDate": "1993-07-10"
    },
    {
-      "title": "Dr. Slump Movie 09: Arale-chan N-cha!! Wakuwaku Hot no Natsuyasumi",
+      "title": "Dr. Slump Movie 09: Arale-chan N-cha!! Wakuwaku Heart no Natsuyasumi",
       "enTitle": "Dr. Slump and Arale-chan: N-cha!! Excited Heart of Summer Vacation",
       "malid": 7158,
       "anidbid": 6627,
@@ -41861,13 +41868,6 @@
       "anidbid": 4639,
       "type": "tv",
       "releaseDate": "1999-05-04"
-   },
-   {
-      "title": "Yume-iro Pâtissière: Mune Kyun Tropical Island!",
-      "malid": 8894,
-      "anidbid": 6966,
-      "type": "special",
-      "releaseDate": "2010-07-30"
    },
    {
       "title": "Natsufuku no Shoujo-tachi",
@@ -70671,7 +70671,7 @@
       "releaseDate": "2003-07-12"
    },
    {
-      "title": "Sore Ike! Anpanman: Yuuki to Honoo to Christmas",
+      "title": "Sore Ike! Anpanman: Yuuki no Honoo to Christmas",
       "malid": 27493,
       "type": "special",
       "releaseDate": "2003-11-05"
@@ -77591,7 +77591,7 @@
       "malid": 30663,
       "anidbid": 11214,
       "type": "ona",
-      "releaseDate": "2004"
+      "releaseDate": "2003-12-22"
    },
    {
       "title": "Jinkou no Rakuen",
@@ -115641,7 +115641,7 @@
       "malid": 40357,
       "anidbid": 15071,
       "type": "tv",
-      "releaseDate": "2023-08-05"
+      "releaseDate": "2023-10"
    },
    {
       "title": "Gal to Kyouryuu",
@@ -122313,7 +122313,7 @@
       "malid": 42385,
       "anidbid": 15625,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-08"
    },
    {
       "title": "Hataraku Saibou!! Saikyou no Teki, Futatabi. Karada no Naka wa \"Chou\" Oosawagi!",
@@ -140709,7 +140709,7 @@
       "title": "Gouxiong Jingsai Ji",
       "malid": 46996,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2014"
    },
    {
       "title": "Laoshu Biji: Xing You Tianxia",
@@ -141374,7 +141374,7 @@
       "malid": 47160,
       "anidbid": 16027,
       "type": "tv",
-      "releaseDate": "2023-08-04"
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "Shikkakumon no Saikyou Kenja",
@@ -148216,7 +148216,7 @@
       "malid": 48820,
       "anidbid": 16278,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Blue Archive",
@@ -148728,7 +148728,7 @@
       "enTitle": "Are You Ok",
       "malid": 48964,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-10-01"
    },
    {
       "title": "Shen Lan Qi Yu Wushuang Zhu",
@@ -150686,13 +150686,6 @@
       "releaseDate": "2021-07-21"
    },
    {
-      "title": "Eroge! H mo Game mo Kaihatsu Zanmai Recap",
-      "malid": 49621,
-      "anidbid": 8473,
-      "type": "special",
-      "releaseDate": "2015-08-28"
-   },
-   {
       "title": "Shingeki no Kyojin: The Final Season Specials",
       "enTitle": "Attack on Titan: Chibi Theater - Survey Corps, The Final!",
       "malid": 49627,
@@ -150981,7 +150974,7 @@
       "title": "Xiuluo Wu Shen",
       "malid": 49742,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-09-26"
    },
    {
       "title": "Tabi wa ni",
@@ -151768,7 +151761,7 @@
       "malid": 49981,
       "anidbid": 16828,
       "type": "tv",
-      "releaseDate": "2023"
+      "releaseDate": "2024"
    },
    {
       "title": "Geu Yeoreum",
@@ -153374,7 +153367,7 @@
       "releaseDate": "2022-11-24"
    },
    {
-      "title": "Wu Shan Wu Xing (2020): Xichuan Huan Zi Lin",
+      "title": "Wu Shan Wu Xing: Xichuan Huan Zi Lin",
       "enTitle": "Fog Hill of Five Elements",
       "malid": 50407,
       "type": "ona",
@@ -153983,7 +153976,7 @@
       "malid": 50583,
       "anidbid": 17031,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-08"
    },
    {
       "title": "Migi to Dali",
@@ -154965,6 +154958,13 @@
       "releaseDate": "2022-02-09"
    },
    {
+      "title": "Zenryoku Usagi (2023)",
+      "malid": 50995,
+      "anidbid": 17190,
+      "type": "tv",
+      "releaseDate": "2023-10"
+   },
+   {
       "title": "Ma-eum-uisoli Season 2",
       "enTitle": "The Sound of Your Heart: Season 2",
       "malid": 50997,
@@ -155715,7 +155715,7 @@
       "malid": 51215,
       "anidbid": 17246,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Xin Qin Shi Mingyue",
@@ -160693,6 +160693,12 @@
       "releaseDate": "2022-09-28"
    },
    {
+      "title": "Pokemon Peaceful Place",
+      "malid": 52553,
+      "type": "ona",
+      "releaseDate": "2022-07-29"
+   },
+   {
       "title": "15-fun de Wakaru: Kami no Tou",
       "enTitle": "Tower of God in 15 Minutes",
       "malid": 52554,
@@ -163532,7 +163538,7 @@
       "malid": 53237,
       "anidbid": 17658,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "WONDER LiGHT",
@@ -163620,7 +163626,7 @@
       "malid": 53262,
       "anidbid": 17663,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-09"
    },
    {
       "title": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
@@ -163724,7 +163730,7 @@
       "malid": 53287,
       "anidbid": 17665,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Kurage",
@@ -164181,7 +164187,7 @@
       "malid": 53439,
       "anidbid": 17687,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-05"
    },
    {
       "title": "Dongitsune Season 2",
@@ -165858,12 +165864,12 @@
       "releaseDate": "2023-12-22"
    },
    {
-      "title": "Ao no Exorcist (Shin Series)",
-      "enTitle": "Blue Exorcist",
+      "title": "Ao no Exorcist: Shimane Keimei Kessha-hen",
+      "enTitle": "Blue Exorcist: Shimane Illuminati Saga",
       "malid": 53889,
       "anidbid": 17786,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
    },
    {
       "title": "One Piece: Dai Gekisen Tokushuu! Mugiwara no Ichimi vs. Tobi Roppou",
@@ -166615,7 +166621,7 @@
       "malid": 54041,
       "anidbid": 17802,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-05"
    },
    {
       "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
@@ -167680,7 +167686,7 @@
       "malid": 54294,
       "anidbid": 17832,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-22"
    },
    {
       "title": "Luster",
@@ -168169,7 +168175,7 @@
       "malid": 54431,
       "anidbid": 17860,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Chan Chiho Challenge Channel",
@@ -168791,7 +168797,7 @@
       "malid": 54595,
       "anidbid": 17877,
       "type": "tv",
-      "releaseDate": "2023-07-01"
+      "releaseDate": "2023-10-04"
    },
    {
       "title": "Kamisama: Nekosama",
@@ -169136,7 +169142,7 @@
       "malid": 54724,
       "anidbid": 17909,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Himitsu no Hana no Niwa",
@@ -169463,7 +169469,7 @@
       "malid": 54798,
       "anidbid": 17925,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-05"
    },
    {
       "title": "Captain Tsubasa Season 2: Junior Youth-hen",
@@ -169564,7 +169570,7 @@
       "malid": 54837,
       "anidbid": 17937,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
    },
    {
       "title": "Ugoku Tabi, Suzushii.",
@@ -169641,7 +169647,7 @@
       "malid": 54852,
       "anidbid": 17944,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-08"
    },
    {
       "title": "Maou 2099",
@@ -169812,7 +169818,7 @@
    },
    {
       "title": "Mononogatari 2nd Season",
-      "enTitle": "Malevolent Spirits: Mononogatari",
+      "enTitle": "Malevolent Spirits: Mononogatari 2nd Season",
       "malid": 54883,
       "anidbid": 17958,
       "type": "tv",
@@ -169921,7 +169927,7 @@
       "malid": 54915,
       "anidbid": 17968,
       "type": "special",
-      "releaseDate": "2023-07-14"
+      "releaseDate": "2023-09-02"
    },
    {
       "title": "Cardcaptor Sakura: Clear Card-hen (Zoku-hen)",
@@ -169941,7 +169947,7 @@
       "malid": 54918,
       "anidbid": 17969,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-04"
    },
    {
       "title": "Otaku-chans",
@@ -171285,7 +171291,7 @@
       "malid": 55310,
       "anidbid": 18029,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "Chinokate",
@@ -172424,6 +172430,12 @@
       "releaseDate": "2023-06-04"
    },
    {
+      "title": "Natsu ni Saku",
+      "malid": 55574,
+      "type": "music",
+      "releaseDate": "2022-07-22"
+   },
+   {
       "title": "Si Ge Yongzhe",
       "enTitle": "4 Cut Hero",
       "malid": 55578,
@@ -173080,7 +173092,7 @@
       "title": "Ni Tian Xieshen",
       "malid": 55745,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": "2023-09-23"
    },
    {
       "title": "Feng Huo Zhan Ji",
@@ -173518,7 +173530,8 @@
       "releaseDate": "2023-06-30"
    },
    {
-      "title": "Kuroshitsuji (Shin Series)",
+      "title": "Kuroshitsuji: Kishuku Gakkou-hen",
+      "enTitle": "Black Butler: Public School Edition",
       "malid": 55855,
       "anidbid": 18100,
       "type": "tv",
@@ -174158,7 +174171,7 @@
       "malid": 55998,
       "anidbid": 18119,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Skysonar",
@@ -174732,7 +174745,7 @@
       "malid": 56179,
       "anidbid": 18148,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Urahara (Unknown)",
@@ -174831,6 +174844,13 @@
       "malid": 56210,
       "type": "music",
       "releaseDate": "2023-07-28"
+   },
+   {
+      "title": "Suki na Ko ga Megane wo Wasureta Short Episode",
+      "enTitle": "The Girl I Like Forgot Her Glasses Short Episode",
+      "malid": 56213,
+      "type": "ona",
+      "releaseDate": "2023-07-31"
    },
    {
       "title": "Houkago no Breath",
@@ -175868,11 +175888,24 @@
       "releaseDate": "2023-11-03"
    },
    {
+      "title": "Xue Wang Jiadao",
+      "malid": 56486,
+      "type": "ona",
+      "releaseDate": "2023-08-25"
+   },
+   {
       "title": "Matsuinu",
       "malid": 56487,
       "anidbid": 18177,
       "type": "tv",
       "releaseDate": "2023-10-07"
+   },
+   {
+      "title": "Zegapain: Olta Moda-hen",
+      "malid": 56488,
+      "anidbid": 18176,
+      "type": "unknown",
+      "releaseDate": ""
    },
    {
       "title": "Wakuwaku Oboeru DVD",
@@ -176011,11 +176044,436 @@
       "releaseDate": "2023"
    },
    {
+      "title": "Zero Sugar Saero CM",
+      "malid": 56525,
+      "type": "ona",
+      "releaseDate": "2023-03-24"
+   },
+   {
+      "title": "Liver Specialist Saegumi",
+      "malid": 56526,
+      "type": "ona",
+      "releaseDate": "2022-10-14"
+   },
+   {
+      "title": "Binggrae CM",
+      "malid": 56527,
+      "type": "ona",
+      "releaseDate": "2020-08-24"
+   },
+   {
+      "title": "Binggrae Christmas",
+      "malid": 56528,
+      "type": "ona",
+      "releaseDate": "2020-12-14"
+   },
+   {
+      "title": "Dead or Arrive",
+      "malid": 56529,
+      "type": "ona",
+      "releaseDate": "2022-05-27"
+   },
+   {
+      "title": "Otenki Pokojiro",
+      "enTitle": "Pokojiro's Weather Report",
+      "malid": 56533,
+      "type": "ona",
+      "releaseDate": "2013-05-31"
+   },
+   {
+      "title": "Na mo Nai Mizuumi",
+      "malid": 56534,
+      "type": "music",
+      "releaseDate": "1978-04-01"
+   },
+   {
+      "title": "Tooi Sekai ni (2023)",
+      "malid": 56535,
+      "type": "music",
+      "releaseDate": "2023-04-01"
+   },
+   {
+      "title": "Mirror Me",
+      "malid": 56536,
+      "type": "music",
+      "releaseDate": "2020-09-17"
+   },
+   {
       "title": "Kimi ni Todoke 3rd Season",
       "enTitle": "Kimi ni Todoke: From Me to You Season 3",
       "malid": 56538,
       "anidbid": 18179,
       "type": "ona",
       "releaseDate": "2024"
+   },
+   {
+      "title": "Kobuta no Shippo",
+      "malid": 56540,
+      "type": "music",
+      "releaseDate": "1986-06-03"
+   },
+   {
+      "title": "Sayonara no Mukou ni",
+      "malid": 56541,
+      "type": "music",
+      "releaseDate": "2023-06-01"
+   },
+   {
+      "title": "Egao ga Kaze ni Modoru Shunkan",
+      "malid": 56542,
+      "type": "music",
+      "releaseDate": "1995-02-01"
+   },
+   {
+      "title": "Midori no Makiba de",
+      "malid": 56546,
+      "type": "music",
+      "releaseDate": "1969-08-07"
+   },
+   {
+      "title": "Nagaina-san to Hayaina-san",
+      "malid": 56547,
+      "type": "music",
+      "releaseDate": "1974-10"
+   },
+   {
+      "title": "Dekkai Baachan",
+      "malid": 56548,
+      "type": "music",
+      "releaseDate": "2018-06-02"
+   },
+   {
+      "title": "Non-sugar",
+      "malid": 56549,
+      "type": "music",
+      "releaseDate": "2020-12-04"
+   },
+   {
+      "title": "Nejikure Ojisan",
+      "enTitle": "The Crooked Man",
+      "malid": 56550,
+      "type": "movie",
+      "releaseDate": "2010"
+   },
+   {
+      "title": "Honnou da Zou",
+      "enTitle": "My Instinct",
+      "malid": 56551,
+      "type": "ona",
+      "releaseDate": "2013-04-17"
+   },
+   {
+      "title": "Watashi no Oshi wa Akuyaku Reijou. Mini Anime",
+      "malid": 56552,
+      "type": "ona",
+      "releaseDate": "2023-08-25"
+   },
+   {
+      "title": "Michi Kaidan",
+      "malid": 56554,
+      "type": "music",
+      "releaseDate": "2021-02-27"
+   },
+   {
+      "title": "Hippity Hoppity Pump",
+      "malid": 56555,
+      "type": "music",
+      "releaseDate": "1998-12-01"
+   },
+   {
+      "title": "Yamabato Waltz",
+      "malid": 56556,
+      "type": "music",
+      "releaseDate": "2018-06-02"
+   },
+   {
+      "title": "Eldraine no Mori: Twin Fates",
+      "malid": 56558,
+      "type": "ona",
+      "releaseDate": "2023-09-06"
+   },
+   {
+      "title": "Longzhu Xun Youji",
+      "malid": 56559,
+      "type": "movie",
+      "releaseDate": "2023-09-04"
+   },
+   {
+      "title": "Shenqi Tushu Guan",
+      "malid": 56560,
+      "type": "tv",
+      "releaseDate": "2023-08-25"
+   },
+   {
+      "title": "Idol Land PriPara Episode 0",
+      "malid": 56561,
+      "anidbid": 15911,
+      "type": "special",
+      "releaseDate": "2021-09-01"
+   },
+   {
+      "title": "Daikaijuu Gamenya Shuurai",
+      "malid": 56562,
+      "type": "ona",
+      "releaseDate": "2023-09-06"
+   },
+   {
+      "title": "Beyblade X",
+      "malid": 56566,
+      "type": "tv",
+      "releaseDate": "2023-10-06"
+   },
+   {
+      "title": "Heppushon",
+      "malid": 56567,
+      "type": "music",
+      "releaseDate": "1981-08-18"
+   },
+   {
+      "title": "Karappo Katatsumuri",
+      "malid": 56568,
+      "type": "music",
+      "releaseDate": "2023-08-01"
+   },
+   {
+      "title": "Kokoro ni Yume wo",
+      "malid": 56569,
+      "type": "music",
+      "releaseDate": "1994-10-01"
+   },
+   {
+      "title": "Ihoujin",
+      "enTitle": "The Stranger",
+      "malid": 56570,
+      "type": "music",
+      "releaseDate": "2021-06-09"
+   },
+   {
+      "title": "Supertrons",
+      "enTitle": "Supertrons",
+      "malid": 56572,
+      "type": "tv",
+      "releaseDate": "2023-08-10"
+   },
+   {
+      "title": "Space Donguibogam",
+      "malid": 56573,
+      "type": "tv",
+      "releaseDate": "2021-11-03"
+   },
+   {
+      "title": "Space Donguibogam 2",
+      "malid": 56574,
+      "type": "tv",
+      "releaseDate": "2023-08-09"
+   },
+   {
+      "title": "Metal Cardbot",
+      "enTitle": "Metal Cardbot",
+      "malid": 56575,
+      "type": "tv",
+      "releaseDate": "2023-03-30"
+   },
+   {
+      "title": "Ruguo Lishi Shi Yiqun Miao 10th Season",
+      "malid": 56576,
+      "type": "ona",
+      "releaseDate": "2023-09-10"
+   },
+   {
+      "title": "Colossus: Child of the Wind",
+      "malid": 56577,
+      "type": "movie",
+      "releaseDate": "2023-05-18"
+   },
+   {
+      "title": "Honghuang Ling Zun",
+      "malid": 56578,
+      "type": "ona",
+      "releaseDate": "2023-09-10"
+   },
+   {
+      "title": "Jinyi Shen Jiag",
+      "enTitle": "Carpenter Assassin",
+      "malid": 56579,
+      "type": "ona",
+      "releaseDate": "2023-09-11"
+   },
+   {
+      "title": "Kimi no Te",
+      "malid": 56580,
+      "type": "music",
+      "releaseDate": "1994-06-01"
+   },
+   {
+      "title": "Kimi ni",
+      "malid": 56581,
+      "type": "music",
+      "releaseDate": "2023-06-01"
+   },
+   {
+      "title": "Udon Pan",
+      "malid": 56582,
+      "type": "music",
+      "releaseDate": "2019-12-02"
+   },
+   {
+      "title": "Taneko no Waltz",
+      "malid": 56583,
+      "type": "music",
+      "releaseDate": "2015"
+   },
+   {
+      "title": "Sseulegiui Seom",
+      "enTitle": "The Isle Of Trashes",
+      "malid": 56584,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Wanmei Zhi Cheng: Mama",
+      "enTitle": "Perfect City: The Mother",
+      "malid": 56585,
+      "type": "movie",
+      "releaseDate": "2022-07-07"
+   },
+   {
+      "title": "Wanmei Zhi Cheng: Zui Yonggan de Xiaohai",
+      "enTitle": "Perfect City: The Bravest Kid",
+      "malid": 56586,
+      "type": "movie",
+      "releaseDate": "2023-04-01"
+   },
+   {
+      "title": "Balamui Moyang",
+      "enTitle": "Shape of Wind",
+      "malid": 56587,
+      "type": "movie",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Ochibi-san",
+      "malid": 56588,
+      "anidbid": 18182,
+      "type": "tv",
+      "releaseDate": "2023-10-08"
+   },
+   {
+      "title": "Youan Xiao Jing de Gui",
+      "enTitle": "Ghost of the Dark Path",
+      "malid": 56589,
+      "type": "movie",
+      "releaseDate": "2023-08-01"
+   },
+   {
+      "title": "Hong Weiba",
+      "enTitle": "Red Tail",
+      "malid": 56590,
+      "type": "movie",
+      "releaseDate": "2022-09"
+   },
+   {
+      "title": "Dueogsiniga",
+      "enTitle": "Devil",
+      "malid": 56591,
+      "type": "movie",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Chuju",
+      "enTitle": "Daisy",
+      "malid": 56592,
+      "type": "movie",
+      "releaseDate": "2018-03-18"
+   },
+   {
+      "title": "Laoying Zhua Xiao Ji",
+      "enTitle": "Goldbeak",
+      "malid": 56593,
+      "type": "movie",
+      "releaseDate": "2021-10-01"
+   },
+   {
+      "title": "Liqiu",
+      "malid": 56594,
+      "type": "movie",
+      "releaseDate": "2020"
+   },
+   {
+      "title": "Qiushi",
+      "enTitle": "Harvest",
+      "malid": 56595,
+      "type": "movie",
+      "releaseDate": "2019-06-20"
+   },
+   {
+      "title": "Hanlu",
+      "enTitle": "A Fly in the Restaurant",
+      "malid": 56596,
+      "type": "movie",
+      "releaseDate": "2018-06-12"
+   },
+   {
+      "title": "Geu Yeoreum Movie",
+      "enTitle": "The Summer",
+      "malid": 56601,
+      "type": "movie",
+      "releaseDate": "2023-06-07"
+   },
+   {
+      "title": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto Recap",
+      "enTitle": "Zom 100: Bucket List of the Dead Recap",
+      "malid": 56605,
+      "anidbid": 17806,
+      "type": "special",
+      "releaseDate": "2023-09-10"
+   },
+   {
+      "title": "Zutto Tomodachi",
+      "malid": 56606,
+      "type": "music",
+      "releaseDate": "1996-06-01"
+   },
+   {
+      "title": "Anata ga Dokoka de",
+      "malid": 56607,
+      "type": "music",
+      "releaseDate": "2022-06-01"
+   },
+   {
+      "title": "Bibbidi-Bobbidi-Boo",
+      "malid": 56608,
+      "type": "music",
+      "releaseDate": "1961-10"
+   },
+   {
+      "title": "Kizumonogatari: Koyomi Vamp",
+      "malid": 56609,
+      "type": "movie",
+      "releaseDate": "2024-01-12"
+   },
+   {
+      "title": "Tsumujikaze",
+      "malid": 56610,
+      "type": "music",
+      "releaseDate": "1964-12"
+   },
+   {
+      "title": "Tan Tan Tan",
+      "malid": 56611,
+      "type": "music",
+      "releaseDate": "2013-06-02"
+   },
+   {
+      "title": "Kusohamu-chan Happy Birthday!",
+      "malid": 56612,
+      "type": "ona",
+      "releaseDate": "2021-03-17"
+   },
+   {
+      "title": "Azur Lane: Bisoku Zenshin! Season 2",
+      "malid": 56613,
+      "type": "tv",
+      "releaseDate": ""
    }
 ]
