@@ -13274,7 +13274,7 @@
       "releaseDate": "1995-04-04"
    },
    {
-      "title": "Yu☆Gi☆Oh!: Hikari no Pyramid",
+      "title": "Yu☆Gi☆Oh! Hikari no Pyramid",
       "enTitle": "Yu-Gi-Oh!: The Movie",
       "malid": 1894,
       "anidbid": 2761,
@@ -18048,13 +18048,6 @@
       "enTitle": "Lucy-May of the Southern Rainbow",
       "malid": 2573,
       "anidbid": 2301,
-      "type": "tv",
-      "releaseDate": "1982-01-10"
-   },
-   {
-      "title": "Minami no Niji no Lucy",
-      "enTitle": "Lucy-May of the Southern Rainbow",
-      "malid": 2573,
       "type": "tv",
       "releaseDate": "1982-01-10"
    },
@@ -32493,7 +32486,7 @@
       "releaseDate": "1992-12-21"
    },
    {
-      "title": "Nodame Cantabile: Finale",
+      "title": "Nodame Cantabile Finale",
       "malid": 5690,
       "anidbid": 7019,
       "type": "tv",
@@ -33522,8 +33515,8 @@
       "releaseDate": "1992-03-10"
    },
    {
-      "title": "Nogizaka Haruka no Himitsu: Purezza",
-      "enTitle": "Haruka Nogizaka's Secret: Purezza",
+      "title": "Nogizaka Haruka no Himitsu Purezza ♪",
+      "enTitle": "Haruka Nogizaka's Secret Purezza",
       "malid": 6023,
       "anidbid": 6721,
       "type": "tv",
@@ -39825,7 +39818,7 @@
       "releaseDate": "2005-01-07"
    },
    {
-      "title": "Nodame Cantabile: Finale OVA",
+      "title": "Nodame Cantabile Finale OVA",
       "malid": 8190,
       "anidbid": 6779,
       "type": "ova",
@@ -41868,6 +41861,13 @@
       "anidbid": 4639,
       "type": "tv",
       "releaseDate": "1999-05-04"
+   },
+   {
+      "title": "Yume-iro Pâtissière: Mune Kyun Tropical Island!",
+      "malid": 8894,
+      "anidbid": 6966,
+      "type": "special",
+      "releaseDate": "2010-07-30"
    },
    {
       "title": "Natsufuku no Shoujo-tachi",
@@ -48240,8 +48240,8 @@
       "releaseDate": "2011-10-29"
    },
    {
-      "title": "Nogizaka Haruka no Himitsu: Finale",
-      "enTitle": "Haruka Nogizaka's Secret: Finale",
+      "title": "Nogizaka Haruka no Himitsu Finale ♪",
+      "enTitle": "Haruka Nogizaka's Secret Finale",
       "malid": 10928,
       "anidbid": 9155,
       "type": "ova",
@@ -55142,7 +55142,7 @@
       "releaseDate": "2013-02-27"
    },
    {
-      "title": "Saki Zenkoku-hen",
+      "title": "Saki: Zenkoku-hen",
       "enTitle": "Saki: The Nationals",
       "malid": 16123,
       "anidbid": 9490,
@@ -61549,14 +61549,6 @@
       "anidbid": 9375,
       "type": "movie",
       "releaseDate": "2012-06-23"
-   },
-   {
-      "title": "Aoki Uru",
-      "enTitle": "Uru in Blue",
-      "malid": 20471,
-      "anidbid": 10060,
-      "type": "movie",
-      "releaseDate": ""
    },
    {
       "title": "Teekyuu 3",
@@ -94708,14 +94700,6 @@
       "releaseDate": "2017-07-28"
    },
    {
-      "title": "Yuri!!! on Ice The Movie: Ice Adolescence",
-      "enTitle": "Yuri on Ice the Movie: Ice Adolescence",
-      "malid": 35500,
-      "anidbid": 13151,
-      "type": "movie",
-      "releaseDate": ""
-   },
-   {
       "title": "Mahou Shoujo Lyrical Nanoha Picture Drama",
       "malid": 35501,
       "anidbid": 2430,
@@ -102093,7 +102077,7 @@
       "releaseDate": "2018-05-28"
    },
    {
-      "title": "Joshiochi!: 2-kai kara Onnanoko ga... Futtekita!?",
+      "title": "Joshiochi! 2-kai kara Onnanoko ga... Futtekita!?",
       "enTitle": "What She Fell on Was the Tip of My Dick",
       "malid": 37281,
       "anidbid": 14112,
@@ -102777,13 +102761,6 @@
       "anidbid": 13891,
       "type": "tv",
       "releaseDate": "2019-01-10"
-   },
-   {
-      "title": "Chimera",
-      "malid": 37437,
-      "anidbid": 13892,
-      "type": "movie",
-      "releaseDate": ""
    },
    {
       "title": "Ingress the Animation",
@@ -104839,13 +104816,6 @@
       "releaseDate": "2018-05-31"
    },
    {
-      "title": "To the Moon",
-      "malid": 37905,
-      "anidbid": 14090,
-      "type": "movie",
-      "releaseDate": ""
-   },
-   {
       "title": "Gaikan Chiba",
       "enTitle": "Gaikan Chiba",
       "malid": 37906,
@@ -105924,13 +105894,6 @@
       "releaseDate": "2019-06-15"
    },
    {
-      "title": "Nijuuseiki Denki Mokuroku",
-      "malid": 38082,
-      "anidbid": 14236,
-      "type": "unknown",
-      "releaseDate": ""
-   },
-   {
       "title": "Ken En Ken: Aoki Kagayaki",
       "enTitle": "Xuan Yuan Sword Luminary",
       "malid": 38083,
@@ -106689,33 +106652,12 @@
       "releaseDate": "2018-09-07"
    },
    {
-      "title": "Top wo Nerae 3!",
-      "malid": 38273,
-      "anidbid": 14383,
-      "type": "ova",
-      "releaseDate": ""
-   },
-   {
-      "title": "Akubi wo Suru ni wa Wake ga Aru",
-      "malid": 38274,
-      "anidbid": 14384,
-      "type": "unknown",
-      "releaseDate": ""
-   },
-   {
       "title": "Houkago Saikoro Club",
       "enTitle": "After School Dice Club",
       "malid": 38276,
       "anidbid": 14386,
       "type": "tv",
       "releaseDate": "2019-10-03"
-   },
-   {
-      "title": "Deep Love",
-      "malid": 38279,
-      "anidbid": 14388,
-      "type": "movie",
-      "releaseDate": ""
    },
    {
       "title": "Devidol!",
@@ -107994,13 +107936,6 @@
       "releaseDate": "2018-10-26"
    },
    {
-      "title": "Mahoutsukai ni Narenakatta Onnanoko no Hanashi.",
-      "malid": 38585,
-      "anidbid": 14461,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
       "title": "BUCK-TICK x HAL",
       "enTitle": "BUCK-TICK x HAL",
       "malid": 38587,
@@ -108647,13 +108582,6 @@
       "malid": 38744,
       "type": "ona",
       "releaseDate": "2018-11-29"
-   },
-   {
-      "title": "Nora to Oujo to Noraneko Heart (Shin Anime)",
-      "malid": 38745,
-      "anidbid": 14509,
-      "type": "unknown",
-      "releaseDate": ""
    },
    {
       "title": "\"Tokyo\"",
@@ -109507,13 +109435,6 @@
       "anidbid": 14564,
       "type": "tv",
       "releaseDate": "2020-01-09"
-   },
-   {
-      "title": "Monkey Gang Anarchy",
-      "malid": 38910,
-      "anidbid": 14565,
-      "type": "unknown",
-      "releaseDate": ""
    },
    {
       "title": "Zhi Duoduo Qihuan Xingkong Zhi Lu",
@@ -113454,13 +113375,6 @@
       "releaseDate": "2019-04-24"
    },
    {
-      "title": "Shishigari",
-      "malid": 39763,
-      "anidbid": 14887,
-      "type": "movie",
-      "releaseDate": ""
-   },
-   {
       "title": "Detective Conan Movie 24: The Scarlet Bullet",
       "malid": 39764,
       "anidbid": 14886,
@@ -114345,13 +114259,6 @@
       "releaseDate": "2019-03-31"
    },
    {
-      "title": "Cencoroll 3",
-      "malid": 40020,
-      "anidbid": 14970,
-      "type": "movie",
-      "releaseDate": ""
-   },
-   {
       "title": "Oniichan Asa made Zutto Gyutte Shite!",
       "malid": 40022,
       "anidbid": 14975,
@@ -114489,20 +114396,6 @@
       "anidbid": 14990,
       "type": "tv",
       "releaseDate": "2020-07-09"
-   },
-   {
-      "title": "Akira (Shin Anime)",
-      "malid": 40054,
-      "anidbid": 14992,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
-      "title": "Orbital Era",
-      "malid": 40055,
-      "anidbid": 14991,
-      "type": "movie",
-      "releaseDate": ""
    },
    {
       "title": "Deca-Dence",
@@ -115641,7 +115534,7 @@
       "malid": 40357,
       "anidbid": 15071,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Gal to Kyouryuu",
@@ -116858,13 +116751,6 @@
       "releaseDate": "2019-11-05"
    },
    {
-      "title": "Onmyou Hyakki Monogatari",
-      "malid": 40652,
-      "anidbid": 16017,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
       "title": "Melon no Kirime",
       "malid": 40655,
       "type": "music",
@@ -116876,13 +116762,6 @@
       "anidbid": 12361,
       "type": "special",
       "releaseDate": "2020-02-27"
-   },
-   {
-      "title": "World End Economica",
-      "malid": 40657,
-      "anidbid": 15618,
-      "type": "unknown",
-      "releaseDate": ""
    },
    {
       "title": "** Kouhai",
@@ -118243,13 +118122,6 @@
       "anidbid": 15348,
       "type": "tv",
       "releaseDate": "2020-01-04"
-   },
-   {
-      "title": "Ane Naru Mono",
-      "malid": 41005,
-      "anidbid": 15349,
-      "type": "ova",
-      "releaseDate": ""
    },
    {
       "title": "Higurashi no Naku Koro ni Gou",
@@ -125408,7 +125280,7 @@
    {
       "title": "Shuo Feng: Po Zhen Zi",
       "malid": 43434,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": ""
    },
    {
@@ -126333,7 +126205,7 @@
       "title": "Tokyo Babylon 2021",
       "malid": 43629,
       "anidbid": 15808,
-      "type": "tv",
+      "type": "unknown",
       "releaseDate": ""
    },
    {
@@ -128250,7 +128122,7 @@
       "releaseDate": "2019-05-05"
    },
    {
-      "title": "Jimihen!!: Jimiko wo Kaechau Jun Isei Kouyuu!!",
+      "title": "Jimihen!! Jimiko wo Kaechau Jun Isei Kouyuu!!",
       "enTitle": "Simple yet Sexy",
       "malid": 44044,
       "anidbid": 15855,
@@ -128317,7 +128189,7 @@
       "title": "Bai She Chuan: Bai Suzhen",
       "enTitle": "The Snake: Become Human",
       "malid": 44060,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": ""
    },
    {
@@ -128450,7 +128322,7 @@
       "malid": 44081,
       "anidbid": 15866,
       "type": "tv",
-      "releaseDate": "2023-10-02"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Kangurei",
@@ -128908,19 +128780,19 @@
    {
       "title": "Mianhua Tang He Yunduo Mama: Meimeng Cheng Zhen",
       "malid": 44184,
-      "type": "movie",
+      "type": "special",
       "releaseDate": "2019-02-03"
    },
    {
       "title": "Mianhua Tang He Yunduo Mama: Fu Shu Song Ji",
       "malid": 44185,
-      "type": "movie",
+      "type": "special",
       "releaseDate": "2020-01-23"
    },
    {
       "title": "Mianhua Tang He Yunduo Mama: Chaoji Xiao Mihua",
       "malid": 44187,
-      "type": "movie",
+      "type": "special",
       "releaseDate": "2018-02-14"
    },
    {
@@ -129359,13 +129231,6 @@
       "malid": 44303,
       "type": "ona",
       "releaseDate": "2016-08-12"
-   },
-   {
-      "title": "Code Geass: Dakkan no Z",
-      "malid": 44304,
-      "anidbid": 15910,
-      "type": "unknown",
-      "releaseDate": ""
    },
    {
       "title": "Koyoi wa Halloween Night!",
@@ -130413,7 +130278,7 @@
       "releaseDate": "2009"
    },
    {
-      "title": "Rail Romanesque 2nd Season",
+      "title": "Rail Romanesque 2",
       "malid": 44583,
       "anidbid": 15921,
       "type": "tv",
@@ -132544,13 +132409,6 @@
       "malid": 45060,
       "type": "movie",
       "releaseDate": "2018-12-30"
-   },
-   {
-      "title": "Konglong Wang",
-      "enTitle": "Dino King",
-      "malid": 45061,
-      "type": "movie",
-      "releaseDate": "2018-11-10"
    },
    {
       "title": "Yu Shen Chuan: Wangzhe Shaonian",
@@ -150877,17 +150735,10 @@
       "releaseDate": "2022-10-23"
    },
    {
-      "title": "Lady Napoleon",
-      "malid": 49716,
-      "anidbid": 16576,
-      "type": "ona",
-      "releaseDate": ""
-   },
-   {
       "title": "Wo Yeye",
       "enTitle": "My Grandpa",
       "malid": 49717,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": ""
    },
    {
@@ -152567,7 +152418,7 @@
       "malid": 50184,
       "anidbid": 16921,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Ryman's Club",
@@ -152772,14 +152623,14 @@
       "title": "Cheng Li Laile Liao Yi Tiao Long",
       "enTitle": "Dragon In Town",
       "malid": 50234,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": ""
    },
    {
       "title": "Long Wu",
       "enTitle": "Long Wu",
       "malid": 50235,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": ""
    },
    {
@@ -155020,6 +154871,7 @@
    },
    {
       "title": "Jujutsu Kaisen 2nd Season",
+      "enTitle": "Jujutsu Kaisen Season 2",
       "malid": 51009,
       "anidbid": 17196,
       "type": "tv",
@@ -155982,7 +155834,7 @@
       "enTitle": "Law of Devil",
       "malid": 51287,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-09-29"
    },
    {
       "title": "Zuoshou Shanglan",
@@ -156065,14 +155917,14 @@
       "malid": 51304,
       "anidbid": 17264,
       "type": "tv",
-      "releaseDate": "2023-09-09"
+      "releaseDate": "2023-09-10"
    },
    {
       "title": "FLCL: Shoegaze",
       "malid": 51305,
       "anidbid": 17265,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2023-10-01"
    },
    {
       "title": "C Danchi",
@@ -158356,7 +158208,7 @@
       "title": "Erlang Shen: Shenhai Jialong",
       "enTitle": "God with Three Eyes",
       "malid": 51873,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": ""
    },
    {
@@ -158459,7 +158311,7 @@
       "enTitle": "Spare Me, Great Lord! 2nd Season",
       "malid": 51898,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-09-30"
    },
    {
       "title": "Chuukan Senshi Mr. Chun",
@@ -158612,7 +158464,7 @@
       "malid": 51956,
       "anidbid": 17430,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Climbing",
@@ -162408,10 +162260,11 @@
       "malid": 52990,
       "anidbid": 17616,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Sousou no Frieren",
+      "enTitle": "Frieren: Beyond Journey's End",
       "malid": 52991,
       "anidbid": 17617,
       "type": "tv",
@@ -164290,7 +164143,7 @@
       "malid": 53494,
       "anidbid": 17695,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Jing Cui Xian Zun Part 2",
@@ -164521,7 +164374,7 @@
       "malid": 53590,
       "anidbid": 17712,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-01-12"
    },
    {
       "title": "Wangzhe? Bie Nao! 2nd Season Fanwai",
@@ -165592,7 +165445,7 @@
       "malid": 53833,
       "anidbid": 17766,
       "type": "tv",
-      "releaseDate": "2023-10-02"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Unnamed Memory",
@@ -165853,7 +165706,7 @@
       "malid": 53887,
       "anidbid": 17784,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "Spy x Family Movie: Code: White",
@@ -165864,7 +165717,7 @@
       "releaseDate": "2023-12-22"
    },
    {
-      "title": "Ao no Exorcist: Shimane Keimei Kessha-hen",
+      "title": "Ao no Exorcist: Shimane Illuminati-hen",
       "enTitle": "Blue Exorcist: Shimane Illuminati Saga",
       "malid": 53889,
       "anidbid": 17786,
@@ -166083,7 +165936,7 @@
       "releaseDate": "2022-12-23"
    },
    {
-      "title": "Sumikko Gurashi Movie 3: Tsugihagi koujou no fushigina kou",
+      "title": "Sumikko Gurashi Movie 3: Tsugihagi Koujou no Fushigi na Ko",
       "malid": 53936,
       "anidbid": 17793,
       "type": "movie",
@@ -168910,7 +168763,7 @@
       "malid": 54638,
       "anidbid": 17887,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-09"
    },
    {
       "title": "Fumidukai",
@@ -169067,6 +168920,12 @@
       "releaseDate": "2023-03-10"
    },
    {
+      "title": "Observing Elena Evoy",
+      "malid": 54693,
+      "type": "ona",
+      "releaseDate": "2023-03-10"
+   },
+   {
       "title": "Fumetsu no Anata e Season 3",
       "enTitle": "To Your Eternity Season 3",
       "malid": 54703,
@@ -169211,7 +169070,7 @@
       "malid": 54743,
       "anidbid": 17915,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-10"
    },
    {
       "title": "Tokidoki Bosotto Russia-go de Dereru Tonari no Aalya-san",
@@ -169280,7 +169139,7 @@
       "malid": 54758,
       "anidbid": 17918,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Ryza no Atelier: Tokoyami no Joou to Himitsu no Kakurega",
@@ -169654,7 +169513,7 @@
       "enTitle": "Demon Lord 2099",
       "malid": 54853,
       "anidbid": 17943,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -169810,6 +169669,12 @@
       "releaseDate": "2005-11-02"
    },
    {
+      "title": "Demon Queen Just Wants to Make Peace",
+      "malid": 54880,
+      "type": "ona",
+      "releaseDate": "2023-03-27"
+   },
+   {
       "title": "Ta Bu Dang Nuzhu Hen Duo Nian",
       "enTitle": "Since I Wasn't the Heroine",
       "malid": 54881,
@@ -169880,7 +169745,7 @@
       "malid": 54902,
       "anidbid": 17959,
       "type": "ona",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Railment",
@@ -169919,7 +169784,7 @@
       "malid": 54914,
       "anidbid": 17966,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-05"
    },
    {
       "title": "5-toubun no Hanayome∽",
@@ -169960,7 +169825,7 @@
       "malid": 54923,
       "anidbid": 17971,
       "type": "movie",
-      "releaseDate": "2023"
+      "releaseDate": "2023-11-23"
    },
    {
       "title": "Kurae! Telepathy",
@@ -170396,7 +170261,7 @@
       "malid": 55071,
       "anidbid": 17994,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Hina",
@@ -172393,7 +172258,7 @@
    {
       "title": "Wasted Chef",
       "malid": 55566,
-      "type": "unknown",
+      "type": "movie",
       "releaseDate": ""
    },
    {
@@ -172981,6 +172846,24 @@
       "malid": 55720,
       "type": "ona",
       "releaseDate": "2023-06-21"
+   },
+   {
+      "title": "See You on Our Veranda",
+      "malid": 55721,
+      "type": "ona",
+      "releaseDate": "2023-02-10"
+   },
+   {
+      "title": "No More Princes",
+      "malid": 55722,
+      "type": "ona",
+      "releaseDate": "2023-02-13"
+   },
+   {
+      "title": "The Forgotten Princess Just Wants Peace",
+      "malid": 55723,
+      "type": "ona",
+      "releaseDate": "2023-05-31"
    },
    {
       "title": "Beauty and the Brawn",
@@ -173730,7 +173613,7 @@
       "malid": 55894,
       "anidbid": 18105,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-08"
    },
    {
       "title": "Matong",
@@ -174932,6 +174815,13 @@
       "releaseDate": "2023-08-17"
    },
    {
+      "title": "Boukenroku",
+      "enTitle": "Adventure Log",
+      "malid": 56247,
+      "type": "music",
+      "releaseDate": "2023-08-11"
+   },
+   {
       "title": "The 3 Meisama Anime wa Anime de Arissho!",
       "malid": 56259,
       "type": "ova",
@@ -175295,7 +175185,7 @@
    {
       "title": "Mianhua Tang He Yunduo Mama: \"Niu\" Zhuan Qiankun",
       "malid": 56332,
-      "type": "movie",
+      "type": "special",
       "releaseDate": "2021-02-10"
    },
    {
@@ -175650,7 +175540,7 @@
       "malid": 56425,
       "anidbid": 18171,
       "type": "tv",
-      "releaseDate": "2023-10-12"
+      "releaseDate": "2023-10-13"
    },
    {
       "title": "Oh! Loose Boys Boogie",
@@ -175766,6 +175656,12 @@
       "malid": 56455,
       "type": "ona",
       "releaseDate": "2023-03-17"
+   },
+   {
+      "title": "Kororon",
+      "malid": 56457,
+      "type": "music",
+      "releaseDate": "2023-08-27"
    },
    {
       "title": "Umi no Jiken Jiko wa 118-ban",
@@ -176293,7 +176189,7 @@
       "releaseDate": "2023-09-10"
    },
    {
-      "title": "Jinyi Shen Jiag",
+      "title": "Jinyi Shen Jiang",
       "enTitle": "Carpenter Assassin",
       "malid": 56579,
       "type": "ona",
@@ -176475,5 +176371,238 @@
       "malid": 56613,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Kaijuu Tottoto",
+      "malid": 56617,
+      "type": "music",
+      "releaseDate": "2015-08-02"
+   },
+   {
+      "title": "Papa no Violin",
+      "malid": 56618,
+      "type": "music",
+      "releaseDate": "1968-02-06"
+   },
+   {
+      "title": "Chiisana Calendar",
+      "malid": 56619,
+      "type": "music",
+      "releaseDate": "1965-10-07"
+   },
+   {
+      "title": "Orange March",
+      "malid": 56620,
+      "type": "music",
+      "releaseDate": "2023-08-01"
+   },
+   {
+      "title": "Hiten",
+      "malid": 56621,
+      "type": "music",
+      "releaseDate": "2023-08-18"
+   },
+   {
+      "title": "Yankee Hamster Season 4",
+      "enTitle": "Delinquent Hamsters Season 4",
+      "malid": 56622,
+      "type": "ona",
+      "releaseDate": "2023-10-06"
+   },
+   {
+      "title": "Nui Story",
+      "malid": 56623,
+      "type": "ona",
+      "releaseDate": "2023-10-07"
+   },
+   {
+      "title": "Araburu Kisetsu no Otome-domo yo.  Mini Anime",
+      "malid": 56624,
+      "type": "ona",
+      "releaseDate": "2019-05-20"
+   },
+   {
+      "title": "Yeoseos Beonjjae Yeoleum",
+      "enTitle": "The 6th Summer",
+      "malid": 56628,
+      "type": "music",
+      "releaseDate": "2023-08-25"
+   },
+   {
+      "title": "Dead or Arrive 2: Dance of Auto",
+      "malid": 56629,
+      "type": "ona",
+      "releaseDate": "2023-07-07"
+   },
+   {
+      "title": "Shin Shinka no Mi Gekijou Special",
+      "malid": 56638,
+      "type": "special",
+      "releaseDate": "2023-05-26"
+   },
+   {
+      "title": "Junk World",
+      "malid": 56640,
+      "type": "movie",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Season of Change",
+      "malid": 56643,
+      "type": "ona",
+      "releaseDate": "2022-11-26"
+   },
+   {
+      "title": "Hokuto no Ken: Fist of the North Star",
+      "malid": 56646,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ao no Miburo",
+      "malid": 56647,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Minami no Shima no Hamehameha Daiou",
+      "malid": 56648,
+      "type": "music",
+      "releaseDate": "2022-08-01"
+   },
+   {
+      "title": "Minminzemi no Uta",
+      "malid": 56649,
+      "type": "music",
+      "releaseDate": "1968-06-03"
+   },
+   {
+      "title": "Doubutsuen e Ikou",
+      "malid": 56650,
+      "type": "music",
+      "releaseDate": "1975-02-01"
+   },
+   {
+      "title": "Tororo Okura Mekabu Nattou",
+      "malid": 56651,
+      "type": "music",
+      "releaseDate": "2016-06-01"
+   },
+   {
+      "title": "Summertime",
+      "malid": 56652,
+      "type": "music",
+      "releaseDate": "2017-08-07"
+   },
+   {
+      "title": "BanG Dream! Ave Mujica",
+      "malid": 56653,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Sweet and Hot",
+      "malid": 56654,
+      "anidbid": 18185,
+      "type": "ova",
+      "releaseDate": "2023-11-10"
+   },
+   {
+      "title": "Nattou da!",
+      "malid": 56655,
+      "type": "music",
+      "releaseDate": "1992-02-03"
+   },
+   {
+      "title": "Obake Nante Nai sa",
+      "malid": 56656,
+      "type": "music",
+      "releaseDate": "1966-06"
+   },
+   {
+      "title": "Ittoilet",
+      "malid": 56657,
+      "type": "music",
+      "releaseDate": "1981-10-06"
+   },
+   {
+      "title": "Toumei na Nukumori",
+      "malid": 56658,
+      "type": "music",
+      "releaseDate": "2023-06-01"
+   },
+   {
+      "title": "Fuyu no Tokimeki",
+      "malid": 56659,
+      "type": "music",
+      "releaseDate": "2018-12-12"
+   },
+   {
+      "title": "Trillion Game",
+      "malid": 56662,
+      "anidbid": 18195,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Hoshi no Ko Penky",
+      "malid": 56664,
+      "type": "music",
+      "releaseDate": "1978-06-05"
+   },
+   {
+      "title": "Don Quixote",
+      "malid": 56665,
+      "type": "music",
+      "releaseDate": "1981-02-03"
+   },
+   {
+      "title": "Shiawase no Kaban",
+      "malid": 56666,
+      "type": "music",
+      "releaseDate": "2011-10-03"
+   },
+   {
+      "title": "Poplar no Dengon",
+      "malid": 56667,
+      "type": "music",
+      "releaseDate": "2023-02-01"
+   },
+   {
+      "title": "Chuudokusei no Chew",
+      "malid": 56668,
+      "type": "music",
+      "releaseDate": "2023-07-14"
+   },
+   {
+      "title": "Burn the Witch #0.8",
+      "malid": 56671,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Balala Xiao Mo Xian: Xing Yuan Die Qi 1",
+      "enTitle": "Balala The Fairies: Star Fate Butterfly Awakening",
+      "malid": 56674,
+      "type": "tv",
+      "releaseDate": "2023-08-11"
+   },
+   {
+      "title": "Saekomdalkom Catch! Tiniping",
+      "malid": 56677,
+      "type": "tv",
+      "releaseDate": "2023-09-22"
+   },
+   {
+      "title": "Gokurousan",
+      "malid": 56678,
+      "type": "music",
+      "releaseDate": "1976-08-06"
+   },
+   {
+      "title": "Uma no Shippo Buta no Shippo",
+      "malid": 56679,
+      "type": "music",
+      "releaseDate": "1983-08-04"
    }
 ]

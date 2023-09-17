@@ -8,8 +8,22 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"os"
 	"regexp"
+	"strings"
+
+	"gopkg.in/yaml.v3"
 )
+
+type AnimeMovie struct {
+	MainTitle string `yaml:"mainTitle"`
+	TMDBID    int    `yaml:"tmdbid"`
+	MALID     int    `yaml:"malid"`
+}
+
+type AnimeMovies struct {
+	AnimeMovie []AnimeMovie `yaml:"animeMovies"`
+}
 
 type Animetitles struct {
 	XMLName xml.Name `xml:"animetitles"`
@@ -48,6 +62,7 @@ type TMDBAPIResponse struct {
 func GetTmdbIds(cfg *Config) {
 	a := GetAnime("./malid-anidbid-tvdbid.json")
 	u := buildUrl(cfg.TmdbApiKey)
+	am := &AnimeMovies{}
 	noTmdbTotal := 0
 	withTmdbTotal := 0
 	totalMovies := 0
@@ -100,6 +115,7 @@ func GetTmdbIds(cfg *Config) {
 
 			if a[i].TmdbID == 0 {
 				noTmdbTotal++
+				am.Add(a[i].MainTitle, a[i].TmdbID, a[i].MalID)
 			}
 		}
 	}
@@ -108,6 +124,9 @@ func GetTmdbIds(cfg *Config) {
 	log.Println("Total number of movies", totalMovies)
 	log.Println("Total number of movies with TMDBID", withTmdbTotal)
 	log.Println("Total number of movies without TMDBID", noTmdbTotal)
+	am.Store("./tmdb-mal-unmapped.yaml")
+	amm := UpdateMaster(&AnimeMovies{}, am)
+	CreateMapping(amm)
 }
 
 func buildUrl(apikey string) *url.URL {
@@ -127,4 +146,85 @@ func buildUrl(apikey string) *url.URL {
 func getYear(d string) string {
 	r := regexp.MustCompile(`^\d{4,4}`)
 	return r.FindString(d)
+}
+
+func (am *AnimeMovies) Add(title string, tmdbid, malid int) {
+	am.AnimeMovie = append(am.AnimeMovie, AnimeMovie{
+		MainTitle: title,
+		TMDBID:    tmdbid,
+		MALID:     malid,
+	})
+}
+
+func (am *AnimeMovies) Store(path string) {
+	b, err := yaml.Marshal(am)
+	if err != nil {
+		checkErr(err)
+	}
+
+	f, err := os.Create(path)
+	if err != nil {
+		checkErr(err)
+	}
+
+	text := string(b)
+	lines := strings.Split(text, "\n")
+	for i, line := range lines {
+		if strings.Contains(line, "malid") {
+			lines[i] += "\n"
+		}
+	}
+
+	modifiedText := strings.Join(lines, "\n")
+	defer f.Close()
+	_, err = f.Write([]byte(modifiedText))
+	if err != nil {
+		checkErr(err)
+	}
+}
+
+func (am *AnimeMovies) Get(path string) {
+	f, err := os.Open(path)
+	if err != nil {
+		checkErr(err)
+	}
+
+	defer f.Close()
+	b, err := io.ReadAll(f)
+	if err != nil {
+		checkErr(err)
+	}
+
+	err = yaml.Unmarshal(b, am)
+	if err != nil {
+		checkErr(err)
+	}
+}
+
+func UpdateMaster(am1 *AnimeMovies, am2 *AnimeMovies) *AnimeMovies {
+	master := "./tmdb-mal-master.yaml"
+	am1.Get(master)
+	for i := range am1.AnimeMovie {
+		if am1.AnimeMovie[i].TMDBID != 0 {
+			for ii := range am2.AnimeMovie {
+				if am1.AnimeMovie[i].MALID == am2.AnimeMovie[ii].MALID {
+					am2.AnimeMovie[ii].TMDBID = am1.AnimeMovie[i].TMDBID
+				}
+			}
+		}
+	}
+
+	am2.Store(master)
+	return am2
+}
+
+func CreateMapping(am *AnimeMovies) {
+	amf := &AnimeMovies{}
+	for _, movie := range am.AnimeMovie {
+		if movie.TMDBID != 0 {
+			amf.AnimeMovie = append(amf.AnimeMovie, movie)
+		}
+	}
+
+	amf.Store("./tmdb-mal.yaml")
 }
