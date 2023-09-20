@@ -206,12 +206,14 @@ func (am *AnimeMovies) Get(path string) error {
 
 func UpdateMaster(am1 *AnimeMovies, am2 *AnimeMovies, path string) {
 	err := am1.Get(path)
-	if err.Error() == "file does not exist" {
-		am2.Store(path)
+	if err != nil {
+		if err.Error() == "file does not exist" {
+			am2.Store(path)
+		}
 		return
 	}
 
-	malidToTmdbid := make(map[int]int)
+	malidToTmdbid := map[int]int{}
 	for i := range am1.AnimeMovie {
 		if am1.AnimeMovie[i].TMDBID != 0 {
 			malidToTmdbid[am1.AnimeMovie[i].MALID] = am1.AnimeMovie[i].TMDBID
