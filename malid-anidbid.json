@@ -22298,7 +22298,7 @@
       "malid": 3280,
       "anidbid": 6714,
       "type": "special",
-      "releaseDate": "1984-07-04"
+      "releaseDate": "1984-04-07"
    },
    {
       "title": "Kinnikuman: Kinnikusei Oui Soudatsu-hen",
@@ -176651,5 +176651,30 @@
       "anidbid": 18202,
       "type": "tv",
       "releaseDate": "2024-01"
+   },
+   {
+      "title": "Xiao Lu He Xiao Lan 3rd Season",
+      "enTitle": "Beryl and Sapphire 3rd Season",
+      "malid": 56695,
+      "type": "ona",
+      "releaseDate": "2023-09-27"
+   },
+   {
+      "title": "Ao Kiiro",
+      "malid": 56696,
+      "type": "music",
+      "releaseDate": "2022-04-04"
+   },
+   {
+      "title": "Clarinet Kowashichatta (1972)",
+      "malid": 56697,
+      "type": "music",
+      "releaseDate": "1972-12-04"
+   },
+   {
+      "title": "Hasami Togi (1974)",
+      "malid": 56698,
+      "type": "music",
+      "releaseDate": "1974-02-13"
    }
 ]
