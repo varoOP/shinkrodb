@@ -16,13 +16,13 @@ var (
 )
 
 func main() {
-	cfg := config.NewConfig()
 	var rootPath string
 	pflag.StringVar(&rootPath, "rootPath", ".", "the path where output is saved")
 	pflag.Parse()
 
 	switch cmd := pflag.Arg(0); cmd {
 	case "run":
+		cfg := config.NewConfig()
 		domain.GetMalIds(cfg)
 		domain.ScrapeMal()
 		domain.GetTvdbIDs()
