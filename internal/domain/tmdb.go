@@ -3,12 +3,14 @@ package domain
 import (
 	"encoding/json"
 	"encoding/xml"
+	"errors"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"net/url"
 	"os"
+	"path"
 	"regexp"
 	"strings"
 
@@ -59,7 +61,7 @@ type TMDBAPIResponse struct {
 	TotalResults int `json:"total_results"`
 }
 
-func GetTmdbIds(cfg *Config) {
+func GetTmdbIds(cfg *Config, rootPath string) {
 	a := GetAnime("./malid-anidbid-tvdbid.json")
 	u := buildUrl(cfg.TmdbApiKey)
 	am := &AnimeMovies{}
@@ -124,9 +126,8 @@ func GetTmdbIds(cfg *Config) {
 	log.Println("Total number of movies", totalMovies)
 	log.Println("Total number of movies with TMDBID", withTmdbTotal)
 	log.Println("Total number of movies without TMDBID", noTmdbTotal)
-	am.Store("./tmdb-mal-unmapped.yaml")
-	amm := UpdateMaster(&AnimeMovies{}, am)
-	CreateMapping(amm)
+	am.Store(path.Join(rootPath, "tmdb-mal-unmapped.yaml"))
+	UpdateMaster(&AnimeMovies{}, am, path.Join(rootPath, "tmdb-mal-master.yaml"))
 }
 
 func buildUrl(apikey string) *url.URL {
@@ -183,10 +184,10 @@ func (am *AnimeMovies) Store(path string) {
 	}
 }
 
-func (am *AnimeMovies) Get(path string) {
+func (am *AnimeMovies) Get(path string) error {
 	f, err := os.Open(path)
 	if err != nil {
-		checkErr(err)
+		return errors.New("file does not exist")
 	}
 
 	defer f.Close()
@@ -199,26 +200,34 @@ func (am *AnimeMovies) Get(path string) {
 	if err != nil {
 		checkErr(err)
 	}
+
+	return err
 }
 
-func UpdateMaster(am1 *AnimeMovies, am2 *AnimeMovies) *AnimeMovies {
-	master := "./tmdb-mal-master.yaml"
-	am1.Get(master)
+func UpdateMaster(am1 *AnimeMovies, am2 *AnimeMovies, path string) {
+	err := am1.Get(path)
+	if err.Error() == "file does not exist" {
+		am2.Store(path)
+		return
+	}
+
+	malidToTmdbid := make(map[int]int)
 	for i := range am1.AnimeMovie {
 		if am1.AnimeMovie[i].TMDBID != 0 {
-			for ii := range am2.AnimeMovie {
-				if am1.AnimeMovie[i].MALID == am2.AnimeMovie[ii].MALID {
-					am2.AnimeMovie[ii].TMDBID = am1.AnimeMovie[i].TMDBID
-				}
-			}
+			malidToTmdbid[am1.AnimeMovie[i].MALID] = am1.AnimeMovie[i].TMDBID
 		}
 	}
 
-	am2.Store(master)
-	return am2
+	for ii := range am2.AnimeMovie {
+		if tmdbid, found := malidToTmdbid[am2.AnimeMovie[ii].MALID]; found {
+			am2.AnimeMovie[ii].TMDBID = tmdbid
+		}
+	}
+
+	am2.Store(path)
 }
 
-func CreateMapping(am *AnimeMovies) {
+func CreateMapping(am *AnimeMovies, path string) {
 	amf := &AnimeMovies{}
 	for _, movie := range am.AnimeMovie {
 		if movie.TMDBID != 0 {
@@ -226,5 +235,5 @@ func CreateMapping(am *AnimeMovies) {
 		}
 	}
 
-	amf.Store("./tmdb-mal.yaml")
+	amf.Store(path)
 }

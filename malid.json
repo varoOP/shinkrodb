@@ -49844,7 +49844,7 @@
       "releaseDate": "2000-07-20"
    },
    {
-      "title": "Suki tte Ii na yo. Mei and Marshmallow",
+      "title": "Suki tte Ii na yo.: Mei and Marshmallow",
       "enTitle": "Say \"I Love You\".: Mei and Marshmallow Meow",
       "malid": 17409,
       "type": "special",
@@ -63774,7 +63774,7 @@
       "enTitle": "March comes in like a lion meets Bump of Chicken",
       "malid": 28789,
       "type": "music",
-      "releaseDate": "2014-12-08"
+      "releaseDate": "2014-11-28"
    },
    {
       "title": "Gunslinger Stratos The Animation",
@@ -134580,7 +134580,7 @@
    },
    {
       "title": "Yoru ni Kakeru",
-      "enTitle": "Racing Into The Night",
+      "enTitle": "Racing into the Night",
       "malid": 48653,
       "type": "music",
       "releaseDate": "2019-11-16"
@@ -160018,6 +160018,7 @@
    },
    {
       "title": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
+      "enTitle": "Why nobody remembers my world?",
       "malid": 56062,
       "type": "tv",
       "releaseDate": "2024"
@@ -160484,7 +160485,7 @@
       "releaseDate": "2024-01"
    },
    {
-      "title": "Jujutsu Kaisen 2nd Season Recap",
+      "title": "Jujutsu Kaisen 2nd Season Recaps",
       "malid": 56243,
       "type": "special",
       "releaseDate": "2023-08-11"
@@ -160978,7 +160979,8 @@
       "releaseDate": "2022-06-29"
    },
    {
-      "title": "Kkomimanyeo Lala",
+      "title": "Kkomimanyeo Lara",
+      "enTitle": "Komi Witch Lara",
       "malid": 56358,
       "type": "tv",
       "releaseDate": "2023-03-13"
@@ -161481,6 +161483,12 @@
       "malid": 56494,
       "type": "ova",
       "releaseDate": ""
+   },
+   {
+      "title": "Secret Mission: Sennyuu Sousakan wa Zettai ni Makenai!",
+      "malid": 56497,
+      "type": "ona",
+      "releaseDate": "2023-10-02"
    },
    {
       "title": "Obetomo Gakuen",
@@ -162265,5 +162273,41 @@
       "malid": 56679,
       "type": "music",
       "releaseDate": "1983-08-04"
+   },
+   {
+      "title": "Angry Boogie",
+      "malid": 56683,
+      "type": "music",
+      "releaseDate": "1982-08-02"
+   },
+   {
+      "title": "Ninja wa Doko ja",
+      "malid": 56684,
+      "type": "music",
+      "releaseDate": "1985-12-02"
+   },
+   {
+      "title": "Dare mo Isoganai Mura",
+      "malid": 56688,
+      "type": "music",
+      "releaseDate": "1978-04-07"
+   },
+   {
+      "title": "Dr. Puppukupuu",
+      "malid": 56689,
+      "type": "music",
+      "releaseDate": "1999-08-01"
+   },
+   {
+      "title": "Re:Monster",
+      "malid": 56690,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Gekkan Mousou Kagaku",
+      "malid": 56691,
+      "type": "tv",
+      "releaseDate": "2024-01"
    }
 ]
