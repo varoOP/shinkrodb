@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"path"
 
 	"github.com/spf13/pflag"
@@ -32,7 +33,11 @@ func main() {
 
 	case "genmap":
 		am := &domain.AnimeMovies{}
-		am.Get(path.Join(rootPath, "tmdb-mal-master.yaml"))
+		err := am.Get(path.Join(rootPath, "tmdb-mal-master.yaml"))
+		if err != nil {
+			log.Fatal(err)
+		}
+
 		domain.CreateMapping(am, path.Join(rootPath, "tmdb-mal.yaml"))
 
 	case "version":
