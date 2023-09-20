@@ -9,6 +9,12 @@ import (
 	"github.com/varoOP/shinkrodb/internal/domain"
 )
 
+var (
+	version = "dev"
+	commit  = ""
+	date    = ""
+)
+
 func main() {
 	cfg := config.NewConfig()
 	var rootPath string
@@ -28,6 +34,11 @@ func main() {
 		am := &domain.AnimeMovies{}
 		am.Get(path.Join(rootPath, "tmdb-mal-master.yaml"))
 		domain.CreateMapping(am, path.Join(rootPath, "tmdb-mal.yaml"))
+
+	case "version":
+		fmt.Printf("shinkrodb: %v\n", version)
+		fmt.Printf("Commit: %v\n", commit)
+		fmt.Printf("Build Date: %v\n", date)
 
 	default:
 		fmt.Println("ERROR: no command specified")
