@@ -53475,7 +53475,7 @@
       "releaseDate": "2012-07-27"
    },
    {
-      "title": "Hiiro no Kakera 2",
+      "title": "Hiiro no Kakera 2nd Season",
       "enTitle": "Hiiro no Kakera: The Tamayori Princess Saga Season 2",
       "malid": 14645,
       "anidbid": 9284,
@@ -87223,6 +87223,7 @@
    },
    {
       "title": "No Game No Life: Zero",
+      "enTitle": "No Game, No Life: Zero",
       "malid": 33674,
       "anidbid": 12276,
       "type": "movie",
@@ -112185,13 +112186,6 @@
       "releaseDate": "2019-05-31"
    },
    {
-      "title": "Möbius Dust",
-      "malid": 39473,
-      "anidbid": 14730,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
       "title": "Jack Nicholson",
       "enTitle": "Jack Nicholson",
       "malid": 39475,
@@ -117399,13 +117393,6 @@
       "malid": 40812,
       "type": "movie",
       "releaseDate": "2016"
-   },
-   {
-      "title": "Kukuriraige: Sanseitai Denki",
-      "malid": 40813,
-      "anidbid": 15291,
-      "type": "movie",
-      "releaseDate": ""
    },
    {
       "title": "Seitokai Yakuindomo Movie 2",
@@ -146588,7 +146575,7 @@
       "enTitle": "Dino King: Journey to Fire Mountain",
       "malid": 48310,
       "type": "movie",
-      "releaseDate": "2017-10-14"
+      "releaseDate": "2018-12-25"
    },
    {
       "title": "Iyab! Space Jungle",
@@ -153172,7 +153159,7 @@
       "malid": 50399,
       "anidbid": 15648,
       "type": "ona",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-18"
    },
    {
       "title": "Wo Jia Da Shixiong You Dian Kaopu",
@@ -153824,6 +153811,7 @@
    },
    {
       "title": "Buta no Liver wa Kanetsu Shiro",
+      "enTitle": "Butareba -The Story of a Man Who Turned into a Pig-",
       "malid": 50583,
       "anidbid": 17031,
       "type": "tv",
@@ -153831,6 +153819,7 @@
    },
    {
       "title": "Migi to Dali",
+      "enTitle": "Migi \u0026 Dali",
       "malid": 50586,
       "anidbid": 17034,
       "type": "tv",
@@ -154091,7 +154080,7 @@
    },
    {
       "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
-      "enTitle": "The Faraway Paladin Season 2",
+      "enTitle": "The Faraway Paladin: The Lord of Rust Mountains",
       "malid": 50664,
       "anidbid": 17078,
       "type": "tv",
@@ -156439,6 +156428,7 @@
    },
    {
       "title": "Sasaki to Miyano Movie: Sotsugyou-hen",
+      "enTitle": "Sasaki and Miyano: Graduation",
       "malid": 51440,
       "anidbid": 17287,
       "type": "movie",
@@ -161999,6 +161989,7 @@
    },
    {
       "title": "Konyaku Haki sareta Reijou wo Hirotta Ore ga, Ikenai Koto wo Oshiekomu",
+      "enTitle": "I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness",
       "malid": 52934,
       "anidbid": 17592,
       "type": "tv",
@@ -162226,6 +162217,7 @@
    },
    {
       "title": "Dekoboko Majo no Oyako Jijou",
+      "enTitle": "The Family Circumstances of the Irregular Witch",
       "malid": 52985,
       "anidbid": 17614,
       "type": "tv",
@@ -162521,7 +162513,7 @@
       "releaseDate": "2011"
    },
    {
-      "title": "Kanojo mo Kanojo 2nd Season",
+      "title": "Kanojo mo Kanojo Season 2",
       "enTitle": "Girlfriend, Girlfriend Season 2",
       "malid": 53040,
       "anidbid": 17628,
@@ -163030,7 +163022,7 @@
       "malid": 53150,
       "anidbid": 17642,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-11-02"
    },
    {
       "title": "Onmyouji",
@@ -163476,6 +163468,7 @@
    },
    {
       "title": "Hoshikuzu Telepath",
+      "enTitle": "Stardust Telepath",
       "malid": 53262,
       "anidbid": 17663,
       "type": "tv",
@@ -164123,7 +164116,7 @@
       "malid": 53488,
       "anidbid": 17693,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
    },
    {
       "title": "Haru ni Nattara Koguma no Yugo Monogatari (Movie)",
@@ -164140,6 +164133,7 @@
    },
    {
       "title": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S-Rank ni Natteta",
+      "enTitle": "My Daughter Left the Nest and Returned an S-Rank Adventurer",
       "malid": 53494,
       "anidbid": 17695,
       "type": "tv",
@@ -165659,7 +165653,7 @@
    },
    {
       "title": "Kamonohashi Ron no Kindan Suiri",
-      "enTitle": "Ron Kamonohashi: Deranged Detective",
+      "enTitle": "Ron Kamonohashi's Forbidden Deductions",
       "malid": 53879,
       "anidbid": 17783,
       "type": "tv",
@@ -165678,7 +165672,7 @@
       "malid": 53881,
       "anidbid": 17781,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "Sand Land",
@@ -167387,7 +167381,7 @@
       "malid": 54265,
       "anidbid": 17826,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-01"
    },
    {
       "title": "Shimajirou to Uzumasa Ninja Daisakusen",
@@ -168025,6 +168019,7 @@
    },
    {
       "title": "Toaru Ossan no VRMMO Katsudouki",
+      "enTitle": "A Playthrough of a Certain Dude's VRMMO Life",
       "malid": 54431,
       "anidbid": 17860,
       "type": "tv",
@@ -169184,12 +169179,6 @@
       "releaseDate": ""
    },
    {
-      "title": "Ao no Orchestra: 5-bu de Tanoshii Classic",
-      "malid": 54771,
-      "type": "ona",
-      "releaseDate": "2023-03-20"
-   },
-   {
       "title": "Ququ Bucai, Zaixia Yeguai",
       "enTitle": "Monster But Wild",
       "malid": 54772,
@@ -169324,7 +169313,7 @@
    },
    {
       "title": "Kamierabi",
-      "enTitle": "GOD.app",
+      "enTitle": "KamiErabi GOD.app",
       "malid": 54798,
       "anidbid": 17925,
       "type": "tv",
@@ -171153,6 +171142,7 @@
    },
    {
       "title": "Atarashii Joushi wa Do Tennen",
+      "enTitle": "My New Boss Is Goofy",
       "malid": 55310,
       "anidbid": 18029,
       "type": "tv",
@@ -172747,7 +172737,7 @@
       "title": "Koumi-jima Shuu 7 de Umeru Mesu-tachi",
       "malid": 55691,
       "anidbid": 17872,
-      "type": "ova",
+      "type": "ona",
       "releaseDate": "2023-02-17"
    },
    {
@@ -172959,6 +172949,7 @@
    },
    {
       "title": "Mahoutsukai no Yome Season 2 Part 2",
+      "enTitle": "The Ancient Magus' Bride Season 2 Part 2",
       "malid": 55742,
       "anidbid": 18076,
       "type": "tv",
@@ -173610,6 +173601,7 @@
    },
    {
       "title": "Bokura no Ameiro Protocol",
+      "enTitle": "Protocol: Rain",
       "malid": 55894,
       "anidbid": 18105,
       "type": "tv",
@@ -175326,6 +175318,12 @@
       "releaseDate": "2021-05-27"
    },
    {
+      "title": "Yggdrasil",
+      "malid": 56364,
+      "type": "music",
+      "releaseDate": "2023-04-02"
+   },
+   {
       "title": "Robocar Poli: Song Song Museum",
       "enTitle": "Robocar POLI: SongSong Museum",
       "malid": 56368,
@@ -175713,6 +175711,12 @@
       "malid": 56470,
       "type": "music",
       "releaseDate": "2020-11-28"
+   },
+   {
+      "title": "Blue Planet",
+      "malid": 56474,
+      "type": "music",
+      "releaseDate": "2023-08-30"
    },
    {
       "title": "Nabiui Moheom",
@@ -176653,6 +176657,13 @@
       "releaseDate": "2024-01"
    },
    {
+      "title": "Watari-kun no xx ga Houkai Sunzen",
+      "malid": 56693,
+      "anidbid": 18203,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
       "title": "Xiao Lu He Xiao Lan 3rd Season",
       "enTitle": "Beryl and Sapphire 3rd Season",
       "malid": 56695,
@@ -176676,5 +176687,192 @@
       "malid": 56698,
       "type": "music",
       "releaseDate": "1974-02-13"
+   },
+   {
+      "title": "Ratpark feat. Kei Sugawara",
+      "malid": 56699,
+      "type": "music",
+      "releaseDate": "2023-03-10"
+   },
+   {
+      "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 2nd Season",
+      "enTitle": "Reborn as a Vending Machine, I Now Wander the Dungeon 2nd Season",
+      "malid": 56700,
+      "anidbid": 18204,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Watashi no Shiawase na Kekkon 2nd Season",
+      "enTitle": "My Happy Marriage Season 2",
+      "malid": 56701,
+      "anidbid": 18205,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Gamera VS Kozamera",
+      "malid": 56702,
+      "type": "ona",
+      "releaseDate": "2023-09-20"
+   },
+   {
+      "title": "MARO17: Utakata feat. TETSU",
+      "malid": 56703,
+      "type": "ona",
+      "releaseDate": "2023-07-20"
+   },
+   {
+      "title": "Kengan Ashura Season 2 Part 2",
+      "malid": 56704,
+      "type": "ona",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Hoshi to Tanpopo",
+      "malid": 56707,
+      "type": "music",
+      "releaseDate": "2023-04-06"
+   },
+   {
+      "title": "Oni no Negai",
+      "malid": 56708,
+      "type": "music",
+      "releaseDate": "1969-02-03"
+   },
+   {
+      "title": "Wareware wa Uchuujin da!",
+      "malid": 56709,
+      "type": "music",
+      "releaseDate": "2014-06-01"
+   },
+   {
+      "title": "Wareware wa Uchuujin da.",
+      "malid": 56710,
+      "type": "music",
+      "releaseDate": "2011-10-15"
+   },
+   {
+      "title": "Comedy na Hero ni Nareta Nara",
+      "enTitle": "If I Could Be a Comedic Hero",
+      "malid": 56711,
+      "type": "music",
+      "releaseDate": "2022-06-24"
+   },
+   {
+      "title": "Wakare Hana",
+      "enTitle": "Thank You and Goodbye.",
+      "malid": 56714,
+      "type": "music",
+      "releaseDate": "2023-07-01"
+   },
+   {
+      "title": "Shukusei!! Loli Kami Requiem ☆",
+      "malid": 56715,
+      "type": "music",
+      "releaseDate": "2023-09-10"
+   },
+   {
+      "title": "Dubu Wangu",
+      "malid": 56716,
+      "type": "ona",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Xian Wu Chuan 2",
+      "enTitle": "Legend of Xianwu 2nd Season",
+      "malid": 56717,
+      "type": "ona",
+      "releaseDate": "2023-09-24"
+   },
+   {
+      "title": "Atelier",
+      "enTitle": "Atelier",
+      "malid": 56720,
+      "type": "music",
+      "releaseDate": "2023-09-22"
+   },
+   {
+      "title": "Tsubame: SDGs Anime Version",
+      "malid": 56721,
+      "type": "music",
+      "releaseDate": "2022-06"
+   },
+   {
+      "title": "Kappa wa Shitteiru",
+      "malid": 56722,
+      "type": "music",
+      "releaseDate": "2023-08-02"
+   },
+   {
+      "title": "Camp Ryouri",
+      "malid": 56723,
+      "type": "music",
+      "releaseDate": "1963-06"
+   },
+   {
+      "title": "Ki no Ii Ahiru",
+      "malid": 56724,
+      "type": "music",
+      "releaseDate": "1962-06"
+   },
+   {
+      "title": "Qing Chi Hong Xiaodou Ba! Season 0.5",
+      "enTitle": "Beanie's Daily Season 0.5",
+      "malid": 56728,
+      "type": "ona",
+      "releaseDate": "2022-05-05"
+   },
+   {
+      "title": "Qing Chi Hong Xiaodou Ba! Hong Yu Lu",
+      "malid": 56729,
+      "type": "movie",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Qing Chi Hong Xiaodou Ba! Season 0.5 Fanwai",
+      "malid": 56730,
+      "type": "ona",
+      "releaseDate": "2023-05-31"
+   },
+   {
+      "title": "Synduality: Noir Part 2",
+      "malid": 56731,
+      "type": "tv",
+      "releaseDate": "2024-01"
+   },
+   {
+      "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru 2nd Season",
+      "enTitle": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+      "malid": 56732,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Magical★Explorer: Eroge no Yuujin-Chara ni Tensei shita kedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+      "enTitle": "Magical Explorer: Reborn as a Side Character in a Fantasy Dating Sim",
+      "malid": 56733,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
+      "enTitle": "I Became Friends with the Second Cutest Girl in the Class.",
+      "malid": 56734,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken",
+      "malid": 56735,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Saikyou Degarashi Ouji no Anyaku Teii Arasoi: Munou wo Enjiru SS Rank Ouji wa Koui Keishousen wo Kage kara Shihai suru",
+      "enTitle": "The Insipid Prince's Furtive Grab for The Throne",
+      "malid": 56736,
+      "type": "unknown",
+      "releaseDate": ""
    }
 ]
