@@ -1,0 +1,13 @@
+AnimeMap:
+    - malid: 21
+      title: One Piece
+      type: show
+      tvdbid: 3232
+      tvdbseason: 1
+      start: 1
+      useMapping: true
+      animeMapping:
+        - tvdbseason: 1
+          start: 1
+        - tvdbseason: 2
+          start: 9

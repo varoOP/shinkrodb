@@ -8,6 +8,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/varoOP/shinkrodb/internal/config"
 	"github.com/varoOP/shinkrodb/internal/domain"
+	"github.com/varoOP/shinkrodb/internal/tvdbmap"
 )
 
 var (
@@ -44,6 +45,18 @@ func main() {
 		fmt.Printf("shinkrodb: %v\n", version)
 		fmt.Printf("Commit: %v\n", commit)
 		fmt.Printf("Build Date: %v\n", date)
+
+	case "tvdbmap":
+		unmapped := tvdbmap.CreateAnimeTVDBMap(".")
+		err := tvdbmap.UpdateMaster(unmapped, ".")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		err = tvdbmap.GenerateAnimeTVDBMap(".")
+		if err != nil {
+			log.Fatal(err)
+		}
 
 	default:
 		fmt.Println("ERROR: no command specified")
