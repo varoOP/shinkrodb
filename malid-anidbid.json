@@ -23540,14 +23540,6 @@
       "releaseDate": "2008-01-09"
    },
    {
-      "title": "Saint Seiya: Meiou Hades Elysion-hen",
-      "enTitle": "Saint Seiya: The Hades Chapter - Elysion",
-      "malid": 3515,
-      "anidbid": 5670,
-      "type": "ova",
-      "releaseDate": "2008-03-07"
-   },
-   {
       "title": "Hal \u0026 Bons",
       "malid": 3516,
       "anidbid": 5067,
@@ -69313,6 +69305,12 @@
       "title": "Shouwa Genroku Rakugo Shinjuu: Yotarou Hourou-hen",
       "malid": 25801,
       "anidbid": 10773,
+      "type": "ova",
+      "releaseDate": "2015-03-06"
+   },
+   {
+      "title": "Shouwa Genroku Rakugo Shinjuu: Yotarou Hourou-hen",
+      "malid": 25801,
       "type": "ova",
       "releaseDate": "2015-03-06"
    },
@@ -175476,6 +175474,13 @@
       "releaseDate": ""
    },
    {
+      "title": "Yoake no Mellow",
+      "enTitle": "Dawn Mellow",
+      "malid": 56401,
+      "type": "music",
+      "releaseDate": "2023-08-20"
+   },
+   {
       "title": "Hyperventilation Special",
       "malid": 56402,
       "type": "ona",
@@ -175610,6 +175615,12 @@
       "malid": 56434,
       "type": "music",
       "releaseDate": "2023-01-30"
+   },
+   {
+      "title": "Soirée",
+      "malid": 56435,
+      "type": "music",
+      "releaseDate": "2023-08-25"
    },
    {
       "title": "Pony Tail",
@@ -176987,5 +176998,24 @@
       "malid": 56749,
       "type": "movie",
       "releaseDate": "2018"
+   },
+   {
+      "title": "Object",
+      "malid": 56755,
+      "type": "movie",
+      "releaseDate": "2021"
+   },
+   {
+      "title": "Niu Lang Zhi Nu",
+      "enTitle": "The Cowherd and the Weaver Girl",
+      "malid": 56756,
+      "type": "movie",
+      "releaseDate": "2018"
+   },
+   {
+      "title": "Everlasting Soul",
+      "malid": 56757,
+      "type": "music",
+      "releaseDate": "2021-09-09"
    }
 ]
