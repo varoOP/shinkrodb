@@ -113,7 +113,9 @@ func UpdateMaster(unmapped *AnimeTVDBMap, path string) error {
 
 	masterMap := make(map[int]Anime)
 	for _, v := range master.Anime {
-		masterMap[v.Malid] = v
+		if v.Tvdbid != 0 {
+			masterMap[v.Malid] = v
+		}
 	}
 
 	for i, v := range unmapped.Anime {
@@ -126,7 +128,7 @@ func UpdateMaster(unmapped *AnimeTVDBMap, path string) error {
 		}
 	}
 
-	err = master.Store(filepath.Join(path, "tvdb-mal-master.yaml"))
+	err = unmapped.Store(filepath.Join(path, "tvdb-mal-master.yaml"))
 	if err != nil {
 		return err
 	}
