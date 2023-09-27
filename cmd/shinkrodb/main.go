@@ -8,6 +8,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/varoOP/shinkrodb/internal/config"
 	"github.com/varoOP/shinkrodb/internal/domain"
+	"github.com/varoOP/shinkrodb/internal/format"
+	"github.com/varoOP/shinkrodb/internal/tvdbmap"
 )
 
 var (
@@ -30,6 +32,11 @@ func main() {
 		domain.GetTmdbIds(cfg, rootPath)
 		a := domain.GetAnime("./malid-anidbid-tvdbid-tmdbid.json")
 		fmt.Println("Total number of dupes:", domain.CheckDupes(a))
+		unmapped := tvdbmap.CreateAnimeTVDBMap(rootPath)
+		err := tvdbmap.UpdateMaster(unmapped, rootPath)
+		if err != nil {
+			log.Fatal(err)
+		}
 
 	case "genmap":
 		am := &domain.AnimeMovies{}
@@ -39,6 +46,14 @@ func main() {
 		}
 
 		domain.CreateMapping(am, path.Join(rootPath, "tmdb-mal.yaml"))
+		err = tvdbmap.GenerateAnimeTVDBMap(rootPath)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+	case "format":
+		format.FormatTMDB()
+		format.FormatTVDB()
 
 	case "version":
 		fmt.Printf("shinkrodb: %v\n", version)
