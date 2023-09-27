@@ -138606,7 +138606,7 @@
       "title": "Congming Lun Wen Xu",
       "malid": 46511,
       "type": "tv",
-      "releaseDate": "2012"
+      "releaseDate": "2009"
    },
    {
       "title": "Kuaile Xiao Fang Lian",
@@ -150040,7 +150040,7 @@
       "title": "Beastars Final Season",
       "malid": 49469,
       "anidbid": 16443,
-      "type": "unknown",
+      "type": "ona",
       "releaseDate": "2024"
    },
    {
@@ -161276,7 +161276,7 @@
       "malid": 52742,
       "anidbid": 17570,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024-02-16"
    },
    {
       "title": "Cairn no Kubi-tachi",
@@ -163332,7 +163332,7 @@
       "malid": 53223,
       "anidbid": 17655,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-07"
    },
    {
       "title": "Shouhu Lian Meng ROY6: Senlin Li de Minini",
@@ -165431,7 +165431,7 @@
       "title": "Jumper!",
       "malid": 53832,
       "type": "music",
-      "releaseDate": "2012-12-11"
+      "releaseDate": "2022-12-11"
    },
    {
       "title": "Watashi no Oshi wa Akuyaku Reijou.",
@@ -168681,7 +168681,13 @@
       "malid": 54617,
       "anidbid": 17879,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
+   },
+   {
+      "title": "Awakening (2020)",
+      "malid": 54618,
+      "type": "music",
+      "releaseDate": "2020-05-11"
    },
    {
       "title": "Rakuen Shinshoku: Island of the Dead",
@@ -169765,8 +169771,8 @@
       "title": "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
       "malid": 54913,
       "anidbid": 17965,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024"
    },
    {
       "title": "Bikkurimen",
@@ -170425,7 +170431,7 @@
       "malid": 55125,
       "anidbid": 18002,
       "type": "ona",
-      "releaseDate": "2023-11"
+      "releaseDate": "2023-11-10"
    },
    {
       "title": "Way",
@@ -171475,6 +171481,13 @@
       "malid": 55376,
       "type": "music",
       "releaseDate": "2013-07-26"
+   },
+   {
+      "title": "Kageiro Mai",
+      "enTitle": "Silhouette Dance",
+      "malid": 55378,
+      "type": "music",
+      "releaseDate": "2022-11-22"
    },
    {
       "title": "Ducky",
@@ -173171,6 +173184,14 @@
       "releaseDate": "2023-06-28"
    },
    {
+      "title": "Eiyuu Kyoushitsu Specials",
+      "enTitle": "Classroom for Heroes Specials",
+      "malid": 55806,
+      "anidbid": 16792,
+      "type": "special",
+      "releaseDate": "2024-01-26"
+   },
+   {
       "title": "Oh My God",
       "malid": 55807,
       "type": "music",
@@ -174490,6 +174511,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Bishoujo Muzai ❤ Pirates",
+      "malid": 56142,
+      "type": "music",
+      "releaseDate": "2023-07-30"
+   },
+   {
       "title": "Jijia Yingxiong Movie: Wo Yu Wo Dengyu Wuxian Da",
       "malid": 56144,
       "type": "movie",
@@ -174559,6 +174586,12 @@
       "malid": 56159,
       "type": "music",
       "releaseDate": "1993-02-02"
+   },
+   {
+      "title": "Hisyo",
+      "malid": 56163,
+      "type": "music",
+      "releaseDate": "2023-08-02"
    },
    {
       "title": "Hypersonic Music Club",
@@ -175810,6 +175843,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Rondo",
+      "malid": 56493,
+      "type": "music",
+      "releaseDate": "2023-08-31"
+   },
+   {
       "title": "Wakuwaku Oboeru DVD",
       "malid": 56494,
       "type": "ova",
@@ -176034,6 +176073,13 @@
       "releaseDate": "1995-02-01"
    },
    {
+      "title": "Gintama on Theater 2D: Baragaki-hen",
+      "malid": 56544,
+      "anidbid": 18180,
+      "type": "movie",
+      "releaseDate": "2023-11-10"
+   },
+   {
       "title": "Midori no Makiba de",
       "malid": 56546,
       "type": "music",
@@ -176066,7 +176112,7 @@
    },
    {
       "title": "Honnou da Zou",
-      "enTitle": "My Instinct",
+      "enTitle": "Passionate Elephant",
       "malid": 56551,
       "type": "ona",
       "releaseDate": "2013-04-17"
@@ -176619,6 +176665,12 @@
       "releaseDate": "1983-08-04"
    },
    {
+      "title": "Evolution",
+      "malid": 56682,
+      "type": "music",
+      "releaseDate": ""
+   },
+   {
       "title": "Angry Boogie",
       "malid": 56683,
       "type": "music",
@@ -176629,6 +176681,13 @@
       "malid": 56684,
       "type": "music",
       "releaseDate": "1985-12-02"
+   },
+   {
+      "title": "Boku no Hero Academia: UA Heroes Battle",
+      "enTitle": "My Hero Academia: UA Heroes Battle",
+      "malid": 56685,
+      "type": "movie",
+      "releaseDate": "2023-10-20"
    },
    {
       "title": "Dare mo Isoganai Mura",
@@ -176849,7 +176908,7 @@
       "releaseDate": ""
    },
    {
-      "title": "Magical★Explorer: Eroge no Yuujin-Chara ni Tensei shita kedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+      "title": "Magical★Explorer",
       "enTitle": "Magical Explorer: Reborn as a Side Character in a Fantasy Dating Sim",
       "malid": 56733,
       "type": "unknown",
@@ -176874,5 +176933,59 @@
       "malid": 56736,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Shinigami Bocchan to Kuro Maid 3rd Season",
+      "malid": 56738,
+      "anidbid": 18213,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Kanojo, Okarishimasu Petit 3rd Season",
+      "enTitle": "Rent-a-Girlfriend Petit 3rd Season",
+      "malid": 56740,
+      "type": "ona",
+      "releaseDate": "2023-09-09"
+   },
+   {
+      "title": "Temple Specials",
+      "enTitle": "TenPuru: No One Can Live on Loneliness Specials",
+      "malid": 56741,
+      "anidbid": 17827,
+      "type": "special",
+      "releaseDate": "2023-10-25"
+   },
+   {
+      "title": "Hyakushou Kizoku Specials",
+      "malid": 56743,
+      "anidbid": 17684,
+      "type": "special",
+      "releaseDate": "2023-12-20"
+   },
+   {
+      "title": "Zero no Ashiato",
+      "malid": 56744,
+      "type": "music",
+      "releaseDate": "2021-09-02"
+   },
+   {
+      "title": "Yokubari",
+      "malid": 56745,
+      "type": "music",
+      "releaseDate": "2022-06-22"
+   },
+   {
+      "title": "Halo",
+      "malid": 56748,
+      "type": "music",
+      "releaseDate": "2020-10-05"
+   },
+   {
+      "title": "Gozen 3-ji no Kamen Butoukai",
+      "enTitle": "3 A.M., at the Midnight Masquerade",
+      "malid": 56749,
+      "type": "movie",
+      "releaseDate": "2018"
    }
 ]
