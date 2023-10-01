@@ -20470,6 +20470,13 @@
       "releaseDate": "2008-01-09"
    },
    {
+      "title": "Saint Seiya: Meiou Hades Elysion-hen",
+      "enTitle": "Saint Seiya: The Hades Chapter - Elysion",
+      "malid": 3515,
+      "type": "ova",
+      "releaseDate": "2008-03-07"
+   },
+   {
       "title": "Hal \u0026 Bons",
       "malid": 3516,
       "type": "ova",
@@ -60708,12 +60715,6 @@
       "malid": 25781,
       "type": "ova",
       "releaseDate": "2014-12-09"
-   },
-   {
-      "title": "Shouwa Genroku Rakugo Shinjuu: Yotarou Hourou-hen",
-      "malid": 25801,
-      "type": "ova",
-      "releaseDate": "2015-03-06"
    },
    {
       "title": "Shouwa Genroku Rakugo Shinjuu: Yotarou Hourou-hen",
@@ -133870,7 +133871,7 @@
       "enTitle": "The Misfit of Demon King Academy II Part 2",
       "malid": 48418,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Nu ta",
@@ -135377,7 +135378,7 @@
       "enTitle": "Are You Ok",
       "malid": 48964,
       "type": "ona",
-      "releaseDate": "2023-10-01"
+      "releaseDate": "2023-09-27"
    },
    {
       "title": "Shen Lan Qi Yu Wushuang Zhu",
@@ -139654,7 +139655,7 @@
    },
    {
       "title": "Tian Guan Cifu Er",
-      "enTitle": "Heaven Official's Blessing",
+      "enTitle": "Heaven Official's Blessing Season 2",
       "malid": 50399,
       "type": "ona",
       "releaseDate": "2023-10-18"
@@ -141188,7 +141189,7 @@
       "title": "Zenryoku Usagi (2023)",
       "malid": 50995,
       "type": "tv",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "Ma-eum-uisoli Season 2",
@@ -144544,7 +144545,7 @@
       "enTitle": "Spare Me, Great Lord! 2nd Season",
       "malid": 51898,
       "type": "ona",
-      "releaseDate": "2023-09-30"
+      "releaseDate": ""
    },
    {
       "title": "Chuukan Senshi Mr. Chun",
@@ -152400,6 +152401,7 @@
    },
    {
       "title": "16bit Sensation: Another Layer",
+      "enTitle": "16bit Sensation: Another Layer",
       "malid": 54041,
       "type": "tv",
       "releaseDate": "2023-10-05"
@@ -152804,7 +152806,7 @@
       "enTitle": "Kaina of the Great Snow Sea: Star Sage",
       "malid": 54122,
       "type": "movie",
-      "releaseDate": "2023-07-02"
+      "releaseDate": "2023-10-13"
    },
    {
       "title": "Shixiong A Shixiong",
@@ -154450,7 +154452,7 @@
       "enTitle": "That Time I Got Reincarnated as a Slime: Coleus' Dream",
       "malid": 54565,
       "type": "ova",
-      "releaseDate": "2023-10"
+      "releaseDate": "2023-11-01"
    },
    {
       "title": "Tobacco Kumo",
@@ -154890,10 +154892,10 @@
       "releaseDate": ""
    },
    {
-      "title": "Kinnikuman (Shin Anime)",
+      "title": "Kinnikuman: Kanpeki Chоujin Shiso-hen",
       "malid": 54730,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024"
    },
    {
       "title": "Wulin Buer Zhoukan",
@@ -154983,7 +154985,7 @@
       "title": "Hikari no Ou 2nd Season",
       "malid": 54754,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
    },
    {
       "title": "UniteUp! Furikaeranai to",
@@ -155145,7 +155147,7 @@
       "title": "Bloody Escape: Jigoku no Tousou Geki",
       "malid": 54793,
       "type": "movie",
-      "releaseDate": "2024-04"
+      "releaseDate": "2024-01"
    },
    {
       "title": "Metallic Rouge",
@@ -155373,6 +155375,7 @@
    },
    {
       "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima +",
+      "enTitle": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima PLUS",
       "malid": 54858,
       "type": "tv",
       "releaseDate": "2023-10-07"
@@ -156357,7 +156360,7 @@
       "enTitle": "The Do-Over Damsel Conquers the Dragon Emperor",
       "malid": 55150,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Da Zhu Zai Nian Fan",
@@ -160470,7 +160473,7 @@
    {
       "title": "Hua Xianzi: Mofa Xiang Dui Lun",
       "malid": 56234,
-      "type": "unknown",
+      "type": "ona",
       "releaseDate": ""
    },
    {
@@ -162486,6 +162489,12 @@
       "releaseDate": "2022-06-24"
    },
    {
+      "title": "Telescope",
+      "malid": 56713,
+      "type": "music",
+      "releaseDate": "2023-09-10"
+   },
+   {
       "title": "Wakare Hana",
       "enTitle": "Thank You and Goodbye.",
       "malid": 56714,
@@ -162653,6 +162662,13 @@
       "releaseDate": "2018"
    },
    {
+      "title": "Bakeneko Dance",
+      "enTitle": "The Magical Cat Dance",
+      "malid": 56750,
+      "type": "movie",
+      "releaseDate": "2017-08"
+   },
+   {
       "title": "Object",
       "malid": 56755,
       "type": "movie",
@@ -162670,5 +162686,125 @@
       "malid": 56757,
       "type": "music",
       "releaseDate": "2021-09-09"
+   },
+   {
+      "title": "Boushoku no Berserk Mini",
+      "enTitle": "Berserk of Gluttony Mini",
+      "malid": 56758,
+      "type": "ona",
+      "releaseDate": "2023-09-27"
+   },
+   {
+      "title": "Bikkuriman: Kirakira Tokubetsu Zoukan-gou",
+      "malid": 56762,
+      "type": "special",
+      "releaseDate": "1988-10-05"
+   },
+   {
+      "title": "Bikkuriman: Rococo \u0026 Maria Kiseki",
+      "malid": 56763,
+      "type": "ova",
+      "releaseDate": "1988"
+   },
+   {
+      "title": "Aoshi Jiuchong Tian",
+      "malid": 56764,
+      "type": "ona",
+      "releaseDate": "2023-10-01"
+   },
+   {
+      "title": "Zhengjing Shao Zhu de Xingfu Shenghuo",
+      "enTitle": "The Little Master's Better Life",
+      "malid": 56765,
+      "type": "ona",
+      "releaseDate": "2023-10-22"
+   },
+   {
+      "title": "Qi Hou Bilu",
+      "enTitle": "Spiritsin Chinese Brushes",
+      "malid": 56766,
+      "type": "ona",
+      "releaseDate": "2023-10-28"
+   },
+   {
+      "title": "Tadaima, Okaeri",
+      "malid": 56768,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Mo Shi",
+      "enTitle": "Implied",
+      "malid": 56769,
+      "type": "movie",
+      "releaseDate": "2017"
+   },
+   {
+      "title": "Holidays!",
+      "malid": 56770,
+      "type": "music",
+      "releaseDate": "2021-09-16"
+   },
+   {
+      "title": "Waluolan Xiao Zhen",
+      "enTitle": "Valoran Town",
+      "malid": 56771,
+      "type": "ona",
+      "releaseDate": "2023-09-28"
+   },
+   {
+      "title": "Quan Zhi Ming",
+      "enTitle": "Dog's Tea",
+      "malid": 56772,
+      "type": "ona",
+      "releaseDate": "2023-10-06"
+   },
+   {
+      "title": "Wan Jie Zhizun 2nd Season",
+      "malid": 56773,
+      "type": "ona",
+      "releaseDate": "2023-09-28"
+   },
+   {
+      "title": "Wangzhe Da Shixiong",
+      "malid": 56774,
+      "type": "ona",
+      "releaseDate": "2023-09-30"
+   },
+   {
+      "title": "No Waifu No Life!",
+      "malid": 56778,
+      "type": "ova",
+      "releaseDate": "2023-12-08"
+   },
+   {
+      "title": "Doukyo Suru Neneki",
+      "malid": 56779,
+      "type": "ova",
+      "releaseDate": "2023-11-10"
+   },
+   {
+      "title": "Neo",
+      "malid": 56782,
+      "type": "music",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+      "malid": 56784,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Detective Conan Movie 27",
+      "malid": 56785,
+      "type": "movie",
+      "releaseDate": "2024-04"
+   },
+   {
+      "title": "Shaonian Ge Xing: Haiwai Xianshan Pian",
+      "malid": 56787,
+      "type": "ona",
+      "releaseDate": "2023-10-25"
    }
 ]
