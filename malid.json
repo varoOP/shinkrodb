@@ -11374,6 +11374,7 @@
    },
    {
       "title": "Slam Dunk: Zenkoku Seiha Da! - Sakuragi Hanamichi",
+      "enTitle": "Slam Dunk: National Domination! Sakuragi Hanamichi",
       "malid": 1861,
       "type": "movie",
       "releaseDate": "1994-08-20"
@@ -15854,6 +15855,7 @@
    },
    {
       "title": "Juusenki L-Gaim",
+      "enTitle": "Heavy Metal L-Gaim",
       "malid": 2598,
       "type": "tv",
       "releaseDate": "1984-02-04"
@@ -25025,6 +25027,7 @@
    },
    {
       "title": "Tengen Toppa Gurren Lagann: Parallel Works",
+      "enTitle": "Gurren Lagann: Parallel Works",
       "malid": 4705,
       "type": "music",
       "releaseDate": "2008-06-15"
@@ -28952,6 +28955,7 @@
    },
    {
       "title": "Tengen Toppa Gurren Lagann Movie Zenyasai: Viral no Amai Yume",
+      "enTitle": "Gurren Lagann: Viral's Sweet Dream",
       "malid": 5947,
       "type": "ova",
       "releaseDate": "2009-01-31"
@@ -31192,6 +31196,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch R2 Special Edition - Zero Requiem",
+      "enTitle": "Code Geass: Lelouch of the Rebellion R2 Special Edition - Zero Requiem",
       "malid": 6768,
       "type": "ova",
       "releaseDate": "2009-07-24"
@@ -35095,6 +35100,7 @@
    },
    {
       "title": "Tengen Toppa Gurren Lagann: Parallel Works 2",
+      "enTitle": "Gurren Lagann: Parallel Works 2",
       "malid": 8348,
       "type": "music",
       "releaseDate": "2010-05-26"
@@ -36137,6 +36143,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch - Kiseki no Birthday",
+      "enTitle": "Code Geass: Lelouch of the Rebellion - A Miraculous Birthday",
       "malid": 8728,
       "type": "special",
       "releaseDate": "2010-04-23"
@@ -41157,6 +41164,7 @@
    },
    {
       "title": "Tengen Toppa Gurren Lagann: Ore no Gurren wa Pikka-Pika!!",
+      "enTitle": "Gurren Lagann: My Gurren is Shiny!!",
       "malid": 10622,
       "type": "ova",
       "releaseDate": "2007-10-25"
@@ -41220,6 +41228,7 @@
    },
    {
       "title": "Ao no Exorcist: Ura Ex",
+      "enTitle": "Blue Exorcist: Ura Eku",
       "malid": 10647,
       "type": "special",
       "releaseDate": "2011-06-22"
@@ -43135,7 +43144,7 @@
    },
    {
       "title": "Ao no Exorcist Movie",
-      "enTitle": "Blue Exorcist The Movie",
+      "enTitle": "Blue Exorcist: The Movie",
       "malid": 11737,
       "type": "movie",
       "releaseDate": "2012-12-28"
@@ -44366,7 +44375,7 @@
       "title": "Tongari Boushi no Memole: Marielle no Housekibako",
       "malid": 12657,
       "type": "ova",
-      "releaseDate": "1985-03-16"
+      "releaseDate": "1985-07-21"
    },
    {
       "title": "Nisoku Hokou",
@@ -44435,7 +44444,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch - Nunnally in Wonderland",
-      "enTitle": "Code Geass: Nunnally in Wonderland",
+      "enTitle": "Code Geass: Lelouch of the Rebellion - Nunnally in Wonderland",
       "malid": 12685,
       "type": "ova",
       "releaseDate": "2012-07-27"
@@ -44801,6 +44810,7 @@
    },
    {
       "title": "Utakata Hanabi",
+      "enTitle": "Fleeting Fireworks",
       "malid": 12935,
       "type": "music",
       "releaseDate": "2010-08-25"
@@ -45821,6 +45831,7 @@
    },
    {
       "title": "Ao no Exorcist Movie Special",
+      "enTitle": "Blue Exorcist: The Movie Special",
       "malid": 13677,
       "type": "special",
       "releaseDate": "2012-04-01"
@@ -49116,6 +49127,7 @@
    },
    {
       "title": "Lightning Atom",
+      "enTitle": "Lightning Atom",
       "malid": 16820,
       "type": "movie",
       "releaseDate": "1971"
@@ -51886,6 +51898,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch - Kiseki no Birthday Omake Flash",
+      "enTitle": "Code Geass: Lelouch of the Rebellion - A Miraculous Birthday Omake Flash",
       "malid": 18881,
       "type": "special",
       "releaseDate": "2010-04-23"
@@ -72636,6 +72649,7 @@
    },
    {
       "title": "Code Geass: Boukoku no Akito 4 - Nikushimi no Kioku kara Picture Drama",
+      "enTitle": "Code Geass: Akito the Exiled - Memories of Hatred Picture Drama",
       "malid": 32240,
       "type": "special",
       "releaseDate": "2015-10-28"
@@ -75563,6 +75577,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch Picture Drama - Hajimari no Zenya",
+      "enTitle": "Code Geass: Lelouch of the Rebellion Picture Drama - The Night of the Beginning",
       "malid": 33155,
       "type": "special",
       "releaseDate": "2013-09-25"
@@ -76291,6 +76306,7 @@
    },
    {
       "title": "Code Geass: Boukoku no Akito 5 - Itoshiki Mono-tachi e Picture Drama",
+      "enTitle": "Code Geass: Akito the Exiled - To Beloved Ones Picture Drama",
       "malid": 33360,
       "type": "special",
       "releaseDate": "2016-04-22"
@@ -76751,12 +76767,14 @@
    },
    {
       "title": "Koutetsujou no Kabaneri Movie 1: Tsudou Hikari",
+      "enTitle": "Kabaneri of the Iron Fortress: Light That Gathers",
       "malid": 33519,
       "type": "movie",
       "releaseDate": "2016-12-31"
    },
    {
       "title": "Koutetsujou no Kabaneri Movie 2: Moeru Inochi",
+      "enTitle": "Kabaneri of the Iron Fortress: Life The Burns",
       "malid": 33520,
       "type": "movie",
       "releaseDate": "2017-01-07"
@@ -82484,6 +82502,7 @@
    },
    {
       "title": "Bleach KaraBuri!: Gotei Juusan Yatai Daisakusen!",
+      "enTitle": "Bleach: Karaburi! - Gotei 13, Food Stall Devotion!",
       "malid": 35118,
       "type": "ova",
       "releaseDate": "2008-09-21"
@@ -89562,6 +89581,7 @@
    },
    {
       "title": "Nanatsu no Taizai: Imashime no Fukkatsu Joshou",
+      "enTitle": "The Seven Deadly Sins: Revival of The Commandments - Prologue",
       "malid": 36923,
       "type": "special",
       "releaseDate": "2018-01-06"
@@ -93467,7 +93487,7 @@
       "releaseDate": "2019-07-07"
    },
    {
-      "title": "Nu Sheng Su She Ri Chang",
+      "title": "Nusheng Sushe Richang",
       "enTitle": "Girls Dorm",
       "malid": 37927,
       "type": "tv",
@@ -94193,6 +94213,7 @@
    },
    {
       "title": "Shoujo☆Kageki Revue Starlight Specials",
+      "enTitle": "Revue Starlight Specials",
       "malid": 38050,
       "type": "special",
       "releaseDate": "2018-10-24"
@@ -102329,7 +102350,7 @@
       "releaseDate": "2012-04-07"
    },
    {
-      "title": "Nu Sheng Su She Ri Chang 2nd Season",
+      "title": "Nusheng Sushe Richang 2nd Season",
       "enTitle": "Girls Dorm Season 2",
       "malid": 40088,
       "type": "ona",
@@ -103074,6 +103095,7 @@
    },
    {
       "title": "Code Geass: Fukkatsu no Lelouch Picture Drama",
+      "enTitle": "Code Geass: Lelouch of the Re;surrection Picture Drama",
       "malid": 40315,
       "type": "special",
       "releaseDate": "2019-12-05"
@@ -103131,7 +103153,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch Picture Drama - Kiseki no Anniversary",
-      "enTitle": "Code Geass: Lelouch of the Rebellion: Miraculous Anniversary",
+      "enTitle": "Code Geass: Lelouch of the Rebellion Picture Drama - A Miraculous Anniversary",
       "malid": 40334,
       "type": "special",
       "releaseDate": "2017-04-21"
@@ -104935,6 +104957,7 @@
    },
    {
       "title": "Aisei Tenshi Love Mary: Akusei Jutai - The Animation",
+      "enTitle": "Holy Angel Love Mary: Malignant Conception",
       "malid": 40801,
       "type": "ova",
       "releaseDate": "2020-02-28"
@@ -105071,6 +105094,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch Picture Drama - Kamen Kokuhaku Taikai",
+      "enTitle": "Code Geass: Lelouch of the Rebellion Picture Drama - Masked Declaration Contest",
       "malid": 40836,
       "type": "special",
       "releaseDate": "2017-10-21"
@@ -108256,6 +108280,7 @@
    },
    {
       "title": "Dahua Zhi Shaonian You",
+      "enTitle": "Big Talk Youth Tour",
       "malid": 41920,
       "type": "ona",
       "releaseDate": "2020-08-15"
@@ -108981,6 +109006,7 @@
    },
    {
       "title": "Bungou Stray Dogs Wan!",
+      "enTitle": "Bungo Stray Dogs Wan!",
       "malid": 42250,
       "type": "tv",
       "releaseDate": "2021-01-13"
@@ -111497,7 +111523,7 @@
       "releaseDate": "1958"
    },
    {
-      "title": "Zhu Ba Jie Chi Xi Gua",
+      "title": "Zhu Bajie Chi Xigua",
       "malid": 43244,
       "type": "movie",
       "releaseDate": "1958"
@@ -111707,7 +111733,7 @@
       "title": "Renshen Wawa",
       "malid": 43282,
       "type": "movie",
-      "releaseDate": "1962"
+      "releaseDate": "1961"
    },
    {
       "title": "Taiyang de Xiao Keren",
@@ -115395,7 +115421,7 @@
       "title": "B-Project: Netsuretsu*Love Call",
       "malid": 44081,
       "type": "tv",
-      "releaseDate": "2023-10-03"
+      "releaseDate": "2023-10-02"
    },
    {
       "title": "Kangurei",
@@ -120096,6 +120122,7 @@
    },
    {
       "title": "Xiaoxiong Ni Ao: Mengjing Xiao Zhen",
+      "enTitle": "Neobear Dreamtown",
       "malid": 45224,
       "type": "tv",
       "releaseDate": "2016-09-26"
@@ -128195,7 +128222,7 @@
       "title": "Goblin Slayer II",
       "malid": 47160,
       "type": "tv",
-      "releaseDate": "2023-10-07"
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Shikkakumon no Saikyou Kenja",
@@ -132671,13 +132698,6 @@
       "malid": 48123,
       "type": "movie",
       "releaseDate": "2021-07-23"
-   },
-   {
-      "title": "Xuyuan Shenlong",
-      "enTitle": "Wish Dragon",
-      "malid": 48125,
-      "type": "movie",
-      "releaseDate": "2021-01-15"
    },
    {
       "title": "Xiong Chumo: Kuang Ye Dalu",
@@ -139031,6 +139051,7 @@
    },
    {
       "title": "Fanren Xiu Xian Chuan 2nd Season",
+      "enTitle": "A Record of a Mortal's Journey to Immortality Season 2",
       "malid": 50207,
       "type": "ona",
       "releaseDate": "2021-11-14"
@@ -141901,7 +141922,7 @@
       "releaseDate": "2022-07-05"
    },
    {
-      "title": "Seijo no Maryoku wa Bannou desu 2nd Season",
+      "title": "Seijo no Maryoku wa Bannou desu Season 2",
       "enTitle": "The Saint's Magic Power is Omnipotent Season 2",
       "malid": 51215,
       "type": "tv",
@@ -144555,6 +144576,7 @@
    },
    {
       "title": "Juejing",
+      "enTitle": "The War of Styx",
       "malid": 51903,
       "type": "ona",
       "releaseDate": ""
@@ -147626,6 +147648,7 @@
    },
    {
       "title": "Majo to Yajuu",
+      "enTitle": "Witch and the Beast",
       "malid": 52816,
       "type": "tv",
       "releaseDate": "2024-01"
@@ -147976,7 +147999,7 @@
    },
    {
       "title": "Kaze no Yukue",
-      "enTitle": "The Wind's Whereabouts",
+      "enTitle": "Where the Wind Blows",
       "malid": 52893,
       "type": "music",
       "releaseDate": "2022-08-24"
@@ -148359,6 +148382,7 @@
    },
    {
       "title": "Keikenzumi na Kimi to, Keiken Zero na Ore ga, Otsukiai suru Hanashi.",
+      "enTitle": "Our Dating Story: The Experienced You and The Inexperienced Me",
       "malid": 52990,
       "type": "tv",
       "releaseDate": "2023-10-06"
@@ -153247,6 +153271,7 @@
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch DVD Magazine: Omake Flash - Baba Theater",
+      "enTitle": "Code Geass: Lelouch of the Rebellion DVD Magazine: Extra Flash - Baba Theater",
       "malid": 54249,
       "type": "special",
       "releaseDate": "2007-12-21"
@@ -154145,7 +154170,7 @@
    },
    {
       "title": "Kyoukai Senki: Kyokkou no Souki",
-      "enTitle": "AMAIM Warrior at the Borderline: Ultrasteel Ogre-Gear",
+      "enTitle": "AMAIM: Warrior at the Borderline UltraSteel Ogre-Gear",
       "malid": 54495,
       "type": "ona",
       "releaseDate": "2023-08-10"
@@ -154842,6 +154867,7 @@
    },
    {
       "title": "Kibou no Chikara: Otona Precure '23",
+      "enTitle": "Power of Hope ~Precure Full Bloom~",
       "malid": 54716,
       "type": "tv",
       "releaseDate": "2023-10-07"
@@ -156377,6 +156403,7 @@
    },
    {
       "title": "Yuzuki-san Chi no Yonkyoudai.",
+      "enTitle": "The Yuzuki Family's Four Sons",
       "malid": 55153,
       "type": "tv",
       "releaseDate": "2023-10-05"
@@ -156558,7 +156585,7 @@
       "title": "Ooi! Tonbo",
       "malid": 55194,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Mamekichi Mameko NEET no Nichijou 2nd Season",
@@ -158916,6 +158943,12 @@
       "releaseDate": "2023-06-28"
    },
    {
+      "title": "The iDOLM@STER Cinderella Girls: U149 Special",
+      "malid": 55802,
+      "type": "special",
+      "releaseDate": "2023-10-25"
+   },
+   {
       "title": "Kimberly Mahou Gakkou no Yukai na Nichijou",
       "malid": 55804,
       "type": "ona",
@@ -159007,6 +159040,7 @@
    },
    {
       "title": "Shi Fang Jian Sheng",
+      "enTitle": "Sword Saint of The Ten Realms",
       "malid": 55829,
       "type": "ona",
       "releaseDate": "2023-07-01"
@@ -159242,7 +159276,7 @@
       "title": "Doraemon Movie 43: Nobita no Chikyuu Koukyougaku",
       "malid": 55874,
       "type": "movie",
-      "releaseDate": "2024-03"
+      "releaseDate": "2024-03-01"
    },
    {
       "title": "Laundry",
@@ -159261,7 +159295,7 @@
       "enTitle": "Salad Bowl of Eccentrics",
       "malid": 55877,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Hataraku Maou-sama!! Recap",
@@ -159741,6 +159775,7 @@
    },
    {
       "title": "Fanren Xiu Xian Chuan: Xinghai Feichi Pian Xuzhang",
+      "enTitle": "A Record of Mortal's Journey to Immortality: Speeding in the Sea of Stars",
       "malid": 55993,
       "type": "ona",
       "releaseDate": "2023-07-30"
@@ -161331,6 +161366,7 @@
    },
    {
       "title": "Bleach: Sennen Kessen-hen - Ketsubetsu-tan Recap",
+      "enTitle": "Bleach: Thousand-Year Blood War - The Separation Recap",
       "malid": 56442,
       "type": "special",
       "releaseDate": "2023-09-02"
@@ -161671,7 +161707,7 @@
       "enTitle": "Swallowed Star 4th Season",
       "malid": 56524,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": "2023-10-03"
    },
    {
       "title": "Zero Sugar Saero CM",
@@ -161922,6 +161958,7 @@
    },
    {
       "title": "Honghuang Ling Zun",
+      "enTitle": "Spiritual Lord of Chaos",
       "malid": 56578,
       "type": "ona",
       "releaseDate": "2023-09-10"
@@ -162343,7 +162380,7 @@
       "title": "Evolution",
       "malid": 56682,
       "type": "music",
-      "releaseDate": ""
+      "releaseDate": "2023-09-18"
    },
    {
       "title": "Angry Boogie",
@@ -162509,6 +162546,7 @@
    },
    {
       "title": "Dubu Wangu",
+      "enTitle": "Glorious Revenge of Ye Feng",
       "malid": 56716,
       "type": "ona",
       "releaseDate": "2023-09-29"
@@ -162647,6 +162685,12 @@
       "malid": 56745,
       "type": "music",
       "releaseDate": "2022-06-22"
+   },
+   {
+      "title": "Ensemble Stars!! Tsuioku Selection Checkmate",
+      "malid": 56746,
+      "type": "ona",
+      "releaseDate": "2024-03"
    },
    {
       "title": "Halo",
@@ -162791,6 +162835,7 @@
    },
    {
       "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+      "enTitle": "Bleach: Thousand-Year Blood War - The Conflict",
       "malid": 56784,
       "type": "tv",
       "releaseDate": "2024"
@@ -162806,5 +162851,245 @@
       "malid": 56787,
       "type": "ona",
       "releaseDate": "2023-10-25"
+   },
+   {
+      "title": "Hanaarashi",
+      "enTitle": "Flower Storm",
+      "malid": 56790,
+      "type": "music",
+      "releaseDate": "2023-10-01"
+   },
+   {
+      "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su Mini Anime",
+      "malid": 56791,
+      "type": "ona",
+      "releaseDate": "2023-09-28"
+   },
+   {
+      "title": "Wo Shi Na Zha 2: Yingxiong Guilai",
+      "enTitle": "I Am Nezha 2",
+      "malid": 56795,
+      "type": "movie",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Kung Fu Wang: Kuaile Tongnian",
+      "malid": 56796,
+      "type": "ona",
+      "releaseDate": "2023-06-01"
+   },
+   {
+      "title": "Kung Fu Wang: Meng Hu Shangshan",
+      "malid": 56797,
+      "type": "movie",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Bei Ken Xiong: Huoxing Renwu",
+      "enTitle": "Backkom Bear: Mars Mission",
+      "malid": 56798,
+      "type": "movie",
+      "releaseDate": "2023-09-28"
+   },
+   {
+      "title": "Xiao Meirenyu: Dahai Guai Chuanshuo",
+      "enTitle": "The Little Mermaid and the Sea Monster",
+      "malid": 56799,
+      "type": "movie",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Ming Jing Gao Xuan",
+      "enTitle": "Bonny Portmore",
+      "malid": 56806,
+      "type": "movie",
+      "releaseDate": "2019"
+   },
+   {
+      "title": "Da Li Si Rizhi Qixi Pian",
+      "malid": 56807,
+      "type": "ona",
+      "releaseDate": "2020-08-21"
+   },
+   {
+      "title": "Boku ga Kowai Kuroi Mono",
+      "enTitle": "Those Scary Black Things",
+      "malid": 56808,
+      "type": "movie",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "TeTeTe! Tomatte!",
+      "malid": 56812,
+      "type": "music",
+      "releaseDate": "2022-03-25"
+   },
+   {
+      "title": "Ki no Ii Ahiru (1967)",
+      "malid": 56813,
+      "type": "music",
+      "releaseDate": "1967-06-05"
+   },
+   {
+      "title": "Sanshiliu Qi",
+      "malid": 56820,
+      "type": "ona",
+      "releaseDate": "2023-10-09"
+   },
+   {
+      "title": "Yoru wo Matsu yo",
+      "malid": 56821,
+      "type": "music",
+      "releaseDate": "2023-10-01"
+   },
+   {
+      "title": "Chikyuu wa Minna no Dai Gasshou",
+      "malid": 56822,
+      "type": "music",
+      "releaseDate": "1988-12-01"
+   },
+   {
+      "title": "Kirei na Boushi",
+      "malid": 56823,
+      "type": "music",
+      "releaseDate": "1962-02"
+   },
+   {
+      "title": "Akahana no Tonakai",
+      "malid": 56824,
+      "type": "music",
+      "releaseDate": "1961-12"
+   },
+   {
+      "title": "Utsurobune",
+      "malid": 56825,
+      "type": "music",
+      "releaseDate": "2022-01-26"
+   },
+   {
+      "title": "Andersen",
+      "malid": 56826,
+      "type": "music",
+      "releaseDate": "2023-09-15"
+   },
+   {
+      "title": "Journey to Bloom",
+      "malid": 56830,
+      "type": "ona",
+      "releaseDate": "2023-09-30"
+   },
+   {
+      "title": "Go Go! Kokekokkou",
+      "malid": 56831,
+      "type": "music",
+      "releaseDate": "1995-12-02"
+   },
+   {
+      "title": "Pinocchio no Uta",
+      "malid": 56832,
+      "type": "music",
+      "releaseDate": "1962-04"
+   },
+   {
+      "title": "Tana wo Tsukurimashou",
+      "malid": 56833,
+      "type": "music",
+      "releaseDate": "1961-12"
+   },
+   {
+      "title": "Boku mo",
+      "malid": 56834,
+      "type": "music",
+      "releaseDate": "2023-10-01"
+   },
+   {
+      "title": "Code Geass: Dakkan no Z",
+      "malid": 56835,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Akira (Shin Anime)",
+      "malid": 56836,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Cencoroll 3",
+      "malid": 56837,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "One Room, Hiatari Futsuu, Tenshi-tsuki.",
+      "malid": 56838,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "T.P BON",
+      "malid": 56840,
+      "type": "ona",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Kagejitsu! Second",
+      "malid": 56842,
+      "type": "ona",
+      "releaseDate": "2023-10-04"
+   },
+   {
+      "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+      "malid": 56843,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Saikyou Tank no Meikyuu Kouryaku: Tairyoku 9999 no Rare Skill-mochi Tank, Yuusha Party wo Tsuihou sareru",
+      "malid": 56845,
+      "type": "tv",
+      "releaseDate": "2024-01"
+   },
+   {
+      "title": "Dixie Wonderland",
+      "malid": 56846,
+      "type": "music",
+      "releaseDate": "1981-06-04"
+   },
+   {
+      "title": "Kuma-chan no Picnic",
+      "malid": 56847,
+      "type": "music",
+      "releaseDate": "1961-10"
+   },
+   {
+      "title": "Santa wa Doko ni Iru?",
+      "malid": 56848,
+      "type": "music",
+      "releaseDate": "1962-12"
+   },
+   {
+      "title": "Mabuta wo Tojireba",
+      "malid": 56849,
+      "type": "music",
+      "releaseDate": "2023-10-01"
+   },
+   {
+      "title": "Moonlightspeed",
+      "malid": 56850,
+      "type": "music",
+      "releaseDate": "2022-09-16"
+   },
+   {
+      "title": "Shunka Shuutou",
+      "malid": 56852,
+      "type": "ova",
+      "releaseDate": "2023-12-22"
+   },
+   {
+      "title": "Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga",
+      "malid": 56854,
+      "type": "unknown",
+      "releaseDate": ""
    }
 ]
