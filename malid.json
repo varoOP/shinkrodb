@@ -13537,7 +13537,7 @@
       "releaseDate": "1997-07-22"
    },
    {
-      "title": "Ryokunohara Meikyuu",
+      "title": "Ryokunohara Labyrinth: Sparkling Phantom",
       "malid": 2219,
       "type": "ova",
       "releaseDate": "1990-05-25"
@@ -48838,7 +48838,7 @@
       "releaseDate": "2013-04-12"
    },
    {
-      "title": "Pokemon: Pikachu to Eievui Friends",
+      "title": "Pokemon: Pikachu to Eevee Friends",
       "enTitle": "Pokémon: Eevee and Friends",
       "malid": 16678,
       "type": "movie",
@@ -67055,7 +67055,7 @@
       "releaseDate": "2013-04-01"
    },
    {
-      "title": "Chiisana Kinomi (1995)",
+      "title": "Chiisana Konomi (1995)",
       "malid": 30164,
       "type": "music",
       "releaseDate": "1995-10-02"
@@ -73865,7 +73865,7 @@
       "title": "Nihon no Otogibanashi",
       "malid": 32716,
       "type": "ova",
-      "releaseDate": "1990"
+      "releaseDate": "1989"
    },
    {
       "title": "Aikatsu Stars!",
@@ -84306,7 +84306,7 @@
       "releaseDate": "2017-01-18"
    },
    {
-      "title": "Eievui to Colorful Friends",
+      "title": "Eevee to Colorful Friends",
       "enTitle": "Eevee and Colorful Friends",
       "malid": 35551,
       "type": "ona",
@@ -89834,8 +89834,8 @@
    {
       "title": "Zoku Owarimonogatari",
       "malid": 36999,
-      "type": "movie",
-      "releaseDate": "2018-11-10"
+      "type": "tv",
+      "releaseDate": "2019-05-19"
    },
    {
       "title": "Bernard-jou Iwaku.: Ofuro Dokusho",
@@ -92910,7 +92910,7 @@
       "releaseDate": "2018-09-30"
    },
    {
-      "title": "Chiisana Kinomi",
+      "title": "Chiisana Konomi",
       "malid": 37762,
       "type": "music",
       "releaseDate": "1983-10-05"
@@ -103384,12 +103384,6 @@
       "malid": 40378,
       "type": "music",
       "releaseDate": "2014-04-20"
-   },
-   {
-      "title": "Btooom!: Bakusatsu Digest",
-      "malid": 40379,
-      "type": "ona",
-      "releaseDate": "2012-11-16"
    },
    {
       "title": "Umete, Bye-Bye",
@@ -121597,13 +121591,13 @@
       "title": "Shuimu Youjiao Xuetang Xilie: Qian Zi Wen",
       "malid": 45545,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2012"
    },
    {
       "title": "Shuimu Youjiao Xuetang Xilie: Shenghuo Xiao Baike",
       "malid": 45547,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2012"
    },
    {
       "title": "Shuimu Youjiao Xuetang Xilie: Jiao Ni Zuo Shougong",
@@ -125645,7 +125639,7 @@
       "title": "Yongchun Baihe Quan: Wuse Yu Chuanqi",
       "malid": 46519,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2012"
    },
    {
       "title": "Shaonian Tejing Dui",
@@ -130376,7 +130370,7 @@
       "title": "Chengzhang Zhe Dongxi 2nd Season",
       "malid": 47659,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2019"
    },
    {
       "title": "Jiang Wu Qingchun",
@@ -145503,7 +145497,7 @@
       "enTitle": "Date A Live V",
       "malid": 52196,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Haji+ Shinchishin",
@@ -150508,8 +150502,8 @@
    {
       "title": "Bye-Bye, Earth",
       "malid": 53626,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024"
    },
    {
       "title": "Gamera: Rebirth",
@@ -151159,7 +151153,7 @@
       "enTitle": "Go! Go! Loser Ranger!",
       "malid": 53770,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "3341",
@@ -151652,7 +151646,7 @@
       "releaseDate": "2013-07-13"
    },
    {
-      "title": "Arknights: Fuyukomori Kaerimichi",
+      "title": "Arknights: Touin Kiro",
       "enTitle": "Arknights: Perish in Frost",
       "malid": 53881,
       "type": "tv",
@@ -153420,7 +153414,7 @@
       "enTitle": "VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream",
       "malid": 54284,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Yao Shen Ji 6th Season",
@@ -155370,7 +155364,7 @@
       "enTitle": "Demon Lord 2099",
       "malid": 54853,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Shadowverse Flame: Seven Shadows-hen",
@@ -156275,6 +156269,7 @@
    },
    {
       "title": "Oroka na Tenshi wa Akuma to Odoru",
+      "enTitle": "The Foolish Angel Dances with the Devil",
       "malid": 55129,
       "type": "tv",
       "releaseDate": "2024"
@@ -158286,8 +158281,8 @@
    {
       "title": "Snack Basue",
       "malid": 55636,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024-01"
    },
    {
       "title": "Tsuki no Hana",
@@ -158728,7 +158723,7 @@
       "releaseDate": "2023-06-24"
    },
    {
-      "title": "Shen Lan Qi Yu Wushuang Zhu: Tianmo Pian - Ding Dang",
+      "title": "Shen Lan Qi Yu Wushuang Zhu: Tianmo Pian",
       "enTitle": "The Land of Miracles 3rd Season",
       "malid": 55740,
       "type": "ona",
@@ -159669,7 +159664,7 @@
       "enTitle": "Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!",
       "malid": 55973,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-01"
    },
    {
       "title": "Shuumatsu no Walküre Mini Countdown Anime",
@@ -160497,7 +160492,7 @@
       "title": "Rekishi ni Nokoru Akujo ni Naru zo: Akuyaku Reijou ni Naru hodo Ouji no Dekiai wa Kasoku suru you desu!",
       "malid": 56228,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Jiisan Baasan Wakagaeru",
@@ -161202,7 +161197,7 @@
    {
       "title": "Hyperventilation Special",
       "malid": 56402,
-      "type": "ona",
+      "type": "special",
       "releaseDate": "2018-10-05"
    },
    {
@@ -162713,6 +162708,12 @@
       "releaseDate": "2017-08"
    },
    {
+      "title": "Shiguang Dailiren: Yingdu Pian",
+      "malid": 56752,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
       "title": "Object",
       "malid": 56755,
       "type": "movie",
@@ -162899,6 +162900,18 @@
       "releaseDate": "2023-09-29"
    },
    {
+      "title": "Kozukuri Bu!",
+      "malid": 56800,
+      "type": "ova",
+      "releaseDate": "2023-11-10"
+   },
+   {
+      "title": "Yuusha",
+      "malid": 56805,
+      "type": "music",
+      "releaseDate": "2023-09-29"
+   },
+   {
       "title": "Ming Jing Gao Xuan",
       "enTitle": "Bonny Portmore",
       "malid": 56806,
@@ -163004,6 +163017,7 @@
    },
    {
       "title": "Code Geass: Dakkan no Z",
+      "enTitle": "Code Geass: Z of the Recapture",
       "malid": 56835,
       "type": "unknown",
       "releaseDate": ""
@@ -163087,9 +163101,150 @@
       "releaseDate": "2023-12-22"
    },
    {
+      "title": "I.Cinnamoroll Animation",
+      "malid": 56853,
+      "type": "ona",
+      "releaseDate": "2023-10-05"
+   },
+   {
       "title": "Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga",
       "malid": 56854,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Ijiwaru Tenki",
+      "malid": 56855,
+      "type": "music",
+      "releaseDate": "1987-08-01"
+   },
+   {
+      "title": "Ichi, Ni, San, ...",
+      "malid": 56856,
+      "type": "music",
+      "releaseDate": "1962-08"
+   },
+   {
+      "title": "Davy Crockett no Uta",
+      "malid": 56857,
+      "type": "music",
+      "releaseDate": "1962-10"
+   },
+   {
+      "title": "Canoe no Ue de Hitoyasumi",
+      "malid": 56858,
+      "type": "music",
+      "releaseDate": "2023-10-01"
+   },
+   {
+      "title": "SOS",
+      "malid": 56859,
+      "type": "music",
+      "releaseDate": "2022-04-13"
+   },
+   {
+      "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
+      "enTitle": "The Angel Next Door Spoils Me Rotten Season 2",
+      "malid": 56876,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ao no Orchestra 2nd Season",
+      "malid": 56877,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ochibi-san Tanpen Movie",
+      "malid": 56882,
+      "type": "ona",
+      "releaseDate": "2019-07-05"
+   },
+   {
+      "title": "Nappeungyejibae",
+      "malid": 56891,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Kkomimanyeo Lara Season 2",
+      "malid": 56892,
+      "type": "tv",
+      "releaseDate": "2024-10-14"
+   },
+   {
+      "title": "Binggrae Me2ker Leul Wihayeo",
+      "malid": 56893,
+      "type": "ona",
+      "releaseDate": "2023-10-06"
+   },
+   {
+      "title": "Dragon Ball Daima",
+      "malid": 56894,
+      "type": "tv",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Sekai no Otogibanashi",
+      "malid": 56901,
+      "type": "ova",
+      "releaseDate": "1989"
+   },
+   {
+      "title": "In:App",
+      "malid": 56902,
+      "type": "tv",
+      "releaseDate": "2020-11-21"
+   },
+   {
+      "title": "My GO!!!!! Member no Nichijou",
+      "malid": 56903,
+      "type": "ona",
+      "releaseDate": "2022-08-24"
+   },
+   {
+      "title": "Saero Doljanchi",
+      "malid": 56904,
+      "type": "ona",
+      "releaseDate": "2023-10-12"
+   },
+   {
+      "title": "Yuusha-hime Miria",
+      "malid": 56905,
+      "type": "ova",
+      "releaseDate": "2023-12-22"
+   },
+   {
+      "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (Shin Anime)",
+      "enTitle": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
+      "malid": 56906,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Koujo Denka no Kateikyoushi",
+      "malid": 56907,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Pororo Movie: Superstar Daemoheom",
+      "malid": 56908,
+      "type": "movie",
+      "releaseDate": "2023-12"
+   },
+   {
+      "title": "Porong Porong Pororo 8",
+      "malid": 56909,
+      "type": "tv",
+      "releaseDate": "2023-08-28"
+   },
+   {
+      "title": "Ddotty Yeongwonui Tab",
+      "enTitle": "Ddotty and the Tower of Eternity",
+      "malid": 56910,
+      "type": "movie",
+      "releaseDate": "2023-12"
    }
 ]
