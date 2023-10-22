@@ -22050,7 +22050,7 @@
       "title": "The SoulTaker: Tamashii-gari - Komugi Daisakusen",
       "malid": 3849,
       "type": "special",
-      "releaseDate": "2001"
+      "releaseDate": "2001-09-21"
    },
    {
       "title": "Crayon Shin-chan Manatsu no Yoru ni Ora Sanjou! Arashi wo Yobu Den-O vs. Shin-O 60-bu Special!!",
@@ -22595,7 +22595,7 @@
       "releaseDate": "2007-10-05"
    },
    {
-      "title": "Dragoon",
+      "title": "Ryuuki Denshou",
       "enTitle": "Dragoon",
       "malid": 3968,
       "type": "ova",
@@ -50938,7 +50938,7 @@
    {
       "title": "Ikeike! Momon-chan",
       "malid": 18133,
-      "type": "tv",
+      "type": "ona",
       "releaseDate": "2012-11-28"
    },
    {
@@ -74997,7 +74997,7 @@
       "title": "Tanaka-kun wa Kyou mo Kedaruge",
       "enTitle": "Tanaka is Listless Today Too",
       "malid": 33004,
-      "type": "special",
+      "type": "ona",
       "releaseDate": "2016-04-07"
    },
    {
@@ -93490,7 +93490,7 @@
       "title": "Nusheng Sushe Richang",
       "enTitle": "Girls Dorm",
       "malid": 37927,
-      "type": "tv",
+      "type": "ona",
       "releaseDate": "2016-11-30"
    },
    {
@@ -102565,10 +102565,9 @@
    },
    {
       "title": "Porte",
-      "enTitle": "porte",
       "malid": 40152,
-      "type": "music",
-      "releaseDate": "2019-07-19"
+      "type": "ova",
+      "releaseDate": "2019-08-21"
    },
    {
       "title": "Teeter",
@@ -103826,7 +103825,7 @@
       "title": "Hyperventilation",
       "malid": 40491,
       "type": "ona",
-      "releaseDate": "2017-10-11"
+      "releaseDate": "2017-09-09"
    },
    {
       "title": "Tayo-ui Gonglyong Adventure",
@@ -108247,7 +108246,7 @@
    },
    {
       "title": "You Yao",
-      "enTitle": "Are You Ok",
+      "enTitle": "Are You OK?",
       "malid": 41916,
       "type": "ona",
       "releaseDate": "2020-07-10"
@@ -127019,13 +127018,13 @@
       "title": "Cha A Er Zhong",
       "malid": 46864,
       "type": "ona",
-      "releaseDate": "2014-09-02"
+      "releaseDate": "2014-09-03"
    },
    {
       "title": "Cha A Er Zhong 2nd Season",
       "malid": 46865,
       "type": "ona",
-      "releaseDate": "2015-08-21"
+      "releaseDate": "2015-08-17"
    },
    {
       "title": "Cha A Er Zhong 3rd Season",
@@ -135388,8 +135387,8 @@
       "releaseDate": "2018-02-06"
    },
    {
-      "title": "You Yao 2nd Season",
-      "enTitle": "Are You Ok",
+      "title": "You Yao 2",
+      "enTitle": "Are You OK? Season 2",
       "malid": 48964,
       "type": "ona",
       "releaseDate": "2023-09-27"
@@ -137158,7 +137157,7 @@
       "releaseDate": "2023-01-10"
    },
    {
-      "title": "Chiyu Mahou no Machigatta Tsukaikata: Senjou wo Kakeru Kaifuku Youin",
+      "title": "Chiyu Mahou no Machigatta Tsukaikata",
       "malid": 49613,
       "type": "tv",
       "releaseDate": "2024-01"
@@ -140531,7 +140530,7 @@
    },
    {
       "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
-      "enTitle": "The Faraway Paladin: The Lord of Rust Mountains",
+      "enTitle": "The Faraway Paladin: The Lord of the Rust Mountains",
       "malid": 50664,
       "type": "tv",
       "releaseDate": "2023-10-07"
@@ -142164,7 +142163,7 @@
       "enTitle": "The War of Cards",
       "malid": 51278,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-10-30"
    },
    {
       "title": "Cang Lan Jue",
@@ -143592,7 +143591,7 @@
       "enTitle": "The Unwanted Undead Adventurer",
       "malid": 51648,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-01"
    },
    {
       "title": "Ultraman Final",
@@ -146226,7 +146225,7 @@
       "enTitle": "Highspeed Etoile",
       "malid": 52405,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Nippon-rettou Dokkoisho: 47 Todoufuken-mei Utai Komi",
@@ -147642,7 +147641,7 @@
    },
    {
       "title": "Majo to Yajuu",
-      "enTitle": "Witch and the Beast",
+      "enTitle": "The Witch and the Beast",
       "malid": 52816,
       "type": "tv",
       "releaseDate": "2024-01"
@@ -149124,6 +149123,7 @@
    },
    {
       "title": "Onmyouji",
+      "enTitle": "Onmyoji",
       "malid": 53151,
       "type": "ona",
       "releaseDate": "2023-11-28"
@@ -152911,7 +152911,7 @@
       "releaseDate": "2023-07-31"
    },
    {
-      "title": "Cardfight!! Vanguard: D Series Season 6",
+      "title": "Cardfight!! Vanguard: Divinez",
       "malid": 54142,
       "type": "tv",
       "releaseDate": "2024-01"
@@ -153378,8 +153378,7 @@
       "releaseDate": "2018-09-25"
    },
    {
-      "title": "Watashi no Hashtag ga Haenakute.",
-      "enTitle": "My Hashtag Does Not Shine",
+      "title": "Watashi no Hashtag ga Baenakute.",
       "malid": 54278,
       "type": "ona",
       "releaseDate": "2023-01-18"
@@ -155151,11 +155150,10 @@
       "releaseDate": "2023-07-06"
    },
    {
-      "title": "Given (Zoku-hen)",
-      "enTitle": "Given (Sequel)",
+      "title": "Given Movie (2024)",
       "malid": 54791,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024-01-27"
    },
    {
       "title": "Mask Danshi wa Koishitakunai noni",
@@ -156689,7 +156687,7 @@
       "releaseDate": "2022-12-01"
    },
    {
-      "title": "Jashin-chan Dropkick: Seikimatsu-hen",
+      "title": "Jashin-chan Dropkick \"Seikimatsu-hen\"",
       "enTitle": "Dropkick on My Devil!!: End of Century Edition",
       "malid": 55237,
       "type": "special",
@@ -161014,7 +161012,7 @@
       "enTitle": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
       "malid": 56352,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-01"
    },
    {
       "title": "Code Name X",
@@ -163143,6 +163141,12 @@
       "releaseDate": "2022-04-13"
    },
    {
+      "title": "Bokura no Ameiro Protocol Mini Anime",
+      "malid": 56869,
+      "type": "ona",
+      "releaseDate": "2023-10-06"
+   },
+   {
       "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
       "enTitle": "The Angel Next Door Spoils Me Rotten Season 2",
       "malid": 56876,
@@ -163160,6 +163164,12 @@
       "malid": 56882,
       "type": "ona",
       "releaseDate": "2019-07-05"
+   },
+   {
+      "title": "Sousou no Frieren: ●● no Mahou",
+      "malid": 56885,
+      "type": "ona",
+      "releaseDate": "2023-10-11"
    },
    {
       "title": "Nappeungyejibae",
@@ -163198,7 +163208,7 @@
       "releaseDate": "2020-11-21"
    },
    {
-      "title": "My GO!!!!! Member no Nichijou",
+      "title": "MyGO!!!!! Member no Nichijou",
       "malid": 56903,
       "type": "ona",
       "releaseDate": "2022-08-24"
@@ -163246,5 +163256,158 @@
       "malid": 56910,
       "type": "movie",
       "releaseDate": "2023-12"
+   },
+   {
+      "title": "Fat Ma Is Cleanin' the Room",
+      "malid": 56914,
+      "type": "music",
+      "releaseDate": "1986-12-01"
+   },
+   {
+      "title": "Oneechan",
+      "malid": 56915,
+      "type": "music",
+      "releaseDate": "1978-02"
+   },
+   {
+      "title": "Rainbow Bubblegem",
+      "enTitle": "Rainbow Bubblegem",
+      "malid": 56916,
+      "type": "tv",
+      "releaseDate": "2023-08-30"
+   },
+   {
+      "title": "The Concubine Contract PV",
+      "malid": 56917,
+      "type": "ona",
+      "releaseDate": "2021-12-13"
+   },
+   {
+      "title": "Bugsbot G",
+      "malid": 56919,
+      "type": "tv",
+      "releaseDate": "2020-09-29"
+   },
+   {
+      "title": "Bite-Choicar Hyper",
+      "malid": 56921,
+      "type": "tv",
+      "releaseDate": "2021-02-06"
+   },
+   {
+      "title": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
+      "malid": 56923,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Shen Cang",
+      "malid": 56927,
+      "type": "ona",
+      "releaseDate": "2023-11-07"
+   },
+   {
+      "title": "Yuri!!! on Ice The Movie: Ice Adolescence",
+      "malid": 56928,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "World End Economica",
+      "malid": 56929,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Jian Yu Feng Yun 3rd Season",
+      "enTitle": "The Legend of Sword Domain 3rd Season",
+      "malid": 56930,
+      "type": "ona",
+      "releaseDate": "2023-10-29"
+   },
+   {
+      "title": "Dotten Charleston",
+      "malid": 56931,
+      "type": "music",
+      "releaseDate": "1990-12-03"
+   },
+   {
+      "title": "Tonchi Asobi",
+      "malid": 56932,
+      "type": "music",
+      "releaseDate": "1963-08"
+   },
+   {
+      "title": "Osaru to Kagami",
+      "malid": 56933,
+      "type": "music",
+      "releaseDate": "1963-10"
+   },
+   {
+      "title": "100-nen Jidai",
+      "malid": 56934,
+      "type": "music",
+      "releaseDate": "2020-12-01"
+   },
+   {
+      "title": "Natsukashii Mirai",
+      "malid": 56935,
+      "type": "music",
+      "releaseDate": "2023-06-07"
+   },
+   {
+      "title": "Megemege Rumba",
+      "malid": 56937,
+      "type": "music",
+      "releaseDate": "1981-10-07"
+   },
+   {
+      "title": "Hige no Oishasan",
+      "malid": 56938,
+      "type": "music",
+      "releaseDate": "1963-12"
+   },
+   {
+      "title": "Deka Chibi Noppo",
+      "malid": 56939,
+      "type": "music",
+      "releaseDate": "1964-02"
+   },
+   {
+      "title": "Takara Sagashi",
+      "malid": 56940,
+      "type": "music",
+      "releaseDate": "2022-06-01"
+   },
+   {
+      "title": "Twi-Yaba",
+      "malid": 56948,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Veil",
+      "malid": 56949,
+      "type": "music",
+      "releaseDate": "2019-07-19"
+   },
+   {
+      "title": "Gekkouyoku",
+      "enTitle": "Moonbath",
+      "malid": 56955,
+      "type": "music",
+      "releaseDate": "2023-10-19"
+   },
+   {
+      "title": "Ti Yi Jian Xian Chuan",
+      "malid": 56958,
+      "type": "ona",
+      "releaseDate": "2023-10-20"
+   },
+   {
+      "title": "Jin Zhan Fashi",
+      "malid": 56963,
+      "type": "ona",
+      "releaseDate": "2023-11-02"
    }
 ]
