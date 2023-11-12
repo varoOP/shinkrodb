@@ -49877,12 +49877,6 @@
       "releaseDate": "2012-12-26"
    },
    {
-      "title": "Dog Days' Specials",
-      "malid": 17419,
-      "type": "special",
-      "releaseDate": "2012-09-26"
-   },
-   {
       "title": "Pink Lady Monogatari: Eikou no Tenshi-tachi",
       "malid": 17423,
       "type": "tv",
@@ -66469,6 +66463,7 @@
    },
    {
       "title": "Meisaku World",
+      "enTitle": "Funky Fables",
       "malid": 30027,
       "type": "tv",
       "releaseDate": "1988-04-04"
@@ -66481,7 +66476,6 @@
    },
    {
       "title": "Video Ehonkan Sekai Meisaku Douwa",
-      "enTitle": "Funky Fables",
       "malid": 30029,
       "type": "ova",
       "releaseDate": "1988-12-04"
@@ -73841,7 +73835,7 @@
       "enTitle": "Flowering Heart",
       "malid": 32691,
       "type": "tv",
-      "releaseDate": "2016-02-25"
+      "releaseDate": "2016-02-29"
    },
    {
       "title": "Kitakaze to Taiyou",
@@ -82262,12 +82256,6 @@
       "releaseDate": "2017-10-08"
    },
    {
-      "title": "Dog Days'' Specials",
-      "malid": 35063,
-      "type": "special",
-      "releaseDate": "2015-03-25"
-   },
-   {
       "title": "Osomatsu-san 2nd Season",
       "enTitle": "Mr. Osomatsu 2",
       "malid": 35067,
@@ -85243,7 +85231,7 @@
       "enTitle": "Miniforce",
       "malid": 35799,
       "type": "tv",
-      "releaseDate": "2014-08"
+      "releaseDate": "2014-09-03"
    },
    {
       "title": "Ginga",
@@ -125987,7 +125975,7 @@
       "title": "Tunshu Xuetang: Chengyu Gushi",
       "malid": 46583,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2012"
    },
    {
       "title": "Tunshu Xuetang: Jim Baike Changshi",
@@ -126986,7 +126974,7 @@
       "title": "Miniforce: Super Dino Power",
       "malid": 46846,
       "type": "tv",
-      "releaseDate": "2019"
+      "releaseDate": "2019-08-29"
    },
    {
       "title": "Choegangjeonsa Miniteuggongdae: Yeong-ung-ui Tansaeng",
@@ -130743,7 +130731,7 @@
       "title": "Dongwu Jiuyuan Dui",
       "malid": 47729,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2018"
    },
    {
       "title": "Dongbei Meng Shou",
@@ -146450,7 +146438,7 @@
       "title": "Sasaki to Pii-chan",
       "malid": 52482,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024"
    },
    {
       "title": "Mameshiba 2nd Season",
@@ -151879,10 +151867,10 @@
       "releaseDate": "2022-12-17"
    },
    {
-      "title": "Jibaku Shounen Hanako-kun (Anime Shin Project)",
-      "enTitle": "Toilet-Bound Hanako-kun (New Anime Project)",
+      "title": "Jibaku Shounen Hanako-kun 2nd Season",
+      "enTitle": "Toilet-Bound Hanako-kun Season 2",
       "malid": 53924,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -153283,7 +153271,7 @@
       "enTitle": "Whisper Me a Love Song",
       "malid": 54233,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Suki na Ko ga Megane wo Wasureta",
@@ -154518,7 +154506,7 @@
       "enTitle": "That Time I Got Reincarnated as a Slime: Visions of Coleus",
       "malid": 54565,
       "type": "ona",
-      "releaseDate": "2023-11-01"
+      "releaseDate": "2023-11-02"
    },
    {
       "title": "Tobacco Kumo",
@@ -154583,6 +154571,13 @@
       "malid": 54581,
       "type": "movie",
       "releaseDate": "2016"
+   },
+   {
+      "title": "Shirokuma Nichijou Gekijou",
+      "enTitle": "Tokyo Gas \"The Polar Bears' Daily Drama\" TV Commercial",
+      "malid": 54582,
+      "type": "ona",
+      "releaseDate": "2022-11-24"
    },
    {
       "title": "Love Letter",
@@ -155014,7 +155009,7 @@
       "enTitle": "Alya Sometimes Hides Her Feelings in Russian",
       "malid": 54744,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-04"
    },
    {
       "title": "Twisted-Wonderland 3-shuunen Kinen PV",
@@ -155103,6 +155098,13 @@
       "malid": 54767,
       "type": "ona",
       "releaseDate": "2023-03-18"
+   },
+   {
+      "title": "667-tsuu no Love Letter",
+      "enTitle": "667 Love Letters",
+      "malid": 54768,
+      "type": "ona",
+      "releaseDate": "2023-03-20"
    },
    {
       "title": "Sousei no Aquarion: Myth of Emotions",
@@ -155206,6 +155208,7 @@
    },
    {
       "title": "Mask Danshi wa Koishitakunai noni",
+      "enTitle": "Mask Danshi: This Shouldn't Lead to Love",
       "malid": 54792,
       "type": "ova",
       "releaseDate": "2023-10-20"
@@ -155243,6 +155246,7 @@
    },
    {
       "title": "Captain Tsubasa Season 2: Junior Youth-hen",
+      "enTitle": "Captain Tsubasa: Junior Youth Arc",
       "malid": 54803,
       "type": "tv",
       "releaseDate": "2023-10-01"
@@ -155640,6 +155644,13 @@
       "releaseDate": "2024-04-01"
    },
    {
+      "title": "Mahou no Nai Sekai de Ikiru to Iu Koto",
+      "enTitle": "Living in a World Without Magic",
+      "malid": 54909,
+      "type": "music",
+      "releaseDate": "2022-07-01"
+   },
+   {
       "title": "Seventeen",
       "enTitle": "Seventeen",
       "malid": 54911,
@@ -155694,6 +155705,13 @@
       "malid": 54919,
       "type": "ona",
       "releaseDate": "2023-03-16"
+   },
+   {
+      "title": "Short Flash Transformers Series",
+      "enTitle": "Short Flash Transformers Series",
+      "malid": 54922,
+      "type": "ona",
+      "releaseDate": "2009-10-17"
    },
    {
       "title": "Pole Princess!! Movie",
@@ -156828,7 +156846,7 @@
       "enTitle": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
       "malid": 55265,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Wang Shen Zhi Ye",
@@ -157184,6 +157202,12 @@
       "malid": 55348,
       "type": "movie",
       "releaseDate": "2013-08-16"
+   },
+   {
+      "title": "Azur Lane CMs",
+      "malid": 55351,
+      "type": "ona",
+      "releaseDate": "2020-04-17"
    },
    {
       "title": "Cemedine Bond to G17-gou ♡ 5",
@@ -158207,7 +158231,7 @@
       "enTitle": "A Condition Called Love",
       "malid": 55597,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Ying Shi",
@@ -158798,6 +158822,7 @@
    },
    {
       "title": "Feng Huo Zhan Ji",
+      "enTitle": "War of Wind \u0026 Fire",
       "malid": 55746,
       "type": "ona",
       "releaseDate": "2023-07-16"
@@ -160586,7 +160611,7 @@
       "title": "Sengoku Youko",
       "malid": 56242,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-11"
    },
    {
       "title": "Jujutsu Kaisen 2nd Season Recaps",
@@ -161062,7 +161087,7 @@
       "enTitle": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
       "malid": 56352,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-07"
    },
    {
       "title": "Code Name X",
@@ -162978,8 +163003,8 @@
    {
       "title": "Kung Fu Wang: Kuaile Tongnian",
       "malid": 56796,
-      "type": "ona",
-      "releaseDate": "2023-06-01"
+      "type": "tv",
+      "releaseDate": "2023-04-11"
    },
    {
       "title": "Kung Fu Wang: Meng Hu Shangshan",
@@ -163304,12 +163329,6 @@
       "releaseDate": "2024-10"
    },
    {
-      "title": "Sekai no Otogibanashi",
-      "malid": 56901,
-      "type": "ova",
-      "releaseDate": "1989"
-   },
-   {
       "title": "In:App",
       "malid": 56902,
       "type": "tv",
@@ -163492,8 +163511,8 @@
       "title": "Baishe",
       "enTitle": "White Snake",
       "malid": 56941,
-      "type": "ona",
-      "releaseDate": "2019-04-30"
+      "type": "movie",
+      "releaseDate": "2007"
    },
    {
       "title": "Time Slip Shima Kousaku",
@@ -163628,6 +163647,7 @@
    },
    {
       "title": "Shi Fang Wu Sheng",
+      "enTitle": "The Invincible",
       "malid": 56981,
       "type": "ona",
       "releaseDate": "2023-11-10"
@@ -163928,10 +163948,364 @@
       "releaseDate": "2023-11-03"
    },
    {
+      "title": "Mei Shaonu Da Picha 3rd Season",
+      "malid": 57065,
+      "type": "ona",
+      "releaseDate": "2017"
+   },
+   {
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V",
       "enTitle": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V",
       "malid": 57066,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Fanren Xiu Xian Chuan 3rd Season",
+      "enTitle": "A Record of Mortal's Journey to Immortality Season 3",
+      "malid": 57067,
+      "type": "ona",
+      "releaseDate": "2023-11-25"
+   },
+   {
+      "title": "What an Amazing Swing",
+      "malid": 57069,
+      "type": "music",
+      "releaseDate": "2023-11-05"
+   },
+   {
+      "title": "Ginga Eiyuu Densetsu: Die Neue These (Zoku-hen)",
+      "malid": 57071,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Mahou no Enogu",
+      "malid": 57074,
+      "type": "music",
+      "releaseDate": "1995-10-02"
+   },
+   {
+      "title": "Monkey Puzzle",
+      "malid": 57075,
+      "type": "music",
+      "releaseDate": "1984-06-01"
+   },
+   {
+      "title": "Gachou no Monogatari",
+      "malid": 57076,
+      "type": "music",
+      "releaseDate": "1985"
+   },
+   {
+      "title": "Totonoe! Sakuma-kun by \u0026sauna",
+      "malid": 57077,
+      "type": "tv",
+      "releaseDate": "2023-11-12"
+   },
+   {
+      "title": "Gei wo Lai ge Xiao Huli",
+      "malid": 57078,
+      "type": "ona",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Orangeback + Hoo-D Pilot",
+      "malid": 57084,
+      "type": "ona",
+      "releaseDate": "2020-09-17"
+   },
+   {
+      "title": "Sockpuppet!",
+      "malid": 57085,
+      "type": "ona",
+      "releaseDate": "2010-06-12"
+   },
+   {
+      "title": "Artist-110",
+      "enTitle": "Artist-110",
+      "malid": 57086,
+      "type": "movie",
+      "releaseDate": "2013"
+   },
+   {
+      "title": "Princess Principal: Crown Handler Movie 4",
+      "enTitle": "Princess Principal: Crown Handler - Chapter 4",
+      "malid": 57093,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Princess Principal: Crown Handler Movie 5",
+      "enTitle": "Princess Principal: Crown Handler - Chapter 5",
+      "malid": 57094,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Princess Principal: Crown Handler Movie 6",
+      "enTitle": "Princess Principal: Crown Handler - Chapter 6",
+      "malid": 57095,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Bu Shi Bu Mie",
+      "enTitle": "The Eternal Strife",
+      "malid": 57096,
+      "type": "ona",
+      "releaseDate": "2023-11-16"
+   },
+   {
+      "title": "Wanneng Lian Ai Zahuo Dian",
+      "enTitle": "Love Magic Grocery",
+      "malid": 57097,
+      "type": "ona",
+      "releaseDate": "2023-11-09"
+   },
+   {
+      "title": "Na Nare Hana Nare",
+      "malid": 57099,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "The New Gate",
+      "malid": 57100,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Houkago Shounen Hanako-kun (Zoku-hen)",
+      "malid": 57102,
+      "type": "unknown",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Penpe to Pinpi Season 2",
+      "malid": 57103,
+      "type": "ona",
+      "releaseDate": "2023-10-06"
+   },
+   {
+      "title": "Nyankamuchu",
+      "enTitle": "Cat Bites Mouse",
+      "malid": 57104,
+      "type": "ona",
+      "releaseDate": "2022-04-17"
+   },
+   {
+      "title": "Nature Man",
+      "malid": 57105,
+      "type": "music",
+      "releaseDate": "2023-09-11"
+   },
+   {
+      "title": "Hello Carbot Season 14",
+      "malid": 57106,
+      "type": "tv",
+      "releaseDate": "2023-11-05"
+   },
+   {
+      "title": "Gegege no Kitarou: Kappa no Terraforming",
+      "malid": 57107,
+      "type": "movie",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Scuffing no Uta",
+      "enTitle": "The Scuffing Song",
+      "malid": 57110,
+      "type": "ona",
+      "releaseDate": "2023-05-10"
+   },
+   {
+      "title": "Nyankamuchu Season 2",
+      "enTitle": "Cat Bites Mouse Season 2",
+      "malid": 57111,
+      "type": "ona",
+      "releaseDate": "2023-11-08"
+   },
+   {
+      "title": "Geugjangpan Geomjeong-gomusin: Jeulgeoun Naui Jib",
+      "enTitle": "Black Rubber Shoes The Movie: My Happy Home",
+      "malid": 57112,
+      "type": "movie",
+      "releaseDate": "2022-10-06"
+   },
+   {
+      "title": "Geomjeong-gomusin",
+      "malid": 57113,
+      "type": "tv",
+      "releaseDate": "2000-12-15"
+   },
+   {
+      "title": "Geomjeong-gomusin 2nd Season",
+      "malid": 57114,
+      "type": "tv",
+      "releaseDate": "2001-02-09"
+   },
+   {
+      "title": "Geomjeong-gomusin 3rd Season",
+      "malid": 57115,
+      "type": "tv",
+      "releaseDate": "2004-06-16"
+   },
+   {
+      "title": "Geomjeong-gomusin 4th Season",
+      "malid": 57116,
+      "type": "tv",
+      "releaseDate": "2015-05-11"
+   },
+   {
+      "title": "Dinoster: Gonglyongsuhodae",
+      "enTitle": "Dinoster",
+      "malid": 57117,
+      "type": "tv",
+      "releaseDate": "2023-08-28"
+   },
+   {
+      "title": "Miniforce Part 2",
+      "malid": 57118,
+      "type": "tv",
+      "releaseDate": "2015-03-02"
+   },
+   {
+      "title": "Miniforce X",
+      "malid": 57119,
+      "type": "tv",
+      "releaseDate": "2018-05-30"
+   },
+   {
+      "title": "Miniforce X Part 2",
+      "malid": 57120,
+      "type": "tv",
+      "releaseDate": "2019-01-30"
+   },
+   {
+      "title": "Miniforce: Saeloun Agdangui Seubgyeog",
+      "malid": 57121,
+      "type": "movie",
+      "releaseDate": "2015-02-05"
+   },
+   {
+      "title": "Miniforce: Yeongungui Tansaeng",
+      "enTitle": "Mini Force: New Heroes Rise",
+      "malid": 57123,
+      "type": "movie",
+      "releaseDate": "2016-02-04"
+   },
+   {
+      "title": "Miniforce X Movie",
+      "enTitle": "Mini Force X Movie",
+      "malid": 57124,
+      "type": "movie",
+      "releaseDate": "2018-04-08"
+   },
+   {
+      "title": "Miniforce: Super Dino Power Part 2",
+      "malid": 57125,
+      "type": "tv",
+      "releaseDate": "2020-08-27"
+   },
+   {
+      "title": "Miniforce: Gonglyongwang Dino",
+      "enTitle": "Mini Force: Deeno the King of Dinosaurs",
+      "malid": 57126,
+      "type": "movie",
+      "releaseDate": "2020-02-06"
+   },
+   {
+      "title": "Miniforce: Haembeogeogoemului Seubgyeog",
+      "enTitle": "Mini Force: Raid of Hamburger Monsters",
+      "malid": 57127,
+      "type": "movie",
+      "releaseDate": "2020-09-30"
+   },
+   {
+      "title": "Miniforce:  Super Dino 7",
+      "malid": 57128,
+      "type": "special",
+      "releaseDate": "2021-04-12"
+   },
+   {
+      "title": "Miniforce Animaltron",
+      "enTitle": "Miniforce Animal Tron",
+      "malid": 57129,
+      "type": "tv",
+      "releaseDate": "2021-09-03"
+   },
+   {
+      "title": "Miniforce V Rangers",
+      "enTitle": "Miniforce V Rangers",
+      "malid": 57130,
+      "type": "tv",
+      "releaseDate": "2022-09-01"
+   },
+   {
+      "title": "Choeganggyeongchal Miniforce",
+      "malid": 57131,
+      "type": "tv",
+      "releaseDate": "2023-11-28"
+   },
+   {
+      "title": "Hero Inside",
+      "malid": 57132,
+      "type": "tv",
+      "releaseDate": "2023-11-08"
+   },
+   {
+      "title": "Kiiroi Jitensha",
+      "malid": 57133,
+      "type": "music",
+      "releaseDate": "1985-02-02"
+   },
+   {
+      "title": "Gomen ne",
+      "malid": 57134,
+      "type": "music",
+      "releaseDate": "2022-04-04"
+   },
+   {
+      "title": "Ketchup Chap",
+      "malid": 57135,
+      "type": "music",
+      "releaseDate": "2019-04-01"
+   },
+   {
+      "title": "Nare no Hate",
+      "malid": 57136,
+      "type": "ona",
+      "releaseDate": "2023-10-24"
+   },
+   {
+      "title": "Ahiru no Gyouretsu",
+      "malid": 57138,
+      "type": "music",
+      "releaseDate": "1972-10-02"
+   },
+   {
+      "title": "Konya mo Nemurenai",
+      "malid": 57139,
+      "type": "music",
+      "releaseDate": "1979-08-01"
+   },
+   {
+      "title": "Carillon Dance",
+      "malid": 57140,
+      "type": "music",
+      "releaseDate": "2015-12-01"
+   },
+   {
+      "title": "Tanjoubi ga Yattekita Wai! Wai! Wai!",
+      "malid": 57141,
+      "type": "music",
+      "releaseDate": "2017"
+   },
+   {
+      "title": "Flow",
+      "malid": 57142,
+      "type": "ona",
+      "releaseDate": "2022-04-12"
    }
 ]
