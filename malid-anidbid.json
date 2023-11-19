@@ -18517,7 +18517,7 @@
       "releaseDate": "1993-03-06"
    },
    {
-      "title": "Dorami-chan: A Blue Straw Hat",
+      "title": "Dorami-chan: Aoi Straw Hat",
       "malid": 2642,
       "anidbid": 7771,
       "type": "movie",
@@ -28396,14 +28396,6 @@
       "anidbid": 3954,
       "type": "tv",
       "releaseDate": "1998-11-06"
-   },
-   {
-      "title": "Code Geass: Hangyaku no Lelouch Special Edition - Black Rebellion",
-      "enTitle": "Code Geass: Lelouch of the Rebellion Special Edition - Black Rebellion",
-      "malid": 4596,
-      "anidbid": 7126,
-      "type": "ova",
-      "releaseDate": "2008-02-22"
    },
    {
       "title": "Kouya no Shounen Isamu",
@@ -59599,7 +59591,7 @@
    },
    {
       "title": "Pokemon: Mewtwo - Kakusei e no Prologue",
-      "enTitle": "Pokemon: Mewtwo - Prologue to Awakening",
+      "enTitle": "Pokémon: Mewtwo - Prologue to Awakening",
       "malid": 19099,
       "anidbid": 9926,
       "type": "special",
@@ -100043,6 +100035,7 @@
    },
    {
       "title": "Girls \u0026 Panzer: Dai 63-kai Senshadou Zenkoku Koukousei Taikai Recap",
+      "enTitle": "Girls und Panzer Compilation: The 63rd Nation High School Sensha-do Games",
       "malid": 36783,
       "anidbid": 13571,
       "type": "ona",
@@ -119276,6 +119269,7 @@
    },
    {
       "title": "Saezuru Tori wa Habatakanai: Don't Stay Gold",
+      "enTitle": "Twittering Birds Never Fly: Don't Stay Gold",
       "malid": 41290,
       "anidbid": 15395,
       "type": "ova",
@@ -154092,7 +154086,7 @@
       "releaseDate": "2021-12-24"
    },
    {
-      "title": "Feng Qi Luoyang Zhi Shen Ji Shaonian",
+      "title": "Feng Qi Luoyang: Shen Ji Shaonian",
       "enTitle": "Luoyang",
       "malid": 50657,
       "type": "ona",
@@ -157404,7 +157398,7 @@
       "malid": 51673,
       "anidbid": 17327,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-10"
    },
    {
       "title": "World Heroes",
@@ -158603,6 +158597,7 @@
    },
    {
       "title": "Hibike! Euphonium: Ensemble Contest-hen",
+      "enTitle": "Sound! Euphonium: Ensemble Contest Arc",
       "malid": 51995,
       "anidbid": 17441,
       "type": "movie",
@@ -158980,7 +158975,7 @@
       "malid": 52085,
       "anidbid": 17463,
       "type": "movie",
-      "releaseDate": "2022-10-28"
+      "releaseDate": "2024"
    },
    {
       "title": "25-bu de Wakaru Tegata Kogitte no Hanashi",
@@ -159939,7 +159934,7 @@
       "malid": 52359,
       "anidbid": 17504,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-07"
    },
    {
       "title": "Hirano to Kagiura",
@@ -160277,7 +160272,7 @@
       "malid": 52482,
       "anidbid": 17530,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-01"
    },
    {
       "title": "Mameshiba 2nd Season",
@@ -160948,7 +160943,7 @@
       "malid": 52635,
       "anidbid": 17559,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-07"
    },
    {
       "title": "Fukuro",
@@ -165018,7 +165013,7 @@
       "malid": 53730,
       "anidbid": 17749,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-05"
    },
    {
       "title": "Big Mac to, Susume",
@@ -165096,7 +165091,7 @@
       "malid": 53748,
       "anidbid": 17752,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Bokutachi no American Football",
@@ -167435,7 +167430,7 @@
       "malid": 54265,
       "anidbid": 17826,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "Shimajirou to Uzumasa Ninja Daisakusen",
@@ -168804,7 +168799,7 @@
       "malid": 54633,
       "anidbid": 17883,
       "type": "ona",
-      "releaseDate": "2023-12"
+      "releaseDate": "2023-12-28"
    },
    {
       "title": "Mahoroba",
@@ -168821,6 +168816,7 @@
    },
    {
       "title": "Kawagoe Boys Sing",
+      "enTitle": "Kawagoe Boys Sing -Now or Never-",
       "malid": 54638,
       "anidbid": 17887,
       "type": "tv",
@@ -169364,7 +169360,7 @@
       "malid": 54793,
       "anidbid": 17144,
       "type": "movie",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-05"
    },
    {
       "title": "Metallic Rouge",
@@ -169591,7 +169587,7 @@
       "malid": 54855,
       "anidbid": 17945,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Horimiya: Piece",
@@ -170340,6 +170336,13 @@
       "anidbid": 17994,
       "type": "tv",
       "releaseDate": "2024"
+   },
+   {
+      "title": "Xiaoke de Huatu Xie Hua",
+      "enTitle": "Kay's Daily Doodles",
+      "malid": 55072,
+      "type": "ona",
+      "releaseDate": "2023-12-01"
    },
    {
       "title": "Hina",
@@ -172660,6 +172663,13 @@
       "releaseDate": "2023-06-22"
    },
    {
+      "title": "Cang Yuan Tu",
+      "enTitle": "The Demon Hunter",
+      "malid": 55655,
+      "type": "ona",
+      "releaseDate": "2023-06-22"
+   },
+   {
       "title": "Shashou Gu De",
       "enTitle": "Good Killer",
       "malid": 55656,
@@ -173105,6 +173115,7 @@
    },
    {
       "title": "Okashi na Tensei Mini Anime",
+      "enTitle": "Sweet Reincarnation Mini Anime",
       "malid": 55753,
       "type": "ona",
       "releaseDate": "2023-06-23"
@@ -173281,6 +173292,7 @@
    },
    {
       "title": "Kimberly Mahou Gakkou no Yukai na Nichijou",
+      "enTitle": "Reign of the Seven Spellblades Mini",
       "malid": 55804,
       "type": "ona",
       "releaseDate": "2023-06-28"
@@ -174023,7 +174035,7 @@
       "malid": 55973,
       "anidbid": 18114,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-11"
    },
    {
       "title": "Shuumatsu no Walküre Mini Countdown Anime",
@@ -174170,7 +174182,7 @@
       "malid": 55998,
       "anidbid": 18119,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-01-05"
    },
    {
       "title": "Skysonar",
@@ -176875,6 +176887,7 @@
    },
    {
       "title": "Gekkan Mousou Kagaku",
+      "enTitle": "Delusional Monthly Magazine",
       "malid": 56691,
       "anidbid": 18202,
       "type": "tv",
@@ -177669,6 +177682,12 @@
       "releaseDate": "2023-10-11"
    },
    {
+      "title": "Mumei",
+      "malid": 56886,
+      "type": "music",
+      "releaseDate": "2023-10-09"
+   },
+   {
       "title": "Nappeungyejibae",
       "malid": 56891,
       "type": "movie",
@@ -177734,7 +177753,7 @@
       "title": "Pororo Movie: Superstar Daemoheom",
       "malid": 56908,
       "type": "movie",
-      "releaseDate": "2023-12"
+      "releaseDate": "2023-12-13"
    },
    {
       "title": "Porong Porong Pororo 8",
@@ -178691,5 +178710,185 @@
       "malid": 57142,
       "type": "ona",
       "releaseDate": "2022-04-12"
+   },
+   {
+      "title": "Shinkiro",
+      "malid": 57145,
+      "type": "music",
+      "releaseDate": "2023-11-12"
+   },
+   {
+      "title": "Kaze no Buranko",
+      "malid": 57147,
+      "type": "music",
+      "releaseDate": "2010-06-01"
+   },
+   {
+      "title": "Ringo no Ki no Shita de",
+      "malid": 57148,
+      "type": "music",
+      "releaseDate": "1999-12-01"
+   },
+   {
+      "title": "Ginnan Gakudan Quartet",
+      "malid": 57149,
+      "type": "music",
+      "releaseDate": "2014-10-01"
+   },
+   {
+      "title": "Creature Hunters",
+      "malid": 57150,
+      "type": "tv",
+      "releaseDate": "2024-02"
+   },
+   {
+      "title": "Mahoutsukai no Yakusoku",
+      "malid": 57152,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Butaman Gokoro",
+      "malid": 57156,
+      "type": "music",
+      "releaseDate": "2022-02-01"
+   },
+   {
+      "title": "Chiisana Funanori",
+      "malid": 57157,
+      "type": "music",
+      "releaseDate": "1969-10"
+   },
+   {
+      "title": "Haru no Rondo",
+      "malid": 57158,
+      "type": "music",
+      "releaseDate": "1963-04"
+   },
+   {
+      "title": "Daisuki na Kimi e",
+      "malid": 57159,
+      "type": "music",
+      "releaseDate": "2023-11-08"
+   },
+   {
+      "title": "Sand Land: The Series",
+      "malid": 57160,
+      "anidbid": 18277,
+      "type": "ona",
+      "releaseDate": "2024-04"
+   },
+   {
+      "title": "Yume no Hiyoko",
+      "malid": 57162,
+      "type": "music",
+      "releaseDate": "1994"
+   },
+   {
+      "title": "Bubble Bath Girl",
+      "malid": 57163,
+      "type": "music",
+      "releaseDate": "1997"
+   },
+   {
+      "title": "Chibimiminaga Bandicoot",
+      "malid": 57164,
+      "type": "music",
+      "releaseDate": "2003"
+   },
+   {
+      "title": "Shounen Miyamoto Musashi: Wanpaku Nitouryuu",
+      "malid": 57166,
+      "anidbid": 7359,
+      "type": "special",
+      "releaseDate": "1982-10-06"
+   },
+   {
+      "title": "Kame to Puma to Flamingo",
+      "malid": 57176,
+      "type": "music",
+      "releaseDate": "2023-04"
+   },
+   {
+      "title": "Hogaraka Sonchou-san",
+      "malid": 57177,
+      "type": "music",
+      "releaseDate": "1964-04"
+   },
+   {
+      "title": "Tsuki kara Kita Jean",
+      "malid": 57178,
+      "type": "music",
+      "releaseDate": "1970-04"
+   },
+   {
+      "title": "No.5",
+      "malid": 57179,
+      "type": "ova",
+      "releaseDate": "2003-02-25"
+   },
+   {
+      "title": "Wu Dong Qian Kun 4th Season",
+      "malid": 57183,
+      "type": "ona",
+      "releaseDate": "2023-11-25"
+   },
+   {
+      "title": "Great Pretender: Razbliuto",
+      "malid": 57184,
+      "anidbid": 18280,
+      "type": "ona",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Plankton",
+      "malid": 57188,
+      "type": "music",
+      "releaseDate": "2019-07-05"
+   },
+   {
+      "title": "Debu to Love to Ayamachi to!",
+      "malid": 57189,
+      "anidbid": 18281,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Mori no Chiisana Restaurant",
+      "malid": 57193,
+      "type": "music",
+      "releaseDate": "2023-04-03"
+   },
+   {
+      "title": "Kisobushi",
+      "malid": 57194,
+      "type": "music",
+      "releaseDate": "1963-08"
+   },
+   {
+      "title": "Ekibasha",
+      "malid": 57195,
+      "type": "music",
+      "releaseDate": "1962-12"
+   },
+   {
+      "title": "I'm Late",
+      "malid": 57196,
+      "type": "movie",
+      "releaseDate": "2021"
+   },
+   {
+      "title": "Tsuma Netori Kan: Bijutsu Kyoushi no Baai",
+      "enTitle": "Tsuma Netori Kan: Bijutsu Kyoushi no Baai",
+      "malid": 57198,
+      "anidbid": 18112,
+      "type": "ova",
+      "releaseDate": "2023-11-17"
+   },
+   {
+      "title": "Biri-Biri",
+      "malid": 57199,
+      "type": "music",
+      "releaseDate": "2023-11-18"
    }
 ]
