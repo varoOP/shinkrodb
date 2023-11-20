@@ -24701,6 +24701,13 @@
       "releaseDate": "1998-11-06"
    },
    {
+      "title": "Code Geass: Hangyaku no Lelouch Special Edition - Black Rebellion",
+      "enTitle": "Code Geass: Lelouch of the Rebellion Special Edition - Black Rebellion",
+      "malid": 4596,
+      "type": "ova",
+      "releaseDate": "2008-02-22"
+   },
+   {
       "title": "Kouya no Shounen Isamu",
       "malid": 4597,
       "type": "tv",
@@ -54062,6 +54069,7 @@
    },
    {
       "title": "Pokemon Best Wishes! Season 2: Decolora Adventure - Dent to Takeshi! Gyarados no Gekirin!!",
+      "enTitle": "Pokémon: Black \u0026 White: Adventures in Unova and Beyond - Cilan and Brock!! Gyarados's Outrage!!",
       "malid": 20743,
       "type": "special",
       "releaseDate": "2013-10-03"
@@ -151075,6 +151083,7 @@
    },
    {
       "title": "Knights of the Zodiac: Saint Seiya 3rd Season",
+      "enTitle": "Saint Seiya: Knights of the Zodiac - Battle for Sanctuary Part 2",
       "malid": 53748,
       "type": "ona",
       "releaseDate": "2024"
@@ -158418,13 +158427,6 @@
       "releaseDate": "2023-06-22"
    },
    {
-      "title": "Cang Yuan Tu",
-      "enTitle": "The Demon Hunter",
-      "malid": 55655,
-      "type": "ona",
-      "releaseDate": "2023-06-22"
-   },
-   {
       "title": "Shashou Gu De",
       "enTitle": "Good Killer",
       "malid": 55656,
@@ -159236,6 +159238,7 @@
    },
    {
       "title": "Tsuma ni Damatte Sokubaikai ni Ikun ja Nakatta",
+      "enTitle": "I Shouldn't Have Gone To The Doujinshi Convention Without Telling My Wife",
       "malid": 55850,
       "type": "ova",
       "releaseDate": "2023-10-06"
@@ -160582,7 +160585,7 @@
       "title": "Jiisan Baasan Wakagaeru",
       "malid": 56230,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-04"
    },
    {
       "title": "Hua Xianzi: Mofa Xiang Dui Lun",
@@ -161069,6 +161072,12 @@
       "malid": 56342,
       "type": "ona",
       "releaseDate": "2023-08-21"
+   },
+   {
+      "title": "BT21 x Baby Shark",
+      "malid": 56344,
+      "type": "music",
+      "releaseDate": "2019-12-16"
    },
    {
       "title": "Dramatic Nounai",
@@ -163047,6 +163056,12 @@
       "releaseDate": "2023-11-10"
    },
    {
+      "title": "Neo feat. Hatsune Miku",
+      "malid": 56804,
+      "type": "music",
+      "releaseDate": "2023-10-01"
+   },
+   {
       "title": "Yuusha",
       "malid": 56805,
       "type": "music",
@@ -163126,6 +163141,12 @@
       "malid": 56826,
       "type": "music",
       "releaseDate": "2023-09-15"
+   },
+   {
+      "title": "Guardy Girls",
+      "malid": 56828,
+      "type": "movie",
+      "releaseDate": "2022-10-14"
    },
    {
       "title": "Journey to Bloom",
@@ -163307,6 +163328,13 @@
       "releaseDate": ""
    },
    {
+      "title": "The Child Who Survived",
+      "enTitle": "The Child Who Survived",
+      "malid": 56881,
+      "type": "music",
+      "releaseDate": "2023-10-09"
+   },
+   {
       "title": "Ochibi-san Tanpen Movie",
       "malid": 56882,
       "type": "ona",
@@ -163323,6 +163351,12 @@
       "malid": 56886,
       "type": "music",
       "releaseDate": "2023-10-09"
+   },
+   {
+      "title": "Highway",
+      "malid": 56888,
+      "type": "music",
+      "releaseDate": "2022-07-13"
    },
    {
       "title": "Nappeungyejibae",
@@ -163602,6 +163636,12 @@
       "releaseDate": "2013-04-01"
    },
    {
+      "title": "Koi",
+      "malid": 56954,
+      "type": "music",
+      "releaseDate": "2022-05-25"
+   },
+   {
       "title": "Gekkouyoku",
       "enTitle": "Moonbath",
       "malid": 56955,
@@ -163614,6 +163654,12 @@
       "malid": 56958,
       "type": "ona",
       "releaseDate": "2023-10-20"
+   },
+   {
+      "title": "DAI MOND",
+      "malid": 56959,
+      "type": "music",
+      "releaseDate": "2022-04-20"
    },
    {
       "title": "Jin Zhan Fashi",
@@ -163744,6 +163790,18 @@
       "malid": 56997,
       "type": "tv",
       "releaseDate": "2023-10-26"
+   },
+   {
+      "title": "Midnight Mission",
+      "malid": 56999,
+      "type": "music",
+      "releaseDate": "2023-10-25"
+   },
+   {
+      "title": "Zero Talking",
+      "malid": 57000,
+      "type": "music",
+      "releaseDate": "2023-10-25"
    },
    {
       "title": "Meitantei Pikachu: Kareinaru Morning Routine",
@@ -164443,6 +164501,13 @@
       "releaseDate": "2003-02-25"
    },
    {
+      "title": "Ao no Hako",
+      "enTitle": "Blue Box",
+      "malid": 57181,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
       "title": "Wu Dong Qian Kun 4th Season",
       "malid": 57183,
       "type": "ona",
@@ -164502,5 +164567,29 @@
       "malid": 57199,
       "type": "music",
       "releaseDate": "2023-11-18"
+   },
+   {
+      "title": "2U feat. A Boogie Wit Da Hoodie",
+      "malid": 57201,
+      "type": "music",
+      "releaseDate": "2023-06-28"
+   },
+   {
+      "title": "Boku wa Jinkou Eisei",
+      "malid": 57202,
+      "type": "music",
+      "releaseDate": "2023-04-03"
+   },
+   {
+      "title": "Dare mo Inai Umi",
+      "malid": 57203,
+      "type": "music",
+      "releaseDate": "1969-08"
+   },
+   {
+      "title": "Yuki wa Non Non: Kumakko-tachi no Komori Uta",
+      "malid": 57204,
+      "type": "music",
+      "releaseDate": "1969-12"
    }
 ]
