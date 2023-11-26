@@ -135,21 +135,21 @@
       "releaseDate": "2004-10-08"
    },
    {
-      "title": "Neon Genesis Evangelion",
+      "title": "Shinseiki Evangelion",
       "enTitle": "Neon Genesis Evangelion",
       "malid": 30,
       "type": "tv",
       "releaseDate": "1995-10-04"
    },
    {
-      "title": "Neon Genesis Evangelion: Death \u0026 Rebirth",
+      "title": "Shinseiki Evangelion Movie: Shi to Shinsei",
       "enTitle": "Neon Genesis Evangelion: Death \u0026 Rebirth",
       "malid": 31,
       "type": "movie",
       "releaseDate": "1997-03-15"
    },
    {
-      "title": "Neon Genesis Evangelion: The End of Evangelion",
+      "title": "Shinseiki Evangelion Movie: Air/Magokoro wo, Kimi ni",
       "enTitle": "Neon Genesis Evangelion: The End of Evangelion",
       "malid": 32,
       "type": "movie",
@@ -1437,7 +1437,7 @@
       "releaseDate": "2004-04-03"
    },
    {
-      "title": "Detective Conan",
+      "title": "Meitantei Conan",
       "enTitle": "Case Closed",
       "malid": 235,
       "type": "tv",
@@ -4779,22 +4779,22 @@
       "releaseDate": "2006-02-10"
    },
    {
-      "title": "Detective Conan Movie 01: The Timed Skyscraper",
+      "title": "Meitantei Conan Movie 01: Tokei Jikake no Matenrou",
       "enTitle": "Case Closed The Movie: The Time Bombed Skyscraper",
       "malid": 779,
       "type": "movie",
       "releaseDate": "1997-04-19"
    },
    {
-      "title": "Detective Conan Movie 02: The Fourteenth Target",
-      "enTitle": "Case Closed: The Fourteenth Target",
+      "title": "Meitantei Conan Movie 02: Jyuuyonbanme no Target",
+      "enTitle": "Case Closed Movie 02: The Fourteenth Target",
       "malid": 780,
       "type": "movie",
       "releaseDate": "1998-04-18"
    },
    {
-      "title": "Detective Conan Movie 03: The Last Wizard of the Century",
-      "enTitle": "Case Closed Movie 3: The Last Wizard of the Century",
+      "title": "Meitantei Conan Movie 03: Seikimatsu no Majutsushi",
+      "enTitle": "Case Closed Movie 03: The Last Wizard of the Century",
       "malid": 781,
       "type": "movie",
       "releaseDate": "1999-04-17"
@@ -8281,46 +8281,50 @@
       "releaseDate": "1994-08-06"
    },
    {
-      "title": "Detective Conan Movie 04: Captured in Her Eyes",
-      "enTitle": "Case Closed Movie 4: Captured In Her Eyes",
+      "title": "Meitantei Conan Movie 04: Hitomi no Naka no Ansatsusha",
+      "enTitle": "Case Closed Movie 04: Captured In Her Eyes",
       "malid": 1363,
       "type": "movie",
       "releaseDate": "2000-04-22"
    },
    {
-      "title": "Detective Conan Movie 05: Countdown to Heaven",
-      "enTitle": "Case Closed Movie 5: Countdown to Heaven",
+      "title": "Meitantei Conan Movie 05: Tengoku e no Count Down",
+      "enTitle": "Case Closed Movie 05: Countdown to Heaven",
       "malid": 1364,
       "type": "movie",
       "releaseDate": "2001-04-21"
    },
    {
-      "title": "Detective Conan Movie 06: The Phantom of Baker Street",
-      "enTitle": "Case Closed: The Phantom of Baker Street",
+      "title": "Meitantei Conan Movie 06: Baker Street no Bourei",
+      "enTitle": "Case Closed Movie 06: The Phantom of Baker Street",
       "malid": 1365,
       "type": "movie",
       "releaseDate": "2002-04-20"
    },
    {
-      "title": "Detective Conan Movie 07: Crossroad in the Ancient Capital",
+      "title": "Meitantei Conan Movie 07: Meikyuu no Crossroad",
+      "enTitle": "Detective Conan Movie 07: Crossroad in the Ancient Capital",
       "malid": 1366,
       "type": "movie",
       "releaseDate": "2003-04-19"
    },
    {
-      "title": "Detective Conan Movie 08: Magician of the Silver Sky",
+      "title": "Meitantei Conan Movie 08: Ginyoku no Magician",
+      "enTitle": "Detective Conan Movie 08: Magician of the Silver Sky",
       "malid": 1367,
       "type": "movie",
       "releaseDate": "2004-04-17"
    },
    {
-      "title": "Detective Conan OVA 06: Follow the Vanished Diamond! Conan \u0026 Heiji vs. Kid!",
+      "title": "Meitantei Conan OVA 06: Kieta Daiya wo Oe! Conan \u0026 Heiji VS Kid!",
+      "enTitle": "Detective Conan OVA 06: Follow the Vanished Diamond! Conan \u0026 Heiji vs. Kid!",
       "malid": 1368,
       "type": "ova",
       "releaseDate": "2006-03-15"
    },
    {
-      "title": "Detective Conan OVA 01: Conan vs. Kid vs. Yaiba - Houtou Soudatsu Daikessen!!",
+      "title": "Meitantei Conan OVA 01: Conan vs. Kid vs. Yaiba - Houtou Soudatsu Daikessen!!",
+      "enTitle": "Detective Conan OVA 01: Conan VS KID VS Yaiba",
       "malid": 1369,
       "type": "ova",
       "releaseDate": "2000-10-11"
@@ -9175,14 +9179,15 @@
       "releaseDate": "1987-06-21"
    },
    {
-      "title": "Detective Conan Movie 09: Strategy Above the Depths",
+      "title": "Meitantei Conan Movie 09: Suihei Senjou no Strategy",
+      "enTitle": "Detective Conan Movie 09: Strategy Above the Depths",
       "malid": 1505,
       "type": "movie",
       "releaseDate": "2005-04-09"
    },
    {
-      "title": "Detective Conan Movie 10: Requiem of the Detectives",
-      "enTitle": "Detective Conan: The Private Eyes' Requiem",
+      "title": "Meitantei Conan Movie 10: Tantei-tachi no Requiem",
+      "enTitle": "Detective Conan Movie 10: The Private Eyes' Requiem",
       "malid": 1506,
       "type": "movie",
       "releaseDate": "2006-04-15"
@@ -11323,7 +11328,7 @@
       "releaseDate": "2007-01-12"
    },
    {
-      "title": "Cutey Honey F",
+      "title": "Cutie Honey F",
       "enTitle": "Cutey Honey F",
       "malid": 1853,
       "type": "tv",
@@ -13258,7 +13263,8 @@
       "releaseDate": "2007-05-25"
    },
    {
-      "title": "Detective Conan Movie 11: Jolly Roger in the Deep Azure",
+      "title": "Meitantei Conan Movie 11: Konpeki no Jolly Roger",
+      "enTitle": "Detective Conan Movie 11: Jolly Roger in the Deep Azure",
       "malid": 2171,
       "type": "movie",
       "releaseDate": "2007-04-21"
@@ -15229,7 +15235,7 @@
       "releaseDate": "2001-05-21"
    },
    {
-      "title": "Shin Cutey Honey",
+      "title": "Shin Cutie Honey",
       "enTitle": "New Cutey Honey",
       "malid": 2497,
       "type": "ova",
@@ -15308,25 +15314,29 @@
       "releaseDate": "1985-04-27"
    },
    {
-      "title": "Detective Conan OVA 02: 16 Suspects",
+      "title": "Meitantei Conan OVA 02: 16-nin no Yougisha",
+      "enTitle": "Detective Conan OVA 02: 16 Suspects",
       "malid": 2512,
       "type": "ova",
       "releaseDate": "2002-01-16"
    },
    {
-      "title": "Detective Conan OVA 03: Conan and Heiji and the Vanished Boy",
+      "title": "Meitantei Conan OVA 03: Conan to Heiji to Kieta Shounen",
+      "enTitle": "Detective Conan OVA 03: Conan and Heiji and the Vanished Boy",
       "malid": 2513,
       "type": "ova",
       "releaseDate": "2003"
    },
    {
-      "title": "Detective Conan OVA 04: Conan and Kid and Crystal Mother",
+      "title": "Meitantei Conan OVA 04: Conan to Kid to Crystal Mother",
+      "enTitle": "Detective Conan OVA 04: Conan and Kid and Crystal Mother",
       "malid": 2514,
       "type": "ova",
       "releaseDate": "2004"
    },
    {
-      "title": "Detective Conan OVA 05: The Target is Kogoro! The Detective Boys' Secret Investigation",
+      "title": "Meitantei Conan OVA 05: Hyouteki wa Kogoro! Shounen Tanteidan Maruchichousa",
+      "enTitle": "Detective Conan OVA 05: The Target is Kogoro! The Detective Boys' Secret Investigation",
       "malid": 2515,
       "type": "ova",
       "releaseDate": "2005"
@@ -15856,7 +15866,8 @@
       "releaseDate": "2007-10-18"
    },
    {
-      "title": "Detective Conan OVA 07: A Challenge from Agasa! Agasa vs. Conan and the Detective Boys",
+      "title": "Meitantei Conan OVA 07: Agasa-sensei no Chousenjou! Agasa vs Conan \u0026 Shounen Tanteidan",
+      "enTitle": "Detective Conan OVA 07: A Challenge from Agasa! Agasa vs. Conan and the Detective Boys",
       "malid": 2597,
       "type": "ova",
       "releaseDate": "2007-03-13"
@@ -16815,6 +16826,7 @@
    },
    {
       "title": "Cheonnyeon-yeowoo Yeowoobi",
+      "enTitle": "Yobi, The Five Tailed Fox",
       "malid": 2756,
       "type": "movie",
       "releaseDate": "2007-01-25"
@@ -16832,7 +16844,7 @@
       "releaseDate": "1993-04-06"
    },
    {
-      "title": "Evangelion: 1.0 You Are (Not) Alone",
+      "title": "Evangelion Movie 1: Jo",
       "enTitle": "Evangelion: 1.0 You Are (Not) Alone",
       "malid": 2759,
       "type": "movie",
@@ -21712,21 +21724,21 @@
       "releaseDate": "2008-02-09"
    },
    {
-      "title": "Evangelion: 2.0 You Can (Not) Advance",
+      "title": "Evangelion Movie 2: Ha",
       "enTitle": "Evangelion: 2.0 You Can (Not) Advance",
       "malid": 3784,
       "type": "movie",
       "releaseDate": "2009-07-27"
    },
    {
-      "title": "Evangelion: 3.0 You Can (Not) Redo",
+      "title": "Evangelion Movie 3: Q",
       "enTitle": "Evangelion: 3.0 You Can (Not) Redo",
       "malid": 3785,
       "type": "movie",
       "releaseDate": "2012-11-17"
    },
    {
-      "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "title": "Shin Evangelion Movie: ||",
       "enTitle": "Evangelion: 3.0+1.0 Thrice Upon a Time",
       "malid": 3786,
       "type": "movie",
@@ -24128,7 +24140,8 @@
       "releaseDate": "2007-04-09"
    },
    {
-      "title": "Detective Conan Movie 12: Full Score of Fear",
+      "title": "Meitantei Conan Movie 12: Senritsu no Full Score",
+      "enTitle": "Detective Conan Movie 12: Full Score of Fear",
       "malid": 4447,
       "type": "movie",
       "releaseDate": "2008-04-19"
@@ -27121,7 +27134,8 @@
       "releaseDate": "2005-07-25"
    },
    {
-      "title": "Detective Conan Magic File 2: Kudou Shinichi - The Case of the Mysterious Wall and the Black Lab",
+      "title": "Meitantei Conan Magic File 2: Kudou Shinichi Nazo no Kabe to Kuro Lab Jiken",
+      "enTitle": "Detective Conan Magic File 2: Kudou Shinichi - The Case of the Mysterious Wall and the Black Lab",
       "malid": 5348,
       "type": "ova",
       "releaseDate": "2008-04-19"
@@ -27372,7 +27386,7 @@
       "releaseDate": "2002-01-01"
    },
    {
-      "title": "Detective Conan Movie 13: The Raven Chaser",
+      "title": "Meitantei Conan Movie 13: Shikkoku no Chaser",
       "enTitle": "Detective Conan Movie 13: The Raven Chaser",
       "malid": 5460,
       "type": "movie",
@@ -27819,7 +27833,8 @@
       "releaseDate": "2006-04-28"
    },
    {
-      "title": "Gosho Aoyama's Collection of Short Stories",
+      "title": "Aoyama Goushou Tanpenshuu",
+      "enTitle": "Gosho Aoyama's Collection of Short Stories",
       "malid": 5578,
       "type": "special",
       "releaseDate": "1999-03-17"
@@ -29445,7 +29460,8 @@
       "releaseDate": "2010-04-07"
    },
    {
-      "title": "Lupin III vs. Detective Conan",
+      "title": "Lupin III vs. Meitantei Conan",
+      "enTitle": "Lupin III vs. Detective Conan",
       "malid": 6115,
       "type": "special",
       "releaseDate": "2009-03-27"
@@ -29694,7 +29710,8 @@
       "releaseDate": "2010-11-01"
    },
    {
-      "title": "Detective Conan OVA 08: High School Girl Detective Sonoko Suzuki's Case Files",
+      "title": "Meitantei Conan OVA 08: Joshikousei Tantei Suzuki Sonoko no Jikenbo",
+      "enTitle": "Detective Conan OVA 08: High School Girl Detective Sonoko Suzuki's Case Files",
       "malid": 6198,
       "type": "ova",
       "releaseDate": "2008"
@@ -29805,7 +29822,8 @@
       "releaseDate": "1997-02-21"
    },
    {
-      "title": "Detective Conan Magic File 3: Shinichi and Ran - Memories of Mahjong Tiles and Tanabata",
+      "title": "Meitantei Conan Magic File 3: Shinichi to Ran Mahjong Pai to Tanabata no Omoide",
+      "enTitle": "Detective Conan Magic File 3: Shinichi and Ran - Memories of Mahjong Tiles and Tanabata",
       "malid": 6231,
       "type": "ova",
       "releaseDate": "2009-04-18"
@@ -30297,7 +30315,8 @@
       "releaseDate": "2009-04-24"
    },
    {
-      "title": "Detective Conan OVA 09: The Stranger in 10 Years...",
+      "title": "Meitantei Conan OVA 09: 10-nengo no Stranger",
+      "enTitle": "Detective Conan OVA 09: The Stranger in 10 Years...",
       "malid": 6438,
       "type": "ova",
       "releaseDate": "2009-06-17"
@@ -30361,7 +30380,8 @@
       "releaseDate": "2009-05-23"
    },
    {
-      "title": "Detective Conan Movie 14: The Lost Ship in the Sky",
+      "title": "Meitantei Conan Movie 14: Tenkuu no Lost Ship",
+      "enTitle": "Detective Conan Movie 14: The Lost Ship in the Sky",
       "malid": 6467,
       "type": "movie",
       "releaseDate": "2010-04-17"
@@ -32702,19 +32722,22 @@
       "releaseDate": "2004-04-07"
    },
    {
-      "title": "Detective Conan: Black History",
+      "title": "Meitantei Conan: Kuro no Soshiki to Taiketsu no Rekishi",
+      "enTitle": "Detective Conan: Black History",
       "malid": 7303,
       "type": "special",
       "releaseDate": "2007-12-17"
    },
    {
-      "title": "Detective Conan Movie 08: Time Travel of the Silver Sky",
+      "title": "Meitantei Conan Movie 08: Ginyoku no Time Travel Recap",
+      "enTitle": "Detective Conan Movie 08: Time Travel of the Silver Sky Recap",
       "malid": 7304,
       "type": "special",
       "releaseDate": "2004-04-30"
    },
    {
-      "title": "Detective Conan Movie 10: Promo Special",
+      "title": "Meitantei Conan Movie 10: Tantei-tachi no Requiem Recap",
+      "enTitle": "Detective Conan Movie 10: Requiem of the Detectives Recap",
       "malid": 7305,
       "type": "special",
       "releaseDate": "2006"
@@ -33064,7 +33087,8 @@
       "releaseDate": "2009-10-23"
    },
    {
-      "title": "Detective Conan Movie 09: Promo Special",
+      "title": "Meitantei Conan Movie 09: Suihei Senjou no Strategy Recap",
+      "enTitle": "Detective Conan Movie 09: Strategy Above the Depths Recap",
       "malid": 7471,
       "type": "special",
       "releaseDate": "2005"
@@ -35059,7 +35083,8 @@
       "releaseDate": "1986-06-21"
    },
    {
-      "title": "Detective Conan Magic File 4: Osaka Okonomiyaki Odyssey",
+      "title": "Meitantei Conan Magic File 4: Osaka Okonomiyaki Odyssey",
+      "enTitle": "Detective Conan Magic File 4: Osaka Okonomiyaki Odyssey",
       "malid": 8331,
       "type": "ova",
       "releaseDate": "2010-04-17"
@@ -35776,7 +35801,8 @@
       "releaseDate": "2007-06-01"
    },
    {
-      "title": "Detective Conan OVA 10: Kid in Trap Island",
+      "title": "Meitantei Conan OVA 10: Kid in Trap Island",
+      "enTitle": "Detective Conan OVA 10: Kid in Trap Island",
       "malid": 8609,
       "type": "ova",
       "releaseDate": "2010-04-14"
@@ -35924,7 +35950,7 @@
       "releaseDate": "2010-04-05"
    },
    {
-      "title": "Chimuchimucheri ChimChimCheree",
+      "title": "Chim Chim Cher-ee",
       "malid": 8661,
       "type": "music",
       "releaseDate": "1966-04-05"
@@ -38670,13 +38696,15 @@
       "releaseDate": "2011-01-22"
    },
    {
-      "title": "Detective Conan: Conan vs. Kid - Shark \u0026 Jewel",
+      "title": "Meitantei Conan: Conan vs. Kid - Shark \u0026 Jewel",
+      "enTitle": "Detective Conan: Conan vs. Kid - Shark \u0026 Jewel",
       "malid": 9785,
       "type": "movie",
       "releaseDate": "2005-07-29"
    },
    {
-      "title": "Detective Conan: Conan vs. Kid - Jet Black Sniper",
+      "title": "Meitantei Conan: Conan vs. Kid - Shikkoku no Sniper",
+      "enTitle": "Detective Conan: Conan vs. Kid - Jet Black Sniper",
       "malid": 9786,
       "type": "movie",
       "releaseDate": "2006-07-28"
@@ -39297,7 +39325,8 @@
       "releaseDate": "1994-07-21"
    },
    {
-      "title": "Detective Conan Movie 15: Quarter of Silence",
+      "title": "Meitantei Conan Movie 15: Chinmoku no Quarter",
+      "enTitle": "Detective Conan Movie 15: Quarter of Silence",
       "malid": 9963,
       "type": "movie",
       "releaseDate": "2011-04-16"
@@ -40921,7 +40950,8 @@
       "releaseDate": "2010-04-03"
    },
    {
-      "title": "Detective Conan Magic File 5: Niigata - Tokyo Omiyage Capriccio",
+      "title": "Meitantei Conan Magic File 5: Niigata - Tokyo Omiyage Capriccio",
+      "enTitle": "Detective Conan Magic File 5: Niigata - Tokyo Omiyage Capriccio",
       "malid": 10531,
       "type": "ova",
       "releaseDate": "2011-04-16"
@@ -41397,7 +41427,8 @@
       "releaseDate": "2011-07-26"
    },
    {
-      "title": "Detective Conan OVA 11: A Secret Order from London",
+      "title": "Meitantei Conan OVA 11: London kara no Maru Hi Shirei",
+      "enTitle": "Detective Conan OVA 11: A Secret Order from London",
       "malid": 10703,
       "type": "ova",
       "releaseDate": "2011-05-30"
@@ -41635,7 +41666,8 @@
       "releaseDate": "2002"
    },
    {
-      "title": "Detective Conan vs. Wooo",
+      "title": "Meitantei Conan vs. Wooo",
+      "enTitle": "Detective Conan vs. Wooo",
       "malid": 10766,
       "type": "ona",
       "releaseDate": "2011-04-22"
@@ -43050,7 +43082,7 @@
       "enTitle": "Crazy Clay Wrestling",
       "malid": 11689,
       "type": "ona",
-      "releaseDate": "2007-12-08"
+      "releaseDate": "2007-04-21"
    },
    {
       "title": "Bloody Date",
@@ -43708,7 +43740,8 @@
       "releaseDate": "2013-02-01"
    },
    {
-      "title": "Detective Conan Movie 16: The Eleventh Striker",
+      "title": "Meitantei Conan Movie 16: 11-ninme no Striker",
+      "enTitle": "Detective Conan Movie 16: The Eleventh Striker",
       "malid": 12117,
       "type": "movie",
       "releaseDate": "2012-04-14"
@@ -46041,13 +46074,15 @@
       "releaseDate": "2012-03-18"
    },
    {
-      "title": "Detective Conan Bonus File: Fantasista Flower",
+      "title": "Meitantei Conan Bonus File: Fantasista no Hana",
+      "enTitle": "Detective Conan Bonus File: Fantasista Flower",
       "malid": 13837,
       "type": "ova",
       "releaseDate": "2012-04-14"
    },
    {
-      "title": "Detective Conan OVA 12: The Miracle of Excalibur",
+      "title": "Meitantei Conan OVA 12: Excalibur no Kiseki",
+      "enTitle": "Detective Conan OVA 12: The Miracle of Excalibur",
       "malid": 13839,
       "type": "ova",
       "releaseDate": "2012-05-24"
@@ -46285,6 +46320,7 @@
    },
    {
       "title": "Pokemon Black and White 2: Introduction Movie",
+      "enTitle": "Pokémon Black and White 2: Introduction Movie",
       "malid": 14123,
       "type": "ona",
       "releaseDate": "2012-05-16"
@@ -46767,7 +46803,8 @@
       "releaseDate": "2012-10-06"
    },
    {
-      "title": "Detective Conan Movie 17: Private Eye in the Distant Sea",
+      "title": "Meitantei Conan Movie 17: Zekkai no Private Eye",
+      "enTitle": "Detective Conan Movie 17: Private Eye in the Distant Sea",
       "malid": 14735,
       "type": "movie",
       "releaseDate": "2013-04-20"
@@ -51321,7 +51358,8 @@
       "releaseDate": "2012-12-12"
    },
    {
-      "title": "Lupin III vs. Detective Conan: The Movie",
+      "title": "Lupin III vs. Meitantei Conan: The Movie",
+      "enTitle": "Lupin III vs. Detective Conan: The Movie",
       "malid": 18429,
       "type": "movie",
       "releaseDate": "2013-12-07"
@@ -53122,12 +53160,6 @@
       "releaseDate": "2002-01-13"
    },
    {
-      "title": "Pipi Tobenai Hotaru",
-      "malid": 19909,
-      "type": "movie",
-      "releaseDate": "1996-03-23"
-   },
-   {
       "title": "Nijuushi no Hitomi",
       "malid": 19917,
       "type": "special",
@@ -54821,7 +54853,8 @@
       "releaseDate": "2013-12-25"
    },
    {
-      "title": "Detective Conan Movie 18: The Sniper from Another Dimension",
+      "title": "Meitantei Conan Movie 18: Ijigen no Sniper",
+      "enTitle": "Detective Conan Movie 18: The Sniper from Another Dimension",
       "malid": 21419,
       "type": "movie",
       "releaseDate": "2014-04-19"
@@ -54885,6 +54918,12 @@
       "malid": 21451,
       "type": "music",
       "releaseDate": "2012-04-04"
+   },
+   {
+      "title": "Ikkyuu-san to Yancha Hime",
+      "malid": 21467,
+      "type": "movie",
+      "releaseDate": "1978-03-18"
    },
    {
       "title": "Ikkyuu-san to Yancha Hime",
@@ -55456,7 +55495,8 @@
       "releaseDate": "2014-04-08"
    },
    {
-      "title": "The Disappearance of Conan Edogawa: The Worst Two Days in History",
+      "title": "Edogawa Conan Shissou Jiken: Shijou Saiaku no Futsukakan",
+      "enTitle": "The Disappearance of Conan Edogawa: The Worst Two Days in History",
       "malid": 21867,
       "type": "special",
       "releaseDate": "2014-12-26"
@@ -58956,7 +58996,8 @@
       "releaseDate": "1997-03-14"
    },
    {
-      "title": "Detective Conan: The Fugitive Kogorou Mouri",
+      "title": "Meitantei Conan: Toubousha Mouri Kogorou",
+      "enTitle": "Detective Conan: The Fugitive Kogorou Mouri",
       "malid": 24169,
       "type": "ona",
       "releaseDate": "2014-04-30"
@@ -62845,6 +62886,12 @@
       "releaseDate": "1999"
    },
    {
+      "title": "Kaitou Gary no Nihonjin Kouryakuhou!",
+      "malid": 28111,
+      "type": "ova",
+      "releaseDate": "1999"
+   },
+   {
       "title": "Ooi! Adacchii!",
       "enTitle": "Hey, Addachi!",
       "malid": 28113,
@@ -63267,7 +63314,7 @@
       "releaseDate": "2014-11-18"
    },
    {
-      "title": "Detective Conan Movie 19: The Hellfire Sunflowers",
+      "title": "Meitantei Conan Movie 19: Gouka no Himawari",
       "enTitle": "Detective Conan Movie 19: The Sunflowers of Inferno",
       "malid": 28479,
       "type": "movie",
@@ -64737,7 +64784,8 @@
       "releaseDate": "2011-03-07"
    },
    {
-      "title": "Detective Conan: Happy New Year Special",
+      "title": "Meitantei Conan: Kinga Shinnen Mouri Kogorou",
+      "enTitle": "Detective Conan: Happy New Year Special",
       "malid": 29437,
       "type": "special",
       "releaseDate": "2015-01-03"
@@ -72135,7 +72183,8 @@
       "releaseDate": "2016-02-24"
    },
    {
-      "title": "Detective Conan Movie 20: The Darkest Nightmare",
+      "title": "Meitantei Conan Movie 20: Junkoku no Nightmare",
+      "enTitle": "Detective Conan Movie 20: The Darkest Nightmare",
       "malid": 32005,
       "type": "movie",
       "releaseDate": "2016-04-16"
@@ -73025,6 +73074,12 @@
       "malid": 32366,
       "type": "ova",
       "releaseDate": "2016-08-04"
+   },
+   {
+      "title": "Silk Road Shounen Yuuto: Toki wo Kakeru Shounen Yuuto no Hyouryuu Nikki",
+      "malid": 32369,
+      "type": "special",
+      "releaseDate": "2007-01-13"
    },
    {
       "title": "Silk Road Shounen Yuuto: Toki wo Kakeru Shounen Yuuto no Hyouryuu Nikki",
@@ -75551,25 +75606,29 @@
       "releaseDate": "2006-07"
    },
    {
-      "title": "Detective Conan: Chase the Mysterious Comet Monster!",
+      "title": "Meitantei Conan: Nazo no Suisei Kaijuu wo Oe!",
+      "enTitle": "Detective Conan: Chase the Mysterious Comet Monster!",
       "malid": 33145,
       "type": "ova",
       "releaseDate": "2001-11-09"
    },
    {
-      "title": "Detective Conan: Let's Experience the Jomon Period!",
+      "title": "Meitantei Conan: Jomon Taiken Yatte Miyou!",
+      "enTitle": "Detective Conan: Let's Experience the Jomon Period!",
       "malid": 33148,
       "type": "ova",
       "releaseDate": "1999-06-25"
    },
    {
-      "title": "Detective Conan: The Internet - The Mysterious E-mail Case",
+      "title": "Meitantei Conan: Internet Nazo no Mail Jiken",
+      "enTitle": "Detective Conan: The Internet - The Mysterious E-mail Case",
       "malid": 33149,
       "type": "ova",
       "releaseDate": "2000-06-23"
    },
    {
-      "title": "Detective Conan: A Written Challenge from the Pyramids!",
+      "title": "Meitantei Conan: Pyramid kara no Chousenjou!",
+      "enTitle": "Detective Conan: A Written Challenge from the Pyramids!",
       "malid": 33150,
       "type": "ova",
       "releaseDate": "2001-06-22"
@@ -75581,7 +75640,8 @@
       "releaseDate": "2002-06-21"
    },
    {
-      "title": "Detective Conan: City Exploration! Get the Animal Mark!",
+      "title": "Meitantei Conan: Machi Tanken! Doubutsu Mark wo Get Seyo!",
+      "enTitle": "Detective Conan: City Exploration! Get the Animal Mark!",
       "malid": 33152,
       "type": "ova",
       "releaseDate": "2003-06-20"
@@ -78606,7 +78666,8 @@
       "releaseDate": "2016-11-17"
    },
    {
-      "title": "Detective Conan: Episode One - The Great Detective Turned Small",
+      "title": "Meitantei Conan: Episode One - Chiisaku Natta Meitantei",
+      "enTitle": "Detective Conan: Episode One - The Great Detective Turned Small",
       "malid": 34036,
       "type": "special",
       "releaseDate": "2016-12-09"
@@ -79837,7 +79898,8 @@
       "releaseDate": "2017-03-11"
    },
    {
-      "title": "Detective Conan Movie 21: The Crimson Love Letter",
+      "title": "Meitantei Conan Movie 21: Karakurenai no Love Letter",
+      "enTitle": "Detective Conan Movie 21: The Crimson Love Letter",
       "malid": 34430,
       "type": "movie",
       "releaseDate": "2017-04-15"
@@ -84827,7 +84889,7 @@
       "releaseDate": "2018-03-10"
    },
    {
-      "title": "Milky Panic twelve",
+      "title": "Milky Panic: Twelve",
       "malid": 35682,
       "type": "movie",
       "releaseDate": "2018-03-10"
@@ -85221,8 +85283,8 @@
       "releaseDate": "2019-01-09"
    },
    {
-      "title": "Detective Conan Movie 22: Zero the Enforcer",
-      "enTitle": "Detective Conan: Zero the Enforcer",
+      "title": "Meitantei Conan Movie 22: Zero no Shikkounin",
+      "enTitle": "Case Closed Movie 22: Zero the Enforcer",
       "malid": 35798,
       "type": "movie",
       "releaseDate": "2018-04-13"
@@ -86842,7 +86904,8 @@
       "releaseDate": "2018-04-03"
    },
    {
-      "title": "Detective Conan: Anti-Crime Guide",
+      "title": "Meitantei Conan: Bouhan Guide",
+      "enTitle": "Detective Conan: Anti-Crime Guide",
       "malid": 36269,
       "type": "ova",
       "releaseDate": "2006"
@@ -88924,7 +88987,8 @@
       "releaseDate": "2013"
    },
    {
-      "title": "Detective Conan: The Magician of Starlight",
+      "title": "Meitantei Conan: Hoshikage no Majutsushi",
+      "enTitle": "Detective Conan: The Magician of Starlight",
       "malid": 36760,
       "type": "movie",
       "releaseDate": "2012"
@@ -89025,7 +89089,7 @@
    },
    {
       "title": "Girls \u0026 Panzer: Dai 63-kai Senshadou Zenkoku Koukousei Taikai Recap",
-      "enTitle": "Girls und Panzer Compilation: The 63rd Nation High School Sensha-do Games",
+      "enTitle": "Girls und Panzer Compilation: The 63rd National High School Sensha-do Games",
       "malid": 36783,
       "type": "ona",
       "releaseDate": "2017-11-11"
@@ -96975,7 +97039,8 @@
       "releaseDate": "1992-09-05"
    },
    {
-      "title": "Detective Conan Movie 23: The Fist of Blue Sapphire",
+      "title": "Meitantei Conan Movie 23: Konjou no Fist",
+      "enTitle": "Case Closed Movie 23: The Fist of Blue Sapphire",
       "malid": 38770,
       "type": "movie",
       "releaseDate": "2019-04-12"
@@ -97073,7 +97138,8 @@
       "releaseDate": "2019-04-06"
    },
    {
-      "title": "Detective Conan: Amuro Secret Call",
+      "title": "Meitantei Conan: Amuro Secret Call",
+      "enTitle": "Detective Conan: Amuro Secret Call",
       "malid": 38788,
       "type": "special",
       "releaseDate": "2018-10-03"
@@ -101301,7 +101367,8 @@
       "releaseDate": "2019-04-24"
    },
    {
-      "title": "Detective Conan Movie 24: The Scarlet Bullet",
+      "title": "Meitantei Conan Movie 24: Hiiro no Dangan",
+      "enTitle": "Detective Conan Movie 24: The Scarlet Bullet",
       "malid": 39764,
       "type": "movie",
       "releaseDate": "2021-04-16"
@@ -103249,7 +103316,8 @@
       "releaseDate": "2005-01"
    },
    {
-      "title": "Shounen Sunday CM: Detective Conan",
+      "title": "Shounen Sunday CM: Meitantei Conan",
+      "enTitle": "Shounen Sunday CM: Detective Conan",
       "malid": 40348,
       "type": "special",
       "releaseDate": "1995-08"
@@ -109732,7 +109800,8 @@
       "releaseDate": "2018-09-14"
    },
    {
-      "title": "Detective Conan: The Burning Galactic Railway",
+      "title": "Meitantei Conan: Shakunetsu no Ginga Tetsudou",
+      "enTitle": "Detective Conan: The Burning Galactic Railway",
       "malid": 42476,
       "type": "movie",
       "releaseDate": "2020-02-01"
@@ -110022,7 +110091,7 @@
       "releaseDate": "2020-08-16"
    },
    {
-      "title": "Yume Miru Jump",
+      "title": "Yumemiru Jump",
       "malid": 42612,
       "type": "music",
       "releaseDate": "2005-10-01"
@@ -129314,7 +129383,8 @@
       "releaseDate": "2021-03-05"
    },
    {
-      "title": "Detective Conan: The Scarlet Alibi",
+      "title": "Meitantei Conan: Hiiro no Fuzai Shoumei",
+      "enTitle": "Detective Conan: The Scarlet Alibi",
       "malid": 47413,
       "type": "movie",
       "releaseDate": "2021-02-11"
@@ -131506,33 +131576,9 @@
       "releaseDate": "2019"
    },
    {
-      "title": "Pipi Zhu: Chengyu Lieche",
-      "malid": 47894,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
-      "title": "Pipi Zhu: Conglin Riji",
-      "malid": 47895,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
       "title": "Pipi Zhu: Dizhen Qiusheng Ji",
       "malid": 47896,
       "type": "ona",
-      "releaseDate": ""
-   },
-   {
-      "title": "Pipi Zhu: Conglin Shenghuo",
-      "malid": 47897,
-      "type": "tv",
-      "releaseDate": ""
-   },
-   {
-      "title": "Pipi Zhu: Conglin Da Maoxian",
-      "malid": 47898,
-      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -136351,8 +136397,8 @@
       "releaseDate": "2021-06-29"
    },
    {
-      "title": "Detective Conan Movie 25: Halloween no Hanayome",
-      "enTitle": "Detective Conan: The Bride of Halloween",
+      "title": "Meitantei Conan Movie 25: Halloween no Hanayome",
+      "enTitle": "Detective Conan Movie 25: The Bride of Halloween",
       "malid": 49320,
       "type": "movie",
       "releaseDate": "2022-04-15"
@@ -137167,7 +137213,8 @@
       "releaseDate": "2021-09-20"
    },
    {
-      "title": "Detective Conan: Solve the Mystery of Heatstroke!",
+      "title": "Meitantei Conan: Necchuushou no Nazo wo Toke!",
+      "enTitle": "Detective Conan: Solve the Mystery of Heatstroke!",
       "malid": 49611,
       "type": "ova",
       "releaseDate": "2003-05"
@@ -137587,8 +137634,8 @@
    {
       "title": "Kijin Gentoushou",
       "malid": 49778,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024"
    },
    {
       "title": "Atasha Kawashiri Kodama da yo: Dangerous Lifehacker no Tadareta Seikatsu",
@@ -139714,7 +139761,7 @@
    },
    {
       "title": "Liang Bu Yi 2nd Season",
-      "enTitle": "No Doubt In Us",
+      "enTitle": "No Doubt In Us 2nd Season",
       "malid": 50403,
       "type": "ona",
       "releaseDate": "2022-10-26"
@@ -141825,7 +141872,7 @@
       "enTitle": "Classroom of the Elite III",
       "malid": 51180,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-03"
    },
    {
       "title": "Yin Yang Shi: Ping An Wu Yu 3rd Season",
@@ -142513,7 +142560,7 @@
       "enTitle": "Dead Dead Demons Dededede Destruction",
       "malid": 51358,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-03-22"
    },
    {
       "title": "Mo You Ji",
@@ -143466,6 +143513,13 @@
       "releaseDate": "2014-05-01"
    },
    {
+      "title": "Simgyeong",
+      "enTitle": "Mirror in Mind",
+      "malid": 51597,
+      "type": "movie",
+      "releaseDate": "2014-05-01"
+   },
+   {
       "title": "Umjig-im-ui Sajeon",
       "enTitle": "Movements",
       "malid": 51598,
@@ -144070,7 +144124,7 @@
       "releaseDate": "2022-06-16"
    },
    {
-      "title": "Detective Conan: Love Story at Police Headquarters - Wedding Eve",
+      "title": "Meitantei Conan: Honchou no Keiji Koi Monogatari - Kekkon Zenya",
       "enTitle": "Detective Conan: Love Story at Police Headquarters - Wedding Eve",
       "malid": 51782,
       "type": "special",
@@ -150301,7 +150355,8 @@
       "releaseDate": "2024-04"
    },
    {
-      "title": "Detective Conan Manner Movie",
+      "title": "Meitantei Conan Manner Movie",
+      "enTitle": "Detective Conan Manner Movie",
       "malid": 53517,
       "type": "movie",
       "releaseDate": "2015-04-18"
@@ -150356,7 +150411,8 @@
       "releaseDate": "2024"
    },
    {
-      "title": "Detective Conan Movie 26: Kurogane no Submarine",
+      "title": "Meitantei Conan Movie 26: Kurogane no Submarine",
+      "enTitle": "Detective Conan Movie 26: Black Iron Submarine",
       "malid": 53540,
       "type": "movie",
       "releaseDate": "2023-04-14"
@@ -151244,7 +151300,8 @@
       "releaseDate": "2021"
    },
    {
-      "title": "Detective Conan: Haibara Ai Monogatari - Kurogane no Mystery Train",
+      "title": "Meitantei Conan: Haibara Ai Monogatari - Kurogane no Mystery Train",
+      "enTitle": "Detective Conan: Ai Habara's Story - Jet-Black Mystery Train",
       "malid": 53780,
       "type": "movie",
       "releaseDate": "2023-01-06"
@@ -152146,7 +152203,7 @@
       "releaseDate": "2019-12-18"
    },
    {
-      "title": "Detective Conan: Tantei-tachi no Starry Night",
+      "title": "Meitantei Conan: Tantei-tachi no Starry Night",
       "malid": 53976,
       "type": "movie",
       "releaseDate": "2015"
@@ -153485,19 +153542,6 @@
       "releaseDate": "2022-12-21"
    },
    {
-      "title": "Pinkfong Wonderstar",
-      "enTitle": "Pinkfong Wonderstar",
-      "malid": 54291,
-      "type": "tv",
-      "releaseDate": "2019-06-27"
-   },
-   {
-      "title": "Pinkfong-gwa Hogi-ui Sinnaneun Iyagi",
-      "malid": 54292,
-      "type": "special",
-      "releaseDate": "2020-01-16"
-   },
-   {
       "title": "Myeongtamjeong Pinkfong-gwa Hogi",
       "enTitle": "Pinkfong Wonderstar Part 2",
       "malid": 54293,
@@ -153765,6 +153809,18 @@
       "malid": 54364,
       "type": "movie",
       "releaseDate": "2007-07-27"
+   },
+   {
+      "title": "Artiswitch Collection/2021",
+      "malid": 54367,
+      "type": "ona",
+      "releaseDate": "2021-11-05"
+   },
+   {
+      "title": "Artiswitch Collection/Ruru",
+      "malid": 54368,
+      "type": "ona",
+      "releaseDate": "2022-01-14"
    },
    {
       "title": "Persona (Music)",
@@ -154960,6 +155016,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Rhapsody",
+      "malid": 54727,
+      "type": "ona",
+      "releaseDate": "2023-11-20"
+   },
+   {
       "title": "Kinnikuman: Kanpeki Chоujin Shiso-hen",
       "malid": 54730,
       "type": "tv",
@@ -155458,8 +155520,8 @@
    {
       "title": "Rinkai!",
       "malid": 54859,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024-04"
    },
    {
       "title": "Koukaku Kidoutai: SAC_2045 - Saigo no Ningen",
@@ -155492,7 +155554,7 @@
       "enTitle": "Blue Lock: Episode Nagi",
       "malid": 54866,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04-19"
    },
    {
       "title": "Kin-Q Kids☆Otasu K-tai",
@@ -155757,6 +155819,13 @@
       "malid": 54933,
       "type": "tv",
       "releaseDate": "2023-04-13"
+   },
+   {
+      "title": "Arknights x Luo Xiao Hei Zhan Ji: Hao Jiu Bu Jian",
+      "enTitle": "Arknights x The Legend of Luo Xiaohei: Long Time No See",
+      "malid": 54944,
+      "type": "ona",
+      "releaseDate": "2022-09-09"
    },
    {
       "title": "Chang An San Wan Li",
@@ -156376,7 +156445,8 @@
       "releaseDate": "2021-07-29"
    },
    {
-      "title": "Detective Conan: TDK Video Head Cleaner",
+      "title": "Meitantei Conan: TDK Video Head Cleaner",
+      "enTitle": "Detective Conan: TDK Video Head Cleaner",
       "malid": 55134,
       "type": "special",
       "releaseDate": "1996"
@@ -156544,6 +156614,12 @@
       "malid": 55166,
       "type": "tv",
       "releaseDate": "2023-07-10"
+   },
+   {
+      "title": "Animals",
+      "malid": 55167,
+      "type": "music",
+      "releaseDate": "2018-10-01"
    },
    {
       "title": "90's Love (SQUAR Remix)",
@@ -156737,6 +156813,13 @@
       "malid": 55216,
       "type": "music",
       "releaseDate": "2021-03-09"
+   },
+   {
+      "title": "The Little Name",
+      "enTitle": "The Little Name",
+      "malid": 55218,
+      "type": "music",
+      "releaseDate": "2022-03-07"
    },
    {
       "title": "Tian Zhen Yu Kung Fu Wa",
@@ -157008,6 +157091,13 @@
       "releaseDate": "2023-03-31"
    },
    {
+      "title": "Fei Guang",
+      "enTitle": "A Flash",
+      "malid": 55303,
+      "type": "ona",
+      "releaseDate": "2023-05-10"
+   },
+   {
       "title": "Bastions",
       "enTitle": "Bastions",
       "malid": 55305,
@@ -157259,7 +157349,7 @@
       "title": "Bucchigiri?!",
       "malid": 55358,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-13"
    },
    {
       "title": "Tsurubamiiro no Nagiko-tachi",
@@ -159330,7 +159420,7 @@
       "enTitle": "A Sign of Affection",
       "malid": 55866,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "No Proof",
@@ -160250,6 +160340,13 @@
       "releaseDate": "2021-11-11"
    },
    {
+      "title": "Romantic ga Tomaranai",
+      "enTitle": "Romantic Can't Stop",
+      "malid": 56098,
+      "type": "music",
+      "releaseDate": "2012-09-07"
+   },
+   {
       "title": "Nanashi Kaidan (2023)",
       "malid": 56105,
       "type": "tv",
@@ -160291,6 +160388,13 @@
       "malid": 56111,
       "type": "ona",
       "releaseDate": "2023-07-28"
+   },
+   {
+      "title": "Sunhyeoljuuija",
+      "enTitle": "Pure Blood",
+      "malid": 56120,
+      "type": "music",
+      "releaseDate": "2023-07-21"
    },
    {
       "title": "Neko no Nichiyoubi",
@@ -161599,6 +161703,13 @@
       "malid": 56470,
       "type": "music",
       "releaseDate": "2020-11-28"
+   },
+   {
+      "title": "Xuanhuang",
+      "enTitle": "Ichor of Two Dragons",
+      "malid": 56471,
+      "type": "ona",
+      "releaseDate": "2023-08-29"
    },
    {
       "title": "Blue Planet",
@@ -162918,8 +163029,8 @@
    {
       "title": "Tadaima, Okaeri",
       "malid": 56768,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024"
    },
    {
       "title": "Mo Shi",
@@ -162970,7 +163081,7 @@
       "title": "No Waifu No Life!",
       "malid": 56778,
       "type": "ova",
-      "releaseDate": "2023-12-08"
+      "releaseDate": "2024-02-23"
    },
    {
       "title": "Doukyo Suru Neneki",
@@ -162992,10 +163103,11 @@
       "releaseDate": "2024"
    },
    {
-      "title": "Detective Conan Movie 27",
+      "title": "Meitantei Conan Movie 27",
+      "enTitle": "Detective Conan Movie 27",
       "malid": 56785,
       "type": "movie",
-      "releaseDate": "2024-04"
+      "releaseDate": "2024-04-12"
    },
    {
       "title": "Shaonian Ge Xing: Haiwai Xianshan Pian",
@@ -163056,6 +163168,13 @@
       "releaseDate": "2023-11-10"
    },
    {
+      "title": "Haru no Hi",
+      "enTitle": "Spring Day",
+      "malid": 56801,
+      "type": "music",
+      "releaseDate": "2020-12-16"
+   },
+   {
       "title": "Neo feat. Hatsune Miku",
       "malid": 56804,
       "type": "music",
@@ -163063,6 +163182,7 @@
    },
    {
       "title": "Yuusha",
+      "enTitle": "The Brave",
       "malid": 56805,
       "type": "music",
       "releaseDate": "2023-09-29"
@@ -163098,6 +163218,12 @@
       "malid": 56813,
       "type": "music",
       "releaseDate": "1967-06-05"
+   },
+   {
+      "title": "GYB!!",
+      "malid": 56814,
+      "type": "music",
+      "releaseDate": "2022-04-23"
    },
    {
       "title": "Sanshiliu Qi",
@@ -163307,6 +163433,12 @@
       "malid": 56859,
       "type": "music",
       "releaseDate": "2022-04-13"
+   },
+   {
+      "title": "Better Things",
+      "malid": 56863,
+      "type": "music",
+      "releaseDate": "2023-10-06"
    },
    {
       "title": "Bokura no Ameiro Protocol Mini Anime",
@@ -163582,6 +163714,13 @@
       "releaseDate": "2020-06-30"
    },
    {
+      "title": "LG gram 360 x Julia Ryu: Shimcheong Dive",
+      "enTitle": "LG gram 360 x Dive from Shimchoengjun",
+      "malid": 56944,
+      "type": "ona",
+      "releaseDate": "2022-09-22"
+   },
+   {
       "title": "Salangeun Oneuldo Malgeum",
       "malid": 56945,
       "type": "ona",
@@ -163656,7 +163795,7 @@
       "releaseDate": "2023-10-20"
    },
    {
-      "title": "DAI MOND",
+      "title": "Dai Mond",
       "malid": 56959,
       "type": "music",
       "releaseDate": "2022-04-20"
@@ -163674,6 +163813,20 @@
       "releaseDate": ""
    },
    {
+      "title": "Xuyuan Shu",
+      "enTitle": "Bless you",
+      "malid": 56968,
+      "type": "movie",
+      "releaseDate": "2023-10-14"
+   },
+   {
+      "title": "Yaoguai Senlin",
+      "enTitle": "LUDA",
+      "malid": 56969,
+      "type": "movie",
+      "releaseDate": "2023-10-13"
+   },
+   {
       "title": "Zhong Sheng Xiang",
       "enTitle": "Anthropocene",
       "malid": 56970,
@@ -163686,6 +163839,12 @@
       "malid": 56972,
       "type": "special",
       "releaseDate": "2007-06-27"
+   },
+   {
+      "title": "Kura Kura",
+      "malid": 56973,
+      "type": "music",
+      "releaseDate": "2023-10-07"
    },
    {
       "title": "Maomao no Hitorigoto",
@@ -163778,6 +163937,13 @@
       "malid": 56992,
       "type": "tv",
       "releaseDate": "2018-10-12"
+   },
+   {
+      "title": "Nandemo Bakukai! Koyori-chan",
+      "enTitle": "Solved with a Bang! Koyori-chan",
+      "malid": 56993,
+      "type": "ona",
+      "releaseDate": "2023-08-17"
    },
    {
       "title": "Larva Family",
@@ -163989,6 +164155,12 @@
       "releaseDate": ""
    },
    {
+      "title": "G vs. G",
+      "malid": 57051,
+      "type": "ona",
+      "releaseDate": "2019"
+   },
+   {
       "title": "Genki no Deru Uta",
       "malid": 57053,
       "type": "music",
@@ -164024,6 +164196,13 @@
       "malid": 57060,
       "type": "ona",
       "releaseDate": "2023-11-03"
+   },
+   {
+      "title": "Minazuki wo Eien ni",
+      "enTitle": "Forever Minazuki",
+      "malid": 57061,
+      "type": "movie",
+      "releaseDate": "2014"
    },
    {
       "title": "Mei Shaonu Da Picha 3rd Season",
@@ -164107,6 +164286,18 @@
       "releaseDate": "2013"
    },
    {
+      "title": "Voyant",
+      "malid": 57088,
+      "type": "movie",
+      "releaseDate": "2016-04-12"
+   },
+   {
+      "title": "Play House",
+      "malid": 57089,
+      "type": "movie",
+      "releaseDate": "2016-12-10"
+   },
+   {
       "title": "Princess Principal: Crown Handler Movie 4",
       "enTitle": "Princess Principal: Crown Handler - Chapter 4",
       "malid": 57093,
@@ -164140,6 +164331,13 @@
       "malid": 57097,
       "type": "ona",
       "releaseDate": "2023-11-09"
+   },
+   {
+      "title": "Himitsu (2023)",
+      "enTitle": "Secret",
+      "malid": 57098,
+      "type": "music",
+      "releaseDate": "2023-11-08"
    },
    {
       "title": "Na Nare Hana Nare",
@@ -164477,6 +164675,12 @@
       "releaseDate": "1982-10-06"
    },
    {
+      "title": "Princess Principal: Crown Handler Movie 3 - Cost for Custom Cars",
+      "malid": 57167,
+      "type": "special",
+      "releaseDate": "2023-11-22"
+   },
+   {
       "title": "Kame to Puma to Flamingo",
       "malid": 57176,
       "type": "music",
@@ -164499,6 +164703,12 @@
       "malid": 57179,
       "type": "ova",
       "releaseDate": "2003-02-25"
+   },
+   {
+      "title": "Yami Shibai 12",
+      "malid": 57180,
+      "type": "tv",
+      "releaseDate": "2024-01"
    },
    {
       "title": "Ao no Hako",
@@ -164530,6 +164740,13 @@
       "malid": 57189,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Yeosin Gangnim",
+      "enTitle": "True Beauty",
+      "malid": 57192,
+      "type": "unknown",
+      "releaseDate": "2024"
    },
    {
       "title": "Mori no Chiisana Restaurant",
@@ -164591,5 +164808,364 @@
       "malid": 57204,
       "type": "music",
       "releaseDate": "1969-12"
+   },
+   {
+      "title": "Godzilla vs. Gigan Rex",
+      "enTitle": "Godzilla vs. Gigan Rex",
+      "malid": 57207,
+      "type": "ona",
+      "releaseDate": "2022-11-03"
+   },
+   {
+      "title": "Sakura no Kakera",
+      "malid": 57213,
+      "type": "music",
+      "releaseDate": "2023-02-01"
+   },
+   {
+      "title": "Haru no Kaze",
+      "malid": 57214,
+      "type": "music",
+      "releaseDate": "1972-04"
+   },
+   {
+      "title": "Chikyuu wo Nana Kai Han Maware",
+      "malid": 57215,
+      "type": "music",
+      "releaseDate": "1973-02"
+   },
+   {
+      "title": "Buta Thunder",
+      "malid": 57216,
+      "type": "music",
+      "releaseDate": "2023-11-17"
+   },
+   {
+      "title": "Katsute Mahou Shoujo to Aku wa Tekitai shiteita.",
+      "enTitle": "This is the first, and probably final, loose hostile relation.",
+      "malid": 57217,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Geomeongsupeul Jikyeola! Birdy Friends",
+      "malid": 57218,
+      "type": "tv",
+      "releaseDate": "2023-11-23"
+   },
+   {
+      "title": "Feng Qi Luoyang: Shuangzi Zhui Xiong",
+      "malid": 57219,
+      "type": "ona",
+      "releaseDate": "2023-11-16"
+   },
+   {
+      "title": "Meiyi Duo Hua er",
+      "malid": 57220,
+      "type": "movie",
+      "releaseDate": "2018-05-25"
+   },
+   {
+      "title": "Diqiu Shang Zuihou Yige Nanren",
+      "enTitle": "The Last Man on Earth Sat Alone in a Room",
+      "malid": 57221,
+      "type": "movie",
+      "releaseDate": "2019-11-11"
+   },
+   {
+      "title": "Sheng ANIMA",
+      "malid": 57222,
+      "type": "movie",
+      "releaseDate": "2016-06-10"
+   },
+   {
+      "title": "Jiu Tian Xuan Di Jue 5th Season",
+      "enTitle": "The Success Of Empyrean Xuan Emperor 5th Season",
+      "malid": 57226,
+      "type": "ona",
+      "releaseDate": "2023-11-20"
+   },
+   {
+      "title": "Popipo (Momosuzu Nene Cover)",
+      "malid": 57228,
+      "type": "music",
+      "releaseDate": "2023-11-19"
+   },
+   {
+      "title": "Artiswitch: Ruru's Episodes of Memories",
+      "malid": 57229,
+      "type": "ona",
+      "releaseDate": "2023-11-20"
+   },
+   {
+      "title": "Jiaonang Jihua 2",
+      "enTitle": "Capsules 2nd Season",
+      "malid": 57233,
+      "type": "ona",
+      "releaseDate": "2023-12-05"
+   },
+   {
+      "title": "Saisei Kanou Energy no Uta",
+      "malid": 57234,
+      "type": "music",
+      "releaseDate": "2022-12"
+   },
+   {
+      "title": "Change the World Again",
+      "malid": 57235,
+      "type": "music",
+      "releaseDate": "2020-05-13"
+   },
+   {
+      "title": "Dream Believers",
+      "malid": 57236,
+      "type": "music",
+      "releaseDate": "2023-11-20"
+   },
+   {
+      "title": "Dreamfaireez",
+      "malid": 57238,
+      "type": "ona",
+      "releaseDate": "2023-07-07"
+   },
+   {
+      "title": "Takahashi Rumiko Gekijou Ningyo no Mori Specials",
+      "enTitle": "Mermaid Forest Specials",
+      "malid": 57239,
+      "type": "special",
+      "releaseDate": "2004-05-19"
+   },
+   {
+      "title": "Machiwabi Blues",
+      "malid": 57240,
+      "type": "music",
+      "releaseDate": "1972-06-06"
+   },
+   {
+      "title": "Mikan Yama de",
+      "malid": 57241,
+      "type": "music",
+      "releaseDate": "1972-12"
+   },
+   {
+      "title": "Tanoshii ne (2022)",
+      "malid": 57242,
+      "type": "music",
+      "releaseDate": "2022-12-01"
+   },
+   {
+      "title": "Attention to me-s",
+      "malid": 57245,
+      "type": "music",
+      "releaseDate": "2023-07-29"
+   },
+   {
+      "title": "Iron Lotus",
+      "malid": 57247,
+      "type": "music",
+      "releaseDate": "2021-02-26"
+   },
+   {
+      "title": "Come On Boy (C.O.B)",
+      "malid": 57249,
+      "type": "music",
+      "releaseDate": "2011-11-15"
+   },
+   {
+      "title": "Be My Bride",
+      "enTitle": "Be My Bride",
+      "malid": 57250,
+      "type": "music",
+      "releaseDate": "2012-08-03"
+   },
+   {
+      "title": "Different Hearts",
+      "malid": 57251,
+      "type": "music",
+      "releaseDate": "2023-08-30"
+   },
+   {
+      "title": "Avant",
+      "malid": 57253,
+      "type": "music",
+      "releaseDate": "2023-11-23"
+   },
+   {
+      "title": "Stars Fall (I Do)",
+      "enTitle": "Stars Fall (I Do)",
+      "malid": 57254,
+      "type": "music",
+      "releaseDate": "2023-09-08"
+   },
+   {
+      "title": "Rest",
+      "malid": 57262,
+      "type": "music",
+      "releaseDate": "2012-08-02"
+   },
+   {
+      "title": "Bai Lian Cheng Shen 2nd Season",
+      "enTitle": "Apotheosis 2nd Season",
+      "malid": 57264,
+      "type": "ona",
+      "releaseDate": "2023-12-08"
+   },
+   {
+      "title": "Kaodon",
+      "malid": 57266,
+      "type": "music",
+      "releaseDate": "2020-07-22"
+   },
+   {
+      "title": "Tomato Trauma",
+      "malid": 57267,
+      "type": "music",
+      "releaseDate": "2023-04-04"
+   },
+   {
+      "title": "Corazón de Date",
+      "malid": 57268,
+      "type": "music",
+      "releaseDate": "1980-08-05"
+   },
+   {
+      "title": "Hi Hai Ho",
+      "malid": 57269,
+      "type": "music",
+      "releaseDate": "1973-10"
+   },
+   {
+      "title": "Jibun ga Omotte Ita yori mo",
+      "malid": 57270,
+      "type": "music",
+      "releaseDate": "2022-12-01"
+   },
+   {
+      "title": "Mitasarete Mezameru Asa ni, Jimi na Choushoku wo The Animation",
+      "malid": 57283,
+      "type": "ova",
+      "releaseDate": "2024-02-22"
+   },
+   {
+      "title": "Bai Yau Pu Special: Meng Hui Youhun",
+      "enTitle": "Fairies Albums Special",
+      "malid": 57286,
+      "type": "ona",
+      "releaseDate": "2020-09-17"
+   },
+   {
+      "title": "Sweet Venom feat. Bella Poarch",
+      "malid": 57287,
+      "type": "music",
+      "releaseDate": "2023-11-23"
+   },
+   {
+      "title": "Kowagari Hero",
+      "malid": 57288,
+      "type": "music",
+      "releaseDate": "2022-06-25"
+   },
+   {
+      "title": "Hii Fuu Glass Mado",
+      "malid": 57289,
+      "type": "music",
+      "releaseDate": "1984-10"
+   },
+   {
+      "title": "Aa souka!",
+      "malid": 57290,
+      "type": "music",
+      "releaseDate": "1986-04"
+   },
+   {
+      "title": "Tokyo Wabi-Sabi Lullaby",
+      "malid": 57292,
+      "type": "music",
+      "releaseDate": "2023-11-25"
+   },
+   {
+      "title": "Kinoko Take no Ko Sensou",
+      "enTitle": "Mushroom Bamboo Shoot War",
+      "malid": 57299,
+      "type": "music",
+      "releaseDate": "2017-01-24"
+   },
+   {
+      "title": "Hatarakitakunai",
+      "enTitle": "I Don't Want to Work",
+      "malid": 57301,
+      "type": "music",
+      "releaseDate": "2018-09-01"
+   },
+   {
+      "title": "Ultraman: Darkness Heels",
+      "malid": 57303,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Naze Kyou Tenki ga Warui",
+      "enTitle": "Why is the Weather Bad Today",
+      "malid": 57304,
+      "type": "music",
+      "releaseDate": "2023-07-14"
+   },
+   {
+      "title": "C9 Hui Jia",
+      "enTitle": "Back Home Of C9",
+      "malid": 57305,
+      "type": "movie",
+      "releaseDate": "2016"
+   },
+   {
+      "title": "Qingwa Wangguo: Jixian Yundong",
+      "malid": 57306,
+      "type": "movie",
+      "releaseDate": "2022-09-10"
+   },
+   {
+      "title": "Qingwa Wangguo: Qihuan Nuwang Lixian",
+      "malid": 57307,
+      "type": "movie",
+      "releaseDate": "2023-04-01"
+   },
+   {
+      "title": "Qian Xing Ji You PV",
+      "enTitle": "Myriad Celestia Trailers",
+      "malid": 57314,
+      "type": "ona",
+      "releaseDate": "2023-05-03"
+   },
+   {
+      "title": "Meitou \"Isekai no Yu\" Kaitaku-ki: Arafou Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku Deshita",
+      "malid": 57315,
+      "type": "tv",
+      "releaseDate": "2024-01"
+   },
+   {
+      "title": "Yuuki wo Dashite",
+      "malid": 57316,
+      "type": "music",
+      "releaseDate": "1987-04-03"
+   },
+   {
+      "title": "Yuzhou Huwei Dui: Gang Jia Bawang Long",
+      "enTitle": "Cosmicrew S4",
+      "malid": 57317,
+      "type": "tv",
+      "releaseDate": "2021-09-06"
+   },
+   {
+      "title": "Kyoushitsu Oowarai",
+      "malid": 57318,
+      "type": "music",
+      "releaseDate": "1989-10-03"
+   },
+   {
+      "title": "Naporitan no Yoru",
+      "enTitle": "The Night of the Naporitan",
+      "malid": 57319,
+      "type": "movie",
+      "releaseDate": "2014"
    }
 ]
