@@ -31004,7 +31004,7 @@
       "releaseDate": "2009-08-14"
    },
    {
-      "title": "Yatterman the Movie: Shin Yattermecha Osu Gou! Omocha no Kuni de Dai Ketsudan da Koron",
+      "title": "Yatterman the Movie: Shin Yattermecha Dai Shuugou! Omocha no Kuni de Dai Ketsudan da Koron",
       "malid": 6693,
       "type": "movie",
       "releaseDate": "2009-08-22"
@@ -33368,7 +33368,7 @@
    },
    {
       "title": "Umineko no Naku Koro ni Specials",
-      "enTitle": "When the Seagulls Cry Specials",
+      "enTitle": "Umineko: When They Cry Specials",
       "malid": 7568,
       "type": "special",
       "releaseDate": "2009-10-23"
@@ -52828,7 +52828,7 @@
    },
    {
       "title": "Hajime no Ippo: Rising",
-      "enTitle": "Fighting Spirit: The Fighting!",
+      "enTitle": "Fighting Spirit: Rising",
       "malid": 19647,
       "type": "tv",
       "releaseDate": "2013-10-06"
@@ -58796,6 +58796,7 @@
    },
    {
       "title": "Futari Ecchi (2014)",
+      "enTitle": "Step Up Love Story (2014)",
       "malid": 23985,
       "type": "ova",
       "releaseDate": "2014-10-10"
@@ -103228,7 +103229,7 @@
       "enTitle": "Uzumaki: Spiral into Horror",
       "malid": 40333,
       "type": "tv",
-      "releaseDate": "2023"
+      "releaseDate": ""
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch Picture Drama - Kiseki no Anniversary",
@@ -137246,7 +137247,7 @@
       "enTitle": "The Wrong Way to Use Healing Magic",
       "malid": 49613,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "Cats Run",
@@ -137377,6 +137378,12 @@
       "malid": 49678,
       "type": "music",
       "releaseDate": "1974-08"
+   },
+   {
+      "title": "Vivy: Fluorite Eye's Song Pilot",
+      "malid": 49681,
+      "type": "ona",
+      "releaseDate": "2021-08-21"
    },
    {
       "title": "Kohakutou no Yotto",
@@ -137944,7 +137951,7 @@
       "enTitle": "Tsukimichi -Moonlit Fantasy- Season 2",
       "malid": 49889,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-08"
    },
    {
       "title": "Tensei shitara Ken deshita",
@@ -140634,7 +140641,7 @@
       "enTitle": "Witch on the Holy Night",
       "malid": 50668,
       "type": "movie",
-      "releaseDate": "2023"
+      "releaseDate": ""
    },
    {
       "title": "Bye Bye Rainy",
@@ -140928,7 +140935,7 @@
       "enTitle": "Bottom-Tier Character Tomozaki 2nd Stage",
       "malid": 50803,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-03"
    },
    {
       "title": "Inkou Kyoushi no Sai* Seikatsu Shidouroku",
@@ -143685,7 +143692,7 @@
       "enTitle": "The Unwanted Undead Adventurer",
       "malid": 51648,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-08"
    },
    {
       "title": "Ultraman Final",
@@ -145956,7 +145963,7 @@
       "enTitle": "Solo Leveling",
       "malid": 52299,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-07"
    },
    {
       "title": "Hyena Shinsho",
@@ -146504,7 +146511,7 @@
       "title": "Sasaki to Pii-chan",
       "malid": 52482,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-05"
    },
    {
       "title": "Mameshiba 2nd Season",
@@ -151795,7 +151802,7 @@
       "enTitle": "Blue Exorcist: Shimane Illuminati Saga",
       "malid": 53889,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-07"
    },
    {
       "title": "One Piece: Dai Gekisen Tokushuu! Mugiwara no Ichimi vs. Tobi Roppou",
@@ -153229,7 +153236,7 @@
       "title": "Chou Futsuu Ken Chiba Densetsu",
       "malid": 54197,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-05"
    },
    {
       "title": "Yoru wa Neko to Issho Season 2",
@@ -153240,6 +153247,7 @@
    },
    {
       "title": "Kaii to Otome to Kamikakushi",
+      "enTitle": "Mysterious Disappearances",
       "malid": 54199,
       "type": "tv",
       "releaseDate": "2024-04"
@@ -154720,7 +154728,7 @@
       "enTitle": "Mr. Villain's Day Off",
       "malid": 54617,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-08"
    },
    {
       "title": "Awakening (2020)",
@@ -155009,7 +155017,7 @@
       "enTitle": "Gushing over Magical Girls",
       "malid": 54722,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-03"
    },
    {
       "title": "gdgd Fairies Movie Specials",
@@ -155137,7 +155145,7 @@
       "title": "Hikari no Ou 2nd Season",
       "malid": 54754,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-14"
    },
    {
       "title": "UniteUp! Furikaeranai to",
@@ -155313,7 +155321,7 @@
       "title": "Metallic Rouge",
       "malid": 54794,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-11"
    },
    {
       "title": "Eternal Boys Next Stage",
@@ -156439,7 +156447,7 @@
       "enTitle": "The Foolish Angel Dances with the Devil",
       "malid": 55129,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-09"
    },
    {
       "title": "Zhen Wu Dianfeng 2nd Season",
@@ -157784,6 +157792,13 @@
       "releaseDate": "2021-12-24"
    },
    {
+      "title": "Hana ni Ame wo, Kimi ni Uta wo",
+      "enTitle": "Rain to a Flower, a Song to You",
+      "malid": 55458,
+      "type": "music",
+      "releaseDate": "2020-05-09"
+   },
+   {
       "title": "Time",
       "enTitle": "Time",
       "malid": 55461,
@@ -158062,7 +158077,7 @@
       "title": "Yuuki Bakuhatsu Bang Bravern",
       "malid": 55528,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-11"
    },
    {
       "title": "Honto ni Atta! Reibai Sensei: Gyakushuu no Kurage.",
@@ -158135,6 +158150,13 @@
       "malid": 55544,
       "type": "music",
       "releaseDate": "2012-12-01"
+   },
+   {
+      "title": "Random Chatting-ui Geunyeo PV",
+      "enTitle": "Random Chat PV",
+      "malid": 55546,
+      "type": "ona",
+      "releaseDate": "2018-12-24"
    },
    {
       "title": "Kono Koi ni Kizuite The Animation",
@@ -158714,7 +158736,7 @@
       "enTitle": "The Dangers in My Heart Season 2",
       "malid": 55690,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-07"
    },
    {
       "title": "Koumi-jima Shuu 7 de Umeru Mesu-tachi",
@@ -159173,6 +159195,7 @@
    },
    {
       "title": "Mashle 2nd Season",
+      "enTitle": "Mashle: Magic and Muscles Season 2",
       "malid": 55813,
       "type": "tv",
       "releaseDate": "2024-01"
@@ -160009,7 +160032,7 @@
       "enTitle": "The Demon Prince of Momochi House",
       "malid": 55998,
       "type": "tv",
-      "releaseDate": "2024-01-05"
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "Skysonar",
@@ -162696,7 +162719,7 @@
       "title": "Re:Monster",
       "malid": 56690,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-04"
    },
    {
       "title": "Gekkan Mousou Kagaku",
@@ -162892,7 +162915,7 @@
       "title": "Synduality: Noir Part 2",
       "malid": 56731,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-09"
    },
    {
       "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru 2nd Season",
@@ -163780,8 +163803,8 @@
    {
       "title": "Twi-Yaba",
       "malid": 56948,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "ona",
+      "releaseDate": "2023-12-10"
    },
    {
       "title": "Veil",
@@ -164020,6 +164043,12 @@
       "malid": 57005,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Sinbi Apateu: Ghost Ball Zero - Du Beonjjae Iyagi",
+      "malid": 57006,
+      "type": "tv",
+      "releaseDate": "2023-11-30"
    },
    {
       "title": "Futari de Hanbunko",
@@ -164647,6 +164676,13 @@
       "malid": 57142,
       "type": "ona",
       "releaseDate": "2022-04-12"
+   },
+   {
+      "title": "All Night Radio",
+      "enTitle": "All Night Radio",
+      "malid": 57144,
+      "type": "music",
+      "releaseDate": "2023-11-11"
    },
    {
       "title": "Shinkiro",
@@ -165386,6 +165422,13 @@
       "releaseDate": "2023-12-20"
    },
    {
+      "title": "Migi Hidari Kimi Kimi Migi Shita Uwame Kyurun Mecho Kawa!",
+      "enTitle": "Right Left You You Puppy Dog Eyes Mecho Kawaii!",
+      "malid": 57373,
+      "type": "music",
+      "releaseDate": "2023-11-29"
+   },
+   {
       "title": "Ashita",
       "malid": 57377,
       "type": "music",
@@ -165530,6 +165573,7 @@
    },
    {
       "title": "Dayu",
+      "enTitle": "The Storm",
       "malid": 57417,
       "type": "movie",
       "releaseDate": "2024-01-12"
@@ -165546,7 +165590,7 @@
       "enTitle": "Since The Red Moon Appeared",
       "malid": 57422,
       "type": "ona",
-      "releaseDate": "2023-12-04"
+      "releaseDate": "2023-12-25"
    },
    {
       "title": "Refrain feat. Mao Sasagawa",
@@ -165559,5 +165603,252 @@
       "malid": 57424,
       "type": "ona",
       "releaseDate": "2023-04-23"
+   },
+   {
+      "title": "Yuuhi ga Ochite",
+      "malid": 57428,
+      "type": "music",
+      "releaseDate": "1992-10-01"
+   },
+   {
+      "title": "Yukiusagi",
+      "malid": 57429,
+      "type": "music",
+      "releaseDate": "1990-02-02"
+   },
+   {
+      "title": "Kimi no Hoppe",
+      "malid": 57430,
+      "type": "music",
+      "releaseDate": "2014-04-01"
+   },
+   {
+      "title": "Computer Obaachan (2021)",
+      "malid": 57432,
+      "type": "music",
+      "releaseDate": "2021-09-20"
+   },
+   {
+      "title": "Seishun Buta Yarou Daigakusei-hen",
+      "malid": 57433,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Heart Cocktail Colorful: Fuyu-hen",
+      "malid": 57436,
+      "type": "tv",
+      "releaseDate": "2023-12-11"
+   },
+   {
+      "title": "Huo Feng Zhong Tian",
+      "enTitle": "Phoenix in Fire",
+      "malid": 57439,
+      "type": "movie",
+      "releaseDate": "2023-09-18"
+   },
+   {
+      "title": "Zhongguo Jingqi Xiansheng (2023)",
+      "malid": 57440,
+      "type": "ona",
+      "releaseDate": "2023-11-30"
+   },
+   {
+      "title": "Meitantei Conan vs. Kaitou Kid",
+      "enTitle": "Detective Conan vs. Kid the Phantom Thief",
+      "malid": 57441,
+      "type": "movie",
+      "releaseDate": "2024-01-05"
+   },
+   {
+      "title": "Shixiong A Shixiong 2nd Season",
+      "enTitle": "My Senior Brother Is Too Steady",
+      "malid": 57442,
+      "type": "ona",
+      "releaseDate": "2023-12-14"
+   },
+   {
+      "title": "Momomo Mozzarella Alien Again",
+      "malid": 57446,
+      "type": "ona",
+      "releaseDate": "2017-04-27"
+   },
+   {
+      "title": "Shakafuri Song",
+      "malid": 57447,
+      "type": "ona",
+      "releaseDate": "2017-02-28"
+   },
+   {
+      "title": "Fureru.",
+      "malid": 57448,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Tian Jiang Daren",
+      "malid": 57449,
+      "type": "movie",
+      "releaseDate": "2024-01-06"
+   },
+   {
+      "title": "Kujakuja no Maamuaia",
+      "malid": 57450,
+      "type": "music",
+      "releaseDate": "2023-12-03"
+   },
+   {
+      "title": "Contact (Music)",
+      "malid": 57451,
+      "type": "music",
+      "releaseDate": "2023-12-04"
+   },
+   {
+      "title": "Obake no Namida",
+      "malid": 57452,
+      "type": "music",
+      "releaseDate": "2016-02-01"
+   },
+   {
+      "title": "Gekka",
+      "malid": 57453,
+      "type": "music",
+      "releaseDate": "2023-07-29"
+   },
+   {
+      "title": "Siji Tongnian",
+      "malid": 57454,
+      "type": "movie",
+      "releaseDate": "2023-12-15"
+   },
+   {
+      "title": "Shuke Beita: Wujiao Feidie",
+      "malid": 57455,
+      "type": "movie",
+      "releaseDate": "2023-12-30"
+   },
+   {
+      "title": "Mayi Chuanqi: Zhongji Yi Zhan",
+      "malid": 57458,
+      "type": "movie",
+      "releaseDate": "2023-12-09"
+   },
+   {
+      "title": "Yuzhou Huwei Dui: Fengbao Liliang",
+      "enTitle": "Cosmicrew: Storm Force",
+      "malid": 57459,
+      "type": "movie",
+      "releaseDate": "2023-04-29"
+   },
+   {
+      "title": "Mohuan Qi Yuan: Baoshi Gongzhu",
+      "enTitle": "Magic Princess",
+      "malid": 57460,
+      "type": "movie",
+      "releaseDate": "2023-04-29"
+   },
+   {
+      "title": "Xin Zhu Zhu Xia Da Dianying: Chaoji Saiche",
+      "malid": 57461,
+      "type": "movie",
+      "releaseDate": "2023-04-29"
+   },
+   {
+      "title": "Chao Meng Shikong Baobei",
+      "malid": 57462,
+      "type": "movie",
+      "releaseDate": "2023-04-29"
+   },
+   {
+      "title": "Kara He Mayi Lixian Ji",
+      "enTitle": "The Adventure of Kara and Mayi",
+      "malid": 57463,
+      "type": "movie",
+      "releaseDate": "2023-03-22"
+   },
+   {
+      "title": "Zhu Zhu Xia Da Dianying: Xingji Xingdong",
+      "malid": 57464,
+      "type": "movie",
+      "releaseDate": "2024-05-01"
+   },
+   {
+      "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+      "malid": 57466,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Zhen Dao Ge 2nd Season",
+      "malid": 57468,
+      "type": "ona",
+      "releaseDate": "2023-12-05"
+   },
+   {
+      "title": "100 Gaji Gobaeg",
+      "enTitle": "100 Reasons",
+      "malid": 57472,
+      "type": "music",
+      "releaseDate": "2023-12-06"
+   },
+   {
+      "title": "Orb",
+      "malid": 57473,
+      "type": "music",
+      "releaseDate": "2020-06-13"
+   },
+   {
+      "title": "Levity",
+      "malid": 57474,
+      "type": "ona",
+      "releaseDate": "2016-01-11"
+   },
+   {
+      "title": "Kimi ga Iru Koto",
+      "malid": 57479,
+      "type": "music",
+      "releaseDate": "2023-12-04"
+   },
+   {
+      "title": "Hua Jianghu: Tiangang",
+      "malid": 57480,
+      "type": "ona",
+      "releaseDate": "2023-12-29"
+   },
+   {
+      "title": "Kyou no Hi wa Sayounara",
+      "malid": 57481,
+      "type": "music",
+      "releaseDate": "2023-12-03"
+   },
+   {
+      "title": "Azur Lane Avengers!",
+      "malid": 57485,
+      "type": "ona",
+      "releaseDate": "2023-04-01"
+   },
+   {
+      "title": "Rising Impact",
+      "malid": 57487,
+      "type": "ona",
+      "releaseDate": "2024-06"
+   },
+   {
+      "title": "Kabigon to Karakara",
+      "malid": 57488,
+      "type": "ona",
+      "releaseDate": "2023-12-08"
+   },
+   {
+      "title": "Crayon Shin-chan Movie 32: Ora-tachi no Kyouyuu Nikki",
+      "malid": 57499,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Meiji Gekken: 1874",
+      "malid": 57502,
+      "type": "tv",
+      "releaseDate": "2024-01-14"
    }
 ]
