@@ -1949,6 +1949,7 @@
    },
    {
       "title": "Ace wo Nerae!",
+      "enTitle": "Aim for the Ace!",
       "malid": 311,
       "type": "tv",
       "releaseDate": "1973-10-05"
@@ -1961,13 +1962,14 @@
    },
    {
       "title": "Ace wo Nerae! (1979)",
-      "enTitle": "Aim for the Ace! (1979)",
+      "enTitle": "Aim for the Ace!: The Movie",
       "malid": 313,
       "type": "movie",
       "releaseDate": "1979-09-08"
    },
    {
       "title": "Ace wo Nerae! 2",
+      "enTitle": "Aim for the Ace!: Another Match",
       "malid": 314,
       "type": "ova",
       "releaseDate": "1988-07-25"
@@ -4548,7 +4550,7 @@
       "releaseDate": "1994-08-12"
    },
    {
-      "title": "Kizuna: Koi no kara Sawagi",
+      "title": "Kizuna: Koi no Karasawagi",
       "enTitle": "Kizuna: Much Ado About Nothing",
       "malid": 734,
       "type": "ova",
@@ -14410,7 +14412,7 @@
       "releaseDate": "2001-04-01"
    },
    {
-      "title": "Pokemon Housoukyoku",
+      "title": "Pokemon Side Stories",
       "enTitle": "Pokémon Chronicles",
       "malid": 2363,
       "type": "tv",
@@ -15112,7 +15114,7 @@
       "releaseDate": "1995-09-21"
    },
    {
-      "title": "Ginga Ojousama Densetsu Yuna: Shin'en no Fairy",
+      "title": "Ginga Ojousama Densetsu Yuna: Shinen no Fairy",
       "enTitle": "Galaxy Fraulein Yuna Returns",
       "malid": 2474,
       "type": "ova",
@@ -40186,7 +40188,7 @@
    },
    {
       "title": "Eiyuu Densetsu: Sora no Kiseki The Animation",
-      "enTitle": "Legend of the Heroes: Trails in the Sky",
+      "enTitle": "The Legend of Heroes: Trails in the Sky",
       "malid": 10260,
       "type": "ova",
       "releaseDate": "2011-10-10"
@@ -43721,7 +43723,7 @@
       "releaseDate": "2008-06-13"
    },
    {
-      "title": "Mahou Shoujo Lyrical Nanoha: Lyrical Toy Box",
+      "title": "Lyrical Magic: Suteki na Mahou",
       "malid": 12101,
       "type": "music",
       "releaseDate": "2001-06-29"
@@ -82011,6 +82013,7 @@
    },
    {
       "title": "Tanoshii Saki Uta Animation",
+      "enTitle": "We Are the Mozzaraliens!",
       "malid": 35003,
       "type": "ona",
       "releaseDate": "2016-04-15"
@@ -87709,6 +87712,7 @@
    },
    {
       "title": "Shoujo Shuumatsu Jugyou",
+      "enTitle": "Girls' Last Class",
       "malid": 36468,
       "type": "ona",
       "releaseDate": "2017-10-06"
@@ -105791,6 +105795,7 @@
    },
    {
       "title": "Amrita no Kyouen",
+      "enTitle": "The Feast of Amrita",
       "malid": 41029,
       "type": "movie",
       "releaseDate": "2023-05-26"
@@ -121977,6 +121982,7 @@
    },
    {
       "title": "Dokidoki! Mini Mini! Kakushi Dungeon Gekijou",
+      "enTitle": "The Hidden Dungeon Only I Can Enter Mini Anime",
       "malid": 45658,
       "type": "ona",
       "releaseDate": "2021-01-09"
@@ -143796,9 +143802,10 @@
       "releaseDate": "2019-09-07"
    },
    {
-      "title": "My Daughter is a Zombie",
+      "title": "Zombie-ga Doeeo Beorin Naui Ttal",
+      "enTitle": "My Daughter is a Zombie",
       "malid": 51685,
-      "type": "ona",
+      "type": "tv",
       "releaseDate": "2022-04-03"
    },
    {
@@ -144661,7 +144668,7 @@
       "enTitle": "Spare Me, Great Lord! 2nd Season",
       "malid": 51898,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2023-12-30"
    },
    {
       "title": "Chuukan Senshi Mr. Chun",
@@ -145661,7 +145668,7 @@
       "enTitle": "Orb: On the Movements of the Earth",
       "malid": 52215,
       "type": "unknown",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Twisted-Wonderland 2-shuunen Kinen PV",
@@ -146189,7 +146196,7 @@
       "enTitle": "Fluffy Paradise",
       "malid": 52359,
       "type": "tv",
-      "releaseDate": "2024-01-07"
+      "releaseDate": "2024-01-01"
    },
    {
       "title": "Hirano to Kagiura",
@@ -146509,6 +146516,7 @@
    },
    {
       "title": "Sasaki to Pii-chan",
+      "enTitle": "Sasaki and Peeps",
       "malid": 52482,
       "type": "tv",
       "releaseDate": "2024-01-05"
@@ -147388,7 +147396,7 @@
       "enTitle": "Delicious in Dungeon",
       "malid": 52701,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-04"
    },
    {
       "title": "Zhongji Da Maoxian",
@@ -151550,7 +151558,7 @@
       "enTitle": "Unnamed Memory",
       "malid": 53835,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Redai Fuyan",
@@ -151669,7 +151677,7 @@
       "enTitle": "Mission: Yozakura Family",
       "malid": 53865,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Kachou Fuugetsu",
@@ -153028,7 +153036,7 @@
       "title": "Cardfight!! Vanguard: Divinez",
       "malid": 54142,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-13"
    },
    {
       "title": "Cardfight!! Vanguard: D Series Season 7",
@@ -154779,7 +154787,7 @@
       "enTitle": "Doctor Elise: The Royal Lady with the Lamp",
       "malid": 54632,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-10"
    },
    {
       "title": "Pokemon Concierge",
@@ -155143,6 +155151,7 @@
    },
    {
       "title": "Hikari no Ou 2nd Season",
+      "enTitle": "The Fire Hunter Season 2",
       "malid": 54754,
       "type": "tv",
       "releaseDate": "2024-01-14"
@@ -155158,7 +155167,7 @@
       "title": "3-nen Z-gumi Ginpachi-sensei",
       "malid": 54757,
       "type": "unknown",
-      "releaseDate": ""
+      "releaseDate": "2025"
    },
    {
       "title": "The iDOLM@STER Shiny Colors",
@@ -155187,6 +155196,7 @@
    },
    {
       "title": "Madogiwa no Totto-chan",
+      "enTitle": "Totto-chan, the Little Girl at the Window",
       "malid": 54764,
       "type": "movie",
       "releaseDate": "2023-12-08"
@@ -155289,7 +155299,7 @@
       "enTitle": "My Hero Academia Season 7",
       "malid": 54789,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-05-04"
    },
    {
       "title": "Undead Girl Murder Farce",
@@ -155402,7 +155412,7 @@
       "title": "Urusei Yatsura (2022) 2nd Season",
       "malid": 54829,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-12"
    },
    {
       "title": "Planetarium Chibi Maruko-chan: Minamijuujisei ni Miserarete",
@@ -155414,7 +155424,7 @@
       "title": "Special Kid Factory",
       "malid": 54833,
       "type": "unknown",
-      "releaseDate": "2023"
+      "releaseDate": ""
    },
    {
       "title": "Funauta",
@@ -157536,6 +157546,7 @@
    },
    {
       "title": "Pon no Michi",
+      "enTitle": "The Way of Pon",
       "malid": 55397,
       "type": "tv",
       "releaseDate": "2024-01-06"
@@ -158283,7 +158294,7 @@
       "enTitle": "The Prince of Tennis: U-17 World Cup Semifinal",
       "malid": 55570,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Macross (Shinsaku Animation)",
@@ -158500,7 +158511,7 @@
       "title": "Snack Basue",
       "malid": 55636,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-13"
    },
    {
       "title": "Tsuki no Hana",
@@ -158782,7 +158793,7 @@
       "enTitle": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
       "malid": 55701,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-04"
    },
    {
       "title": "Fight Club",
@@ -159198,7 +159209,7 @@
       "enTitle": "Mashle: Magic and Muscles Season 2",
       "malid": 55813,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu - Shugo Jutsushi Fitz",
@@ -159410,7 +159421,7 @@
       "enTitle": "Black Butler: Public School Edition",
       "malid": 55855,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Duo Xuan Shi: Qian Qing Pian",
@@ -160018,7 +160029,7 @@
       "title": "Koi wa Futago de Warikirenai",
       "malid": 55996,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-07"
    },
    {
       "title": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
@@ -160269,9 +160280,10 @@
    },
    {
       "title": "Monsters: Ippyaku Sanjou Hiryuu Jigoku",
+      "enTitle": "Monsters: 103 Mercies Dragon Damnation",
       "malid": 56055,
-      "type": "unknown",
-      "releaseDate": "2024"
+      "type": "ona",
+      "releaseDate": "2024-01"
    },
    {
       "title": "Buffett Shenmi Julebu 2nd Season",
@@ -160570,7 +160582,7 @@
       "title": "Boukyaku Battery (TV)",
       "malid": 56165,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-04"
    },
    {
       "title": "Yotsukado no Melody",
@@ -160680,7 +160692,7 @@
       "enTitle": "My Hero Academia: The Movie",
       "malid": 56196,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Run to Run",
@@ -163179,6 +163191,7 @@
    },
    {
       "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su Mini Anime",
+      "enTitle": "Shangri-La Frontier Mini Anime",
       "malid": 56791,
       "type": "ona",
       "releaseDate": "2023-09-28"
@@ -163383,7 +163396,7 @@
       "enTitle": "Studio Apartment, Good Lighting, Angel Included",
       "malid": 56838,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-04"
    },
    {
       "title": "T.P BON",
@@ -164079,7 +164092,7 @@
       "enTitle": "Stick It on Around! Koinu",
       "malid": 57012,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "Kuhaku Byousha",
@@ -164172,7 +164185,7 @@
       "title": "Vampire Dormitory",
       "malid": 57031,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Let's Be Friends: Tomodachi ni Narou yo",
@@ -164808,14 +164821,14 @@
       "title": "Yami Shibai 12",
       "malid": 57180,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-15"
    },
    {
       "title": "Ao no Hako",
       "enTitle": "Blue Box",
       "malid": 57181,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Wu Dong Qian Kun 4th Season",
@@ -165295,8 +165308,8 @@
    {
       "title": "Ramen Akaneko",
       "malid": 57325,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024-07"
    },
    {
       "title": "Glass Mado",
@@ -165316,7 +165329,7 @@
       "enTitle": "Dandadan",
       "malid": 57334,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Mythteria",
@@ -165380,7 +165393,7 @@
       "enTitle": "Magilumiere Magical Girls Inc.",
       "malid": 57360,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Hoshifuru Oukoku no Nina",
@@ -165409,7 +165422,7 @@
    },
    {
       "title": "Mingyun Quan Tai",
-      "enTitle": "Ringing Destiny",
+      "enTitle": "Ringing Fate",
       "malid": 57371,
       "type": "ona",
       "releaseDate": "2023-12-22"
@@ -165629,10 +165642,16 @@
       "releaseDate": "2021-09-20"
    },
    {
-      "title": "Seishun Buta Yarou Daigakusei-hen",
+      "title": "Seishun Buta Yarou: Daigakusei-hen",
       "malid": 57433,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Street Fighter 6 x Spy x Family Movie: Code: White",
+      "malid": 57435,
+      "type": "ona",
+      "releaseDate": "2023-12-04"
    },
    {
       "title": "Heart Cocktail Colorful: Fuyu-hen",
@@ -165785,6 +165804,12 @@
       "releaseDate": "2023-12-05"
    },
    {
+      "title": "Modaete yo, Adam-kun",
+      "malid": 57470,
+      "type": "ona",
+      "releaseDate": "2023-12-08"
+   },
+   {
       "title": "100 Gaji Gobaeg",
       "enTitle": "100 Reasons",
       "malid": 57472,
@@ -165840,15 +165865,116 @@
       "releaseDate": "2023-12-08"
    },
    {
+      "title": "Fudanshi Shoukan: Isekai de Shinjuu ni Hameraremashita 6th Season",
+      "malid": 57489,
+      "type": "ona",
+      "releaseDate": "2023-12-08"
+   },
+   {
+      "title": "Haruka ni Chou wa",
+      "malid": 57491,
+      "type": "music",
+      "releaseDate": "1971-04-01"
+   },
+   {
+      "title": "Kakenukete Good-bye",
+      "malid": 57492,
+      "type": "music",
+      "releaseDate": "1997-02-01"
+   },
+   {
+      "title": "Horaiji-san no Buppousou",
+      "malid": 57493,
+      "type": "music",
+      "releaseDate": "2007-06"
+   },
+   {
+      "title": "Hadopelagic",
+      "malid": 57496,
+      "type": "ona",
+      "releaseDate": "2014-05-14"
+   },
+   {
       "title": "Crayon Shin-chan Movie 32: Ora-tachi no Kyouyuu Nikki",
       "malid": 57499,
       "type": "movie",
       "releaseDate": "2024"
    },
    {
+      "title": "SiNiSistar",
+      "malid": 57501,
+      "type": "ova",
+      "releaseDate": "2024-01-26"
+   },
+   {
       "title": "Meiji Gekken: 1874",
       "malid": 57502,
       "type": "tv",
       "releaseDate": "2024-01-14"
+   },
+   {
+      "title": "Tenshi no Kureta Kiseki",
+      "malid": 57503,
+      "type": "music",
+      "releaseDate": "2018-04-26"
+   },
+   {
+      "title": "Trapezium",
+      "malid": 57508,
+      "type": "movie",
+      "releaseDate": "2024-05-10"
+   },
+   {
+      "title": "Yishi Zhi Zun",
+      "enTitle": "Ancient Lords",
+      "malid": 57512,
+      "type": "ona",
+      "releaseDate": "2024-01-07"
+   },
+   {
+      "title": "Shenyuan Youxi",
+      "enTitle": "The Abyss Game",
+      "malid": 57513,
+      "type": "ona",
+      "releaseDate": "2023-12-14"
+   },
+   {
+      "title": "Puniru wa Kawaii Slime",
+      "malid": 57517,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Make Heroine ga Oosugiru!",
+      "enTitle": "Too Many Losing Heroines!",
+      "malid": 57524,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Risou no Himo Seikatsu",
+      "malid": 57528,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Youkai Gakkou no Sensei Hajimemashita!",
+      "enTitle": "A Terrified Teacher at Ghoul School!",
+      "malid": 57533,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
+      "malid": 57554,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Chainsaw Man Movie: Reze-hen",
+      "enTitle": "Chainsaw Man the Movie: Reze Arc",
+      "malid": 57555,
+      "type": "movie",
+      "releaseDate": ""
    }
 ]
