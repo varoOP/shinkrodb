@@ -20261,7 +20261,7 @@
       "enTitle": "Haruka Nogizaka's Secret",
       "malid": 3467,
       "type": "tv",
-      "releaseDate": "2008-07-03"
+      "releaseDate": "2008-07-11"
    },
    {
       "title": "Maria-sama ga Miteru Specials",
@@ -58944,7 +58944,7 @@
       "releaseDate": "1992-06-25"
    },
    {
-      "title": "Tooryanse",
+      "title": "Tooryanse (Music)",
       "malid": 24109,
       "type": "music",
       "releaseDate": "2014-01-14"
@@ -91852,7 +91852,7 @@
       "title": "Chikyuu to no Yakusoku",
       "malid": 37494,
       "type": "ova",
-      "releaseDate": "2018-04"
+      "releaseDate": "2018-03-14"
    },
    {
       "title": "Double Decker! Doug \u0026 Kirill",
@@ -137093,7 +137093,7 @@
       "enTitle": "The King's Avatar 3",
       "malid": 49559,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": ""
    },
    {
       "title": "Shirobako Movie: C96 Gentei Gekijou Maeuriken Kokuchi Eizou",
@@ -137560,8 +137560,8 @@
    {
       "title": "Tabi wa ni",
       "malid": 49743,
-      "type": "ona",
-      "releaseDate": ""
+      "type": "movie",
+      "releaseDate": "2023-04-08"
    },
    {
       "title": "Oshimai no Mirai Yori",
@@ -141057,7 +141057,7 @@
       "enTitle": "Gods' Game We Play",
       "malid": 50869,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Alice Gear Aegis Expansion",
@@ -147758,7 +147758,7 @@
       "enTitle": "The Witch and the Beast",
       "malid": 52816,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-12"
    },
    {
       "title": "Kimi wa Houkago Insomnia PV",
@@ -149459,7 +149459,7 @@
       "title": "Jian Wang 3: Xia Gan Yi Dan Shen Jianxin 3rd Season Part 2",
       "malid": 53206,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": "2024-01-26"
    },
    {
       "title": "Anata Yuzuri",
@@ -156352,8 +156352,8 @@
    {
       "title": "Girls Band Cry",
       "malid": 55102,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024-04"
    },
    {
       "title": "Kinkyuu Hinan Sokuhou",
@@ -162543,7 +162543,7 @@
       "enTitle": "The Blue Wolves of Mibu",
       "malid": 56647,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-10"
    },
    {
       "title": "Minami no Shima no Hamehameha Daiou",
@@ -163373,11 +163373,10 @@
       "releaseDate": "2023-10-01"
    },
    {
-      "title": "Code Geass: Dakkan no Z",
-      "enTitle": "Code Geass: Z of the Recapture",
+      "title": "Code Geass: Dakkan no Rozé",
       "malid": 56835,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "movie",
+      "releaseDate": "2024-05"
    },
    {
       "title": "Akira (Shin Anime)",
@@ -164840,7 +164839,7 @@
       "title": "Great Pretender: Razbliuto",
       "malid": 57184,
       "type": "ona",
-      "releaseDate": "2024"
+      "releaseDate": "2024-02-23"
    },
    {
       "title": "Heart Cocktail Colorful: Haru-hen",
@@ -165277,7 +165276,7 @@
       "title": "Meitou \"Isekai no Yu\" Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
       "malid": 57315,
       "type": "tv",
-      "releaseDate": "2024-01"
+      "releaseDate": "2024-01-12"
    },
    {
       "title": "Yuuki wo Dashite",
@@ -165847,6 +165846,18 @@
       "releaseDate": "2023-12-03"
    },
    {
+      "title": "What's My Name",
+      "malid": 57483,
+      "type": "music",
+      "releaseDate": "2023-11-30"
+   },
+   {
+      "title": "Pandora",
+      "malid": 57484,
+      "type": "music",
+      "releaseDate": "2023-01-25"
+   },
+   {
       "title": "Azur Lane Avengers!",
       "malid": 57485,
       "type": "ona",
@@ -165945,6 +165956,19 @@
       "releaseDate": ""
    },
    {
+      "title": "Igniter",
+      "malid": 57518,
+      "type": "music",
+      "releaseDate": "2023-12-13"
+   },
+   {
+      "title": "Xiao Lu He Xiao Lan 4th Season",
+      "enTitle": "Beryl and Sapphire 4th Season",
+      "malid": 57520,
+      "type": "ona",
+      "releaseDate": "2023-12-21"
+   },
+   {
       "title": "Make Heroine ga Oosugiru!",
       "enTitle": "Too Many Losing Heroines!",
       "malid": 57524,
@@ -165958,11 +165982,53 @@
       "releaseDate": ""
    },
    {
+      "title": "Sakigake!! Reiwa no Danjuku",
+      "malid": 57532,
+      "type": "ona",
+      "releaseDate": "2023-12-18"
+   },
+   {
       "title": "Youkai Gakkou no Sensei Hajimemashita!",
       "enTitle": "A Terrified Teacher at Ghoul School!",
       "malid": 57533,
       "type": "tv",
       "releaseDate": "2024"
+   },
+   {
+      "title": "Winter Wonderland",
+      "malid": 57537,
+      "type": "music",
+      "releaseDate": "2023-12-14"
+   },
+   {
+      "title": "Anata ga Suki",
+      "malid": 57540,
+      "type": "music",
+      "releaseDate": "2009-04-01"
+   },
+   {
+      "title": "Dakedo I Love You",
+      "malid": 57541,
+      "type": "music",
+      "releaseDate": "2000-02-01"
+   },
+   {
+      "title": "Kimi ga Irukara",
+      "malid": 57542,
+      "type": "music",
+      "releaseDate": "2022-04-04"
+   },
+   {
+      "title": "Koganemushi",
+      "malid": 57543,
+      "type": "music",
+      "releaseDate": "2014-02-21"
+   },
+   {
+      "title": "Midnight Grand Mos Burger",
+      "malid": 57544,
+      "type": "ona",
+      "releaseDate": "2022-09-14"
    },
    {
       "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
@@ -165975,6 +166041,200 @@
       "enTitle": "Chainsaw Man the Movie: Reze Arc",
       "malid": 57555,
       "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "The One Piece",
+      "malid": 57557,
+      "type": "ona",
+      "releaseDate": ""
+   },
+   {
+      "title": "MF Ghost 2nd Season",
+      "enTitle": "MF Ghost Season 2",
+      "malid": 57559,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Hyakushou Kizoku 2nd Season",
+      "malid": 57562,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ore wa Hitori de",
+      "malid": 57563,
+      "type": "music",
+      "releaseDate": "1970-04-11"
+   },
+   {
+      "title": "Yume demo Aeru ka na",
+      "malid": 57564,
+      "type": "music",
+      "releaseDate": "1993-06-01"
+   },
+   {
+      "title": "Highway Star",
+      "malid": 57565,
+      "type": "music",
+      "releaseDate": "2012-08-19"
+   },
+   {
+      "title": "Shy 2nd Season",
+      "enTitle": "Shy Season 2",
+      "malid": 57567,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Sora to Umi no Komoriuta",
+      "malid": 57572,
+      "type": "music",
+      "releaseDate": "1977-10-07"
+   },
+   {
+      "title": "Sora ni wa Otsuki-sama",
+      "malid": 57573,
+      "type": "music",
+      "releaseDate": "1977-04-02"
+   },
+   {
+      "title": "360o feat. Chika",
+      "malid": 57574,
+      "type": "music",
+      "releaseDate": "2023-11-29"
+   },
+   {
+      "title": "Wu Nao Monu 2nd Season",
+      "enTitle": "Agate 2",
+      "malid": 57575,
+      "type": "ona",
+      "releaseDate": "2024-01-02"
+   },
+   {
+      "title": "Canta Canarito: Kaze yori mo Karoyaka ni",
+      "malid": 57577,
+      "type": "music",
+      "releaseDate": "1972-04-03"
+   },
+   {
+      "title": "Taian Kichinichi",
+      "malid": 57578,
+      "type": "music",
+      "releaseDate": "1982-06-06"
+   },
+   {
+      "title": "Akatsuki no Uta",
+      "malid": 57579,
+      "type": "music",
+      "releaseDate": "2006-11-22"
+   },
+   {
+      "title": "Kage no Jitsuryokusha ni Naritakute! Movie: Zankyou-hen",
+      "enTitle": "The Eminence in Shadow: Lost Echoes",
+      "malid": 57584,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Tokyo",
+      "malid": 57587,
+      "type": "movie",
+      "releaseDate": "1999"
+   },
+   {
+      "title": "Tooryanse",
+      "malid": 57588,
+      "type": "movie",
+      "releaseDate": "2004"
+   },
+   {
+      "title": "Ito",
+      "malid": 57589,
+      "type": "music",
+      "releaseDate": "2004-10-20"
+   },
+   {
+      "title": "Dr. Stone: Science Future",
+      "malid": 57592,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Hajimete no Futarikkiri Ryokou",
+      "malid": 57593,
+      "type": "ova",
+      "releaseDate": "2024-03-13"
+   },
+   {
+      "title": "Dan Dao Zhizun",
+      "malid": 57594,
+      "type": "ona",
+      "releaseDate": "2023-12-22"
+   },
+   {
+      "title": "​Itsudemo Hohoemi wo",
+      "malid": 57597,
+      "type": "music",
+      "releaseDate": "2002"
+   },
+   {
+      "title": "Maca and Roni 3",
+      "malid": 57598,
+      "type": "tv",
+      "releaseDate": "2023-10-28"
+   },
+   {
+      "title": "Cherry Mahou Mini Gekijou",
+      "malid": 57600,
+      "type": "ona",
+      "releaseDate": "2023-12-22"
+   },
+   {
+      "title": "Ginga Tetsudou 999 Music Video Seisaku Project",
+      "malid": 57602,
+      "type": "music",
+      "releaseDate": "2023-12-09"
+   },
+   {
+      "title": "Suki na Ko ga Megane wo Wasureta Short Episode Specials",
+      "enTitle": "The Girl I Like Forgot Her Glasses Short Episode Specials",
+      "malid": 57603,
+      "type": "special",
+      "releaseDate": "2023-12-20"
+   },
+   {
+      "title": "Shinkaron",
+      "malid": 57604,
+      "type": "music",
+      "releaseDate": "2015"
+   },
+   {
+      "title": "Shinobanai! Crypto Ninja Sakuya 2nd Season",
+      "malid": 57605,
+      "type": "tv",
+      "releaseDate": "2024-01-09"
+   },
+   {
+      "title": "Megumi no Daigo: Kyuukoku no Orange Recap",
+      "enTitle": "Firefighter Daigo: Rescuer in Orange Recap",
+      "malid": 57609,
+      "type": "special",
+      "releaseDate": "2023-12-23"
+   },
+   {
+      "title": "Kimi wa Meido-sama.",
+      "enTitle": "You Are Ms. Servant",
+      "malid": 57611,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
+      "enTitle": "A Returner's Magic Should Be Special Season 2",
+      "malid": 57612,
+      "type": "tv",
       "releaseDate": ""
    }
 ]
