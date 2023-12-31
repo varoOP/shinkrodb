@@ -1640,6 +1640,7 @@
    },
    {
       "title": "Hajime no Ippo: Mashiba vs. Kimura",
+      "enTitle": "Fighting Spirit: Mashiba vs. Kimura",
       "malid": 265,
       "type": "ova",
       "releaseDate": "2003-09-05"
@@ -2546,7 +2547,7 @@
    {
       "title": "Seikai no Senki Special",
       "malid": 399,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-07-04"
    },
    {
@@ -3568,7 +3569,7 @@
    {
       "title": "Soukyuu no Fafner: Dead Aggressor - Right of Left",
       "malid": 560,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2005-12-30"
    },
    {
@@ -4586,7 +4587,7 @@
       "title": "Umi ga Kikoeru",
       "enTitle": "The Ocean Waves",
       "malid": 743,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1993-05-05"
    },
    {
@@ -4788,7 +4789,7 @@
       "releaseDate": "1997-04-19"
    },
    {
-      "title": "Meitantei Conan Movie 02: Jyuuyonbanme no Target",
+      "title": "Meitantei Conan Movie 02: 14-banme no Target",
       "enTitle": "Case Closed Movie 02: The Fourteenth Target",
       "malid": 780,
       "type": "movie",
@@ -6004,14 +6005,14 @@
       "title": "Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks",
       "enTitle": "Dragon Ball Z: The History of Trunks",
       "malid": 985,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1993-02-24"
    },
    {
       "title": "Dragon Ball Z Special 1: Tatta Hitori no Saishuu Kessen",
       "enTitle": "Dragon Ball Z: Bardock, The Father of Goku",
       "malid": 986,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1990-10-17"
    },
    {
@@ -6165,7 +6166,7 @@
       "title": "Battle Spirits: Ryuuko no Ken",
       "enTitle": "Art of Fighting",
       "malid": 1009,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1993-12-23"
    },
    {
@@ -6197,7 +6198,7 @@
       "title": "Chicchana Yukitsukai Sugar Specials",
       "enTitle": "Sugar: A Little Snow Fairy Summer Special",
       "malid": 1014,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2003-08-21"
    },
    {
@@ -6320,7 +6321,7 @@
       "title": "Kumo no You ni Kaze no You ni",
       "enTitle": "Like the Clouds, Like the Wind",
       "malid": 1032,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1990-03-21"
    },
    {
@@ -6692,7 +6693,7 @@
       "title": "One Piece: Umi no Heso no Daibouken-hen",
       "enTitle": "One Piece: Adventure in the Ocean's Navel",
       "malid": 1094,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2000-12-20"
    },
    {
@@ -6883,7 +6884,7 @@
       "title": "Seikai no Danshou: Tanjou",
       "enTitle": "Crest of the Stars: Birth",
       "malid": 1124,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2000-08-25"
    },
    {
@@ -7574,14 +7575,14 @@
       "title": "One Piece: Oounabara ni Hirake! Dekkai Dekkai Chichi no Yume!",
       "enTitle": "One Piece: Open Upon the Great Sea! A Father's Huge, HUGE Dream!",
       "malid": 1237,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2003-04-06"
    },
    {
       "title": "One Piece: Mamore! Saigo no Dai Butai",
       "enTitle": "One Piece: Protect! The Last Great Performance",
       "malid": 1238,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2003-12-14"
    },
    {
@@ -8290,7 +8291,7 @@
       "releaseDate": "2000-04-22"
    },
    {
-      "title": "Meitantei Conan Movie 05: Tengoku e no Count Down",
+      "title": "Meitantei Conan Movie 05: Tengoku e no Countdown",
       "enTitle": "Case Closed Movie 05: Countdown to Heaven",
       "malid": 1364,
       "type": "movie",
@@ -8355,7 +8356,7 @@
    {
       "title": "Black Jack Specials: Inochi wo Meguru Yottsu no Kiseki",
       "malid": 1373,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2003-12-22"
    },
    {
@@ -8408,7 +8409,7 @@
    {
       "title": "Seikai no Monshou Special",
       "malid": 1381,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2000-04-07"
    },
    {
@@ -8617,20 +8618,20 @@
    {
       "title": "Lupin III: Alcatraz Connection",
       "malid": 1413,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-08-03"
    },
    {
       "title": "Lupin III: Tenshi no Tactics - Yume no Kakera wa Koroshi no Kaori",
       "malid": 1414,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2005-07-22"
    },
    {
       "title": "Lupin III: Bye Bye Liberty - Kiki Ippatsu!",
       "enTitle": "Lupin III: Goodbye Lady Liberty",
       "malid": 1415,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1989-04-01"
    },
    {
@@ -8644,14 +8645,14 @@
       "title": "Lupin III: Moeyo Zantetsuken!",
       "enTitle": "Lupin III: Dragon of Doom",
       "malid": 1417,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1994-07-29"
    },
    {
       "title": "Lupin III: Episode 0 \"First Contact\"",
       "enTitle": "Lupin III Episode 0: The First Contact",
       "malid": 1418,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2002-07-26"
    },
    {
@@ -8665,34 +8666,34 @@
       "title": "Lupin III: Russia yori Ai wo Komete",
       "enTitle": "Lupin III: Bank of Liberty",
       "malid": 1420,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1992-07-24"
    },
    {
       "title": "Lupin III: Hemingway Paper no Nazo",
       "malid": 1421,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1990-07-20"
    },
    {
       "title": "Lupin III: $1 Money Wars",
       "enTitle": "Lupin III: Missed by a Dollar",
       "malid": 1422,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2000-07-28"
    },
    {
       "title": "Lupin III: Napoleon no Jisho wo Ubae",
       "enTitle": "Lupin III: Napoleon's Dictionary",
       "malid": 1423,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1991-08-09"
    },
    {
       "title": "Lupin III: Otakara Henkyaku Daisakusen!!",
       "enTitle": "Lupin III: Operation Return the Treasure",
       "malid": 1424,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2003-08-01"
    },
    {
@@ -8724,7 +8725,7 @@
       "title": "Lupin III: Nusumareta Lupin",
       "enTitle": "Lupin III: Swallowtail Tattoo",
       "malid": 1429,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2004-07-30"
    },
    {
@@ -8738,7 +8739,7 @@
       "title": "Lupin III: Ai no Da Capo - Fujiko's Unlucky Days",
       "enTitle": "Lupin III: The Columbus Files",
       "malid": 1431,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1999-07-30"
    },
    {
@@ -8757,7 +8758,7 @@
    {
       "title": "Lupin III: Harimao no Zaihou wo Oe!!",
       "malid": 1434,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1995-08-04"
    },
    {
@@ -8770,28 +8771,28 @@
    {
       "title": "Lupin III: Twilight Gemini no Himitsu",
       "malid": 1436,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1996-08-02"
    },
    {
       "title": "Lupin III: Honoo no Kioku - Tokyo Crisis",
       "enTitle": "Lupin III: Crisis in Tokyo",
       "malid": 1437,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1998-07-24"
    },
    {
       "title": "Lupin III: Lupin Ansatsu Shirei",
       "enTitle": "Lupin III: Voyage to Danger",
       "malid": 1438,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1993-07-23"
    },
    {
       "title": "Lupin III: Walther P38",
       "enTitle": "Lupin III: Island of Assassins",
       "malid": 1439,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1997-08-01"
    },
    {
@@ -9000,20 +9001,20 @@
       "title": "City Hunter: The Secret Service",
       "enTitle": "City Hunter: The Secret Service",
       "malid": 1477,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1996-01-05"
    },
    {
       "title": "City Hunter: Goodbye My Sweetheart",
       "enTitle": "City Hunter: The Motion Picture",
       "malid": 1478,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1997-04-25"
    },
    {
       "title": "City Hunter: Kinkyuu Namachuukei!? Kyouakuhan Saeba Ryou no Saigo",
       "malid": 1479,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1999-04-23"
    },
    {
@@ -9557,7 +9558,7 @@
       "title": "Koukaku Kidoutai: Stand Alone Complex - Solid State Society",
       "enTitle": "Ghost in the Shell: Stand Alone Complex - Solid State Society",
       "malid": 1566,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006-09-01"
    },
    {
@@ -10240,7 +10241,7 @@
       "title": "Young Herlock wo Oe! Cosmo Warrior Zero Gaiden",
       "enTitle": "Cosmo Warrior Zero - Hunt for Young Harlock",
       "malid": 1677,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2002-06-21"
    },
    {
@@ -10458,14 +10459,14 @@
       "title": "Winter Garden",
       "enTitle": "Di Gi Charat: Winter Garden",
       "malid": 1718,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006-12-22"
    },
    {
       "title": "Rozen Maiden: Ouvertüre",
       "enTitle": "Rozen Maiden: Ouvertüre",
       "malid": 1719,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006-12-23"
    },
    {
@@ -10688,7 +10689,7 @@
    {
       "title": "Di Gi Charat Summer Special 2000",
       "malid": 1754,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2000-08-22"
    },
    {
@@ -10992,14 +10993,14 @@
       "title": "Fatal Fury: Legend of the Hungry Wolf",
       "enTitle": "Fatal Fury: Legend of the Hungry Wolf",
       "malid": 1799,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1992-12-23"
    },
    {
       "title": "Fatal Fury 2: The New Battle",
       "enTitle": "Fatal Fury 2: The New Battle",
       "malid": 1800,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1993-07-31"
    },
    {
@@ -11359,7 +11360,7 @@
    {
       "title": "Taiyou no Mokushiroku: A Spirit of the Sun",
       "malid": 1857,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006-09-17"
    },
    {
@@ -11585,13 +11586,6 @@
       "malid": 1896,
       "type": "ova",
       "releaseDate": "2004-06-25"
-   },
-   {
-      "title": "Zettai Muteki Raijin-Oh",
-      "enTitle": "Matchless Raijin-Oh",
-      "malid": 1897,
-      "type": "tv",
-      "releaseDate": "1991-04-03"
    },
    {
       "title": "Hikari to Mizu no Daphne Specials",
@@ -12248,14 +12242,14 @@
    {
       "title": "Yawara!: Zutto Kimi no Koto ga...",
       "malid": 2009,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1996-07-19"
    },
    {
       "title": "Taiho Shichau zo in America",
       "enTitle": "You're Under Arrest: No Mercy!!",
       "malid": 2010,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2002-03-29"
    },
    {
@@ -12323,7 +12317,7 @@
       "title": "One Piece: Nenmatsu Tokubetsu Kikaku! Mugiwara no Luffy Oyabun Torimonochou",
       "enTitle": "One Piece: The Detective Memoirs of Chief Straw Hat Luffy",
       "malid": 2020,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2005-12-18"
    },
    {
@@ -13657,7 +13651,7 @@
       "title": "Mizu no Kotoba",
       "enTitle": "Aquatic Language",
       "malid": 2235,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2002-10-26"
    },
    {
@@ -14082,7 +14076,7 @@
       "title": "Azusa, Otetsudai Shimasu!",
       "enTitle": "Azusa Will Help!",
       "malid": 2309,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2004-08-01"
    },
    {
@@ -14103,7 +14097,7 @@
       "title": "Daishizen no Majuu: Bagi",
       "enTitle": "Bagi, the Monster of Mighty Nature",
       "malid": 2312,
-      "type": "movie",
+      "type": "tv_special",
       "releaseDate": "1984-08-19"
    },
    {
@@ -14946,14 +14940,14 @@
       "title": "Koukaku Kidoutai: Stand Alone Complex 2nd GIG - Individual Eleven",
       "enTitle": "Ghost in the Shell: Stand Alone Complex 2nd GIG - Individual Eleven",
       "malid": 2448,
-      "type": "special",
+      "type": "ova",
       "releaseDate": "2006-01-27"
    },
    {
       "title": "Koukaku Kidoutai: Stand Alone Complex - The Laughing Man",
       "enTitle": "Ghost in the Shell: Stand Alone Complex - The Laughing Man",
       "malid": 2449,
-      "type": "special",
+      "type": "ova",
       "releaseDate": "2005-09-23"
    },
    {
@@ -17289,7 +17283,7 @@
    {
       "title": "Ani*Kuri15",
       "malid": 2832,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2007-05-07"
    },
    {
@@ -18103,7 +18097,7 @@
       "title": "Death Note: Rewrite",
       "enTitle": "Death Note: Relight",
       "malid": 2994,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2007-08-31"
    },
    {
@@ -18633,7 +18627,7 @@
       "title": "Aa! Megami-sama! Tatakau Tsubasa",
       "enTitle": "Ah! My Goddess: Fighting Wings",
       "malid": 3090,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2007-12-09"
    },
    {
@@ -19179,7 +19173,7 @@
    {
       "title": "Harukanaru Toki no Naka de 3: Kurenai no Tsuki",
       "malid": 3227,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2007-12-28"
    },
    {
@@ -21313,7 +21307,7 @@
    {
       "title": "Andromeda Stories",
       "malid": 3675,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1982-08-22"
    },
    {
@@ -21791,7 +21785,7 @@
       "title": "Yami no Teio: Kyuuketsuki Dracula",
       "enTitle": "Dracula: Sovereign of the Damned",
       "malid": 3801,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1980-08-19"
    },
    {
@@ -23069,7 +23063,7 @@
       "title": "Arano no Sakebi Koe: Hoero, Buck",
       "enTitle": "The Call of the Wild",
       "malid": 4074,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-01-03"
    },
    {
@@ -24177,7 +24171,7 @@
       "title": "Bavel no Hon",
       "enTitle": "Bavel's Book",
       "malid": 4458,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1996-10-14"
    },
    {
@@ -24948,7 +24942,7 @@
    {
       "title": "Bocchan",
       "malid": 4680,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1980-06-13"
    },
    {
@@ -25677,7 +25671,7 @@
    {
       "title": "Daikyouryuu Jidai",
       "malid": 4907,
-      "type": "movie",
+      "type": "tv_special",
       "releaseDate": "1979-07-10"
    },
    {
@@ -25797,7 +25791,7 @@
       "title": "Tezuka Osamu ga Kieta?! 20-seiki Saigo no Kaijiken",
       "enTitle": "Osamu Tezuka's Last Mystery of the 20th Century",
       "malid": 4941,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2000-12-05"
    },
    {
@@ -25924,13 +25918,13 @@
       "title": "Juugo Shounen Hyouryuuki",
       "enTitle": "Adrift in the Pacific",
       "malid": 5013,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1982-08-22"
    },
    {
       "title": "Sango Shou Densetsu: Aoi Umi no Elfie",
       "malid": 5014,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1986-05-19"
    },
    {
@@ -25954,7 +25948,7 @@
    {
       "title": "Lupin III: Sweet Lost Night - Mahou no Lamp wa Akumu no Yokan",
       "malid": 5019,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2008-07-25"
    },
    {
@@ -26342,7 +26336,7 @@
       "title": "100-man-nen Chikyuu no Tabi: Bander Book",
       "enTitle": "One-Million Year Trip: Bander Book",
       "malid": 5133,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1978-08-27"
    },
    {
@@ -26479,7 +26473,7 @@
    {
       "title": "Asience: Kami wa Onna no Inochi",
       "malid": 5168,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2007-03"
    },
    {
@@ -26538,7 +26532,7 @@
    {
       "title": "Kiku-chan to Ookami",
       "malid": 5192,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2008-08-13"
    },
    {
@@ -26860,7 +26854,7 @@
       "title": "Tondemo Nezumi Daikatsuyaku",
       "enTitle": "The Legend of Manxmouse",
       "malid": 5272,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1979-06-30"
    },
    {
@@ -26957,7 +26951,7 @@
       "title": "Time Slip Ichimannen: Prime Rose",
       "enTitle": "Prime Rose",
       "malid": 5293,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1983-08-21"
    },
    {
@@ -27081,7 +27075,7 @@
    {
       "title": "Alice in Cyberland",
       "malid": 5330,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1996-12-16"
    },
    {
@@ -27301,7 +27295,7 @@
    {
       "title": "La Rose de Versailles",
       "malid": 5415,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2007"
    },
    {
@@ -27849,6 +27843,7 @@
    },
    {
       "title": "Sonic: Night of the WereHog",
+      "enTitle": "Sonic Night of the Werehog",
       "malid": 5583,
       "type": "ona",
       "releaseDate": "2008-11-01"
@@ -28329,7 +28324,7 @@
    {
       "title": "Kiniro no Corda: Secondo Passo",
       "malid": 5717,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2009-03-26"
    },
    {
@@ -29465,7 +29460,7 @@
       "title": "Lupin III vs. Meitantei Conan",
       "enTitle": "Lupin III vs. Detective Conan",
       "malid": 6115,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2009-03-27"
    },
    {
@@ -30205,7 +30200,7 @@
    },
    {
       "title": "Pokemon: Yadoking no Ichinichi",
-      "enTitle": "Pokemon: Slowking's Day",
+      "enTitle": "Pokémon: Slowking's Day",
       "malid": 6385,
       "type": "special",
       "releaseDate": "2000-01-01"
@@ -31133,7 +31128,7 @@
       "title": "Ginga Tetsudou 999: Kimi wa Senshi no You ni Ikirareru ka?",
       "enTitle": "Galaxy Express 999: Can You Live Like A Warrior?",
       "malid": 6733,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1979-10-11"
    },
    {
@@ -32598,7 +32593,7 @@
    {
       "title": "Harukanaru Toki no Naka de 3: Owarinaki Unmei",
       "malid": 7254,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2010-01-04"
    },
    {
@@ -32728,21 +32723,21 @@
       "title": "Meitantei Conan: Kuro no Soshiki to Taiketsu no Rekishi",
       "enTitle": "Detective Conan: Black History",
       "malid": 7303,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2007-12-17"
    },
    {
       "title": "Meitantei Conan Movie 08: Ginyoku no Time Travel Recap",
       "enTitle": "Detective Conan Movie 08: Time Travel of the Silver Sky Recap",
       "malid": 7304,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2004-04-30"
    },
    {
       "title": "Meitantei Conan Movie 10: Tantei-tachi no Requiem Recap",
       "enTitle": "Detective Conan Movie 10: Requiem of the Detectives Recap",
       "malid": 7305,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006"
    },
    {
@@ -33093,7 +33088,7 @@
       "title": "Meitantei Conan Movie 09: Suihei Senjou no Strategy Recap",
       "enTitle": "Detective Conan Movie 09: Strategy Above the Depths Recap",
       "malid": 7471,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2005"
    },
    {
@@ -33938,7 +33933,7 @@
    {
       "title": "Futatsu no Kurumi",
       "malid": 7775,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2007-08-15"
    },
    {
@@ -34426,7 +34421,7 @@
       "title": "Lupin III: The Last Job",
       "enTitle": "Lupin III: The Last Job",
       "malid": 8097,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2010-02-12"
    },
    {
@@ -34785,7 +34780,7 @@
    {
       "title": "Tekkamen wo Oe: \"d'Artagnan Monogatari\" yori",
       "malid": 8214,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1987-05-05"
    },
    {
@@ -35114,7 +35109,7 @@
    {
       "title": "Shoka",
       "malid": 8337,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2010-03-27"
    },
    {
@@ -35714,7 +35709,7 @@
       "title": "Hashire Melos (1981)",
       "enTitle": "Run Melos",
       "malid": 8554,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-02-07"
    },
    {
@@ -36324,7 +36319,7 @@
    {
       "title": "3-tsu no Hanashi",
       "malid": 8774,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1960-01-15"
    },
    {
@@ -36534,7 +36529,7 @@
    {
       "title": "Natsufuku no Shoujo-tachi",
       "malid": 8896,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1988-08-07"
    },
    {
@@ -38248,7 +38243,7 @@
       "title": "Nodoka Mori no Doubutsu Daisakusen",
       "enTitle": "Back to the Forest",
       "malid": 9575,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1980-02-03"
    },
    {
@@ -38508,7 +38503,7 @@
    {
       "title": "Hakuouki: Hekketsuroku - Kyoto Kaisouroku",
       "malid": 9723,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2010-10-03"
    },
    {
@@ -38676,7 +38671,7 @@
    {
       "title": "Umacha",
       "malid": 9777,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2001-03-05"
    },
    {
@@ -39435,7 +39430,7 @@
       "title": "Bremen 4: Jigoku no Naka no Tenshi-tachi",
       "enTitle": "Bremen 4",
       "malid": 9991,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-08-23"
    },
    {
@@ -39535,7 +39530,7 @@
    },
    {
       "title": "Bakuman. 2nd Season",
-      "enTitle": "Bakuman Season 2",
+      "enTitle": "Bakuman. Season 2",
       "malid": 10030,
       "type": "tv",
       "releaseDate": "2011-10-01"
@@ -39863,7 +39858,7 @@
    {
       "title": "21-seiki Manga Hajimete Monogatari",
       "malid": 10139,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-03-30"
    },
    {
@@ -39944,7 +39939,7 @@
    {
       "title": "Otona Joshi no Anime Time",
       "malid": 10178,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2011-01-07"
    },
    {
@@ -41325,7 +41320,7 @@
    {
       "title": "Maria†Holic: Runrun Riru Ranran Rara",
       "malid": 10679,
-      "type": "music",
+      "type": "pv",
       "releaseDate": "2011-04-28"
    },
    {
@@ -41614,7 +41609,7 @@
    {
       "title": "Lupin tai Holmes",
       "malid": 10755,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-05-05"
    },
    {
@@ -42036,7 +42031,7 @@
    {
       "title": "Aoi Hitomi no Onnanoko no Ohanashi",
       "malid": 10901,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2009-08-13"
    },
    {
@@ -42556,7 +42551,7 @@
       "title": "Hidamari Sketch x SP",
       "enTitle": "Hidamari Sketch x SP",
       "malid": 11237,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2011-10-30"
    },
    {
@@ -42958,7 +42953,7 @@
       "title": "Ganbare! Bokura no Hit and Run",
       "enTitle": "Hit and Run",
       "malid": 11593,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1979-02-18"
    },
    {
@@ -43004,7 +42999,7 @@
    {
       "title": "Donbe Monogatari",
       "malid": 11625,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-04-26"
    },
    {
@@ -43306,7 +43301,7 @@
    {
       "title": "Lupin III: Chi no Kokuin - Eien no Mermaid",
       "malid": 11777,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2011-12-02"
    },
    {
@@ -43622,7 +43617,7 @@
    {
       "title": "Anne no Nikki: Anne Frank Monogatari",
       "malid": 12027,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1979-09-28"
    },
    {
@@ -44035,7 +44030,7 @@
    },
    {
       "title": "Bakuman. 3rd Season",
-      "enTitle": "Bakuman Season 3",
+      "enTitle": "Bakuman. Season 3",
       "malid": 12365,
       "type": "tv",
       "releaseDate": "2012-10-06"
@@ -45154,26 +45149,26 @@
    {
       "title": "Buta",
       "malid": 13169,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-03-05"
    },
    {
       "title": "Wasurenagumo",
       "enTitle": "Li'l Spider Girl",
       "malid": 13171,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-03-12"
    },
    {
       "title": "Pukapuka Juju",
       "malid": 13173,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-03-19"
    },
    {
       "title": "Shiranpuri (Special)",
       "malid": 13175,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-03-20"
    },
    {
@@ -45315,14 +45310,14 @@
    {
       "title": "Haru wa Kuru",
       "malid": 13255,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-01-27"
    },
    {
       "title": "Kyoto Animation: Ajisai-hen",
       "enTitle": "Hydrangea",
       "malid": 13259,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-06"
    },
    {
@@ -45393,7 +45388,7 @@
       "title": "Kyoto Animation: Hoshi-hen",
       "enTitle": "Twinkling Stars",
       "malid": 13309,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-08-19"
    },
    {
@@ -45471,14 +45466,14 @@
       "title": "Kyoto Animation: Hana-hen",
       "enTitle": "Flower",
       "malid": 13373,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2010-06"
    },
    {
       "title": "Kyoto Animation: Sora-hen",
       "enTitle": "Sky",
       "malid": 13375,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2010-07"
    },
    {
@@ -45646,7 +45641,7 @@
       "title": "Tokyo Disney Resort: Yume ga Kanau Basho",
       "enTitle": "Where Dreams Come True",
       "malid": 13495,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-03-23"
    },
    {
@@ -45720,7 +45715,7 @@
       "title": "Ryuugajou Nanana no Maizoukin PV",
       "enTitle": "Nanana's Buried Treasure",
       "malid": 13517,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2011-12-26"
    },
    {
@@ -45739,7 +45734,7 @@
    {
       "title": "Rui no Masaiban",
       "malid": 13541,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2012-02-01"
    },
    {
@@ -45776,7 +45771,7 @@
    {
       "title": "The Four Seasons",
       "malid": 13563,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-03-28"
    },
    {
@@ -45902,7 +45897,7 @@
    {
       "title": "Taisei Kensetsu CMs",
       "malid": 13691,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2008-12-10"
    },
    {
@@ -46168,7 +46163,7 @@
    {
       "title": "Ashita no Eleven-tachi",
       "malid": 13947,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1979-01-07"
    },
    {
@@ -46186,19 +46181,19 @@
    {
       "title": "Thermae Romae x LOFT Collaboration",
       "malid": 13965,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012"
    },
    {
       "title": "Thermae Romae x Asahi Shimbun Digital Collaboration",
       "malid": 13967,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012"
    },
    {
       "title": "Thermae Romae x Yoyogi Animation Gakuin Collaboration",
       "malid": 13969,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-07-09"
    },
    {
@@ -46224,7 +46219,7 @@
       "title": "Akai Shouzou: Char, Soshite Frontal e",
       "enTitle": "Portrait of the Red",
       "malid": 14007,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2010-08-13"
    },
    {
@@ -46325,7 +46320,7 @@
       "title": "Pokemon Black and White 2: Introduction Movie",
       "enTitle": "Pokémon Black and White 2: Introduction Movie",
       "malid": 14123,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2012-05-16"
    },
    {
@@ -46505,7 +46500,7 @@
    {
       "title": "Computer Kakumei: Saikyou x Saisoku no Zunou Tanjou",
       "malid": 14317,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-06-03"
    },
    {
@@ -46550,7 +46545,7 @@
    {
       "title": "Vocaloid China Project Senden Animation",
       "malid": 14359,
-      "type": "music",
+      "type": "pv",
       "releaseDate": "2012-06-07"
    },
    {
@@ -47196,7 +47191,7 @@
       "title": "Aoi Sekai no Chuushin de",
       "enTitle": "World War Blue",
       "malid": 15133,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-10-20"
    },
    {
@@ -47320,7 +47315,7 @@
       "title": "One Piece: Episode of Nami - Koukaishi no Namida to Nakama no Kizuna",
       "enTitle": "One Piece: Episode of Nami - Tears of a Navigator and the Bonds of Friends",
       "malid": 15323,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-08-25"
    },
    {
@@ -47774,7 +47769,7 @@
    {
       "title": "Lupin III: Touhou Kenbunroku - Another Page",
       "malid": 15783,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-11-02"
    },
    {
@@ -47832,7 +47827,7 @@
    {
       "title": "Yakeato no, Okashi no Ki",
       "malid": 15815,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006-08-15"
    },
    {
@@ -48205,7 +48200,7 @@
       "title": "One Piece: Kinkyuu Kikaku One Piece Kanzen Kouryakuhou",
       "enTitle": "One Piece: Emergency Planning, A Perfect Strategy for the One Piece",
       "malid": 16143,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1999-12-22"
    },
    {
@@ -48289,7 +48284,7 @@
       "title": "One Piece: Episode of Luffy - Hand Island no Bouken",
       "enTitle": "One Piece: Episode of Luffy - Adventure on Hand Island",
       "malid": 16239,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2012-12-15"
    },
    {
@@ -48520,7 +48515,7 @@
       "title": "Tenshi no Drop",
       "enTitle": "Angel's Drop",
       "malid": 16436,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2013-05-12"
    },
    {
@@ -48992,7 +48987,7 @@
    {
       "title": "Hanamaru Youchien Special Preview",
       "malid": 16740,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2009-10-16"
    },
    {
@@ -49345,7 +49340,7 @@
    {
       "title": "Inazuma Eleven Go: TCG CM NG-shuu",
       "malid": 16964,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-11-22"
    },
    {
@@ -50200,7 +50195,7 @@
    {
       "title": "Koitabi: True Tours Nanto",
       "malid": 17635,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2013-04-28"
    },
    {
@@ -50246,7 +50241,7 @@
    {
       "title": "Chibi Neko Tomu no Daibouken: Chikyuu wo Sukue! Nakama-tachi",
       "malid": 17657,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1992"
    },
    {
@@ -50483,35 +50478,35 @@
       "title": "Kyoto Animation: Ikitaku Naru Omise-hen",
       "enTitle": "Attractive shop",
       "malid": 17791,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-07"
    },
    {
       "title": "Kyoto Animation: Hassou-hen",
       "enTitle": "Imaginations",
       "malid": 17811,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-04"
    },
    {
       "title": "Kyoto Animation: Megane-hen",
       "enTitle": "Glasses",
       "malid": 17813,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-05-21"
    },
    {
       "title": "Kyoto Animation: Kasa-hen",
       "enTitle": "Umbrella",
       "malid": 17815,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-06"
    },
    {
       "title": "Kyoto Animation: Suiei-hen",
       "enTitle": "Swimming",
       "malid": 17819,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013-03-07"
    },
    {
@@ -50640,7 +50635,7 @@
       "title": "Hana wa Saku",
       "enTitle": "Flowers Will Bloom",
       "malid": 17897,
-      "type": "special",
+      "type": "music",
       "releaseDate": "2013-03-20"
    },
    {
@@ -50818,7 +50813,7 @@
    {
       "title": "Thermae Romae x TOTO Collaboration",
       "malid": 18003,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-04-26"
    },
    {
@@ -52185,7 +52180,7 @@
       "title": "One Piece: Episode of Merry - Mou Hitori no Nakama no Monogatari",
       "enTitle": "One Piece: Episode of Merry - The Tale of One More Friend",
       "malid": 19123,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2013-08-24"
    },
    {
@@ -52265,7 +52260,7 @@
    {
       "title": "Chiisana Love Letter: Mariko to Nemunoki no Kodomo-tachi",
       "malid": 19177,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-12-22"
    },
    {
@@ -52480,7 +52475,7 @@
    {
       "title": "Momoya x Peeping Life: Go en desu yo!",
       "malid": 19337,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-04-25"
    },
    {
@@ -52751,7 +52746,7 @@
    {
       "title": "Houseki no Kuni PV",
       "malid": 19581,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2013-07-19"
    },
    {
@@ -52838,7 +52833,7 @@
    {
       "title": "Neppuu Kairiku Bushi Road",
       "malid": 19653,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2013-12-31"
    },
    {
@@ -52979,7 +52974,7 @@
    {
       "title": "Akuma Tou no Prince: Mitsume ga Tooru",
       "malid": 19773,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1985-08-25"
    },
    {
@@ -53264,7 +53259,7 @@
       "title": "Machi Ichiban no Kechinbou",
       "enTitle": "The Stingiest Man in Town",
       "malid": 19971,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1978-12-24"
    },
    {
@@ -53505,7 +53500,7 @@
    {
       "title": "Bokura Mangaka: Tokiwasou Monogatari",
       "malid": 20109,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1981-10-03"
    },
    {
@@ -53554,7 +53549,7 @@
    {
       "title": "Lupin III: Princess of the Breeze - Kakusareta Kuuchuu Toshi",
       "malid": 20141,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2013-11-15"
    },
    {
@@ -53658,7 +53653,7 @@
    {
       "title": "Boku no Boukuugou",
       "malid": 20207,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2005-08-13"
    },
    {
@@ -53676,7 +53671,7 @@
    {
       "title": "Umigame to Shounen",
       "malid": 20225,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2002-08-15"
    },
    {
@@ -53706,7 +53701,7 @@
    {
       "title": "Tako ni Natta Okaasan",
       "malid": 20235,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2003-08-15"
    },
    {
@@ -53767,7 +53762,7 @@
    {
       "title": "Yamada-kun to 7-nin no Majo PV",
       "malid": 20359,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2013-08-25"
    },
    {
@@ -53997,7 +53992,7 @@
       "title": "Ashinaga Ojisan",
       "enTitle": "Daddy Long-Legs",
       "malid": 20587,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1979-10-10"
    },
    {
@@ -54240,7 +54235,7 @@
       "title": "Nissan Serena x One Piece 3D: Mugiwara Chase - Sennyuu!! Sauzando Sunny-gou",
       "enTitle": "Nissan Serena x One Piece 3D: Straw Hat Chase - Infiltrate!!",
       "malid": 20871,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-03-05"
    },
    {
@@ -54423,6 +54418,7 @@
    },
    {
       "title": "Sekai de Ichiban Tsuyoku Naritai! Specials",
+      "enTitle": "Wanna Be the Strongest in the World Specials",
       "malid": 21009,
       "type": "special",
       "releaseDate": "2013-12-12"
@@ -54631,6 +54627,7 @@
    },
    {
       "title": "Escha \u0026 Logy no Atelier: Tasogare no Sora no Renkinjutsushi",
+      "enTitle": "Atelier Escha \u0026 Logy: Alchemists of the Dusk Sky",
       "malid": 21167,
       "type": "tv",
       "releaseDate": "2014-04-10"
@@ -54774,7 +54771,7 @@
       "title": "Mushishi: Hihamukage",
       "enTitle": "Mushi-shi: The Shadow that Devours the Sun",
       "malid": 21329,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-01-04"
    },
    {
@@ -55006,7 +55003,7 @@
    {
       "title": "Shounen Sunday CM: Denpa Kyoushi",
       "malid": 21495,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-10-02"
    },
    {
@@ -55242,7 +55239,7 @@
    {
       "title": "Last Orders",
       "malid": 21663,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1997-10"
    },
    {
@@ -55398,7 +55395,7 @@
    {
       "title": "Shounen Sunday CM: Yugami-kun ni wa Tomodachi ga Inai",
       "malid": 21775,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-11-26"
    },
    {
@@ -55502,7 +55499,7 @@
       "title": "Edogawa Conan Shissou Jiken: Shijou Saiaku no Futsukakan",
       "enTitle": "The Disappearance of Conan Edogawa: The Worst Two Days in History",
       "malid": 21867,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-12-26"
    },
    {
@@ -56010,7 +56007,7 @@
    {
       "title": "Shounen Sunday CM: Be Blues! Ao ni Nare",
       "malid": 22205,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-06-12"
    },
    {
@@ -56840,7 +56837,7 @@
       "title": "Momoya x Peeping Life: Go en desu yo! II",
       "enTitle": "Peeping Life: This Is Fate! II",
       "malid": 22671,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-12-19"
    },
    {
@@ -57036,7 +57033,7 @@
    {
       "title": "Cross Road",
       "malid": 22839,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-02-25"
    },
    {
@@ -57498,7 +57495,7 @@
    {
       "title": "Shounen Sunday CM: Kyoukai no Rinne",
       "malid": 23179,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2009-09"
    },
    {
@@ -58119,7 +58116,7 @@
    {
       "title": "Akage no Anne Specials",
       "malid": 23583,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-02-11"
    },
    {
@@ -58434,7 +58431,7 @@
    {
       "title": "Peter Pan no Bouken Specials",
       "malid": 23739,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001"
    },
    {
@@ -58608,7 +58605,7 @@
    {
       "title": "Ai no Kiseki: Doctor Norman Monogatari",
       "malid": 23861,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1982-12-24"
    },
    {
@@ -58668,7 +58665,7 @@
    {
       "title": "REACH x Thermae Romae: Pietrada no Kekkon",
       "malid": 23895,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-04-13"
    },
    {
@@ -59191,7 +59188,7 @@
    {
       "title": "Bakabon Osomatsu no Karee wo Tazunete Sansenri",
       "malid": 24373,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1991-10-19"
    },
    {
@@ -59294,7 +59291,7 @@
       "title": "Tales of Zestiria: Doushi no Yoake",
       "enTitle": "Tales of Zestiria: Dawn of the Shepherd",
       "malid": 24459,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-12-30"
    },
    {
@@ -59306,7 +59303,7 @@
    {
       "title": "Buddy Complex: Kanketsu-hen - Ano Sora ni Kaeru Mirai de",
       "malid": 24469,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-09-30"
    },
    {
@@ -59439,7 +59436,7 @@
    {
       "title": "Ai Shoujo Pollyanna Story Specials",
       "malid": 24645,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-04"
    },
    {
@@ -59476,7 +59473,7 @@
    {
       "title": "Gegege no Kitarou: Kitarou Tanjou-hen",
       "malid": 24677,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1980"
    },
    {
@@ -59816,7 +59813,7 @@
    {
       "title": "Chiisai Sensuikan ni Koi wo Shita Dekasugiru Kujira no Hanashi",
       "malid": 24883,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2004-08-14"
    },
    {
@@ -60014,7 +60011,7 @@
    {
       "title": "Chiisana Koi no Monogatari: Chichi to Sally Hatsukoi no Shiki",
       "malid": 25033,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1984-03-20"
    },
    {
@@ -60087,7 +60084,7 @@
    {
       "title": "Tom Sawyer no Bouken Specials",
       "malid": 25069,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-02"
    },
    {
@@ -60243,7 +60240,7 @@
       "title": "One Piece 3D2Y: Ace no shi wo Koete! Luffy Nakama Tono Chikai",
       "enTitle": "One Piece 3D2Y: Overcoming Ace's Death! Luffy's Pledge to His Friends",
       "malid": 25161,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-08-30"
    },
    {
@@ -60300,19 +60297,19 @@
    {
       "title": "Megumi to Taiyou: Kajuu Gummi Tweet Love Story",
       "malid": 25265,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-05-17"
    },
    {
       "title": "Megumi to Taiyou II: Kajuu Gummi Tweet Mystery - Kieta Sapphire Roman no Nazo",
       "malid": 25267,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-02-24"
    },
    {
       "title": "Shinano Mainichi Shinbun",
       "malid": 25271,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2007-09"
    },
    {
@@ -60494,7 +60491,7 @@
    {
       "title": "Megumi to Taiyou III: Kajuu Gummi Tweet Fantasy - Timeline World",
       "malid": 25491,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-06-03"
    },
    {
@@ -61096,7 +61093,7 @@
    {
       "title": "Rokujouma no Shinryakusha!? PV",
       "malid": 26019,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2010-06"
    },
    {
@@ -62089,7 +62086,7 @@
       "title": "Toaru Majutsu no Index 10-shuunen Kinen PV",
       "enTitle": "Toaru Majutsu no Index 10th Anniversary PV",
       "malid": 27509,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2014-09-10"
    },
    {
@@ -62405,7 +62402,7 @@
       "title": "Fate/stay night: Unlimited Blade Works Prologue",
       "enTitle": "Fate/stay night: Unlimited Blade Works - Prologue",
       "malid": 27821,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-10-05"
    },
    {
@@ -62557,7 +62554,7 @@
    {
       "title": "Captain",
       "malid": 27915,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1980-04-02"
    },
    {
@@ -63697,7 +63694,7 @@
    {
       "title": "One Piece: Episode of Alabasta - Prologue",
       "malid": 28683,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2011-08-20"
    },
    {
@@ -63763,7 +63760,7 @@
    {
       "title": "Luigi's Toy Adventure",
       "malid": 28717,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-12-02"
    },
    {
@@ -63885,7 +63882,7 @@
    {
       "title": "Bamboo Blade: CM Fanfu-Fufe-Fo",
       "malid": 28815,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2008-01"
    },
    {
@@ -64223,7 +64220,7 @@
    {
       "title": "Tottori U-turn",
       "malid": 29073,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-12-11"
    },
    {
@@ -64523,7 +64520,7 @@
    {
       "title": "20-dai no Heya-hen",
       "malid": 29347,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-01-07"
    },
    {
@@ -64571,7 +64568,7 @@
    {
       "title": "Watashi no Ashinaga Ojisan Specials",
       "malid": 29363,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2001-05"
    },
    {
@@ -64674,14 +64671,14 @@
    {
       "title": "Fafa Movie",
       "malid": 29395,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2010-03-10"
    },
    {
       "title": "Pinky Monkey x FaFa Collaboration Animation: At Afternoon of Sunny Day",
       "enTitle": "Fafa x Pinky Monkey: at afternoon of sunny day",
       "malid": 29397,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2011-03-31"
    },
    {
@@ -65127,7 +65124,7 @@
    {
       "title": "Chinka",
       "malid": 29609,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2010-03-31"
    },
    {
@@ -65197,7 +65194,7 @@
    {
       "title": "6HP (Six Hearts Princess)",
       "malid": 29643,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-12-30"
    },
    {
@@ -65456,7 +65453,7 @@
    {
       "title": "Yatterman x Toshiba",
       "malid": 29739,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2008"
    },
    {
@@ -65534,7 +65531,7 @@
    {
       "title": "JU Chuuko Jidousha Hanbaishi x Peeping Life",
       "malid": 29752,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-09-30"
    },
    {
@@ -65730,7 +65727,7 @@
       "title": "The iDOLM@STER Million Live! 1-shuunen Kinen PV",
       "enTitle": "The iDOLM@STER Million Live! 1st Anniversary PV",
       "malid": 29801,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2014-02-27"
    },
    {
@@ -66730,7 +66727,7 @@
    {
       "title": "Kirin no Otenki Mama-san",
       "malid": 30079,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1964-06-26"
    },
    {
@@ -66774,7 +66771,7 @@
       "title": "Ryoutei no Aji",
       "enTitle": "RYOTEI-NO-AJI",
       "malid": 30088,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-03-28"
    },
    {
@@ -68199,7 +68196,7 @@
    {
       "title": "Minna Atsumare! Falcom Gakuen SC Special",
       "malid": 30489,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2015-03-29"
    },
    {
@@ -68224,7 +68221,7 @@
    {
       "title": "Nisekoimonogatari",
       "malid": 30514,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2015-04-01"
    },
    {
@@ -68815,7 +68812,7 @@
       "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e PV",
       "enTitle": "Classroom of the Elite PV",
       "malid": 30813,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2015-05-22"
    },
    {
@@ -69520,7 +69517,7 @@
    {
       "title": "Aru Zombie Shoujo no Sainan PV",
       "malid": 31014,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2012-07-01"
    },
    {
@@ -69645,7 +69642,7 @@
       "title": "Onaka Hime",
       "enTitle": "Princess Onaka",
       "malid": 31057,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-05-15"
    },
    {
@@ -69752,7 +69749,7 @@
    {
       "title": "Green Dakara x Bakemono no Ko",
       "malid": 31108,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-06-24"
    },
    {
@@ -69763,9 +69760,9 @@
       "releaseDate": "2016-07-02"
    },
    {
-      "title": "Nisshin Seifun Group CM",
+      "title": "Nisshin Seifun Group CMs",
       "malid": 31111,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2010-03"
    },
    {
@@ -69777,7 +69774,7 @@
    {
       "title": "Schick x Evangelion",
       "malid": 31115,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-05-11"
    },
    {
@@ -69815,14 +69812,14 @@
    {
       "title": "Chichi to Ko",
       "malid": 31129,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1998"
    },
    {
       "title": "Shounen Sunday CM: InuYasha-hen",
       "enTitle": "InuYasha: Shounen Sunday CM",
       "malid": 31133,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996-11-13"
    },
    {
@@ -69861,7 +69858,7 @@
    {
       "title": "Mottainai (Special)",
       "malid": 31144,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-07-01"
    },
    {
@@ -69928,7 +69925,7 @@
    {
       "title": "Meiji x Kokosake \u0026 anohana Receipt Oubo Campaign",
       "malid": 31165,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-06-02"
    },
    {
@@ -69947,7 +69944,7 @@
    {
       "title": "Youkai Ninpouchou Jiraiya!",
       "malid": 31170,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2015-04-02"
    },
    {
@@ -70238,7 +70235,7 @@
       "title": "One Piece: Episode of Sabo - 3 Kyoudai no Kizuna Kiseki no Saikai to Uketsugareru Ishi",
       "enTitle": "One Piece: Episode of Sabo - Bond of Three Brothers, A Miraculous Reunion and an Inherited Will",
       "malid": 31289,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2015-08-22"
    },
    {
@@ -70640,7 +70637,7 @@
    {
       "title": "Grendizer Giga",
       "malid": 31467,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2015-04-12"
    },
    {
@@ -70786,7 +70783,7 @@
    {
       "title": "Aoki Seimei Hoken",
       "malid": 31513,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2006"
    },
    {
@@ -70912,7 +70909,7 @@
    {
       "title": "Ano Hi, Bokura wa Senjou de: Shounenhei no Kokuhaku",
       "malid": 31563,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2015-08-11"
    },
    {
@@ -71049,7 +71046,7 @@
    {
       "title": "Kana Kana Kazoku Shorts: Naru Haya Kakusan Kibou",
       "malid": 31604,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-09-01"
    },
    {
@@ -71786,10 +71783,10 @@
       "releaseDate": "2016-07-06"
    },
    {
-      "title": "Puzzle \u0026 Dragons CM",
-      "enTitle": "Puzzle \u0026 Dragons CM",
+      "title": "Puzzle \u0026 Dragons CMs",
+      "enTitle": "Puzzle \u0026 Dragons CMs",
       "malid": 31846,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-10-12"
    },
    {
@@ -71932,7 +71929,7 @@
    {
       "title": "The iDOLM@STER Million Live! \"Dreaming!\" Animation PV",
       "malid": 31894,
-      "type": "music",
+      "type": "pv",
       "releaseDate": "2015-09-30"
    },
    {
@@ -72289,7 +72286,7 @@
       "title": "One Piece: Adventure of Nebulandia",
       "enTitle": "One Piece: Adventure of Nebulandia",
       "malid": 32051,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2015-12-19"
    },
    {
@@ -72436,7 +72433,7 @@
    {
       "title": "Takemoto Denki x Peeping Life",
       "malid": 32142,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-11-16"
    },
    {
@@ -72448,7 +72445,7 @@
    {
       "title": "Toshi Souzou Gakubu Shoukai",
       "malid": 32144,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2015-09-15"
    },
    {
@@ -72576,7 +72573,7 @@
    {
       "title": "Omoi no Kakera",
       "malid": 32190,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-03-24"
    },
    {
@@ -72972,7 +72969,7 @@
    {
       "title": "Lupin III (2015): Italian Game",
       "malid": 32321,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-01-08"
    },
    {
@@ -72991,7 +72988,7 @@
    {
       "title": "Shounen Sunday CM: Major 2nd",
       "malid": 32324,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-07-11"
    },
    {
@@ -73096,7 +73093,7 @@
    {
       "title": "Azure Nihon Data Center",
       "malid": 32377,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-02-25"
    },
    {
@@ -73262,7 +73259,7 @@
       "title": "One Piece: Long Ring Long Land-hen",
       "enTitle": "One Piece: Long Ring Long Land Arc",
       "malid": 32437,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2015-12-11"
    },
    {
@@ -73344,9 +73341,9 @@
       "releaseDate": "1992-12-02"
    },
    {
-      "title": "Love Live! The School Idol Movie: Gekijou Manner CM",
+      "title": "Love Live! The School Idol Movie: Gekijou Manner CMs",
       "malid": 32476,
-      "type": "movie",
+      "type": "cm",
       "releaseDate": "2015-06-13"
    },
    {
@@ -73455,7 +73452,7 @@
    {
       "title": "Shounen Sunday CM: Imawa no Kuni no Alice",
       "malid": 32548,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-07-09"
    },
    {
@@ -73507,7 +73504,7 @@
    {
       "title": "Shounen Sunday CM: Tokiwa Kitareri!! CM",
       "malid": 32564,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-01-12"
    },
    {
@@ -73896,7 +73893,7 @@
       "title": "Match Shoujo PV",
       "enTitle": "The Little Match Girl",
       "malid": 32695,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-02-10"
    },
    {
@@ -73960,7 +73957,7 @@
    {
       "title": "Love Live! x Watering KissMint Collaboration CM",
       "malid": 32730,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-02-11"
    },
    {
@@ -73973,31 +73970,31 @@
       "title": "ZIP! x Peeping Life TV: Cool Japan Saizensen",
       "enTitle": "ZIP! x Peeping Life TV: The Front Line of Cool Japan",
       "malid": 32733,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-10-19"
    },
    {
       "title": "Satto Anshin, SAT x Peeping Life",
       "malid": 32734,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-09-30"
    },
    {
       "title": "Persona 3 the Movie Meets \"Walkman\"",
       "malid": 32735,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-02-14"
    },
    {
       "title": "Pepsi Nex x 009 Re:Cyborg",
       "malid": 32736,
-      "type": "movie",
+      "type": "cm",
       "releaseDate": "2011"
    },
    {
       "title": "009 Re:Cyborg x Zip",
       "malid": 32737,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-10-15"
    },
    {
@@ -74009,11 +74006,12 @@
    {
       "title": "JRA Hokan Keikaku",
       "malid": 32739,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-06-15"
    },
    {
       "title": "Girls \u0026 Panzer Movie Specials",
+      "enTitle": "Girls und Panzer der Film Specials",
       "malid": 32740,
       "type": "special",
       "releaseDate": "2016-05-27"
@@ -74435,7 +74433,7 @@
    {
       "title": "Hungry to Win",
       "malid": 32831,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-11-08"
    },
    {
@@ -74962,7 +74960,7 @@
    {
       "title": "Mirai no Watashi",
       "malid": 32959,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-03-15"
    },
    {
@@ -75700,7 +75698,7 @@
    {
       "title": "Kokoro ga Sakebitagatterunda. x Sony Hi-Res \"Walkman\" and Headphone",
       "malid": 33170,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-03-28"
    },
    {
@@ -76301,7 +76299,7 @@
       "title": "One Piece: Heart of Gold",
       "enTitle": "One Piece: Heart of Gold",
       "malid": 33338,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-07-16"
    },
    {
@@ -76641,7 +76639,7 @@
    {
       "title": "Kakushigoto PV",
       "malid": 33455,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-06-16"
    },
    {
@@ -76901,7 +76899,7 @@
    {
       "title": "Kubbe PV Full ver.",
       "malid": 33529,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2012-05-15"
    },
    {
@@ -76994,7 +76992,7 @@
    {
       "title": "InaDan Movie x Mameshiba Collab CM",
       "malid": 33544,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-10-30"
    },
    {
@@ -77013,7 +77011,7 @@
    {
       "title": "Mameshiba x Gaist Crusher Collab CM",
       "malid": 33547,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-03-21"
    },
    {
@@ -77031,7 +77029,7 @@
    {
       "title": "Bic Contact X Mameshiba Collab CM",
       "malid": 33550,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013-08-02"
    },
    {
@@ -77527,7 +77525,7 @@
    {
       "title": "Samurai Noodles: The Originator",
       "malid": 33734,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-07-05"
    },
    {
@@ -78048,7 +78046,7 @@
    {
       "title": "Estima: Sense of Wonder",
       "malid": 33871,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-06-24"
    },
    {
@@ -78145,7 +78143,7 @@
    {
       "title": "Omoi Au Christmas 2011",
       "malid": 33888,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-11-15"
    },
    {
@@ -78196,25 +78194,25 @@
    {
       "title": "Suntory Minami Alps no Tennensui",
       "malid": 33902,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-08-09"
    },
    {
       "title": "All-Free kono Natsu Ichioshi Monogatari Campaign Kokuchi Douga",
       "malid": 33903,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-06-21"
    },
    {
       "title": "Suntory Tennensui CMs",
       "malid": 33904,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013"
    },
    {
       "title": "Hatsune Miku: Hiyashite Narasou Okashi no Ii Oto",
       "malid": 33905,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-05-31"
    },
    {
@@ -78345,7 +78343,7 @@
    {
       "title": "Koiwai Junsui Kajuu: Bokura Junsui-hen",
       "malid": 33938,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012"
    },
    {
@@ -78662,7 +78660,7 @@
       "title": "Meitantei Conan: Episode One - Chiisaku Natta Meitantei",
       "enTitle": "Detective Conan: Episode One - The Great Detective Turned Small",
       "malid": 34036,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-12-09"
    },
    {
@@ -78805,7 +78803,7 @@
       "title": "Danganronpa 3: The End of Kibougamine Gakuen - Kibou-hen",
       "enTitle": "Danganronpa 3: The End of Hope's Peak High School - Hope Arc",
       "malid": 34103,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-09-29"
    },
    {
@@ -78893,7 +78891,7 @@
    {
       "title": "Minna de Bokumetsu Inshu Unten",
       "malid": 34122,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013"
    },
    {
@@ -79001,7 +78999,7 @@
       "title": "Oishi-sa Hajikeru! One Piece",
       "enTitle": "Deliciousness Explodes! One Piece",
       "malid": 34165,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-09-11"
    },
    {
@@ -79266,7 +79264,7 @@
       "title": "Mutsugo to Ouma no Monogatari",
       "enTitle": "The Story of the Sextuplets and a Horse",
       "malid": 34239,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-10-13"
    },
    {
@@ -79508,7 +79506,7 @@
       "title": "Fate/Grand Order: First Order",
       "enTitle": "Fate/Grand Order -First Order-",
       "malid": 34321,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2016-12-31"
    },
    {
@@ -79683,7 +79681,7 @@
    {
       "title": "Himitsukessha Taka no Tsume: Teikyou Kakutoku Daisakusen - Sakusen Kaigi",
       "malid": 34373,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2009-10-05"
    },
    {
@@ -79979,7 +79977,7 @@
    {
       "title": "Uma Musume: Pretty Derby PV",
       "malid": 34453,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-03-25"
    },
    {
@@ -80276,7 +80274,7 @@
    },
    {
       "title": "Yoru wa Mijikashi Arukeyo Otome",
-      "enTitle": "The Night is Short, Walk on Girl",
+      "enTitle": "Night Is Short, Walk on Girl",
       "malid": 34537,
       "type": "movie",
       "releaseDate": "2017-04-07"
@@ -80899,13 +80897,13 @@
    {
       "title": "Kawaijuku Manavis CM",
       "malid": 34708,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-04-20"
    },
    {
       "title": "Choco Kyouju no Oheya",
       "malid": 34710,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-04-25"
    },
    {
@@ -80964,7 +80962,7 @@
    {
       "title": "Shiseido HG Super Hard",
       "malid": 34722,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1995"
    },
    {
@@ -81070,7 +81068,7 @@
    {
       "title": "Blood Lad: Kanketsu Kinen",
       "malid": 34751,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-01-11"
    },
    {
@@ -81766,7 +81764,7 @@
       "title": "Tales of the Rays",
       "enTitle": "Tales of the Rays",
       "malid": 34939,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-02-17"
    },
    {
@@ -82008,14 +82006,14 @@
    {
       "title": "Aware! Meisaku-kun: Meiji Saite Oishii Mozzarella",
       "malid": 35002,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-03-01"
    },
    {
       "title": "Tanoshii Saki Uta Animation",
       "enTitle": "We Are the Mozzaraliens!",
       "malid": 35003,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-04-15"
    },
    {
@@ -82102,7 +82100,7 @@
    {
       "title": "\"Eikou Naki Tensai-tachi\" Kara no Monogatari",
       "malid": 35025,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2017-03-25"
    },
    {
@@ -82395,7 +82393,7 @@
       "title": "The iDOLM@STER Million Live! 4-shuunen Kinen PV",
       "enTitle": "The iDOLM@STER Million Live! 4th Anniversary PV",
       "malid": 35081,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-03-12"
    },
    {
@@ -82664,7 +82662,7 @@
    {
       "title": "Kaishain x Sumida Suizokukan Bikkuri! Kai Matsuri CM",
       "malid": 35133,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-03-15"
    },
    {
@@ -83195,7 +83193,7 @@
       "title": "Boku no Hero Academia: Hero Note",
       "enTitle": "My Hero Academia: Hero Notebook",
       "malid": 35262,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2017-03-25"
    },
    {
@@ -83352,7 +83350,7 @@
       "title": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden PVs",
       "enTitle": "Puella Magi Madoka Magica Side Story: Magia Record",
       "malid": 35300,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2016-09-30"
    },
    {
@@ -83841,9 +83839,9 @@
       "releaseDate": "1932"
    },
    {
-      "title": "Hortensia Saga CM",
+      "title": "Hortensia Saga CMs",
       "malid": 35411,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-03-26"
    },
    {
@@ -83929,7 +83927,7 @@
       "title": "Niuniu Elise PV",
       "enTitle": "Elise in Wonder Cooking",
       "malid": 35442,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-03-22"
    },
    {
@@ -84897,7 +84895,7 @@
    {
       "title": "Project Tokyo Dolls: Episode 0",
       "malid": 35684,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-06-05"
    },
    {
@@ -84978,7 +84976,7 @@
    {
       "title": "NoisyCell x Ponkotsu Quest",
       "malid": 35704,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-06-07"
    },
    {
@@ -85177,7 +85175,7 @@
       "title": "Hungry Days: Aoharu ka yo.",
       "enTitle": "Hungry Days: Are You Hungry?",
       "malid": 35770,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-06-07"
    },
    {
@@ -85401,7 +85399,7 @@
       "title": "Hataraku Saibou CM",
       "enTitle": "Cells at Work!",
       "malid": 35840,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-07-02"
    },
    {
@@ -86066,7 +86064,7 @@
       "title": "Fate/Grand Order",
       "enTitle": "Fate/Grand Order",
       "malid": 36064,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-12-27"
    },
    {
@@ -86710,7 +86708,7 @@
       "title": "One Piece: Episode of East Blue - Luffy to 4-nin no Nakama no Daibouken",
       "enTitle": "One Piece: Episode of East Blue - Luffy and His Four Crewmates' Great Adventure",
       "malid": 36215,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2017-08-26"
    },
    {
@@ -86782,14 +86780,14 @@
       "title": "Sono Me ga Mitsumeru Mono",
       "enTitle": "The One Piece That I Am Looking At",
       "malid": 36239,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-06-19"
    },
    {
       "title": "Scratch x One Piece Film: Gold",
       "enTitle": "Scratch x One Piece Film: Gold",
       "malid": 36240,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-05"
    },
    {
@@ -86803,7 +86801,7 @@
       "title": "TOHO Cinemas x One Piece Film: Gold - Tokubetsu Eizou",
       "enTitle": "TOHO Cinemas x One Piece Film: Gold - Special Video",
       "malid": 36242,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-02-29"
    },
    {
@@ -87037,7 +87035,7 @@
    {
       "title": "Hachigatsu no Cinderella Nine PV",
       "malid": 36297,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-07-31"
    },
    {
@@ -87186,7 +87184,7 @@
    {
       "title": "Nissin no Donbei x Kemono Friends",
       "malid": 36339,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-09-19"
    },
    {
@@ -87528,7 +87526,7 @@
    {
       "title": "Attakai, Fuyu Canada",
       "malid": 36404,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-09-25"
    },
    {
@@ -87956,7 +87954,7 @@
    },
    {
       "title": "Natsume Yuujinchou Movie: Utsusemi ni Musubu",
-      "enTitle": "Natsume Yujin-cho the Movie: Ephemeral Bond",
+      "enTitle": "Natsume's Book of Friends Movie: Ephemeral Bond",
       "malid": 36538,
       "type": "movie",
       "releaseDate": "2018-09-29"
@@ -88029,7 +88027,7 @@
    {
       "title": "Yinhun x He Wei Dao",
       "malid": 36553,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-08-29"
    },
    {
@@ -88126,9 +88124,9 @@
       "releaseDate": "2011-07-30"
    },
    {
-      "title": "Dungeon Meshi PV",
+      "title": "Dungeon Meshi PVs",
       "malid": 36577,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-07-31"
    },
    {
@@ -88451,7 +88449,7 @@
       "title": "Shadowverse PVs",
       "enTitle": "Shadowverse",
       "malid": 36639,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2015-10-16"
    },
    {
@@ -88552,7 +88550,7 @@
    {
       "title": "Matsumotokiyoshi x Osomatsu-san",
       "malid": 36664,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-06-25"
    },
    {
@@ -88743,7 +88741,7 @@
    {
       "title": "Hashire! Osomatsu-san",
       "malid": 36714,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-10"
    },
    {
@@ -89133,7 +89131,7 @@
       "title": "Owarimonogatari 2nd Season Recaps",
       "enTitle": "Owarimonogatari Second Season Recaps",
       "malid": 36796,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2017-08-12"
    },
    {
@@ -89329,7 +89327,7 @@
    {
       "title": "Toho Cinemas x Pokemon Go",
       "malid": 36836,
-      "type": "movie",
+      "type": "cm",
       "releaseDate": "2017-03-03"
    },
    {
@@ -89441,7 +89439,7 @@
    {
       "title": "Tokyo Girls Collection 2016 A/W x Osomatsu-san Special Movie",
       "malid": 36865,
-      "type": "movie",
+      "type": "cm",
       "releaseDate": "2016-09-03"
    },
    {
@@ -89454,7 +89452,7 @@
    {
       "title": "Toho Cinemas \u0026 I Love Snoopy: The Peanuts Movie Collab Logo Eizou",
       "malid": 36868,
-      "type": "movie",
+      "type": "cm",
       "releaseDate": "2014-12-01"
    },
    {
@@ -89474,7 +89472,7 @@
    {
       "title": "Aware! Meisaku-kun: Oronamin C",
       "malid": 36874,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-11-30"
    },
    {
@@ -89607,7 +89605,7 @@
    {
       "title": "Inazuma Eleven x Kaitou Gru no Tsuki Dorobou",
       "malid": 36913,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-02"
    },
    {
@@ -89998,9 +89996,9 @@
       "releaseDate": "2018-04-08"
    },
    {
-      "title": "Momoya Norihei Anime CM",
+      "title": "Momoya Norihei Anime CMs",
       "malid": 37024,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1958"
    },
    {
@@ -90256,14 +90254,14 @@
       "title": "Xiong Chumo: Guonian",
       "enTitle": "Boonie Bears: Homeward Journey",
       "malid": 37097,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2013-02-08"
    },
    {
       "title": "Xiong Chumo: Nianhuo",
       "enTitle": "Boonie Bears: Robo-Rumble",
       "malid": 37098,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-01-30"
    },
    {
@@ -90411,7 +90409,7 @@
    {
       "title": "Nishitetsu CMs",
       "malid": 37142,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-07-19"
    },
    {
@@ -90531,6 +90529,7 @@
    },
    {
       "title": "Nanatsu no Bitoku Specials",
+      "enTitle": "The Seven Heavenly Virtues Specials",
       "malid": 37172,
       "type": "special",
       "releaseDate": "2018-04-27"
@@ -90623,7 +90622,7 @@
    {
       "title": "Morinaga Nyuugyou x Mary to Majo no Hana",
       "malid": 37189,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-04-06"
    },
    {
@@ -91018,7 +91017,7 @@
       "title": "Ani x Para: Anata no Hero wa Dare desu ka",
       "enTitle": "Animation × Paralympic: Who Is Your Hero?",
       "malid": 37290,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2017-11-10"
    },
    {
@@ -91115,9 +91114,9 @@
       "releaseDate": "2018-02-08"
    },
    {
-      "title": "Toji no Miko: Kizamishi Issen no Tomoshibi PV",
+      "title": "Toji no Miko: Kizamishi Issen no Tomoshibi PVs",
       "malid": 37318,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-01-30"
    },
    {
@@ -91514,7 +91513,7 @@
    {
       "title": "Ookami Kodomo no Ame to Yuki x House Shokuhin Stew CM",
       "malid": 37418,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-08-27"
    },
    {
@@ -91533,7 +91532,7 @@
    {
       "title": "MaxValu Kyushu",
       "malid": 37421,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2008-11"
    },
    {
@@ -92465,7 +92464,7 @@
    {
       "title": "Ninja Batman x Poputepipikku Kindan no Collab CM",
       "malid": 37622,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-03-24"
    },
    {
@@ -92780,7 +92779,7 @@
    {
       "title": "Akuma no Kimuraa-hen",
       "malid": 37706,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-06-07"
    },
    {
@@ -93178,7 +93177,7 @@
    {
       "title": "Osomatsu-san x Mameshiba",
       "malid": 37818,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-03-27"
    },
    {
@@ -93315,7 +93314,7 @@
    {
       "title": "Yinhun x KFC",
       "malid": 37864,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-05-09"
    },
    {
@@ -93477,7 +93476,7 @@
       "title": "One Piece: Episode of Sorajima",
       "enTitle": "One Piece: Episode of Skypiea",
       "malid": 37902,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2018-08-25"
    },
    {
@@ -94136,7 +94135,7 @@
    {
       "title": "Lipton #watashitolipton",
       "malid": 38023,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-07-20"
    },
    {
@@ -94162,7 +94161,7 @@
    {
       "title": "Green Dakara x Mirai no Mirai",
       "malid": 38028,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-07-13"
    },
    {
@@ -94269,7 +94268,7 @@
    {
       "title": "Kyoukaisenjou no Horizon Special",
       "malid": 38046,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2018-12-21"
    },
    {
@@ -94818,7 +94817,7 @@
       "title": "Kouryuu Densetsu Villgust PV",
       "enTitle": "Armed Dragon Fantasy Villgust Promotional Video",
       "malid": 38153,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "1990-06"
    },
    {
@@ -95415,7 +95414,7 @@
    {
       "title": "Sandwhichman Touhoku Ai Bottle",
       "malid": 38352,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-03-06"
    },
    {
@@ -95558,7 +95557,7 @@
       "title": "He Wei Dao x Re:Cong Ling Kaishi de Yi Shijie Shenghuo",
       "enTitle": "He Wei Dao x Re:ZERO",
       "malid": 38389,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-09-21"
    },
    {
@@ -95615,7 +95614,7 @@
    {
       "title": "Ishii Hiroyuki x Saitou Souma Essay-shuu",
       "malid": 38407,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-09-25"
    },
    {
@@ -95676,7 +95675,7 @@
    {
       "title": "Minimini TV CM",
       "malid": 38420,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-09"
    },
    {
@@ -95960,7 +95959,7 @@
    {
       "title": "Sofy Soft Tampon: Drive Ryokou-hen",
       "malid": 38493,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-07-29"
    },
    {
@@ -96058,7 +96057,7 @@
    {
       "title": "Adobe Student and Teacher Edition",
       "malid": 38510,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2009-12"
    },
    {
@@ -96217,7 +96216,7 @@
    {
       "title": "Sawai Seiyaki Kabushikigaisha CMs",
       "malid": 38552,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-04-10"
    },
    {
@@ -96450,7 +96449,7 @@
       "title": "JRA x Gudetama",
       "enTitle": "JRA x Gudetama",
       "malid": 38626,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-10-26"
    },
    {
@@ -96813,7 +96812,7 @@
    {
       "title": "Lupin III: Goodbye Partner",
       "malid": 38720,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2019-01-25"
    },
    {
@@ -96858,7 +96857,7 @@
    },
    {
       "title": "Hataraku Saibou: Kaze Shoukougun",
-      "enTitle": "Cells at Work Special",
+      "enTitle": "Cells at Work!: The Common Cold",
       "malid": 38733,
       "type": "special",
       "releaseDate": "2018-12-27"
@@ -96914,7 +96913,7 @@
       "title": "Hangyakusei Million Arthur PV",
       "enTitle": "Han-Gyaku-Sei Million Arthur",
       "malid": 38744,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-11-29"
    },
    {
@@ -97051,7 +97050,7 @@
       "title": "Maruman Loose Leaf",
       "enTitle": "Maruman Loose Leaf",
       "malid": 38772,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-01-15"
    },
    {
@@ -97064,7 +97063,7 @@
    {
       "title": "The North Face Japan CMs",
       "malid": 38774,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-03-31"
    },
    {
@@ -97080,10 +97079,10 @@
       "releaseDate": "2018-11-11"
    },
    {
-      "title": "Jujutsu Kaisen Official PV",
-      "enTitle": "Jujutsu Kaisen Official PV",
+      "title": "Jujutsu Kaisen Official PVs",
+      "enTitle": "Jujutsu Kaisen Official PVs",
       "malid": 38777,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-12-03"
    },
    {
@@ -97110,7 +97109,7 @@
       "title": "Ken to Mahou no Logres: Inishie no Megami x Fate/Extella",
       "enTitle": "Logres of Swords and Sorcery: Goddess of Ancient x Fate/Extella",
       "malid": 38784,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-12-07"
    },
    {
@@ -97480,7 +97479,7 @@
    {
       "title": "Lion meets HachiClo",
       "malid": 38864,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-12-21"
    },
    {
@@ -97670,7 +97669,7 @@
    {
       "title": "Nissin Men-nashi Donbei x Himote House",
       "malid": 38899,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-12-02"
    },
    {
@@ -97811,7 +97810,7 @@
    {
       "title": "Kao Haru CMs",
       "malid": 38925,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-12-28"
    },
    {
@@ -97831,13 +97830,13 @@
    {
       "title": "Koeda-chan CMs",
       "malid": 38928,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-07-28"
    },
    {
       "title": "Green Co-Op CMs",
       "malid": 38931,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-12-15"
    },
    {
@@ -98209,7 +98208,7 @@
    {
       "title": "Aru Otoko no Ikikata",
       "malid": 39027,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-01-15"
    },
    {
@@ -98259,7 +98258,7 @@
    {
       "title": "Lux Straight \u0026 Beauty Massugu Ikiru",
       "malid": 39035,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-08-30"
    },
    {
@@ -99203,7 +99202,7 @@
       "title": "Move to the Future",
       "enTitle": "Move to the Future",
       "malid": 39222,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-01-31"
    },
    {
@@ -100084,7 +100083,7 @@
    {
       "title": "Donbei x Kemurikusa",
       "malid": 39415,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-02-27"
    },
    {
@@ -100994,13 +100993,13 @@
    {
       "title": "Chikin Ramen x Gudetama",
       "malid": 39659,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-03-31"
    },
    {
       "title": "Hi no Tori \"Dougo Onsen-hen\"",
       "malid": 39663,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-05-24"
    },
    {
@@ -101117,7 +101116,7 @@
    {
       "title": "Pocari Sweat x Fuji Rock Festival ’17",
       "malid": 39694,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-07-13"
    },
    {
@@ -101286,7 +101285,7 @@
       "title": "Line Novel",
       "enTitle": "LINE Novel",
       "malid": 39734,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-04-16"
    },
    {
@@ -102074,9 +102073,9 @@
       "releaseDate": "2019-05-24"
    },
    {
-      "title": "Isekai Quartet Relay PV",
+      "title": "Isekai Quartet Relay PVs",
       "malid": 39993,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-10-27"
    },
    {
@@ -102247,9 +102246,9 @@
    },
    {
       "title": "Tenki no Ko CMs",
-      "enTitle": "Weathering with You CM",
+      "enTitle": "Weathering with You CMs",
       "malid": 40034,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2019-06-30"
    },
    {
@@ -102391,7 +102390,7 @@
    {
       "title": "Hataraku Saibou: Necchuushou - Moshimo Pocari Sweat ga Attara",
       "malid": 40076,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-07-08"
    },
    {
@@ -102573,7 +102572,7 @@
       "title": "Mahoutsukai no Yome: Gakuin-hen",
       "enTitle": "The Ancient Magus' Bride: School Arc PV",
       "malid": 40134,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-03-10"
    },
    {
@@ -102672,7 +102671,7 @@
       "title": "Tokyo 2020 Olympics CMs",
       "enTitle": "Tokyo 2020",
       "malid": 40155,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-07-22"
    },
    {
@@ -102785,7 +102784,7 @@
       "title": "Look Plus One Piece Special Movie",
       "enTitle": "Look Plus x One Piece - Special Movie",
       "malid": 40181,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-07-29"
    },
    {
@@ -103270,13 +103269,13 @@
    {
       "title": "Shounen Sunday CM: Karakuri Circus",
       "malid": 40340,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1998-03"
    },
    {
       "title": "Shounen Sunday CM: ARMS",
       "malid": 40341,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1998-07-27"
    },
    {
@@ -103295,38 +103294,38 @@
    {
       "title": "Shounen Sunday CM: Devil \u0026 Devil",
       "malid": 40345,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1998-11"
    },
    {
       "title": "Shounen Sunday CM: Tuxedo Gin",
       "malid": 40346,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1997"
    },
    {
       "title": "Shounen Sunday CM: Kekkaishi",
       "malid": 40347,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2005-01"
    },
    {
       "title": "Shounen Sunday CM: Meitantei Conan",
       "enTitle": "Shounen Sunday CM: Detective Conan",
       "malid": 40348,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1995-08"
    },
    {
       "title": "Shounen Sunday CM: All-Star Total Appearance",
       "malid": 40349,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1999-03"
    },
    {
       "title": "Shounen Sunday CM: Ganba! Fly High",
       "malid": 40350,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996"
    },
    {
@@ -103448,13 +103447,13 @@
    {
       "title": "Kick-Flight",
       "malid": 40375,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-06-04"
    },
    {
       "title": "Terrace House x Craft Boss",
       "malid": 40376,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-08-30"
    },
    {
@@ -103834,7 +103833,7 @@
    {
       "title": "Curry Meshi x Zombieland Saga",
       "malid": 40477,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2019-10-03"
    },
    {
@@ -104209,7 +104208,7 @@
    {
       "title": "Lupin III: Prison of the Past",
       "malid": 40578,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2019-11-29"
    },
    {
@@ -104696,7 +104695,7 @@
    {
       "title": "Gantz x Senran Kagura New Link",
       "malid": 40711,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-11-13"
    },
    {
@@ -105014,7 +105013,7 @@
    {
       "title": "Bokutachi no Kidzuki-hen",
       "malid": 40793,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-09-11"
    },
    {
@@ -105026,7 +105025,7 @@
    {
       "title": "Attakai tte, Gohoubi da.",
       "malid": 40799,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2019-12-04"
    },
    {
@@ -105188,7 +105187,7 @@
    {
       "title": "Kirin Gogo no Koucha x BanG Dream! Collab Animation CM Koukai!",
       "malid": 40838,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-12-08"
    },
    {
@@ -105691,7 +105690,7 @@
       "title": "Fate/strange Fake PV",
       "enTitle": "Fate/strange Fake PV",
       "malid": 40982,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-12-31"
    },
    {
@@ -105884,13 +105883,13 @@
       "title": "Mameshiba x Nanatsu no Taizai Collab CM",
       "enTitle": "Mameshiba x The Seven Deadly Sins Collaboration Commercial",
       "malid": 41059,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-10-25"
    },
    {
       "title": "\"Inochi Sketch\" Movie Jabow x Mameshiba Collab CM",
       "malid": 41060,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-11-14"
    },
    {
@@ -106363,6 +106362,7 @@
    },
    {
       "title": "30-pun de Wakaru! Kore made no Love Live! Sunshine!!",
+      "enTitle": "Love Live! Sunshine!! in 30 Minutes",
       "malid": 41188,
       "type": "ona",
       "releaseDate": "2018-11-18"
@@ -106811,13 +106811,13 @@
    {
       "title": "Valhait Rising: Kandou e.",
       "malid": 41296,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-07-06"
    },
    {
       "title": "Go for 2020",
       "malid": 41298,
-      "type": "movie",
+      "type": "pv",
       "releaseDate": "2016-09-20"
    },
    {
@@ -106874,7 +106874,7 @@
    {
       "title": "Shoujo☆Kageki Revue Starlight Re LIVE 1st Anniversary PV",
       "malid": 41317,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-10-26"
    },
    {
@@ -106911,7 +106911,7 @@
    {
       "title": "Blue: Line Step Brush",
       "malid": 41339,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-02-14"
    },
    {
@@ -107539,7 +107539,7 @@
       "title": "Hataraku Saibou Black CM",
       "enTitle": "Cells at Work [Black]",
       "malid": 41531,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-01-04"
    },
    {
@@ -107719,7 +107719,7 @@
    {
       "title": "Shounen Sunday CM: Joujuu Senjin!! Mushibugyou",
       "malid": 41617,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2011-06-18"
    },
    {
@@ -107904,7 +107904,7 @@
    {
       "title": "Alice or Alice Recap",
       "malid": 41689,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2018-06-27"
    },
    {
@@ -108306,7 +108306,7 @@
    {
       "title": "Korakuen Yuuenchi: Luna Park",
       "malid": 41904,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996"
    },
    {
@@ -108677,7 +108677,7 @@
    {
       "title": "Kabushikigaisha Global Market CMs",
       "malid": 42109,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-09-30"
    },
    {
@@ -108702,7 +108702,7 @@
       "title": "He Wei Dao x Daojian Shenyu Alicization",
       "enTitle": "He Wei Dao x Sword Art Online: Alicization",
       "malid": 42128,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-10-02"
    },
    {
@@ -108758,7 +108758,7 @@
       "title": "Aya to Majo",
       "enTitle": "Earwig and the Witch",
       "malid": 42143,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2020-12-30"
    },
    {
@@ -108836,7 +108836,7 @@
       "title": "Arknights",
       "enTitle": "Arknights",
       "malid": 42163,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-11-19"
    },
    {
@@ -108846,9 +108846,9 @@
       "releaseDate": "2020-06-07"
    },
    {
-      "title": "Violet Evergarden CM",
+      "title": "Violet Evergarden CMs",
       "malid": 42166,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-05-27"
    },
    {
@@ -109949,7 +109949,7 @@
    {
       "title": "Pittarazu Gekijou Manner CM",
       "malid": 42542,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013-09-07"
    },
    {
@@ -110077,7 +110077,7 @@
    {
       "title": "Miloha CM:  Oresama ni, Amae Chai na",
       "malid": 42602,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2020-08-02"
    },
    {
@@ -110329,13 +110329,13 @@
    {
       "title": "Teinenpi Shoujo Heidi CMs",
       "malid": 42697,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2009-05-25"
    },
    {
       "title": "Nissan Note x The World of Golden Eggs",
       "malid": 42698,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2008-01-16"
    },
    {
@@ -110534,7 +110534,7 @@
       "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow Announcement",
       "enTitle": "Re:ZERO -Starting Life in Another World- Memory Snow PV",
       "malid": 42776,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-09-09"
    },
    {
@@ -110911,7 +110911,7 @@
       "title": "The iDOLM@STER Cinderella Girls: Starlight Stage - 5-shuunen Kinen \"Go Just Go!\" PV",
       "enTitle": "The iDOLM@STER Cinderella Girls: Starlight Stage - 5th Anniversary! \"Go Just Go!\" PV",
       "malid": 42882,
-      "type": "music",
+      "type": "pv",
       "releaseDate": "2020-09-09"
    },
    {
@@ -110970,7 +110970,7 @@
       "title": "The God of High School PV",
       "enTitle": "The God of High School PV",
       "malid": 42893,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-05-24"
    },
    {
@@ -111145,6 +111145,7 @@
    },
    {
       "title": "Shaonu Qianxian: Renxing Xiao Juchang 2",
+      "enTitle": "Girls' Frontline 2",
       "malid": 42949,
       "type": "ona",
       "releaseDate": "2020-10-07"
@@ -111374,7 +111375,7 @@
    {
       "title": "Yi Guan Xing Shen",
       "malid": 43020,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2020-06-05"
    },
    {
@@ -111969,7 +111970,7 @@
    {
       "title": "Cancerfund x Din Dong CM's",
       "malid": 43321,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2010"
    },
    {
@@ -112073,7 +112074,7 @@
       "title": "Sekikashita Kusanagi",
       "enTitle": "Snickers x Dr Stone",
       "malid": 43349,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-10-04"
    },
    {
@@ -112461,7 +112462,7 @@
    {
       "title": "Pocari Sweat Run Carnival 2019",
       "malid": 43417,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2019-07-03"
    },
    {
@@ -113878,7 +113879,7 @@
    {
       "title": "Attack Zero x Evangelion",
       "malid": 43745,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-11-02"
    },
    {
@@ -113891,7 +113892,7 @@
       "title": "Ayanami Rei, Hajimete no Kuchibeni",
       "enTitle": "Ayanami Rei, First Lipstick",
       "malid": 43751,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-11-03"
    },
    {
@@ -115402,11 +115403,11 @@
    {
       "title": "Tamaya Shichiten Tanjoubi-hen CM",
       "malid": 44063,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-10-27"
    },
    {
-      "title": "Lie Huo Jiao Chou",
+      "title": "Liehuo Jiao Chou",
       "enTitle": "Drowning Sorrows in Raging Fire",
       "malid": 44064,
       "type": "ona",
@@ -116216,7 +116217,7 @@
       "title": "He Wei Dao x Hui Yeda Xiaojie Xiangyao Wo Gaobai",
       "enTitle": "He Wei Dao x Kaguya-sama: Love is War",
       "malid": 44270,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-10-18"
    },
    {
@@ -121940,13 +121941,13 @@
    {
       "title": "Battle Mode",
       "malid": 45626,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1990"
    },
    {
       "title": "Victor Hyper Robot Compo CM's",
       "malid": 45627,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1986"
    },
    {
@@ -133880,7 +133881,7 @@
       "title": "Mahouka Koukou no Rettousei: Tsuioku-hen",
       "enTitle": "The Irregular at Magic High School: Reminiscence Arc",
       "malid": 48375,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-12-31"
    },
    {
@@ -134016,7 +134017,7 @@
    {
       "title": "e-ma Nodo Ame CMs",
       "malid": 48432,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2021-02-12"
    },
    {
@@ -134450,7 +134451,7 @@
    {
       "title": "Rainbow Finder: Tokimeki wa, Sugu Soba ni.",
       "malid": 48570,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-01-24"
    },
    {
@@ -134564,7 +134565,7 @@
       "title": "Wonder Egg Priority: Watashi no Priority",
       "enTitle": "Wonder Egg Priority: My Priority",
       "malid": 48614,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-06-30"
    },
    {
@@ -134582,7 +134583,7 @@
    {
       "title": "Vegeta Super Yasaijin ni Narou-hen",
       "malid": 48617,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-05-26"
    },
    {
@@ -135000,9 +135001,9 @@
       "releaseDate": "2024"
    },
    {
-      "title": "Blue Archive",
+      "title": "Blue Archive PVs",
       "malid": 48824,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-01-25"
    },
    {
@@ -135358,13 +135359,13 @@
    {
       "title": "Peeping Life × Jidousha Tenken Seibi Suishin Undou",
       "malid": 48918,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-09-01"
    },
    {
       "title": "HKT48 × Peeping Life",
       "malid": 48919,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-06-20"
    },
    {
@@ -135429,7 +135430,7 @@
       "title": "Twisted-Wonderland 1-shuunen Kinen PV",
       "enTitle": "Twisted-Wonderland 1st Anniversary PV",
       "malid": 48952,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-03-17"
    },
    {
@@ -135717,7 +135718,7 @@
    {
       "title": "Ensemble Stars!! 5th Anniversary Animation PV",
       "malid": 49060,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2021-04-12"
    },
    {
@@ -136628,13 +136629,13 @@
    {
       "title": "Kyoto Animation: Meiji-hen",
       "malid": 49395,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2021-07-08"
    },
    {
       "title": "Kyoto Animation: Souzou-hen",
       "malid": 49396,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2021-07-08"
    },
    {
@@ -136815,7 +136816,7 @@
       "enTitle": "KonoSuba: God's Blessing on This Wonderful World! 3",
       "malid": 49458,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Mori no Kuma-san, Toumin-chuu.",
@@ -136930,6 +136931,7 @@
    },
    {
       "title": "Shuumatsu no Walküre Mini Anime",
+      "enTitle": "Record of Ragnarok Mini Anime",
       "malid": 49507,
       "type": "ona",
       "releaseDate": "2021-07-27"
@@ -137038,7 +137040,7 @@
       "title": "Eien no 831",
       "enTitle": "Eternal 831",
       "malid": 49532,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-01-30"
    },
    {
@@ -137193,6 +137195,7 @@
    },
    {
       "title": "Tensai Ouji no Akaji Kokka Saisei Jutsu: Short Drama",
+      "enTitle": "The Genius Prince's Guide to Raising a Nation Out of Debt: Short Drama",
       "malid": 49592,
       "type": "ona",
       "releaseDate": "2021-08-12"
@@ -137271,7 +137274,7 @@
    {
       "title": "Hanhua Riji KFC CM",
       "malid": 49616,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-10-08"
    },
    {
@@ -137548,7 +137551,7 @@
       "title": "Snickers x Shingeki no Kyojin",
       "enTitle": "Snickers x Attack on Titan",
       "malid": 49739,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2019-10-01"
    },
    {
@@ -138115,7 +138118,7 @@
    {
       "title": "Gundam UC x Nike SB",
       "malid": 49941,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-09-21"
    },
    {
@@ -138772,14 +138775,14 @@
       "title": "Lupin III: Part 6 - Jidai",
       "enTitle": "Lupin the Third Part 6: The Times",
       "malid": 50094,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-10-10"
    },
    {
       "title": "Mahouka Koukou no Rettousei 10-shuunen Kinen PV",
       "enTitle": "Mahouka Koukou no Rettousei: 10th Anniversary PV",
       "malid": 50097,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-07-09"
    },
    {
@@ -139158,7 +139161,7 @@
    {
       "title": "Sorairo Utility",
       "malid": 50209,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-12-31"
    },
    {
@@ -139604,7 +139607,7 @@
       "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic Teaser PV - Ishigami Yuu wa Kataritai",
       "enTitle": "Kaguya-sama: Love is War - Ultra Romantic \"Yu Ishigami Wants to Chat\"",
       "malid": 50325,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-10-21"
    },
    {
@@ -139678,7 +139681,7 @@
    {
       "title": "Tamaya CM: Takusareta Omoi-hen",
       "malid": 50349,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-12-24"
    },
    {
@@ -140079,7 +140082,7 @@
    {
       "title": "LB Commerce: Omoi yo Todoke!",
       "malid": 50480,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-07-20"
    },
    {
@@ -140499,7 +140502,7 @@
       "title": "Dr. Stone: Ryuusui",
       "enTitle": "Dr. Stone: Ryusui",
       "malid": 50612,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-07-10"
    },
    {
@@ -140730,7 +140733,7 @@
       "title": "One Piece: Barto no Himitsu no Heya!",
       "enTitle": "One Piece: Barto's Secret Room",
       "malid": 50696,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-12-26"
    },
    {
@@ -140870,7 +140873,7 @@
    {
       "title": "Anata wo Hitokoto de Arawashite Kudasai: no Shitsumon ga Nigate da.",
       "malid": 50762,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-01-11"
    },
    {
@@ -141120,6 +141123,7 @@
    },
    {
       "title": "Tensai Ouji no Akaji Kokka Saisei Jutsu: Short Drama Specials",
+      "enTitle": "The Genius Prince's Guide to Raising a Nation Out of Debt: Short Drama Specials",
       "malid": 50905,
       "type": "special",
       "releaseDate": "2022-03-30"
@@ -141451,7 +141455,7 @@
       "title": "Kamigawa: Kagayakeru Sekai",
       "enTitle": "Kamigawa: Neon Dynasty Official Animated Trailer - Magic: The Gathering",
       "malid": 51043,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-02-16"
    },
    {
@@ -141556,7 +141560,7 @@
       "title": "Manga \"Bakemonogatari\" Shaft Seisaku Tokubetsu PV",
       "enTitle": "Bakemonogatari Shaft Special Production PV",
       "malid": 51068,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-02-16"
    },
    {
@@ -141750,7 +141754,7 @@
    {
       "title": "Kami nomi zo Shiru Sekai PV",
       "malid": 51133,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2010-08-12"
    },
    {
@@ -141840,7 +141844,7 @@
       "title": "Satsuriku Tenshi Jibril PV",
       "enTitle": "Slaughter Angel Jibril PV",
       "malid": 51157,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2014-04-01"
    },
    {
@@ -141871,14 +141875,14 @@
       "title": "One Piece: Otoshidama Special - Tokubetsu Hou Mugiwara Kaizokudan no Himitsu!",
       "enTitle": "One Piece: New Year's Special - The Secret of the Straw Hat Pirates!",
       "malid": 51162,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2006-01-03"
    },
    {
       "title": "One Piece: Mugiwara no Ichimi kara no Kansen Yobou Message",
       "enTitle": "One Piece: Infection Prevention Message from the Straw Hat Pirates",
       "malid": 51163,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2020-03-16"
    },
    {
@@ -142066,7 +142070,7 @@
    },
    {
       "title": "Taikutsu wo Saien Shinaide",
-      "enTitle": "Don’t replay the boredom.",
+      "enTitle": "Don't replay the boredom.",
       "malid": 51230,
       "type": "music",
       "releaseDate": "2022-03-11"
@@ -142100,7 +142104,7 @@
       "title": "Anata no wo Uchi ga Eigakan",
       "enTitle": "Your House is a Movie Theater",
       "malid": 51237,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2022-03-10"
    },
    {
@@ -142171,7 +142175,7 @@
    {
       "title": "D4DJ Double Mix",
       "malid": 51251,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-08-19"
    },
    {
@@ -142721,6 +142725,7 @@
    },
    {
       "title": "Shi Shi Chuanshuo",
+      "enTitle": "Legend of Supreme Soldier",
       "malid": 51392,
       "type": "ona",
       "releaseDate": "2023-12-03"
@@ -142831,7 +142836,7 @@
    {
       "title": "Mazinger Z x Hello Kitty x Chogokin",
       "malid": 51431,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-01-06"
    },
    {
@@ -143321,7 +143326,7 @@
       "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
       "enTitle": "Attack on Titan: Final Season - The Final Chapters",
       "malid": 51535,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-03-04"
    },
    {
@@ -143417,6 +143422,7 @@
    },
    {
       "title": "Lian Ti Shi Wan Ceng: Wo Yang De Gou Dou Shi Dadi",
+      "enTitle": "100,000 Levels of Body Refining",
       "malid": 51563,
       "type": "ona",
       "releaseDate": "2021-09-15"
@@ -143722,7 +143728,7 @@
    {
       "title": "You Yao Qi Guanggao Pian: Gao Neng Qi Chuang Zhuang Tai Jia",
       "malid": 51658,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2016-09-26"
    },
    {
@@ -144965,7 +144971,7 @@
       "title": "Dead Dead Demons Dededede Destruction 3DCG Animation",
       "enTitle": "Dead Dead Demons Dededede Destruction 3DCG Animation",
       "malid": 52005,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-12-22"
    },
    {
@@ -145135,7 +145141,7 @@
    {
       "title": "Thermae Romae x Rêveur Collaboration",
       "malid": 52051,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012"
    },
    {
@@ -145363,7 +145369,7 @@
    {
       "title": "Boogiepop Dengeki Bunko CMs",
       "malid": 52131,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1999"
    },
    {
@@ -145626,7 +145632,7 @@
       "title": "One Piece: Dai Tettei Kaibou! Kouzuki Oden Densetsu!",
       "enTitle": "One Piece: A Comprehensive Anatomy! The Legend of Kozuki Oden!",
       "malid": 52199,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-06-26"
    },
    {
@@ -145674,7 +145680,7 @@
       "title": "Twisted-Wonderland 2-shuunen Kinen PV",
       "enTitle": "Twisted-Wonderland 2nd Anniversary PV",
       "malid": 52216,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-03-17"
    },
    {
@@ -145717,14 +145723,14 @@
    {
       "title": "Over the Rainbow",
       "malid": 52225,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-06-11"
    },
    {
       "title": "Usagi (Special)",
       "enTitle": "Usagi",
       "malid": 52226,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-06-11"
    },
    {
@@ -145737,7 +145743,7 @@
    {
       "title": "DEathMAtCH: Real ni Koishiteru",
       "malid": 52228,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-06-11"
    },
    {
@@ -145873,7 +145879,7 @@
       "releaseDate": "1998"
    },
    {
-      "title": "BURP",
+      "title": "Burp",
       "enTitle": "BURP",
       "malid": 52269,
       "type": "movie",
@@ -145929,7 +145935,7 @@
    {
       "title": "Dragon Ball Z x Kao",
       "malid": 52282,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-02-20"
    },
    {
@@ -145962,7 +145968,7 @@
       "title": "Mahoutsukai Reimeiki PV",
       "enTitle": "The Dawn of the Witch PV",
       "malid": 52295,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-03-08"
    },
    {
@@ -146368,7 +146374,7 @@
       "title": "Blue Archive: 1.5-shuunen Kinen Short Animation",
       "enTitle": "Blue Archive: New Summer Animation PV",
       "malid": 52420,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-07-16"
    },
    {
@@ -146545,7 +146551,7 @@
       "title": "LIP×LIP CM: Satsuei no Uragawa",
       "enTitle": "LIP×LIP CM: Behind the Scenes",
       "malid": 52488,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-07-21"
    },
    {
@@ -146571,7 +146577,7 @@
    {
       "title": "Pokemon Center Okinawa PV",
       "malid": 52497,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-08-11"
    },
    {
@@ -146995,7 +147001,7 @@
    {
       "title": "Shounen Sunday CM: Konjiki no Gash!!",
       "malid": 52605,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2001-10"
    },
    {
@@ -147040,13 +147046,13 @@
    {
       "title": "Shounen Sunday CM: LOVe",
       "malid": 52615,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996"
    },
    {
       "title": "Shounen Sunday CM: Major",
       "malid": 52616,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1995-08"
    },
    {
@@ -147058,7 +147064,7 @@
    {
       "title": "Shounen Sunday CM: H2",
       "malid": 52618,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996-04"
    },
    {
@@ -147071,19 +147077,19 @@
    {
       "title": "Shounen Sunday CM: Megumi no Daigo",
       "malid": 52620,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996-11"
    },
    {
       "title": "Shounen Sunday CM: Yakitate!! Japan",
       "malid": 52621,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2002-03"
    },
    {
       "title": "Shounen Sunday CM: Fantasista",
       "malid": 52622,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2001-07"
    },
    {
@@ -147186,49 +147192,49 @@
    {
       "title": "Shounen Sunday CM: Tenshi na Konamaiki",
       "malid": 52639,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1999-09-13"
    },
    {
       "title": "Shounen Sunday CM: Dan Doh!!",
       "malid": 52640,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1997-08"
    },
    {
       "title": "Shounen Sunday CM: Dan Doh!! Xi",
       "malid": 52641,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2000-12"
    },
    {
       "title": "Shounen Sunday CM: Shijou Saikyou no Deshi Kenichi",
       "malid": 52642,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2004-02"
    },
    {
       "title": "Shounen Sunday CM: Ueki no Housoku",
       "malid": 52644,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2003-03"
    },
    {
       "title": "Shounen Sunday CM: Ja Ja Uma Grooming UP!",
       "malid": 52645,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1996-01"
    },
    {
       "title": "Shounen Sunday CM: Monkey Turn",
       "malid": 52646,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2000-03"
    },
    {
       "title": "Shounen Sunday CM: MÄR",
       "malid": 52648,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2003-06"
    },
    {
@@ -147308,19 +147314,19 @@
    {
       "title": "Shounen Sunday CM: Wild Life",
       "malid": 52686,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2004-07"
    },
    {
       "title": "Shounen Sunday CM: Hayate no Gotoku!",
       "malid": 52687,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2007-01"
    },
    {
       "title": "Shounen Sunday CM: Zettai Karen Children",
       "malid": 52688,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2008-01"
    },
    {
@@ -147388,7 +147394,7 @@
    {
       "title": "Suntory Can Beer CMs",
       "malid": 52700,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "1983"
    },
    {
@@ -147642,19 +147648,19 @@
    {
       "title": "Hyperinflation PV",
       "malid": 52761,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-04-08"
    },
    {
       "title": "Kinemaquia PV",
       "malid": 52762,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-05-06"
    },
    {
       "title": "Debby the Corsifa wa Makezugirai PV",
       "malid": 52763,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-06-10"
    },
    {
@@ -147708,7 +147714,7 @@
    {
       "title": "Kami no Manimani PV",
       "malid": 52808,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-05-13"
    },
    {
@@ -147720,19 +147726,19 @@
    {
       "title": "Tate no Kuni PV",
       "malid": 52810,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-04-22"
    },
    {
       "title": "Ori no Naka no Soloist PV",
       "malid": 52811,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-05-20"
    },
    {
       "title": "Salad Viking PV",
       "malid": 52812,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-04-01"
    },
    {
@@ -147763,19 +147769,19 @@
    {
       "title": "Kimi wa Houkago Insomnia PV",
       "malid": 52822,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-10-28"
    },
    {
       "title": "Kaijuu-iro no Shima PV",
       "malid": 52823,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-03-04"
    },
    {
       "title": "Killing Me/Killing You PVs",
       "malid": 52824,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2020-02-23"
    },
    {
@@ -147820,7 +147826,7 @@
    {
       "title": "Tamaya CM: Sono Saki e-hen",
       "malid": 52834,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-08-07"
    },
    {
@@ -148026,63 +148032,63 @@
       "title": "Yeon-ui Pyeonji PV",
       "enTitle": "Your Letter PV",
       "malid": 52877,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-03-29"
    },
    {
       "title": "Hwasan Gwihwan PV",
       "enTitle": "Return of the Blossoming Blade PV",
       "malid": 52878,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-06-02"
    },
    {
       "title": "Hong Cheon-Gi PV",
       "enTitle": "Lovers of the Red Sky PV",
       "malid": 52879,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-10-26"
    },
    {
       "title": "Tusin Jeonsaenggi PV",
       "enTitle": "Doom Breaker PV",
       "malid": 52880,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-12-22"
    },
    {
       "title": "Jib-i Eopseo PV",
       "enTitle": "No Home PV",
       "malid": 52881,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-07-07"
    },
    {
       "title": "Teosbatbu Sageonilji PV",
       "enTitle": "Garden Club Detective Squad PV",
       "malid": 52882,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2020-02-11"
    },
    {
       "title": "Gogyosaeng-eul Hwanbulhae Juseyo PV",
       "enTitle": "Refund High School PV",
       "malid": 52884,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-08-13"
    },
    {
       "title": "Yuryeong Geukdan PV",
       "enTitle": "Ghost Theater PV",
       "malid": 52885,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-08-23"
    },
    {
       "title": "Gwijeon Gudam PV",
       "enTitle": "Ghost Teller PV",
       "malid": 52886,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2019-08-03"
    },
    {
@@ -148183,7 +148189,7 @@
       "title": "Meogneun Insaeng PV",
       "enTitle": "Eating Life PV",
       "malid": 52911,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-08-27"
    },
    {
@@ -148204,7 +148210,7 @@
       "title": "One Piece: Densetsu no Log! Akagami no Shanks!",
       "enTitle": "One Piece: The Captain's Log of the Legend! Red-Haired Shanks!",
       "malid": 52921,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-08-28"
    },
    {
@@ -148286,7 +148292,7 @@
    {
       "title": "Chain Chronicle x Mitsubishi Tokyo UFJ-VISA Debit",
       "malid": 52944,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-02-01"
    },
    {
@@ -149128,7 +149134,7 @@
       "title": "Fate/strange Fake: Whispers of Dawn",
       "enTitle": "Fate/strange Fake: Whispers of Dawn",
       "malid": 53127,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-07-02"
    },
    {
@@ -149156,6 +149162,12 @@
       "malid": 53131,
       "type": "special",
       "releaseDate": "2022-10-01"
+   },
+   {
+      "title": "UniteUp!",
+      "malid": 53132,
+      "type": "tv",
+      "releaseDate": "2023-01-07"
    },
    {
       "title": "UniteUp!",
@@ -149285,7 +149297,7 @@
    {
       "title": "Princess Sara Specials",
       "malid": 53159,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": ""
    },
    {
@@ -149367,7 +149379,7 @@
    {
       "title": "Lupin III x McDonald's CMs",
       "malid": 53183,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2022-09-27"
    },
    {
@@ -149562,14 +149574,14 @@
       "title": "One Piece: Dai Tettei Kaibou! Gekitou! 5-nin no Shin Sedai",
       "enTitle": "One Piece: A Comprehensive Anatomy! Fierce Fight! The Five from the New Generation",
       "malid": 53235,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-10-09"
    },
    {
       "title": "Road of Naruto",
       "enTitle": "Road of Naruto",
       "malid": 53236,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-10-03"
    },
    {
@@ -149774,7 +149786,7 @@
    {
       "title": "Terada Mokei × Pocari Sweat",
       "malid": 53291,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-06-13"
    },
    {
@@ -149950,7 +149962,7 @@
    {
       "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun CM",
       "malid": 53368,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-10-02"
    },
    {
@@ -150069,7 +150081,7 @@
    {
       "title": "Urusei Yatsura x Onitsuka Tiger Collaboration CM",
       "malid": 53402,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2022-10-20"
    },
    {
@@ -150205,7 +150217,7 @@
    {
       "title": "Dongitsune Season 2",
       "malid": 53443,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2022-09-27"
    },
    {
@@ -150240,7 +150252,7 @@
       "enTitle": "God Troubles Me 4th Season",
       "malid": 53449,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-03-10"
    },
    {
       "title": "Xian Wang de Richang Shenghuo 4",
@@ -150301,7 +150313,7 @@
       "enTitle": "My Daughter Left the Nest and Returned an S-Rank Adventurer",
       "malid": 53494,
       "type": "tv",
-      "releaseDate": "2023-10-06"
+      "releaseDate": "2023-09-28"
    },
    {
       "title": "Jing Cui Xian Zun Part 2",
@@ -150325,7 +150337,7 @@
    {
       "title": "Kusatsu-eki Kara",
       "malid": 53501,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-06-11"
    },
    {
@@ -150658,7 +150670,7 @@
    {
       "title": "Les Misérables: Shoujo Cosette Specials",
       "malid": 53636,
-      "type": "ova",
+      "type": "tv_special",
       "releaseDate": "2011-07-22"
    },
    {
@@ -150806,7 +150818,7 @@
       "releaseDate": "2007"
    },
    {
-      "title": "Tenda Todoke",
+      "title": "Ten made Todoke",
       "enTitle": "Reach the Sky",
       "malid": 53667,
       "type": "music",
@@ -151095,7 +151107,7 @@
    {
       "title": "Big Mac to, Susume",
       "malid": 53731,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2022-11-11"
    },
    {
@@ -151214,7 +151226,7 @@
    {
       "title": "Hello Spot CM",
       "malid": 53757,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2012-03-02"
    },
    {
@@ -151816,7 +151828,7 @@
       "title": "One Piece: Dai Gekisen Tokushuu! Mugiwara no Ichimi vs. Tobi Roppou",
       "enTitle": "One Piece: Recapping Fierce Fights! Straw Hats vs. Tobi Roppo",
       "malid": 53890,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-12-25"
    },
    {
@@ -152444,7 +152456,7 @@
    {
       "title": "Saikyou Donbei x Hanma Baki: Saikyou no Dongitsune Genrutsutsu",
       "malid": 54022,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2022-11-21"
    },
    {
@@ -152672,7 +152684,7 @@
    {
       "title": "Tokugawa Cup Noodle Kinshirei",
       "malid": 54067,
-      "type": "music",
+      "type": "cm",
       "releaseDate": "2022-02-16"
    },
    {
@@ -152936,6 +152948,12 @@
       "releaseDate": "2022-02-15"
    },
    {
+      "title": "RabbiTube Mini",
+      "malid": 54120,
+      "type": "ona",
+      "releaseDate": "2023-01-25"
+   },
+   {
       "title": "Xiao Hua Xian Specials",
       "malid": 54121,
       "type": "special",
@@ -152965,7 +152983,7 @@
    {
       "title": "Shousetsu \"Tokimori-tachi no Last Dance\" \"Tanabata no Yoru ni Okaeri\" PV",
       "malid": 54127,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-09-14"
    },
    {
@@ -152990,7 +153008,7 @@
    {
       "title": "Mameshiba x Zanpa Collab CM",
       "malid": 54131,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-11-25"
    },
    {
@@ -153073,7 +153091,7 @@
    {
       "title": "Acnes no Uta",
       "malid": 54153,
-      "type": "music",
+      "type": "cm",
       "releaseDate": "2022-05-10"
    },
    {
@@ -153178,7 +153196,7 @@
       "title": "Ezaki Glico Pocky Web CMs",
       "enTitle": "Ezaki Glico Pocky Web CMs",
       "malid": 54174,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-09-05"
    },
    {
@@ -153211,7 +153229,7 @@
    {
       "title": "Honoo to Mori no Carnival",
       "malid": 54191,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2013-06-18"
    },
    {
@@ -153338,7 +153356,7 @@
    {
       "title": "Nippon! Nya Nya Nya! Minya de Asobu Nya: Nyanko Dai Sensou 8-shuunen CM",
       "malid": 54230,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2020-12-26"
    },
    {
@@ -153503,7 +153521,7 @@
    {
       "title": "Watashi no Hashtag ga Baenakute.",
       "malid": 54278,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-01-18"
    },
    {
@@ -153549,7 +153567,7 @@
       "title": "Kun Bing Zhi Long PV",
       "enTitle": "Cage Of Sickness PV",
       "malid": 54287,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-10-10"
    },
    {
@@ -153652,7 +153670,7 @@
       "title": "Yuanshen: Hai Dengjie CM Duanpian - Ming Xiao Huanmeng",
       "enTitle": "Genshin Impact: Lantern Rite PV - Dream Upon a Lantern",
       "malid": 54312,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2023-01-22"
    },
    {
@@ -153787,7 +153805,7 @@
    {
       "title": "Kyou, Watashi no Monogatari ga Hashirimasu.",
       "malid": 54352,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-04-08"
    },
    {
@@ -154165,7 +154183,7 @@
    {
       "title": "Sansara Naga 2 PV",
       "malid": 54456,
-      "type": "ova",
+      "type": "pv",
       "releaseDate": "1994"
    },
    {
@@ -154675,7 +154693,7 @@
       "title": "Shirokuma Nichijou Gekijou",
       "enTitle": "Tokyo Gas \"The Polar Bears' Daily Drama\" TV Commercial",
       "malid": 54582,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-11-24"
    },
    {
@@ -154985,7 +155003,7 @@
    {
       "title": "Dokgo PV",
       "malid": 54709,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2020-05-14"
    },
    {
@@ -155121,7 +155139,7 @@
       "title": "Twisted-Wonderland 3-shuunen Kinen PV",
       "enTitle": "Twisted-Wonderland 3rd Anniversary PV",
       "malid": 54745,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2023-03-17"
    },
    {
@@ -155211,7 +155229,7 @@
       "title": "667-tsuu no Love Letter",
       "enTitle": "667 Love Letters",
       "malid": 54768,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-03-20"
    },
    {
@@ -155449,7 +155467,7 @@
    {
       "title": "Ugoku Tabi, Suzushii.",
       "malid": 54838,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-05-18"
    },
    {
@@ -155787,7 +155805,7 @@
       "title": "5-toubun no Hanayome∽",
       "enTitle": "The Quintessential Quintuplets~",
       "malid": 54915,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-09-02"
    },
    {
@@ -155864,7 +155882,7 @@
       "title": "Arknights x Luo Xiao Hei Zhan Ji: Hao Jiu Bu Jian",
       "enTitle": "Arknights x The Legend of Luo Xiaohei: Long Time No See",
       "malid": 54944,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2022-09-09"
    },
    {
@@ -156121,7 +156139,7 @@
    {
       "title": "Move to the Future Episode 0",
       "malid": 55042,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-02-08"
    },
    {
@@ -156203,7 +156221,7 @@
    {
       "title": "Shouwa Joshi Daigaku Kankyou Design Gakka PV",
       "malid": 55057,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2012-10-12"
    },
    {
@@ -156646,7 +156664,7 @@
       "title": "Diyi Ci",
       "enTitle": "First Time",
       "malid": 55164,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-12-26"
    },
    {
@@ -156891,7 +156909,7 @@
       "title": "Jashin-chan Dropkick \"Seikimatsu-hen\"",
       "enTitle": "Dropkick on My Devil!!: End of Century Edition",
       "malid": 55237,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-12-27"
    },
    {
@@ -157083,7 +157101,7 @@
       "title": "One Piece: Dai Gekisen Tokushuu! Zoro vs. Ookanban!",
       "enTitle": "One Piece: Recapping Fierce Fights! Zoro vs. a Lead Performer!",
       "malid": 55289,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-05-14"
    },
    {
@@ -157212,7 +157230,7 @@
    {
       "title": "Kyou, Watashi no Monogatari ga Hashirimasu.: Another Side-hen",
       "malid": 55319,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-05-13"
    },
    {
@@ -157331,7 +157349,7 @@
    {
       "title": "W.O.L.F. (Win Or Lose Fight) PV",
       "malid": 55345,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2023-03-14"
    },
    {
@@ -157349,7 +157367,7 @@
    {
       "title": "Azur Lane CMs",
       "malid": 55351,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-04-17"
    },
    {
@@ -157401,7 +157419,7 @@
    {
       "title": "ABC-Mart Grand Stage CMs",
       "malid": 55360,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-03-03"
    },
    {
@@ -157534,7 +157552,7 @@
    {
       "title": "The IDOLM@STER Cinderella Girls: Starlight Stage CMs",
       "malid": 55393,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2020-09-03"
    },
    {
@@ -158166,7 +158184,7 @@
       "title": "Random Chatting-ui Geunyeo PV",
       "enTitle": "Random Chat PV",
       "malid": 55546,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-12-24"
    },
    {
@@ -158248,7 +158266,7 @@
       "title": "Okamoto Zero One CM Kyouryuu-hen",
       "enTitle": "Okamoto Zero One CM Dinosaur Edition",
       "malid": 55561,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-01-13"
    },
    {
@@ -158536,7 +158554,7 @@
       "title": "One Piece: Dai Gekisen Tokushuu! Hangeki Doumei vs. Big Mom",
       "enTitle": "One Piece: Recapping Fierce Fights! The Countercharge Alliance vs. Big Mom",
       "malid": 55647,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-06-18"
    },
    {
@@ -158918,7 +158936,7 @@
       "enTitle": "Blader Soul",
       "malid": 55732,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-02-29"
    },
    {
       "title": "Di Yi Xulie",
@@ -159246,6 +159264,7 @@
    },
    {
       "title": "Natsume Yuujinchou Shichi",
+      "enTitle": "Natsume's Book of Friends Season 7",
       "malid": 55823,
       "type": "tv",
       "releaseDate": ""
@@ -159527,7 +159546,7 @@
       "title": "Henjin no Salad Bowl",
       "malid": 55877,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Hataraku Maou-sama!! Recap",
@@ -159607,7 +159626,7 @@
       "releaseDate": "2017-02-03"
    },
    {
-      "title": "Bokura no Ameiro Protocol",
+      "title": "Bokura no Ame-iro Protocol",
       "enTitle": "Protocol: Rain",
       "malid": 55894,
       "type": "tv",
@@ -159905,12 +159924,14 @@
    },
    {
       "title": "Shuumatsu no Walküre Mini Countdown Anime",
+      "enTitle": "Record of Ragnarok Mini Countdown Anime",
       "malid": 55975,
       "type": "ona",
       "releaseDate": "2021-09-24"
    },
    {
       "title": "Shuumatsu no Walküre Mini Anime (Cartoon Network Nite)",
+      "enTitle": "Record of Ragnarok Mini Anime (Cartoon Network Nite)",
       "malid": 55977,
       "type": "tv",
       "releaseDate": "2021-10-03"
@@ -160796,7 +160817,7 @@
       "title": "Jujutsu Kaisen 2nd Season Recaps",
       "enTitle": "Jujutsu Kaisen Season 2 Recaps",
       "malid": 56243,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-08-11"
    },
    {
@@ -160905,7 +160926,7 @@
       "title": "Yuanshen: Jiaoxiang Yinyue Hui CM Duanpian",
       "enTitle": "Genshin Impact: Genshin Concert PV",
       "malid": 56273,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-08-13"
    },
    {
@@ -161695,7 +161716,7 @@
       "enTitle": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools",
       "malid": 56449,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Yappari Umi ga Suki",
@@ -162011,7 +162032,7 @@
    {
       "title": "Zero Sugar Saero CM",
       "malid": 56525,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-03-24"
    },
    {
@@ -162023,7 +162044,7 @@
    {
       "title": "Binggrae CM",
       "malid": 56527,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-08-24"
    },
    {
@@ -162662,7 +162683,7 @@
    {
       "title": "Burn the Witch #0.8",
       "malid": 56671,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-12-29"
    },
    {
@@ -163508,7 +163529,7 @@
       "releaseDate": "2023-10-06"
    },
    {
-      "title": "Bokura no Ameiro Protocol Mini Anime",
+      "title": "Bokura no Ame-iro Protocol Mini Anime",
       "malid": 56869,
       "type": "ona",
       "releaseDate": "2023-10-06"
@@ -163666,7 +163687,7 @@
    {
       "title": "The Concubine Contract PV",
       "malid": 56917,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2021-12-13"
    },
    {
@@ -165269,7 +165290,7 @@
       "title": "Qian Xing Ji You PVs",
       "enTitle": "Myriad Celestia Trailers",
       "malid": 57314,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2023-05-03"
    },
    {
@@ -165649,7 +165670,7 @@
    {
       "title": "Street Fighter 6 x Spy x Family Movie: Code: White",
       "malid": 57435,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2023-12-04"
    },
    {
@@ -165694,7 +165715,7 @@
    {
       "title": "Shakafuri Song",
       "malid": 57447,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-02-28"
    },
    {
@@ -165804,6 +165825,7 @@
    },
    {
       "title": "Modaete yo, Adam-kun",
+      "enTitle": "Adam's Sweet Agony",
       "malid": 57470,
       "type": "ona",
       "releaseDate": "2023-12-08"
@@ -165871,6 +165893,7 @@
    },
    {
       "title": "Kabigon to Karakara",
+      "enTitle": "The Adventures of Snorlax \u0026 Cubone",
       "malid": 57488,
       "type": "ona",
       "releaseDate": "2023-12-08"
@@ -166044,6 +166067,13 @@
       "releaseDate": ""
    },
    {
+      "title": "One Piece: Dai Tokushuu! Momonosuke no Mei Shogun e no Michi",
+      "enTitle": "One Piece: A Very Special Feature! Momonosuke's Road to Becoming a Great Shogun",
+      "malid": 57556,
+      "type": "tv_special",
+      "releaseDate": "2023-12-24"
+   },
+   {
       "title": "The One Piece",
       "malid": 57557,
       "type": "ona",
@@ -166138,6 +166168,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Santa Tell Me",
+      "malid": 57586,
+      "type": "ona",
+      "releaseDate": "2023-12-05"
+   },
+   {
       "title": "Tokyo",
       "malid": 57587,
       "type": "movie",
@@ -166169,6 +166205,7 @@
    },
    {
       "title": "Dan Dao Zhizun",
+      "enTitle": "Alchemy Supreme",
       "malid": 57594,
       "type": "ona",
       "releaseDate": "2023-12-22"
@@ -166214,10 +166251,10 @@
       "title": "Shinobanai! Crypto Ninja Sakuya 2nd Season",
       "malid": 57605,
       "type": "tv",
-      "releaseDate": "2024-01-09"
+      "releaseDate": "2024-01-11"
    },
    {
-      "title": "Megumi no Daigo: Kyuukoku no Orange Recap",
+      "title": "Megumi no Daigo: Kyuukoku no Orange - Hi wa Mata Noboru",
       "enTitle": "Firefighter Daigo: Rescuer in Orange Recap",
       "malid": 57609,
       "type": "special",
@@ -166236,5 +166273,237 @@
       "malid": 57612,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Wangu Kuang Di",
+      "malid": 57613,
+      "type": "ona",
+      "releaseDate": "2024-01-01"
+   },
+   {
+      "title": "Shadowverse Flame: Arc-hen",
+      "malid": 57614,
+      "type": "tv",
+      "releaseDate": "2024-04"
+   },
+   {
+      "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 2nd Season",
+      "enTitle": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You Season 2",
+      "malid": 57616,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Tori no Machi",
+      "enTitle": "Birds",
+      "malid": 57619,
+      "type": "movie",
+      "releaseDate": "2005-07"
+   },
+   {
+      "title": "Uta no☆Prince-sama♪ Movie: Maji Love Quartet Night-hen",
+      "malid": 57622,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Nijiyon Animation 2",
+      "malid": 57623,
+      "type": "tv",
+      "releaseDate": "2024-04-05"
+   },
+   {
+      "title": "Da Yuzhou Shidai",
+      "enTitle": "The Age of Cosmos Exploration",
+      "malid": 57629,
+      "type": "ona",
+      "releaseDate": "2024-01-22"
+   },
+   {
+      "title": "Shiroi Shoujo",
+      "malid": 57630,
+      "type": "music",
+      "releaseDate": "1983-02-03"
+   },
+   {
+      "title": "Sougen Jouka",
+      "malid": 57631,
+      "type": "music",
+      "releaseDate": "1983-12-05"
+   },
+   {
+      "title": "Boku wa Zoukin",
+      "malid": 57632,
+      "type": "music",
+      "releaseDate": "2018-03-10"
+   },
+   {
+      "title": "Kamonohashi Ron no Kindan Suiri 2nd Season",
+      "enTitle": "Ron Kamonohashi's Forbidden Deductions Season 2",
+      "malid": 57635,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Heart Beat (2023)",
+      "malid": 57640,
+      "type": "music",
+      "releaseDate": "2023-12-26"
+   },
+   {
+      "title": "Mahou no Crayon",
+      "malid": 57641,
+      "type": "music",
+      "releaseDate": "1992-06-01"
+   },
+   {
+      "title": "Aozora to Tap Dance",
+      "malid": 57642,
+      "type": "music",
+      "releaseDate": "1988-08-01"
+   },
+   {
+      "title": "Merry PLLIstmas",
+      "malid": 57643,
+      "type": "music",
+      "releaseDate": "2023-12-12"
+   },
+   {
+      "title": "Mob kara Hajimaru Tansaku Eiyuutan",
+      "malid": 57646,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+      "enTitle": "Uma Musume: Pretty Derby - Beginning of a New Era",
+      "malid": 57647,
+      "type": "movie",
+      "releaseDate": "2024-05-24"
+   },
+   {
+      "title": "Nihon e Youkoso Elf-san.",
+      "malid": 57648,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Hakimono to Kasa no Monogatari (March, 2015)",
+      "malid": 57649,
+      "type": "music",
+      "releaseDate": "2015-03-04"
+   },
+   {
+      "title": "Kimitachi Kiwi Papaya Mango da ne.",
+      "malid": 57651,
+      "type": "music",
+      "releaseDate": "2022-04-15"
+   },
+   {
+      "title": "Macky to Eucky no Midnight Gallery",
+      "enTitle": "Macky and Eucky in Midnight Gallery",
+      "malid": 57652,
+      "type": "ona",
+      "releaseDate": "2023-12-28"
+   },
+   {
+      "title": "Yi Ren Jun Moye",
+      "malid": 57656,
+      "type": "ona",
+      "releaseDate": "2024-01-24"
+   },
+   {
+      "title": "Xian Yu Ge 2nd Season",
+      "enTitle": "Salted Fish 2nd Season",
+      "malid": 57657,
+      "type": "ona",
+      "releaseDate": "2024-02-15"
+   },
+   {
+      "title": "Jujutsu Kaisen: Shimetsu Kaiyuu",
+      "enTitle": "Jujutsu Kaisen: The Culling Game",
+      "malid": 57658,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ojisan de Umeru Ana The Animation",
+      "malid": 57660,
+      "type": "ova",
+      "releaseDate": "2024-03-29"
+   },
+   {
+      "title": "Kotowarenai Haha",
+      "malid": 57661,
+      "type": "ova",
+      "releaseDate": "2024-03-15"
+   },
+   {
+      "title": "Kui Cheng Shoufu Cong Youxi Kaishi",
+      "malid": 57663,
+      "type": "ona",
+      "releaseDate": "2024-02-03"
+   },
+   {
+      "title": "Sonna Omoide ga",
+      "malid": 57666,
+      "type": "music",
+      "releaseDate": "1971-02-06"
+   },
+   {
+      "title": "Christmas ga Sugite mo",
+      "malid": 57667,
+      "type": "music",
+      "releaseDate": "1998-12-01"
+   },
+   {
+      "title": "Tracking Elevator",
+      "malid": 57668,
+      "type": "music",
+      "releaseDate": "2010-08-16"
+   },
+   {
+      "title": "Chaotic Order",
+      "malid": 57678,
+      "type": "ona",
+      "releaseDate": "2011-11-08"
+   },
+   {
+      "title": "Kanjou",
+      "enTitle": "Emotion",
+      "malid": 57679,
+      "type": "music",
+      "releaseDate": "2023-12-30"
+   },
+   {
+      "title": "Ramen Donburi Nagare Uta",
+      "malid": 57683,
+      "type": "music",
+      "releaseDate": "2000-12-01"
+   },
+   {
+      "title": "Jab Jab Ondo",
+      "malid": 57684,
+      "type": "music",
+      "releaseDate": "1989-08-01"
+   },
+   {
+      "title": "Kiniro no Baton",
+      "malid": 57685,
+      "type": "music",
+      "releaseDate": "2022-04-04"
+   },
+   {
+      "title": "Tsukio",
+      "enTitle": "Moonset",
+      "malid": 57686,
+      "type": "music",
+      "releaseDate": "2018-03-26"
+   },
+   {
+      "title": "Shiodashi Maki",
+      "malid": 57687,
+      "type": "music",
+      "releaseDate": "2011-04-25"
    }
 ]
