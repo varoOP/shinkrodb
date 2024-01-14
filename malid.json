@@ -4783,7 +4783,7 @@
    },
    {
       "title": "Meitantei Conan Movie 01: Tokei Jikake no Matenrou",
-      "enTitle": "Case Closed The Movie: The Time Bombed Skyscraper",
+      "enTitle": "Case Closed Movie 01: The Time Bombed Skyscraper",
       "malid": 779,
       "type": "movie",
       "releaseDate": "1997-04-19"
@@ -11409,7 +11409,7 @@
       "releaseDate": "2007-01-06"
    },
    {
-      "title": "Getsumen To Heiki Mina",
+      "title": "Getsumen to Heiki Mina",
       "malid": 1865,
       "type": "tv",
       "releaseDate": "2007-01-14"
@@ -32958,7 +32958,7 @@
       "releaseDate": "2005"
    },
    {
-      "title": "Getsumen To Heiki Mina Specials",
+      "title": "Getsumen to Heiki Mina Specials",
       "malid": 7427,
       "type": "special",
       "releaseDate": "2007-06-06"
@@ -35628,7 +35628,7 @@
       "title": "Honey Tokyo",
       "enTitle": "Honey Tokyo",
       "malid": 8526,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2010-04-01"
    },
    {
@@ -36365,7 +36365,7 @@
    {
       "title": "Madobe Nanami no Windows 7 de PC Jisaku Ouen Commercial!!",
       "malid": 8792,
-      "type": "ova",
+      "type": "cm",
       "releaseDate": "2010-05-09"
    },
    {
@@ -47775,6 +47775,7 @@
    },
    {
       "title": "Lupin III: Touhou Kenbunroku - Another Page",
+      "enTitle": "Lupin III: The Secret Page of Marco Polo",
       "malid": 15783,
       "type": "tv_special",
       "releaseDate": "2012-11-02"
@@ -48383,7 +48384,7 @@
    {
       "title": "Next A-Class",
       "malid": 16331,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-11-17"
    },
    {
@@ -51920,7 +51921,7 @@
    {
       "title": "PES: Peace Eco Smile - Drive your Heart",
       "malid": 18841,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2012-05-23"
    },
    {
@@ -52399,7 +52400,7 @@
    {
       "title": "Gintama x Mameshiba",
       "malid": 19261,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013-12-03"
    },
    {
@@ -53763,7 +53764,7 @@
    {
       "title": "Zeonic Toyota Special Movie",
       "malid": 20355,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-08-25"
    },
    {
@@ -54948,7 +54949,7 @@
    {
       "title": "Mirai Koushi Harima SACLA",
       "malid": 21471,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2013-12-03"
    },
    {
@@ -55170,7 +55171,7 @@
    {
       "title": "Wasure-boshi",
       "malid": 21591,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2013-07-03"
    },
    {
@@ -55195,7 +55196,7 @@
    {
       "title": "Picotopia",
       "malid": 21607,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2013-07-03"
    },
    {
@@ -57718,6 +57719,7 @@
    },
    {
       "title": "Pokemon XY: Mega Evolution",
+      "enTitle": "Pokémon: Mega Evolution Special",
       "malid": 23301,
       "type": "special",
       "releaseDate": "2014-04-03"
@@ -60328,6 +60330,7 @@
    },
    {
       "title": "Seireitsukai no Blade Dance Specials",
+      "enTitle": "Blade Dance of the Elementalers Specials",
       "malid": 25285,
       "type": "special",
       "releaseDate": "2014-10-08"
@@ -66030,7 +66033,7 @@
    {
       "title": "Beer Mukashi Mukashi",
       "malid": 29897,
-      "type": "movie",
+      "type": "pv",
       "releaseDate": "1956"
    },
    {
@@ -67694,7 +67697,7 @@
    {
       "title": "Turnover",
       "malid": 30358,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-03-16"
    },
    {
@@ -69349,7 +69352,7 @@
    {
       "title": "Tanita Shokudou",
       "malid": 30971,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-05-14"
    },
    {
@@ -70784,7 +70787,7 @@
    {
       "title": "Love \u0026 Gift",
       "malid": 31512,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-10-30"
    },
    {
@@ -73133,7 +73136,7 @@
    {
       "title": "The New A-Class.: Next Stage with YOU",
       "malid": 32384,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2015-11-25"
    },
    {
@@ -78698,7 +78701,7 @@
    {
       "title": "Tonari no Onigiri-kun",
       "malid": 34050,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-08-30"
    },
    {
@@ -78968,7 +78971,7 @@
    {
       "title": "Eyedrops Episode 0",
       "malid": 34153,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2016-09-05"
    },
    {
@@ -81206,7 +81209,7 @@
    {
       "title": "Shin Biofermin S",
       "malid": 34790,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2016-12-22"
    },
    {
@@ -81285,7 +81288,7 @@
    {
       "title": "Sakura Internet",
       "malid": 34818,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-01-26"
    },
    {
@@ -82201,7 +82204,7 @@
       "releaseDate": "1989"
    },
    {
-      "title": "Uchuu Bouei-tai Taabou no Shinkirou Hoshi wo Sukue!",
+      "title": "Uchuu Bouei-tai Taabou no Shinkirou Sei wo Sukue!",
       "malid": 35041,
       "type": "ova",
       "releaseDate": "1993"
@@ -85741,7 +85744,7 @@
    {
       "title": "Hope: Suiso Shakai to, Korekara no Energy no Hanashi",
       "malid": 35975,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2014-11-17"
    },
    {
@@ -88170,7 +88173,7 @@
    {
       "title": "Nishio no Yatsuzou",
       "malid": 36583,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2014-05-01"
    },
    {
@@ -90972,7 +90975,7 @@
       "title": "Eyedrops Special Episode",
       "enTitle": "Eyedrops Special Episode",
       "malid": 37279,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-02-08"
    },
    {
@@ -91533,7 +91536,7 @@
    {
       "title": "Mori no Kokoro-Koro",
       "malid": 37420,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2005"
    },
    {
@@ -92819,7 +92822,7 @@
       "title": "Oam Monogatari: Sono Natsu, Watashi ga Shitta koto",
       "enTitle": "The Tale of Oan: What I Learned That Summer",
       "malid": 37717,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-04-08"
    },
    {
@@ -93139,7 +93142,7 @@
    {
       "title": "Ongeki",
       "malid": 37802,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-04-27"
    },
    {
@@ -93202,7 +93205,7 @@
    {
       "title": "Yukimi-ka no Nichijou wa Honwari de Shimeru",
       "malid": 37825,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-04-23"
    },
    {
@@ -95851,7 +95854,7 @@
    {
       "title": "Itsuka Aeru Kimi ni",
       "malid": 38473,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-10-06"
    },
    {
@@ -98334,7 +98337,7 @@
    {
       "title": "Mirai Koushi Harima SACLA NEX RAY",
       "malid": 39056,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-10-12"
    },
    {
@@ -100377,7 +100380,7 @@
    {
       "title": "Asobuild Concept Video",
       "malid": 39498,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-03-05"
    },
    {
@@ -100829,7 +100832,7 @@
    {
       "title": "Hametarou",
       "malid": 39611,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2018-10-22"
    },
    {
@@ -102195,7 +102198,7 @@
       "title": "Bug",
       "enTitle": "Bug",
       "malid": 40016,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2019-03-31"
    },
    {
@@ -107576,7 +107579,7 @@
    {
       "title": "Ogaki Matsuri ni Ikou yo!",
       "malid": 41545,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-03-30"
    },
    {
@@ -108237,7 +108240,7 @@
    {
       "title": "Au Tabi ni, Atarashii",
       "malid": 41844,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-05-27"
    },
    {
@@ -108861,7 +108864,7 @@
    {
       "title": "BIGOTRE Capture Mission",
       "malid": 42168,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-04-06"
    },
    {
@@ -129271,6 +129274,7 @@
    },
    {
       "title": "Meng Ji Xiaodui",
+      "enTitle": "Katuri",
       "malid": 47378,
       "type": "tv",
       "releaseDate": "2017-11-06"
@@ -131235,37 +131239,37 @@
       "title": "Bai Bian Xiao Ba",
       "malid": 47820,
       "type": "tv",
-      "releaseDate": "2019"
+      "releaseDate": "2019-08-05"
    },
    {
       "title": "Bai Bian Xiao Ba 2nd Season",
       "malid": 47821,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2019"
    },
    {
       "title": "Bai Bian Xiao Ba 3rd Season",
       "malid": 47822,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2019"
    },
    {
       "title": "Bai Bian Xiao Ba 4th Season",
       "malid": 47823,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2019"
    },
    {
       "title": "Bai Bian Xiao Ba 5th Season",
       "malid": 47824,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2020"
    },
    {
       "title": "Bai Bian Xiao Ba 6th Season",
       "malid": 47825,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2020"
    },
    {
       "title": "Bai Bian Xiao Ba: Chao Xue Xianfeng",
@@ -132201,6 +132205,7 @@
    },
    {
       "title": "Bao Chong Huojian Che: Che Wang Zhi Zhan",
+      "enTitle": "Legends of Spark",
       "malid": 48014,
       "type": "tv",
       "releaseDate": "2020"
@@ -137368,7 +137373,7 @@
       "title": "\"Hataraku\" no 100-nenshi",
       "enTitle": "100 Years of Work in Japan",
       "malid": 49668,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-08-18"
    },
    {
@@ -137570,7 +137575,7 @@
    {
       "title": "Tabi wa ni",
       "malid": 49743,
-      "type": "movie",
+      "type": "ova",
       "releaseDate": "2023-04-08"
    },
    {
@@ -140114,7 +140119,7 @@
    {
       "title": "The New Hazzys",
       "malid": 50484,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-10-16"
    },
    {
@@ -140206,7 +140211,7 @@
    {
       "title": "Gabrielle",
       "malid": 50517,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2017-04-10"
    },
    {
@@ -142911,8 +142916,8 @@
       "releaseDate": "2020-12"
    },
    {
-      "title": "A lot of life",
-      "enTitle": "A lot of life",
+      "title": "A Lot of Life",
+      "enTitle": "A Lot of Life",
       "malid": 51449,
       "type": "music",
       "releaseDate": "2020-07-20"
@@ -143352,7 +143357,7 @@
       "title": "Rabbits Kingdom the Movie",
       "malid": 51539,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-06-14"
    },
    {
       "title": "Kyokou Suiri Mini Anime Season 2",
@@ -144487,10 +144492,10 @@
       "releaseDate": "1999"
    },
    {
-      "title": "Touken Ranbu: Kyoden Moyuru Honnouji",
+      "title": "Touken Ranbu Kai: Kyoden Moyuru Honnouji",
       "malid": 51859,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024-04"
    },
    {
       "title": "Jidao Long Shen",
@@ -145718,13 +145723,13 @@
    {
       "title": "Gakitabi!: Seishun Oshiro-hen",
       "malid": 52223,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2020-03-30"
    },
    {
       "title": "Gakitabi!: Akechi no Furusato",
       "malid": 52224,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-03-10"
    },
    {
@@ -146394,7 +146399,7 @@
    {
       "title": "Ai no Sato",
       "malid": 52433,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2020-03-30"
    },
    {
@@ -149944,7 +149949,7 @@
       "title": "Shuumatsu Train Doko e Iku?",
       "malid": 53356,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-04"
    },
    {
       "title": "Untitled World",
@@ -151739,6 +151744,7 @@
    },
    {
       "title": "Pokemon (2019): Harukanaru Aoi Sora",
+      "enTitle": "Pokémon: Distant Blue Sky!",
       "malid": 53873,
       "type": "special",
       "releaseDate": "2022-12-23"
@@ -157395,7 +157401,7 @@
    {
       "title": "Show in Backrooms",
       "malid": 55356,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2022-10-18"
    },
    {
@@ -157950,6 +157956,13 @@
       "releaseDate": "2020-10-07"
    },
    {
+      "title": "Tsuki ga Michiru",
+      "enTitle": "Sing The Moon",
+      "malid": 55489,
+      "type": "music",
+      "releaseDate": "2022-08-17"
+   },
+   {
       "title": "Heartbeat",
       "enTitle": "Heartbeat",
       "malid": 55490,
@@ -158105,6 +158118,7 @@
    },
    {
       "title": "Yuuki Bakuhatsu Bang Bravern",
+      "enTitle": "Brave Bang Bravern!",
       "malid": 55528,
       "type": "tv",
       "releaseDate": "2024-01-11"
@@ -159224,8 +159238,8 @@
       "releaseDate": "2023-09-25"
    },
    {
-      "title": "Mashle 2nd Season",
-      "enTitle": "Mashle: Magic and Muscles Season 2",
+      "title": "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
+      "enTitle": "Mashle: Magic and Muscles - The Divine Visionary Candidate Exam Arc",
       "malid": 55813,
       "type": "tv",
       "releaseDate": "2024-01-06"
@@ -161385,13 +161399,13 @@
    {
       "title": "Samyang Ramen Original Musical",
       "malid": 56369,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-09-29"
    },
    {
       "title": "Sesangui Gijuneul Bultaewola! Buldalgbokkeummyeon",
       "malid": 56370,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2021-12-17"
    },
    {
@@ -162896,6 +162910,12 @@
       "releaseDate": "2023-09-24"
    },
    {
+      "title": "Hoshi wo Miru Hito",
+      "malid": 56719,
+      "type": "music",
+      "releaseDate": "2023-05-07"
+   },
+   {
       "title": "Atelier",
       "enTitle": "Atelier",
       "malid": 56720,
@@ -163028,7 +163048,7 @@
       "title": "Ensemble Stars!! Tsuioku Selection Checkmate",
       "malid": 56746,
       "type": "ona",
-      "releaseDate": "2024-03"
+      "releaseDate": "2024-03-10"
    },
    {
       "title": "Halo",
@@ -163999,6 +164019,12 @@
       "releaseDate": "1974-12-07"
    },
    {
+      "title": "Fleur",
+      "malid": 56985,
+      "type": "music",
+      "releaseDate": "2022-08-12"
+   },
+   {
       "title": "Riseman",
       "malid": 56986,
       "type": "tv",
@@ -164353,6 +164379,12 @@
       "releaseDate": "2023-11-05"
    },
    {
+      "title": "Xion",
+      "malid": 57070,
+      "type": "music",
+      "releaseDate": "2023-11-05"
+   },
+   {
       "title": "Ginga Eiyuu Densetsu: Die Neue These (Zoku-hen)",
       "malid": 57071,
       "type": "unknown",
@@ -164526,7 +164558,7 @@
       "title": "Scuffing no Uta",
       "enTitle": "The Scuffing Song",
       "malid": 57110,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2023-05-10"
    },
    {
@@ -164685,7 +164717,7 @@
    {
       "title": "Nare no Hate",
       "malid": 57136,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2023-10-24"
    },
    {
@@ -165864,6 +165896,12 @@
       "releaseDate": "2016-01-11"
    },
    {
+      "title": "Kuramerukagari",
+      "malid": 57478,
+      "type": "movie",
+      "releaseDate": "2024-04-12"
+   },
+   {
       "title": "Kimi ga Iru Koto",
       "malid": 57479,
       "type": "music",
@@ -165993,7 +166031,7 @@
    },
    {
       "title": "Shenyuan Youxi",
-      "enTitle": "The Abyss Game",
+      "enTitle": "Fatal Rule",
       "malid": 57513,
       "type": "ona",
       "releaseDate": "2023-12-14"
@@ -166048,6 +166086,12 @@
       "malid": 57537,
       "type": "music",
       "releaseDate": "2023-12-14"
+   },
+   {
+      "title": "Sai-Kyo-Oh! Zukan: The Ultimate Battles",
+      "malid": 57538,
+      "type": "tv",
+      "releaseDate": "2024-01-06"
    },
    {
       "title": "Anata ga Suki",
@@ -166111,6 +166155,12 @@
       "malid": 57559,
       "type": "tv",
       "releaseDate": "2024"
+   },
+   {
+      "title": "Barber Shop feat. Aohi Rame",
+      "malid": 57561,
+      "type": "music",
+      "releaseDate": "2023-12-15"
    },
    {
       "title": "Hyakushou Kizoku 2nd Season",
@@ -166283,7 +166333,7 @@
       "title": "Megumi no Daigo: Kyuukoku no Orange - Hi wa Mata Noboru",
       "enTitle": "Firefighter Daigo: Rescuer in Orange Recap",
       "malid": 57609,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2023-12-23"
    },
    {
@@ -166302,6 +166352,7 @@
    },
    {
       "title": "Wangu Kuang Di",
+      "enTitle": "The Proud Emperor of Eternity",
       "malid": 57613,
       "type": "ona",
       "releaseDate": "2024-01-01"
@@ -166489,6 +166540,12 @@
       "releaseDate": "2024-03-15"
    },
    {
+      "title": "Ruins Seeker",
+      "malid": 57662,
+      "type": "ova",
+      "releaseDate": "2024-03-29"
+   },
+   {
       "title": "Kui Cheng Shoufu Cong Youxi Kaishi",
       "malid": 57663,
       "type": "ona",
@@ -166511,6 +166568,12 @@
       "malid": 57668,
       "type": "music",
       "releaseDate": "2010-08-16"
+   },
+   {
+      "title": "Bibliomania",
+      "malid": 57677,
+      "type": "movie",
+      "releaseDate": "2013-04-06"
    },
    {
       "title": "Chaotic Order",
@@ -166569,6 +166632,12 @@
       "releaseDate": "2023-07-29"
    },
    {
+      "title": "Sunbeams",
+      "malid": 57690,
+      "type": "music",
+      "releaseDate": "2023-12-30"
+   },
+   {
       "title": "Yoru Mac PoteNage CMs",
       "malid": 57694,
       "type": "cm",
@@ -166605,10 +166674,23 @@
       "releaseDate": "2024-01-13"
    },
    {
+      "title": "Mawangui Ttal Ireesha",
+      "enTitle": "Ireesha, The Daughter of Elf-king",
+      "malid": 57700,
+      "type": "movie",
+      "releaseDate": "2019-10-26"
+   },
+   {
       "title": "Bai Bian Xiao Ba: Chao Xue Xianfeng 3nd Season",
       "malid": 57701,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Zaiyuki Pilot",
+      "malid": 57702,
+      "type": "ona",
+      "releaseDate": "2023-12-30"
    },
    {
       "title": "Nihongo no Okeiko",
@@ -166784,7 +166866,7 @@
       "title": "Bai Bian Xiao Ba 7th Season",
       "malid": 57752,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2021"
    },
    {
       "title": "Jantama Kan!!",
@@ -166798,5 +166880,351 @@
       "malid": 57754,
       "type": "movie",
       "releaseDate": "2024"
+   },
+   {
+      "title": "Xiaoke de Huatu Xie Hua Specials",
+      "enTitle": "Kay's Daily Doodles Specials",
+      "malid": 57759,
+      "type": "ona",
+      "releaseDate": "2022-04-23"
+   },
+   {
+      "title": "Uso Nanka Iu Mon ka",
+      "malid": 57761,
+      "type": "music",
+      "releaseDate": "1964-06"
+   },
+   {
+      "title": "Santa Claus ni Present",
+      "malid": 57762,
+      "type": "music",
+      "releaseDate": "1963-12"
+   },
+   {
+      "title": "Hadashi no Diary",
+      "malid": 57763,
+      "type": "music",
+      "releaseDate": "2020-10-01"
+   },
+   {
+      "title": "Shinsei Kakumei Virtual Reality",
+      "malid": 57764,
+      "type": "music",
+      "releaseDate": "2022-05-16"
+   },
+   {
+      "title": "Bai Bian Xiao Ba 8th Season",
+      "malid": 57765,
+      "type": "tv",
+      "releaseDate": "2021"
+   },
+   {
+      "title": "Drops no Uta",
+      "malid": 57767,
+      "type": "music",
+      "releaseDate": "1963-10"
+   },
+   {
+      "title": "Asa Ichiban Hayai no wa",
+      "malid": 57768,
+      "type": "music",
+      "releaseDate": "1964-10"
+   },
+   {
+      "title": "Start Line",
+      "malid": 57769,
+      "type": "music",
+      "releaseDate": "2020-02-08"
+   },
+   {
+      "title": "Guuzou Nightmare",
+      "malid": 57770,
+      "type": "music",
+      "releaseDate": "2022-07-31"
+   },
+   {
+      "title": "Bai Bian Xiao Ba 9th Season",
+      "malid": 57771,
+      "type": "tv",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Ouma ni Notte",
+      "malid": 57774,
+      "type": "music",
+      "releaseDate": "1965-02"
+   },
+   {
+      "title": "Nohara de Te wo Tatake",
+      "malid": 57775,
+      "type": "music",
+      "releaseDate": "1964-10"
+   },
+   {
+      "title": "Makana Aloha: Kokoro kara no Okurimono",
+      "malid": 57776,
+      "type": "music",
+      "releaseDate": "2020-06-01"
+   },
+   {
+      "title": "Zaijian Romanesque",
+      "malid": 57777,
+      "type": "music",
+      "releaseDate": "2022-11-26"
+   },
+   {
+      "title": "Dorohedoro (Zoku-hen)",
+      "malid": 57779,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Bai Bian Xiao Ba 10th Season",
+      "malid": 57780,
+      "type": "tv",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Yubisaki to Renren Mini Anime",
+      "enTitle": "A Sign of Affection Mini Anime",
+      "malid": 57782,
+      "type": "ona",
+      "releaseDate": "2024-01-07"
+   },
+   {
+      "title": "Kigutsu wo Haite",
+      "malid": 57784,
+      "type": "music",
+      "releaseDate": "1964-12"
+   },
+   {
+      "title": "Giromagitondo Girotondo",
+      "malid": 57785,
+      "type": "music",
+      "releaseDate": "1966-12"
+   },
+   {
+      "title": "Sekai no Chizu",
+      "malid": 57786,
+      "type": "music",
+      "releaseDate": "2020-06-01"
+   },
+   {
+      "title": "Netsuai Frozen",
+      "malid": 57787,
+      "type": "music",
+      "releaseDate": "2023-02-05"
+   },
+   {
+      "title": "Bai Bian Xiao Ba 11th Season",
+      "malid": 57788,
+      "type": "tv",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Ateuma Chara no Kuse shite, Super Darling Ouji ni Chouai sareteimasu.",
+      "malid": 57789,
+      "type": "ona",
+      "releaseDate": ""
+   },
+   {
+      "title": "Gakkou e Iku Michi",
+      "malid": 57791,
+      "type": "music",
+      "releaseDate": "1966-02"
+   },
+   {
+      "title": "Pierrot no Trumpet",
+      "malid": 57792,
+      "type": "music",
+      "releaseDate": "1965-12"
+   },
+   {
+      "title": "Shikakui Namida",
+      "malid": 57793,
+      "type": "music",
+      "releaseDate": "2020-04-02"
+   },
+   {
+      "title": "Shikakui Namida (April 22, 2020)",
+      "malid": 57794,
+      "type": "music",
+      "releaseDate": "2020-04-22"
+   },
+   {
+      "title": "I Miss My Friends feat. Phum Viphurit",
+      "malid": 57795,
+      "type": "music",
+      "releaseDate": "2022-11-11"
+   },
+   {
+      "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+      "malid": 57796,
+      "type": "tv",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Calabi Yau no Sukima",
+      "malid": 57797,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Shinkansen Henkei Robo Shinkalion: Change the World",
+      "malid": 57798,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Bai Bian Xiao Ba 12th Season",
+      "malid": 57799,
+      "type": "tv",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Bai She 3: Fusheng",
+      "malid": 57801,
+      "type": "movie",
+      "releaseDate": "2024-08-10"
+   },
+   {
+      "title": "Onboro Piano",
+      "malid": 57804,
+      "type": "music",
+      "releaseDate": "1966-04"
+   },
+   {
+      "title": "Taanki Poonki",
+      "malid": 57805,
+      "type": "music",
+      "releaseDate": "1968-02"
+   },
+   {
+      "title": "Ameagari",
+      "malid": 57806,
+      "type": "music",
+      "releaseDate": "2019-12-02"
+   },
+   {
+      "title": "Palilalila",
+      "malid": 57807,
+      "type": "music",
+      "releaseDate": "2020-11-25"
+   },
+   {
+      "title": "Watashi no Koe",
+      "enTitle": "My Voice",
+      "malid": 57808,
+      "type": "music",
+      "releaseDate": "2023-09-10"
+   },
+   {
+      "title": "Echoes of Silence",
+      "malid": 57809,
+      "type": "music",
+      "releaseDate": "2021-12-21"
+   },
+   {
+      "title": "Shoushimin Series",
+      "malid": 57810,
+      "type": "tv",
+      "releaseDate": "2024-07"
+   },
+   {
+      "title": "Intergalactic Bound",
+      "malid": 57812,
+      "type": "music",
+      "releaseDate": "2024-01-12"
+   },
+   {
+      "title": "Makiba no Koushi",
+      "malid": 57814,
+      "type": "music",
+      "releaseDate": "1967-08"
+   },
+   {
+      "title": "Jagaimo",
+      "malid": 57815,
+      "type": "music",
+      "releaseDate": "1968-08-06"
+   },
+   {
+      "title": "Bakebake Night!",
+      "malid": 57816,
+      "type": "music",
+      "releaseDate": "2019-10-01"
+   },
+   {
+      "title": "Luv(sic) Part 2",
+      "malid": 57817,
+      "type": "music",
+      "releaseDate": "2002"
+   },
+   {
+      "title": "Yakou Bus nite",
+      "enTitle": "In the Night Bus",
+      "malid": 57818,
+      "type": "music",
+      "releaseDate": "2019-08-14"
+   },
+   {
+      "title": "Kamitsubaki-shi Kensetsuchuu.",
+      "malid": 57820,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Muupon",
+      "malid": 57825,
+      "type": "tv",
+      "releaseDate": "1999-04-03"
+   },
+   {
+      "title": "Muupon 2nd Season",
+      "malid": 57826,
+      "type": "tv",
+      "releaseDate": "2000-04-01"
+   },
+   {
+      "title": "Mashin Souzouden Wataru",
+      "malid": 57827,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Mashin Eiyuuden Wataru: Shichikon no Ryuujinmaru - Saikai",
+      "malid": 57828,
+      "type": "movie",
+      "releaseDate": "2022-07-01"
+   },
+   {
+      "title": "Kobito no Uta: Snow White and The Seven Dwarfs kara",
+      "malid": 57829,
+      "type": "music",
+      "releaseDate": "1967-04"
+   },
+   {
+      "title": "Papa to Arukou",
+      "malid": 57830,
+      "type": "music",
+      "releaseDate": "1973-04"
+   },
+   {
+      "title": "Yoake wo Kuchizusametara",
+      "malid": 57831,
+      "type": "music",
+      "releaseDate": "2020-04-01"
+   },
+   {
+      "title": "Love You Like Water",
+      "malid": 57832,
+      "type": "music",
+      "releaseDate": "2008"
+   },
+   {
+      "title": "Shiori feat. Shing02",
+      "malid": 57833,
+      "type": "music",
+      "releaseDate": "2007-05-15"
    }
 ]
