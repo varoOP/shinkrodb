@@ -61859,13 +61859,6 @@
       "releaseDate": "2015-04-04"
    },
    {
-      "title": "Nagato Yuki-chan no Shoushitsu",
-      "enTitle": "The Disappearance of Nagato Yuki-chan",
-      "malid": 26351,
-      "type": "tv",
-      "releaseDate": "2015-04-04"
-   },
-   {
       "title": "Persona 4 the Golden Animation: Thank you Mr. Accomplice",
       "malid": 26359,
       "type": "special",
@@ -69744,6 +69737,13 @@
       "malid": 31091,
       "type": "tv",
       "releaseDate": "2015-10-04"
+   },
+   {
+      "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
+      "enTitle": "Sound! Euphonium Specials",
+      "malid": 31096,
+      "type": "special",
+      "releaseDate": "2015-06-17"
    },
    {
       "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
@@ -93536,13 +93536,6 @@
       "releaseDate": "2018-05-17"
    },
    {
-      "title": "Chikyuugai Shounen Shoujo",
-      "enTitle": "The Orbital Children",
-      "malid": 37914,
-      "type": "ona",
-      "releaseDate": "2022-01-28"
-   },
-   {
       "title": "Uchuu no Hou: Reimei-hen",
       "enTitle": "The Laws of the Universe: Part 1",
       "malid": 37915,
@@ -94374,7 +94367,7 @@
       "title": "One Room: Second Season - Hanasaka Yui no Prologue",
       "enTitle": "One Room 2nd Season: Hanasaka Yui's Prologue",
       "malid": 38061,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2018-07-03"
    },
    {
@@ -134000,18 +133993,18 @@
       "releaseDate": "2022-04-06"
    },
    {
-      "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
+      "title": "Maou Gakuin no Futekigousha II: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
       "enTitle": "The Misfit of Demon King Academy Ⅱ",
       "malid": 48417,
       "type": "tv",
       "releaseDate": "2023-01-08"
    },
    {
-      "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II Part 2",
+      "title": "Maou Gakuin no Futekigousha II: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou Part 2",
       "enTitle": "The Misfit of Demon King Academy II Part 2",
       "malid": 48418,
       "type": "tv",
-      "releaseDate": "2024-04-13"
+      "releaseDate": "2024-04-12"
    },
    {
       "title": "Nu ta",
@@ -134032,6 +134025,12 @@
       "malid": 48422,
       "type": "ova",
       "releaseDate": "2021-05-28"
+   },
+   {
+      "title": "Akuma-kun (ONA)",
+      "malid": 48425,
+      "type": "ona",
+      "releaseDate": "2023-11-09"
    },
    {
       "title": "Kitarou Tanjou: Gegege no Nazo",
@@ -145429,7 +145428,7 @@
       "enTitle": "Mob Psycho 100: Manga Volume Release Commemoration Anime",
       "malid": 52134,
       "type": "pv",
-      "releaseDate": "2013"
+      "releaseDate": "2013-02-17"
    },
    {
       "title": "Reflect",
@@ -166707,6 +166706,12 @@
       "releaseDate": "2024-07"
    },
    {
+      "title": "Kuroshitsuji III Specials",
+      "malid": 57569,
+      "type": "special",
+      "releaseDate": "2026-06-06"
+   },
+   {
       "title": "Sora to Umi no Komoriuta",
       "malid": 57572,
       "type": "music",
@@ -168975,7 +168980,7 @@
       "title": "Spy x Family Movie: Code: White Manner Movie",
       "malid": 58159,
       "type": "movie",
-      "releaseDate": "2024-01-23"
+      "releaseDate": "2023-07-28"
    },
    {
       "title": "Akkenai",
@@ -169968,7 +169973,13 @@
       "releaseDate": ""
    },
    {
-      "title": "Zenshu.",
+      "title": "Yin Shizong Men Zhang Jiao",
+      "malid": 58494,
+      "type": "ona",
+      "releaseDate": "2024-03-23"
+   },
+   {
+      "title": "Zenshuu.",
       "malid": 58502,
       "type": "tv",
       "releaseDate": ""
@@ -170029,6 +170040,44 @@
       "title": "Sasaki to Pii-chan Season 2",
       "enTitle": "Sasaki and Peeps Season 2",
       "malid": 58518,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "SutoPuri Movie: Hajimari no Monogatari - Strawberry School Festival!!!",
+      "malid": 58522,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
+      "enTitle": "'Tis Time for \"Torture,\" Princess Season 2",
+      "malid": 58524,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "High Card: The Flowers Bloom",
+      "malid": 58531,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ojamajo Carnival!!",
+      "malid": 58535,
+      "type": "ona",
+      "releaseDate": "2024-03-23"
+   },
+   {
+      "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii Movie",
+      "malid": 58549,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
+      "enTitle": "Solo Leveling Season 2: Arise from the Shadow",
+      "malid": 58567,
       "type": "tv",
       "releaseDate": ""
    }
