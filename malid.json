@@ -30473,7 +30473,8 @@
       "releaseDate": "2010-01-10"
    },
    {
-      "title": "There She Is!!",
+      "title": "Tteotda Keunyeo!!",
+      "enTitle": "There She Is!!",
       "malid": 6505,
       "type": "ona",
       "releaseDate": "2003-04-20"
@@ -69746,13 +69747,6 @@
       "releaseDate": "2015-06-17"
    },
    {
-      "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
-      "enTitle": "Sound! Euphonium Specials",
-      "malid": 31096,
-      "type": "special",
-      "releaseDate": "2015-06-17"
-   },
-   {
       "title": "Ushio to Tora (TV) 2nd Season",
       "enTitle": "Ushio \u0026 Tora (2016)",
       "malid": 31098,
@@ -86766,7 +86760,7 @@
    {
       "title": "New My Tear CL Series",
       "malid": 36223,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2017-08-03"
    },
    {
@@ -93534,6 +93528,13 @@
       "malid": 37910,
       "type": "ova",
       "releaseDate": "2018-05-17"
+   },
+   {
+      "title": "Chikyuugai Shounen Shoujo",
+      "enTitle": "The Orbital Children",
+      "malid": 37914,
+      "type": "ona",
+      "releaseDate": "2022-01-28"
    },
    {
       "title": "Uchuu no Hou: Reimei-hen",
@@ -127048,7 +127049,7 @@
       "title": "Dazhan Ren Xiong Po",
       "malid": 46838,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2013-05-31"
    },
    {
       "title": "Hu Hu Xiaotiandi",
@@ -136223,7 +136224,7 @@
       "title": "86 Special Edition: Senya ni Akaku Hinageshi no Saku",
       "enTitle": "86 Eighty-Six: Special Edition - The Poppies Bloom Red on the Battlefield",
       "malid": 49235,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-06-27"
    },
    {
@@ -159692,6 +159693,7 @@
    },
    {
       "title": "Henjin no Salad Bowl",
+      "enTitle": "A Salad Bowl of Eccentrics",
       "malid": 55877,
       "type": "tv",
       "releaseDate": "2024-04-05"
@@ -162357,7 +162359,7 @@
       "enTitle": "Kimi ni Todoke: From Me to You Season 3",
       "malid": 56538,
       "type": "ona",
-      "releaseDate": "2024"
+      "releaseDate": "2024-08"
    },
    {
       "title": "Kobuta no Shippo",
@@ -163026,7 +163028,7 @@
       "title": "Re:Monster",
       "malid": 56690,
       "type": "tv",
-      "releaseDate": "2024-04-02"
+      "releaseDate": "2024-04-05"
    },
    {
       "title": "Gekkan Mousou Kagaku",
@@ -163720,7 +163722,7 @@
       "enTitle": "Studio Apartment, Good Lighting, Angel Included",
       "malid": 56838,
       "type": "tv",
-      "releaseDate": "2024-03-30"
+      "releaseDate": "2024-04-06"
    },
    {
       "title": "T.P BON",
@@ -164293,6 +164295,7 @@
    },
    {
       "title": "Karasu wa Aruji wo Erabanai",
+      "enTitle": "Yatagarasu: The Raven Does Not Choose Its Master",
       "malid": 56980,
       "type": "tv",
       "releaseDate": "2024-04-06"
@@ -166543,6 +166546,12 @@
       "releaseDate": "2023-12-13"
    },
    {
+      "title": "Boku no Hero Academia: Memories",
+      "malid": 57519,
+      "type": "tv_special",
+      "releaseDate": "2024-04-06"
+   },
+   {
       "title": "Xiao Lu He Xiao Lan 4th Season",
       "enTitle": "Beryl and Sapphire 4th Season",
       "malid": 57520,
@@ -167452,7 +167461,7 @@
       "enTitle": "Mahjong Soul Kan!!",
       "malid": 57753,
       "type": "ona",
-      "releaseDate": "2024-04"
+      "releaseDate": "2024-04-25"
    },
    {
       "title": "BanG Dream! It's MyGO!!!!! Movie",
@@ -167815,7 +167824,7 @@
       "releaseDate": "2007-05-15"
    },
    {
-      "title": "Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su - Saishin Wa made Maruwakari! Chousoku Digest",
+      "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su - Saishin Wa made Maruwakari! Chousoku Digest",
       "enTitle": "Shangri-La Frontier: Get Yourselves Caught up With This Light-Speed Recap!",
       "malid": 57834,
       "type": "tv_special",
@@ -168140,7 +168149,7 @@
       "title": "Suu-funkan no Yell wo",
       "malid": 57915,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-06-14"
    },
    {
       "title": "Ensoku Datta Hi",
@@ -169955,10 +169964,16 @@
    },
    {
       "title": "Sengoku Youko: Senma Konton-hen",
-      "enTitle": "Sengoku Youko",
       "malid": 58488,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-07"
+   },
+   {
+      "title": "Shen Zhiyi Jiao",
+      "enTitle": "Super Xiang",
+      "malid": 58490,
+      "type": "ona",
+      "releaseDate": "2024-04-08"
    },
    {
       "title": "Ganbatte Ikimasshoi",
@@ -169973,10 +169988,22 @@
       "releaseDate": ""
    },
    {
+      "title": "San Xiuzhi Wang",
+      "malid": 58493,
+      "type": "ona",
+      "releaseDate": "2024-04-01"
+   },
+   {
       "title": "Yin Shizong Men Zhang Jiao",
       "malid": 58494,
       "type": "ona",
       "releaseDate": "2024-03-23"
+   },
+   {
+      "title": "Dokonjo Gaeru Yanen",
+      "malid": 58499,
+      "type": "ona",
+      "releaseDate": "2024-02-22"
    },
    {
       "title": "Zenshuu.",
@@ -170044,6 +170071,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Daydreamer or NiGHTTHiNKER",
+      "malid": 58521,
+      "type": "ona",
+      "releaseDate": "2023"
+   },
+   {
       "title": "SutoPuri Movie: Hajimari no Monogatari - Strawberry School Festival!!!",
       "malid": 58522,
       "type": "movie",
@@ -170075,10 +170108,109 @@
       "releaseDate": "2024"
    },
    {
+      "title": "Natsu ga Owaru made: Natsu no Owari The Animation",
+      "malid": 58563,
+      "type": "ova",
+      "releaseDate": "2024-06-28"
+   },
+   {
+      "title": "Sexfriend no Senpai The Animation",
+      "malid": 58564,
+      "type": "ova",
+      "releaseDate": "2024-06-28"
+   },
+   {
       "title": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
       "enTitle": "Solo Leveling Season 2: Arise from the Shadow",
       "malid": 58567,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Kkoma Bus Tayo 7",
+      "malid": 58569,
+      "type": "tv",
+      "releaseDate": "2024-02-28"
+   },
+   {
+      "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su 2nd Season",
+      "enTitle": "Shangri-La Frontier Season 2",
+      "malid": 58572,
+      "type": "tv",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Baki-dou",
+      "malid": 58573,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Tensei shitara Slime Datta Ken 3rd Season: Kanwa - Diablo Nikki",
+      "enTitle": "That Time I Got Reincarnated as a Slime Season 3: Digression - Diablo's Journal",
+      "malid": 58592,
+      "type": "tv_special",
+      "releaseDate": "2024-03-31"
+   },
+   {
+      "title": "Ameku Takao no Suiri Karte",
+      "enTitle": "Ameku Takao's Detective Karte",
+      "malid": 58600,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "YouTuNya 2nd Season",
+      "malid": 58602,
+      "type": "tv",
+      "releaseDate": "2024-04-02"
+   },
+   {
+      "title": "Ageo to Tim",
+      "malid": 58603,
+      "type": "tv",
+      "releaseDate": "2024-04-02"
+   },
+   {
+      "title": "Youkoso Ninchishou Sekai e",
+      "malid": 58604,
+      "type": "tv",
+      "releaseDate": "2022-08-14"
+   },
+   {
+      "title": "Rebirth ChocoReba",
+      "malid": 58607,
+      "type": "ona",
+      "releaseDate": "2024-03-20"
+   },
+   {
+      "title": "Rokurou no Daibouken",
+      "malid": 58608,
+      "type": "ona",
+      "releaseDate": "2024-04-01"
+   },
+   {
+      "title": "Teogonia",
+      "malid": 58614,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Bo \u0026 To's",
+      "malid": 58617,
+      "type": "ona",
+      "releaseDate": "2016"
+   },
+   {
+      "title": "Cafe Wingcle",
+      "malid": 58618,
+      "type": "ona",
+      "releaseDate": "2016-10-25"
+   },
+   {
+      "title": "SpoGomi: Machi no Kizunazukuri-hen",
+      "malid": 58619,
+      "type": "movie",
+      "releaseDate": "2023-03-07"
    }
 ]
