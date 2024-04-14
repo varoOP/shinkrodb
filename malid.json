@@ -11382,7 +11382,7 @@
       "releaseDate": "1994-08-21"
    },
    {
-      "title": "Tokyo Majin Gakuen Kenpucho: Tou",
+      "title": "Tokyo Majin Gakuen Kenpuchou: Tou",
       "enTitle": "Tokyo Majin",
       "malid": 1860,
       "type": "tv",
@@ -16378,7 +16378,7 @@
       "releaseDate": "1994-12-04"
    },
    {
-      "title": "Tokyo Majin Gakuen Kenpucho: Tou Dai Ni Maku",
+      "title": "Tokyo Majin Gakuen Kenpuchou: Tou Dai Ni Maku",
       "malid": 2683,
       "type": "tv",
       "releaseDate": "2007-07-27"
@@ -110373,7 +110373,7 @@
    {
       "title": "Microphone Soul Spinners: Kotodama Shoujo - Furikaeri Douga",
       "malid": 42699,
-      "type": "special",
+      "type": "ona",
       "releaseDate": "2020-04-25"
    },
    {
@@ -153324,6 +153324,7 @@
    },
    {
       "title": "Kaii to Otome to Kamikakushi",
+      "enTitle": "Mysterious Disappearances",
       "malid": 54199,
       "type": "tv",
       "releaseDate": "2024-04-10"
@@ -155967,7 +155968,7 @@
       "title": "Giji Harem",
       "malid": 54968,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-07"
    },
    {
       "title": "The Sukkiri Crawlers",
@@ -156853,6 +156854,7 @@
    },
    {
       "title": "Ooi! Tonbo",
+      "enTitle": "Tonbo!",
       "malid": 55194,
       "type": "tv",
       "releaseDate": "2024-04-06"
@@ -157586,6 +157588,12 @@
       "malid": 55373,
       "type": "movie",
       "releaseDate": "1979"
+   },
+   {
+      "title": "Zero Step",
+      "malid": 55374,
+      "type": "music",
+      "releaseDate": "2023-01-20"
    },
    {
       "title": "39 Music!",
@@ -162973,7 +162981,7 @@
       "title": "Saekomdalkom Catch! Tiniping",
       "malid": 56677,
       "type": "tv",
-      "releaseDate": "2023-09-22"
+      "releaseDate": "2023-09-27"
    },
    {
       "title": "Gokurousan",
@@ -168325,7 +168333,7 @@
       "releaseDate": "2023-11-10"
    },
    {
-      "title": "Chikomaru",
+      "title": "Chikomaru Episode 0",
       "malid": 57953,
       "type": "ona",
       "releaseDate": "2024-01-25"
@@ -169963,6 +169971,13 @@
       "releaseDate": ""
    },
    {
+      "title": "Xuwu Bianjing",
+      "enTitle": "Shadows of the Void",
+      "malid": 58487,
+      "type": "ona",
+      "releaseDate": "2024-04-10"
+   },
+   {
       "title": "Sengoku Youko: Senma Konton-hen",
       "malid": 58488,
       "type": "tv",
@@ -169998,6 +170013,12 @@
       "malid": 58494,
       "type": "ona",
       "releaseDate": "2024-03-23"
+   },
+   {
+      "title": "Ipponbashi Wataru",
+      "malid": 58498,
+      "type": "tv_special",
+      "releaseDate": "2013-06-12"
    },
    {
       "title": "Dokonjo Gaeru Yanen",
@@ -170108,6 +170129,33 @@
       "releaseDate": "2024"
    },
    {
+      "title": "You Shou Yan 3rd Season",
+      "enTitle": "Fabulous Beasts 3rd Season",
+      "malid": 58555,
+      "type": "ona",
+      "releaseDate": "2024-05-17"
+   },
+   {
+      "title": "Yuanqi Qi Shi",
+      "enTitle": "Soul Knight Strange Tales",
+      "malid": 58556,
+      "type": "ona",
+      "releaseDate": "2022-07-11"
+   },
+   {
+      "title": "Xin Xiyou Lixian Ji",
+      "malid": 58557,
+      "type": "tv",
+      "releaseDate": "2024-01-19"
+   },
+   {
+      "title": "Yuanqi Qi Shi 2",
+      "enTitle": "Soul Knight Strange Tales 2",
+      "malid": 58559,
+      "type": "ona",
+      "releaseDate": "2024-01-18"
+   },
+   {
       "title": "Natsu ga Owaru made: Natsu no Owari The Animation",
       "malid": 58563,
       "type": "ova",
@@ -170178,6 +170226,12 @@
       "releaseDate": "2022-08-14"
    },
    {
+      "title": "Moja to Majo (TV Special)",
+      "malid": 58605,
+      "type": "tv_special",
+      "releaseDate": "2024-03-29"
+   },
+   {
       "title": "Rebirth ChocoReba",
       "malid": 58607,
       "type": "ona",
@@ -170212,5 +170266,48 @@
       "malid": 58619,
       "type": "movie",
       "releaseDate": "2023-03-07"
+   },
+   {
+      "title": "Oshiri Tantei 8th Season",
+      "malid": 58630,
+      "type": "tv",
+      "releaseDate": "2023-10-07"
+   },
+   {
+      "title": "Oshiri Tantei 9th Season",
+      "malid": 58631,
+      "type": "tv",
+      "releaseDate": "2024-04-06"
+   },
+   {
+      "title": "AOTU Xueyuan 3rd Season",
+      "malid": 58632,
+      "type": "ona",
+      "releaseDate": "2023-09-29"
+   },
+   {
+      "title": "Kagari Hibana",
+      "malid": 58635,
+      "type": "ona",
+      "releaseDate": "2021-11-26"
+   },
+   {
+      "title": "Mugoku no Kuni no Alice",
+      "malid": 58641,
+      "type": "ova",
+      "releaseDate": "2024-05-31"
+   },
+   {
+      "title": "Shuumatsu Hospital",
+      "malid": 58642,
+      "type": "ova",
+      "releaseDate": "2024-05-31"
+   },
+   {
+      "title": "Yozakura-san Chi no Mini Sakusen",
+      "enTitle": "Mini Mission: Yozakura Family",
+      "malid": 58644,
+      "type": "ona",
+      "releaseDate": "2024-04-11"
    }
 ]
