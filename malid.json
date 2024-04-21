@@ -17469,7 +17469,7 @@
       "releaseDate": "2004-06-11"
    },
    {
-      "title": "Asgaldh: The Distortion Testament",
+      "title": "Asgaldh: Waikyoku no Testament",
       "enTitle": "F-Force",
       "malid": 2872,
       "type": "ova",
@@ -73136,7 +73136,7 @@
       "releaseDate": "2016-07-01"
    },
    {
-      "title": "Kono Subarashii Sekai ni Shukufuku wo! Kono Subarashii Choker ni Shukufuku wo!",
+      "title": "Kono Subarashii Sekai ni Shukufuku wo!: Kono Subarashii Choker ni Shukufuku wo!",
       "enTitle": "KonoSuba: God's Blessing on This Wonderful World! - God's Blessing on This Wonderful Choker!",
       "malid": 32380,
       "type": "ova",
@@ -76982,25 +76982,6 @@
       "malid": 33537,
       "type": "ona",
       "releaseDate": "2009-02-17"
-   },
-   {
-      "title": "Shima Kousaku no Asia Risshi-den",
-      "enTitle": "Shima Kosaku's Asian Entrepreneurs",
-      "malid": 33538,
-      "type": "tv",
-      "releaseDate": "2013-05-10"
-   },
-   {
-      "title": "Shima Kousaku no Asia Risshi-den Specials",
-      "malid": 33539,
-      "type": "special",
-      "releaseDate": "2013-05-01"
-   },
-   {
-      "title": "Shima Kousaku no Asia Shinseki-den",
-      "malid": 33540,
-      "type": "tv",
-      "releaseDate": "2016-01-01"
    },
    {
       "title": "Bishoujo Yuugi Unit Crane Game Girls Galaxy",
@@ -85219,7 +85200,7 @@
    {
       "title": "Starmyu 2nd Season Special",
       "malid": 35774,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2017-06-27"
    },
    {
@@ -103673,7 +103654,7 @@
    {
       "title": "Starmyu 3rd Season: Encore",
       "malid": 40431,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2019-09-30"
    },
    {
@@ -143026,6 +143007,7 @@
    },
    {
       "title": "Tonari no Youkai-san",
+      "enTitle": "Tonari no Yokai-san",
       "malid": 51461,
       "type": "tv",
       "releaseDate": "2024-04-07"
@@ -160754,10 +160736,10 @@
       "releaseDate": "2022-09-28"
    },
    {
-      "title": "UniteUp! 2nd Season",
+      "title": "UniteUp! Uni:Birth",
       "malid": 56135,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Bishoujo Muzai ❤ Pirates",
@@ -162477,7 +162459,7 @@
    {
       "title": "Shenqi Tushu Guan",
       "malid": 56560,
-      "type": "tv",
+      "type": "ona",
       "releaseDate": "2023-08-25"
    },
    {
@@ -164044,12 +164026,6 @@
       "releaseDate": "2023-11-07"
    },
    {
-      "title": "Yuri!!! on Ice The Movie: Ice Adolescence",
-      "malid": 56928,
-      "type": "movie",
-      "releaseDate": ""
-   },
-   {
       "title": "World End Economica",
       "malid": 56929,
       "type": "movie",
@@ -164661,7 +164637,8 @@
       "releaseDate": "2024-07"
    },
    {
-      "title": "Star Card Dream Girls",
+      "title": "Xing Qia Meng Shao Nu 1 Hua Yu Bi Ji",
+      "enTitle": "Star Card Dream Girls",
       "malid": 57060,
       "type": "ona",
       "releaseDate": "2023-11-03"
@@ -166723,12 +166700,6 @@
       "releaseDate": "2024-07"
    },
    {
-      "title": "Kuroshitsuji III Specials",
-      "malid": 57569,
-      "type": "special",
-      "releaseDate": "2026-06-06"
-   },
-   {
       "title": "Sora to Umi no Komoriuta",
       "malid": 57572,
       "type": "music",
@@ -167885,7 +167856,7 @@
    },
    {
       "title": "Elf-san wa Yaserarenai.",
-      "enTitle": "Elf can't be on a diet",
+      "enTitle": "Elf can't be on a diet.",
       "malid": 57845,
       "type": "tv",
       "releaseDate": "2024-07"
@@ -169964,6 +169935,13 @@
       "releaseDate": ""
    },
    {
+      "title": "Fanpai Chushihua",
+      "enTitle": "Villain Initialization",
+      "malid": 58476,
+      "type": "ona",
+      "releaseDate": "2024-04-16"
+   },
+   {
       "title": "Ishura 2nd Season",
       "enTitle": "Ishura Season 2",
       "malid": 58484,
@@ -170123,6 +170101,13 @@
       "releaseDate": "2024-03-23"
    },
    {
+      "title": "Yuanshen: Tiwate Pian Mu Jian PV - Dong Ye Yu Xi",
+      "enTitle": "Genshin Impact: Teyvat Chapter Interlude Teaser - A Winter Night's Lazzo",
+      "malid": 58537,
+      "type": "pv",
+      "releaseDate": "2022-07-11"
+   },
+   {
       "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii Movie",
       "malid": 58549,
       "type": "movie",
@@ -170154,6 +170139,12 @@
       "malid": 58559,
       "type": "ona",
       "releaseDate": "2024-01-18"
+   },
+   {
+      "title": "Beuledeu Ibalso Movie: Selleob in Beikeolitaun",
+      "malid": 58560,
+      "type": "movie",
+      "releaseDate": "2024-03-01"
    },
    {
       "title": "Natsu ga Owaru made: Natsu no Owari The Animation",
@@ -170194,6 +170185,18 @@
       "releaseDate": ""
    },
    {
+      "title": "DoReMi Friends",
+      "malid": 58577,
+      "type": "tv",
+      "releaseDate": "2024-02-26"
+   },
+   {
+      "title": "Kodomo Keiji Memetan",
+      "malid": 58586,
+      "type": "tv",
+      "releaseDate": "2015-11-08"
+   },
+   {
       "title": "Tensei shitara Slime Datta Ken 3rd Season: Kanwa - Diablo Nikki",
       "enTitle": "That Time I Got Reincarnated as a Slime Season 3: Digression - Diablo's Journal",
       "malid": 58592,
@@ -170232,6 +170235,12 @@
       "releaseDate": "2024-03-29"
    },
    {
+      "title": "Girls \u0026 Panzer: Saishuushou Part 4 Specials",
+      "malid": 58606,
+      "type": "special",
+      "releaseDate": "2024-03-27"
+   },
+   {
       "title": "Rebirth ChocoReba",
       "malid": 58607,
       "type": "ona",
@@ -170266,6 +170275,12 @@
       "malid": 58619,
       "type": "movie",
       "releaseDate": "2023-03-07"
+   },
+   {
+      "title": "Nijiyon Animation 2 Specials",
+      "malid": 58623,
+      "type": "special",
+      "releaseDate": "2024-06-26"
    },
    {
       "title": "Oshiri Tantei 8th Season",
@@ -170309,5 +170324,50 @@
       "malid": 58644,
       "type": "ona",
       "releaseDate": "2024-04-11"
+   },
+   {
+      "title": "Housoushitsu no Kigurumi Girl",
+      "malid": 58648,
+      "type": "ona",
+      "releaseDate": "2023-12-30"
+   },
+   {
+      "title": "One Piece: Innen no Log! Mugiwara no Ichimi to Cipher Pol",
+      "enTitle": "One Piece: The Log of the Rivalry! The Straw Hats vs. Cipher Pol",
+      "malid": 58663,
+      "type": "tv_special",
+      "releaseDate": "2024-04-14"
+   },
+   {
+      "title": "Panda Narikiri Taisou",
+      "malid": 58680,
+      "type": "ona",
+      "releaseDate": "2024-03-02"
+   },
+   {
+      "title": "Anhe Zhuan Part 2",
+      "enTitle": "Tales Of Dark River Part 2",
+      "malid": 58681,
+      "type": "ona",
+      "releaseDate": "2024-04-17"
+   },
+   {
+      "title": "Yuanshen: Jinzhong Ge",
+      "enTitle": "Genshin Impact: The Song Burning in the Embers",
+      "malid": 58689,
+      "type": "ona",
+      "releaseDate": "2024-04-17"
+   },
+   {
+      "title": "Shadowverse Flame: Seven Shadows-hen Recap",
+      "malid": 58705,
+      "type": "tv_special",
+      "releaseDate": "2024-04-06"
+   },
+   {
+      "title": "Jueshi Zhan Hun",
+      "malid": 58711,
+      "type": "ona",
+      "releaseDate": "2024-04-27"
    }
 ]
