@@ -5231,13 +5231,6 @@
       "releaseDate": "2005-10-04"
    },
    {
-      "title": "Digimon Savers",
-      "enTitle": "Digimon Data Squad",
-      "malid": 859,
-      "type": "tv",
-      "releaseDate": "2006-04-02"
-   },
-   {
       "title": "Makai Senki Disgaea",
       "enTitle": "Disgaea",
       "malid": 860,
@@ -116627,7 +116620,7 @@
       "releaseDate": "2022-08-19"
    },
    {
-      "title": "Atsumare! Minna no Kontematsu-san!",
+      "title": "Osomatsu-san 3rd Season Specials",
       "malid": 44409,
       "type": "special",
       "releaseDate": "2020-12-25"
@@ -140237,7 +140230,7 @@
       "releaseDate": "2021-11-30"
    },
    {
-      "title": "Teikou Penguin",
+      "title": "Teikou Penguin (TV)",
       "malid": 50522,
       "type": "tv",
       "releaseDate": "2022-01-05"
@@ -151090,7 +151083,7 @@
       "title": "Acro Trip",
       "malid": 53723,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Majo wa Kekkyoku Sono Kyaku to... The Animation",
@@ -151199,6 +151192,7 @@
    },
    {
       "title": "Kimi no Iro",
+      "enTitle": "The Colors Within",
       "malid": 53747,
       "type": "movie",
       "releaseDate": "2024-08-30"
@@ -156163,7 +156157,7 @@
       "title": "Gegege no Kitarou: Copy Youkai vs. Kitarou - Fusei Shouhin ni wa Ki wo Tsukero!",
       "malid": 55041,
       "type": "ova",
-      "releaseDate": ""
+      "releaseDate": "1996"
    },
    {
       "title": "Move to the Future Episode 0",
@@ -159848,6 +159842,13 @@
       "malid": 55909,
       "type": "music",
       "releaseDate": "2023-01-24"
+   },
+   {
+      "title": "The Fable",
+      "enTitle": "The Fable",
+      "malid": 55911,
+      "type": "tv",
+      "releaseDate": "2024-04-07"
    },
    {
       "title": "The Fable",
@@ -165115,8 +165116,9 @@
    },
    {
       "title": "Mahoutsukai no Yakusoku",
+      "enTitle": "Promise of Wizard",
       "malid": 57152,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -168064,13 +168066,13 @@
       "enTitle": "Loner Life in Another World",
       "malid": 57891,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Hazurewaku no \"Joutai Ijou Skill\" de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
       "malid": 57892,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-07"
    },
    {
       "title": "Shinsekai",
@@ -169063,7 +169065,7 @@
       "title": "Koneko no Chi: Ponponraa Natsuyasumi",
       "malid": 58196,
       "type": "unknown",
-      "releaseDate": ""
+      "releaseDate": "2024-07"
    },
    {
       "title": "Nyaight of the Living Cat",
@@ -169910,6 +169912,12 @@
       "releaseDate": "2024-04-06"
    },
    {
+      "title": "Yong Sheng: Qizhuang Shanhe",
+      "malid": 58448,
+      "type": "ona",
+      "releaseDate": "2024-04-19"
+   },
+   {
       "title": "Suki demo Kirai na Amanojaku",
       "enTitle": "My Oni Girl",
       "malid": 58449,
@@ -170079,7 +170087,7 @@
       "title": "SutoPuri Movie: Hajimari no Monogatari - Strawberry School Festival!!!",
       "malid": 58522,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-07-19"
    },
    {
       "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
@@ -170106,6 +170114,12 @@
       "malid": 58537,
       "type": "pv",
       "releaseDate": "2022-07-11"
+   },
+   {
+      "title": "Say You to Yoasobi Animation: Ikuda Momo! Sobi-",
+      "malid": 58546,
+      "type": "ona",
+      "releaseDate": "2024-03-11"
    },
    {
       "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii Movie",
@@ -170339,6 +170353,12 @@
       "releaseDate": "2024-04-14"
    },
    {
+      "title": "Trouble \"Wan\"der!",
+      "malid": 58676,
+      "type": "music",
+      "releaseDate": "2024-04-13"
+   },
+   {
       "title": "Panda Narikiri Taisou",
       "malid": 58680,
       "type": "ona",
@@ -170368,6 +170388,76 @@
       "title": "Jueshi Zhan Hun",
       "malid": 58711,
       "type": "ona",
+      "releaseDate": "2024-04-27"
+   },
+   {
+      "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
+      "enTitle": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+      "malid": 58714,
+      "type": "tv",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Garouden: The Way of the Lone Wolf",
+      "malid": 58717,
+      "type": "ona",
+      "releaseDate": "2024-05-23"
+   },
+   {
+      "title": "Ninja to Koroshiya no Futarigurashi",
+      "malid": 58725,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Teikou Penguin",
+      "malid": 58728,
+      "type": "ona",
+      "releaseDate": "2019-01-22"
+   },
+   {
+      "title": "Boku ni Harem Sexfriend ga Dekita Riyuu",
+      "malid": 58732,
+      "type": "ova",
+      "releaseDate": "2024-06-28"
+   },
+   {
+      "title": "A New Dawn",
+      "enTitle": "A New Dawn",
+      "malid": 58735,
+      "type": "movie",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Momentary Lily",
+      "malid": 58739,
+      "type": "tv",
+      "releaseDate": "2025-01"
+   },
+   {
+      "title": "Yao Shen Ji 7th Season",
+      "enTitle": "Tales of Demons and Gods Season 7",
+      "malid": 58744,
+      "type": "ona",
+      "releaseDate": "2024-04-30"
+   },
+   {
+      "title": "Wanwan Train Doko e Iku?",
+      "malid": 58746,
+      "type": "ona",
+      "releaseDate": "2024-04-24"
+   },
+   {
+      "title": "Arknights: Rise from Ember",
+      "enTitle": "Arknights: Rise from Ember",
+      "malid": 58749,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Arknights 2024 Special Commemorative Animation PV",
+      "malid": 58751,
+      "type": "pv",
       "releaseDate": "2024-04-27"
    }
 ]
