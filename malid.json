@@ -5231,6 +5231,13 @@
       "releaseDate": "2005-10-04"
    },
    {
+      "title": "Digimon Savers",
+      "enTitle": "Digimon Data Squad",
+      "malid": 859,
+      "type": "tv",
+      "releaseDate": "2006-04-02"
+   },
+   {
       "title": "Makai Senki Disgaea",
       "enTitle": "Disgaea",
       "malid": 860,
@@ -6698,7 +6705,7 @@
    },
    {
       "title": "Kidou Keisatsu Patlabor 2 the Movie",
-      "enTitle": "Mobile Police Patlabor 2: The Movie",
+      "enTitle": "Patlabor 2: The Movie",
       "malid": 1096,
       "type": "movie",
       "releaseDate": "1993-08-07"
@@ -8918,6 +8925,7 @@
    },
    {
       "title": "Memories",
+      "enTitle": "Memories",
       "malid": 1462,
       "type": "movie",
       "releaseDate": "1995-12-23"
@@ -11375,7 +11383,7 @@
       "releaseDate": "1994-08-21"
    },
    {
-      "title": "Tokyo Majin Gakuen Kenpuchou: Tou",
+      "title": "Tokyo Majin Gakuen Kenpuuchou: Tou",
       "enTitle": "Tokyo Majin",
       "malid": 1860,
       "type": "tv",
@@ -13188,6 +13196,7 @@
    },
    {
       "title": "Terra e... (TV)",
+      "enTitle": "Toward the Terra (TV)",
       "malid": 2158,
       "type": "tv",
       "releaseDate": "2007-04-07"
@@ -16371,7 +16380,7 @@
       "releaseDate": "1994-12-04"
    },
    {
-      "title": "Tokyo Majin Gakuen Kenpuchou: Tou Dai Ni Maku",
+      "title": "Tokyo Majin Gakuen Kenpuuchou: Tou Dai Ni Maku",
       "malid": 2683,
       "type": "tv",
       "releaseDate": "2007-07-27"
@@ -26042,6 +26051,7 @@
    },
    {
       "title": "Terra e... (TV) Specials",
+      "enTitle": "Toward the Terra (TV) Specials",
       "malid": 5037,
       "type": "special",
       "releaseDate": "2007"
@@ -35254,6 +35264,7 @@
    },
    {
       "title": "Shin Mitsubachi Maya no Bouken",
+      "enTitle": "The New Adventures of Honeybee Maya",
       "malid": 8373,
       "type": "tv",
       "releaseDate": "1982-10-12"
@@ -36471,7 +36482,7 @@
    },
    {
       "title": "Nichijou: Nichijou no 0-wa",
-      "enTitle": "My Ordinary Life Episode 0",
+      "enTitle": "Nichijou - My Ordinary Life Episode 0",
       "malid": 8857,
       "type": "ova",
       "releaseDate": "2011-03-12"
@@ -54148,6 +54159,7 @@
    },
    {
       "title": "Noragami OVA",
+      "enTitle": "Noragami OVA",
       "malid": 20767,
       "type": "ova",
       "releaseDate": "2014-02-17"
@@ -72605,7 +72617,7 @@
       "enTitle": "The Memorandum of Kyoko Okitegami x Monogatari",
       "malid": 32191,
       "type": "pv",
-      "releaseDate": "2014-12-31"
+      "releaseDate": "2014-10-15"
    },
    {
       "title": "Junjou Shoujo Et Cetera Specials",
@@ -80066,6 +80078,7 @@
    },
    {
       "title": "Shokugeki no Souma: Ni no Sara OVA",
+      "enTitle": "Food Wars! The Second Plate OVA",
       "malid": 34480,
       "type": "ova",
       "releaseDate": "2017-05-01"
@@ -92774,7 +92787,7 @@
       "releaseDate": "2020-01-18"
    },
    {
-      "title": "Akuma no Kimuraa-hen",
+      "title": "Nissin Chikin Ramen CMs",
       "malid": 37706,
       "type": "cm",
       "releaseDate": "2017-06-07"
@@ -92816,7 +92829,7 @@
       "title": "High School DxD Hero: Taiikukan-ura no Holy",
       "enTitle": "High School DxD Hero Episode 0: Holiness Behind the Gym",
       "malid": 37719,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2018-04-10"
    },
    {
@@ -98878,6 +98891,7 @@
    },
    {
       "title": "Girls \u0026 Panzer: Saishuushou Part 4",
+      "enTitle": "Girls und Panzer das Finale - Part 4",
       "malid": 39167,
       "type": "movie",
       "releaseDate": "2023-10-06"
@@ -105458,6 +105472,7 @@
    },
    {
       "title": "World Trigger 2nd Season",
+      "enTitle": "World Trigger 2nd Season",
       "malid": 40907,
       "type": "tv",
       "releaseDate": "2021-01-10"
@@ -105868,7 +105883,7 @@
       "title": "Osomatsu-san Movie: Zensetsu Gekijou",
       "enTitle": "Mr. Osomatsu-san the Movie: Prologue Theater",
       "malid": 41052,
-      "type": "special",
+      "type": "movie",
       "releaseDate": "2019-11-06"
    },
    {
@@ -107320,7 +107335,7 @@
    {
       "title": "Burn the Witch",
       "malid": 41468,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": "2020-10-02"
    },
    {
@@ -109145,6 +109160,7 @@
    },
    {
       "title": "Wu Dong Qian Kun 2nd Season",
+      "enTitle": "Martial Universe 2nd Season",
       "malid": 42266,
       "type": "ona",
       "releaseDate": "2020-07-12"
@@ -115329,7 +115345,7 @@
       "releaseDate": "2019-05-05"
    },
    {
-      "title": "Jimihen!! Jimiko wo Kaechau Jun Isei Kouyuu!!",
+      "title": "Jimihen!!: Jimiko wo Kaechau Jun Isei Kouyuu!!",
       "enTitle": "Simple yet Sexy",
       "malid": 44044,
       "type": "ona",
@@ -136368,7 +136384,7 @@
    {
       "title": "Isekai Cheat Magician: Yoiboshi no Matsuri to Majutsushi",
       "malid": 49297,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2021-07-05"
    },
    {
@@ -137142,6 +137158,7 @@
    },
    {
       "title": "Wu Dong Qian Kun 3rd Season",
+      "enTitle": "Martial Universe 3rd Season",
       "malid": 49570,
       "type": "ona",
       "releaseDate": "2022-05-01"
@@ -141663,7 +141680,7 @@
       "releaseDate": "2020-12-29"
    },
    {
-      "title": "Yurei Deco",
+      "title": "Yuurei Deco",
       "enTitle": "Yurei Deco",
       "malid": 51092,
       "type": "tv",
@@ -151270,7 +151287,7 @@
    {
       "title": "#Compass 2.0: Sentou Setsuri Kaiseki System",
       "malid": 53762,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": "2025"
    },
    {
@@ -155476,7 +155493,7 @@
       "enTitle": "Quality Assurance in Another World",
       "malid": 54835,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
@@ -157638,7 +157655,7 @@
       "releaseDate": "2020-09-03"
    },
    {
-      "title": "Jongtama CMs",
+      "title": "Jantama CMs",
       "malid": 55394,
       "type": "cm",
       "releaseDate": "2020-06-22"
@@ -157700,7 +157717,8 @@
       "releaseDate": "2021-12-03"
    },
    {
-      "title": "She's a Teaser",
+      "title": "Mottaiburi",
+      "enTitle": "She's a Teaser",
       "malid": 55415,
       "type": "music",
       "releaseDate": "2022-11-01"
@@ -158892,7 +158910,7 @@
       "releaseDate": ""
    },
    {
-      "title": "Boku no Kokoro no Yabai Yatsu Season 2",
+      "title": "Boku no Kokoro no Yabai Yatsu 2nd Season",
       "enTitle": "The Dangers in My Heart Season 2",
       "malid": 55690,
       "type": "tv",
@@ -159842,13 +159860,6 @@
       "malid": 55909,
       "type": "music",
       "releaseDate": "2023-01-24"
-   },
-   {
-      "title": "The Fable",
-      "enTitle": "The Fable",
-      "malid": 55911,
-      "type": "tv",
-      "releaseDate": "2024-04-07"
    },
    {
       "title": "The Fable",
@@ -160910,7 +160921,7 @@
       "title": "Grendizer U",
       "malid": 56189,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-07"
    },
    {
       "title": "Ai ni Iku no.",
@@ -163342,6 +163353,7 @@
    },
    {
       "title": "Shiguang Dailiren: Yingdu Pian",
+      "enTitle": "Link Click: Yingdu Chapter",
       "malid": 56752,
       "type": "unknown",
       "releaseDate": ""
@@ -165220,6 +165232,7 @@
    },
    {
       "title": "Wu Dong Qian Kun 4th Season",
+      "enTitle": "Martial Universe 4th Season",
       "malid": 57183,
       "type": "ona",
       "releaseDate": "2023-11-25"
@@ -166534,6 +166547,7 @@
    },
    {
       "title": "Boku no Hero Academia: Memories",
+      "enTitle": "My Hero Academia: Memories",
       "malid": 57519,
       "type": "tv_special",
       "releaseDate": "2024-04-06"
@@ -167946,8 +167960,8 @@
    {
       "title": "Monogatari Series: Off \u0026 Monster Season",
       "malid": 57864,
-      "type": "unknown",
-      "releaseDate": "2024"
+      "type": "ona",
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Taigu Xing Shen Jue",
@@ -169411,7 +169425,7 @@
       "enTitle": "My Wife Has No Emotion",
       "malid": 58272,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-02"
    },
    {
       "title": "Watashi no Saigo no Hi",
@@ -170040,6 +170054,7 @@
    },
    {
       "title": "Hanma Baki vs. Kengan Ashura",
+      "enTitle": "Baki Hanma VS Kengan Ashura",
       "malid": 58510,
       "type": "ona",
       "releaseDate": "2024-06-06"
@@ -170126,6 +170141,12 @@
       "malid": 58549,
       "type": "movie",
       "releaseDate": "2024"
+   },
+   {
+      "title": "Hui Ming: Fenghuo San Yue",
+      "malid": 58551,
+      "type": "ona",
+      "releaseDate": "2024-05-02"
    },
    {
       "title": "You Shou Yan 3rd Season",
@@ -170422,6 +170443,12 @@
       "releaseDate": "2024-06-28"
    },
    {
+      "title": "Gif ni Ted",
+      "malid": 58733,
+      "type": "music",
+      "releaseDate": "2024-04-24"
+   },
+   {
       "title": "A New Dawn",
       "enTitle": "A New Dawn",
       "malid": 58735,
@@ -170459,5 +170486,74 @@
       "malid": 58751,
       "type": "pv",
       "releaseDate": "2024-04-27"
+   },
+   {
+      "title": "Xiaobing Chuanqi",
+      "enTitle": "Legend of Soldier",
+      "malid": 58754,
+      "type": "ona",
+      "releaseDate": "2024-04-28"
+   },
+   {
+      "title": "5-toubun no Hanayome*",
+      "malid": 58755,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Salaryman Mudaeri Yonghada Yonghae",
+      "enTitle": "Office Worker Mr. Mu",
+      "malid": 58762,
+      "type": "movie",
+      "releaseDate": "2001"
+   },
+   {
+      "title": "Kakuriyo no Yadomeshi 2nd Season",
+      "malid": 58772,
+      "type": "tv",
+      "releaseDate": "2025-10"
+   },
+   {
+      "title": "Keroro Gunsou (Anime Shin Project)",
+      "malid": 58773,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Seiyoku Tsuyotsuyo The Animation",
+      "malid": 58776,
+      "type": "ova",
+      "releaseDate": "2024-07-26"
+   },
+   {
+      "title": "Ikoku Nikki",
+      "malid": 58788,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Flatwoods no Monster Mitai ni",
+      "enTitle": "Like The Flatwoods Monster",
+      "malid": 58790,
+      "type": "music",
+      "releaseDate": "2024-05-03"
+   },
+   {
+      "title": "Dies Irae: Irasshai Zonnenji Specials",
+      "malid": 58794,
+      "type": "special",
+      "releaseDate": "2018-01-31"
+   },
+   {
+      "title": "Sorotani no Animetchi",
+      "malid": 58799,
+      "type": "ona",
+      "releaseDate": "2021-07-04"
+   },
+   {
+      "title": "Amebas!",
+      "malid": 58800,
+      "type": "ona",
+      "releaseDate": "2024-03-29"
    }
 ]
