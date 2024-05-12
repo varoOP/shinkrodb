@@ -5136,7 +5136,7 @@
    },
    {
       "title": "Konjiki no Gash Bell!!: 101-banme no Mamono",
-      "enTitle": "Gash Bell The 1st Movie: Unlisted Demon",
+      "enTitle": "Zatch Bell! 101st Devil",
       "malid": 844,
       "type": "movie",
       "releaseDate": "2004-08-07"
@@ -5574,7 +5574,7 @@
    },
    {
       "title": "Konjiki no Gash Bell!!: Mecha Vulkan no Raishuu",
-      "enTitle": "Zatch Bell Movie 2",
+      "enTitle": "Zatch Bell! Attack of Mechavulcan",
       "malid": 911,
       "type": "movie",
       "releaseDate": "2005-08-06"
@@ -13866,7 +13866,7 @@
       "releaseDate": "1985-07-28"
    },
    {
-      "title": "Shin Kidou Senki Gundam Wing: Endless Waltz Special",
+      "title": "Shin Kidou Senki Gundam Wing: Endless Waltz Tokubetsu-hen",
       "enTitle": "Mobile Suit Gundam Wing: Endless Waltz",
       "malid": 2273,
       "type": "movie",
@@ -17688,6 +17688,7 @@
    },
    {
       "title": "Ashita no Joe (Movie)",
+      "enTitle": "Tomorrow's Joe The Movie",
       "malid": 2920,
       "type": "movie",
       "releaseDate": "1980-03-08"
@@ -17701,6 +17702,7 @@
    },
    {
       "title": "Ashita no Joe 2 (Movie)",
+      "enTitle": "Tomorrow's Joe 2 The Movie",
       "malid": 2922,
       "type": "movie",
       "releaseDate": "1981-07-04"
@@ -18564,6 +18566,7 @@
    },
    {
       "title": "Bishoujo Senshi Sailor Moon SuperS Specials",
+      "enTitle": "Sailor Moon SuperS Specials",
       "malid": 3076,
       "type": "special",
       "releaseDate": "1995-04-08"
@@ -21754,7 +21757,7 @@
       "releaseDate": "2012-11-17"
    },
    {
-      "title": "Shin Evangelion Movie: ||",
+      "title": "Shin Evangelion Movie:||",
       "enTitle": "Evangelion: 3.0+1.0 Thrice Upon a Time",
       "malid": 3786,
       "type": "movie",
@@ -22611,14 +22614,14 @@
       "releaseDate": "2008-06-12"
    },
    {
-      "title": "Turn A Gundam I Movie: Earth Light",
+      "title": "Turn A Gundam I: Chikyuukou",
       "enTitle": "∀ Gundam I: Earth Light",
       "malid": 3963,
       "type": "movie",
       "releaseDate": "2002-02-09"
    },
    {
-      "title": "Turn A Gundam II Movie: Moonlight Butterfly",
+      "title": "Turn A Gundam II: Gekkou Chou",
       "enTitle": "∀ Gundam II: Moonlight Butterfly",
       "malid": 3964,
       "type": "movie",
@@ -40015,7 +40018,7 @@
       "releaseDate": "1999-07-31"
    },
    {
-      "title": "Bikkuriman: Moen Zone no Hihou",
+      "title": "Bikkuriman: Muen Zone no Hihou",
       "malid": 10200,
       "type": "movie",
       "releaseDate": "1988-07-09"
@@ -49253,6 +49256,7 @@
    },
    {
       "title": "Tonari no Kaibutsu-kun: Tonari no Gokudou-kun",
+      "enTitle": "My Little Monster OVA",
       "malid": 16866,
       "type": "ova",
       "releaseDate": "2013-08-12"
@@ -51725,7 +51729,7 @@
    },
    {
       "title": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.",
-      "enTitle": "I Couldn`t Become a Hero, So I Reluctantly Decided to Get a Job",
+      "enTitle": "I Couldn't Become a Hero, So I Reluctantly Decided to Get a Job",
       "malid": 18677,
       "type": "tv",
       "releaseDate": "2013-10-05"
@@ -53291,6 +53295,7 @@
    },
    {
       "title": "Ashita no Joe Pilots",
+      "enTitle": "Tomorrow's Joe Pilots",
       "malid": 19973,
       "type": "special",
       "releaseDate": "1969-11-06"
@@ -56106,7 +56111,6 @@
    },
    {
       "title": "Free! Eternal Summer",
-      "enTitle": "Free! - Eternal Summer",
       "malid": 22265,
       "type": "tv",
       "releaseDate": "2014-07-03"
@@ -56897,7 +56901,6 @@
    },
    {
       "title": "Terra Formars",
-      "enTitle": "Terraformars",
       "malid": 22687,
       "type": "tv",
       "releaseDate": "2014-09-27"
@@ -57646,7 +57649,6 @@
    },
    {
       "title": "Gugure! Kokkuri-san",
-      "enTitle": "GUGURE! KOKKURI-SAN",
       "malid": 23251,
       "type": "tv",
       "releaseDate": "2014-10-06"
@@ -74771,7 +74773,7 @@
       "title": "Seishun Anime Zenshuu Specials",
       "enTitle": "Animated Classics of Japanese Literature",
       "malid": 32897,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "1987-10-08"
    },
    {
@@ -75702,7 +75704,7 @@
    },
    {
       "title": "Tanaka-kun wa Itsumo Kedaruge Specials",
-      "enTitle": "Tanaka-kun is Always Listless",
+      "enTitle": "Tanaka-kun is Always Listless Specials",
       "malid": 33157,
       "type": "special",
       "releaseDate": "2016-06-24"
@@ -76425,7 +76427,6 @@
    },
    {
       "title": "Starmyu 2nd Season",
-      "enTitle": "STARMYU Season 2",
       "malid": 33362,
       "type": "tv",
       "releaseDate": "2017-04-04"
@@ -82973,7 +82974,6 @@
    },
    {
       "title": "Free! Take Your Marks",
-      "enTitle": "Free! -Take Your Marks-",
       "malid": 35198,
       "type": "movie",
       "releaseDate": "2017-10-28"
@@ -84034,7 +84034,7 @@
    },
    {
       "title": "Monster Sonic!: Senritsu no Lucifer, Tada Hitotsu no Hajimari no Uta",
-      "enTitle": "A Rhapsody Called Lucy -The Very First Song-",
+      "enTitle": "Monster Sonic!: A Rhapsody Called Lucy -The Very First Song-",
       "malid": 35465,
       "type": "ona",
       "releaseDate": "2017-05-03"
@@ -87961,7 +87961,6 @@
    },
    {
       "title": "Starmyu 3rd Season",
-      "enTitle": "STARMYU Season 3",
       "malid": 36536,
       "type": "tv",
       "releaseDate": "2019-07-01"
@@ -98891,7 +98890,7 @@
    },
    {
       "title": "Girls \u0026 Panzer: Saishuushou Part 4",
-      "enTitle": "Girls und Panzer das Finale - Part 4",
+      "enTitle": "Girls und Panzer das Finale – Part 4",
       "malid": 39167,
       "type": "movie",
       "releaseDate": "2023-10-06"
@@ -104812,7 +104811,7 @@
       "releaseDate": "2020-04-08"
    },
    {
-      "title": "Tian Bao Fuyao Lu",
+      "title": "Tianbao Fuyao Lu",
       "enTitle": "Legend of Exorcism",
       "malid": 40735,
       "type": "ona",
@@ -115452,7 +115451,7 @@
       "releaseDate": "2021-07-18"
    },
    {
-      "title": "Tian Bao Fuyao Lu 2nd Season",
+      "title": "Tianbao Fuyao Lu 2nd Season",
       "enTitle": "Legend of Exorcism",
       "malid": 44068,
       "type": "ona",
@@ -134681,6 +134680,7 @@
    },
    {
       "title": "Sakusei Byoutou The Animation",
+      "enTitle": "Semen Extraction Ward",
       "malid": 48651,
       "type": "ova",
       "releaseDate": "2021-04-30"
@@ -137696,7 +137696,7 @@
       "title": "Kijin Gentoushou",
       "malid": 49778,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-06-27"
    },
    {
       "title": "Atasha Kawashiri Kodama da yo: Dangerous Lifehacker no Tadareta Seikatsu",
@@ -138883,7 +138883,7 @@
       "enTitle": "Dragon Prince Yuan",
       "malid": 50114,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-05-30"
    },
    {
       "title": "Seventina",
@@ -139084,6 +139084,7 @@
    },
    {
       "title": "Blue Giant",
+      "enTitle": "Blue Giant",
       "malid": 50183,
       "type": "movie",
       "releaseDate": "2023-02-17"
@@ -139835,7 +139836,7 @@
       "releaseDate": "2022-09-30"
    },
    {
-      "title": "Tian Bao Fuyao Lu 3rd Season",
+      "title": "Tianbao Fuyao Lu 3rd Season",
       "enTitle": "Legend of Exorcism",
       "malid": 50405,
       "type": "ona",
@@ -145583,6 +145584,7 @@
    },
    {
       "title": "San Cun Renjian",
+      "enTitle": "A World Worth Protecting",
       "malid": 52180,
       "type": "ona",
       "releaseDate": "2022-08-11"
@@ -147582,7 +147584,7 @@
    },
    {
       "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
-      "enTitle": "Haikyu!! Movie: Battle of the Garbage Dump",
+      "enTitle": "Haikyu!! Movie: The Dumpster Battle",
       "malid": 52742,
       "type": "movie",
       "releaseDate": "2024-02-16"
@@ -149484,7 +149486,7 @@
    },
    {
       "title": "Hataraku Maou-sama!! 2nd Season",
-      "enTitle": "The Devil is a Part-Timer! Season 2 (Sequel)",
+      "enTitle": "The Devil is a Part-Timer! Season 2 Part 2",
       "malid": 53200,
       "type": "tv",
       "releaseDate": "2023-07-13"
@@ -151487,7 +151489,7 @@
       "enTitle": "2.5 Dimensional Seduction",
       "malid": 53802,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "Kondo, Kimi to",
@@ -151935,7 +151937,7 @@
       "title": "Tom to Jerry (2022)",
       "enTitle": "Tom and Jerry",
       "malid": 53907,
-      "type": "special",
+      "type": "ona",
       "releaseDate": "2022-11-11"
    },
    {
@@ -154777,7 +154779,7 @@
       "enTitle": "Ghost Cat Anzu",
       "malid": 54603,
       "type": "movie",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-19"
    },
    {
       "title": "Potion-danomi de Ikinobimasu!",
@@ -155385,6 +155387,7 @@
    },
    {
       "title": "Metallic Rouge",
+      "enTitle": "Metallic Rouge",
       "malid": 54794,
       "type": "tv",
       "releaseDate": "2024-01-11"
@@ -155591,7 +155594,7 @@
       "enTitle": "Senpai Is an Otokonoko",
       "malid": 54855,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "Horimiya: Piece",
@@ -155644,7 +155647,7 @@
       "enTitle": "Blue Lock 2nd Season",
       "malid": 54865,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-10"
    },
    {
       "title": "Blue Lock: Episode Nagi",
@@ -155861,6 +155864,7 @@
    },
    {
       "title": "Tokyo Revengers: Tenjiku-hen",
+      "enTitle": "Tokyo Revengers: Tenjiku Arc",
       "malid": 54918,
       "type": "tv",
       "releaseDate": "2023-10-04"
@@ -163356,7 +163360,7 @@
       "enTitle": "Link Click: Yingdu Chapter",
       "malid": 56752,
       "type": "unknown",
-      "releaseDate": ""
+      "releaseDate": "2024"
    },
    {
       "title": "Object",
@@ -164152,6 +164156,7 @@
    },
    {
       "title": "Boku no Kokoro no Yabai Yatsu: Twi-Yaba",
+      "enTitle": "The Dangers in My Heart: Twi-Yaba",
       "malid": 56948,
       "type": "ona",
       "releaseDate": "2023-12-10"
@@ -168208,6 +168213,7 @@
    },
    {
       "title": "Huo Shen: Tianqi Zhizi",
+      "enTitle": "Huo Shen: The Burning Man",
       "malid": 57929,
       "type": "ona",
       "releaseDate": "2024-01-28"
@@ -170294,6 +170300,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Haramaseya The Animation",
+      "malid": 58616,
+      "type": "ona",
+      "releaseDate": "2024-03-22"
+   },
+   {
       "title": "Bo \u0026 To's",
       "malid": 58617,
       "type": "ona",
@@ -170488,6 +170500,12 @@
       "releaseDate": "2024-04-27"
    },
    {
+      "title": "Gotchard Short Anime: Gotchanime - Furasu Koukou Nanafushigi wo Gotcha Seyo!",
+      "malid": 58753,
+      "type": "ona",
+      "releaseDate": "2024-04-28"
+   },
+   {
       "title": "Xiaobing Chuanqi",
       "enTitle": "Legend of Soldier",
       "malid": 58754,
@@ -170532,6 +170550,12 @@
       "releaseDate": ""
    },
    {
+      "title": "III",
+      "malid": 58789,
+      "type": "music",
+      "releaseDate": "2024-05-03"
+   },
+   {
       "title": "Flatwoods no Monster Mitai ni",
       "enTitle": "Like The Flatwoods Monster",
       "malid": 58790,
@@ -170555,5 +170579,111 @@
       "malid": 58800,
       "type": "ona",
       "releaseDate": "2024-03-29"
+   },
+   {
+      "title": "Luka to Taiyou no Hana",
+      "enTitle": "Luka and the Flower of the Sun",
+      "malid": 58805,
+      "type": "tv_special",
+      "releaseDate": "2024-04-26"
+   },
+   {
+      "title": "Parking Area",
+      "malid": 58806,
+      "type": "movie",
+      "releaseDate": "2022"
+   },
+   {
+      "title": "Niku ni Matsuwaru Nichijou no Hanashi",
+      "enTitle": "The Story of My Meat Life",
+      "malid": 58807,
+      "type": "movie",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Choboraunyopomi Gekijou Dai San Maku Ai Mai Mii: Surgical Friends - Konetashuu 2017, Haru.",
+      "malid": 58810,
+      "type": "special",
+      "releaseDate": "2017-04-21"
+   },
+   {
+      "title": "Tougen Anki",
+      "malid": 58811,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Yaiba",
+      "malid": 58812,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Upapuro",
+      "malid": 58813,
+      "type": "tv",
+      "releaseDate": "2017"
+   },
+   {
+      "title": "Genki Genki Non-tan: Kirakira Shanshan Ohoshisama☆",
+      "malid": 58814,
+      "type": "movie",
+      "releaseDate": "2020"
+   },
+   {
+      "title": "Awajima Hyakkei",
+      "malid": 58820,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Izure Saikyou no Renkinjutsushi?",
+      "enTitle": "Someday Will I Be the Greatest Alchemist?",
+      "malid": 58822,
+      "type": "tv",
+      "releaseDate": "2025-01"
+   },
+   {
+      "title": "Okaimono Panda!",
+      "malid": 58827,
+      "type": "tv",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Koukou Eisei",
+      "malid": 58828,
+      "type": "movie",
+      "releaseDate": "1923"
+   },
+   {
+      "title": "Kujima Utaeba Ie Hororo",
+      "malid": 58832,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kakushite! Makina-san!!",
+      "malid": 58833,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Odekake Kozame (Shin Series)",
+      "malid": 58837,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Harinezumi no Luchika",
+      "enTitle": "Luchika the Hedgehog",
+      "malid": 58844,
+      "type": "ona",
+      "releaseDate": "2024-05-10"
+   },
+   {
+      "title": "Tongari Boushi no Memole (Movie)",
+      "malid": 58845,
+      "type": "movie",
+      "releaseDate": "1985-03-16"
    }
 ]
