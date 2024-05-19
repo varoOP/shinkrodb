@@ -3926,6 +3926,7 @@
    },
    {
       "title": "Nurse Witch Komugi-chan Magikarte",
+      "enTitle": "Nurse Witch Komugi",
       "malid": 615,
       "type": "ova",
       "releaseDate": "2002-08-23"
@@ -3952,6 +3953,7 @@
    },
    {
       "title": "Ninja Ryuukenden",
+      "enTitle": "Ninja Gaiden",
       "malid": 619,
       "type": "ova",
       "releaseDate": "1991-11-22"
@@ -71948,6 +71950,7 @@
    },
    {
       "title": "Nurse Witch Komugi-chan R",
+      "enTitle": "Nurse Witch Komugi R",
       "malid": 31890,
       "type": "tv",
       "releaseDate": "2016-01-10"
@@ -90722,7 +90725,7 @@
    },
    {
       "title": "Mo Dao Zu Shi",
-      "enTitle": "The Founder of Diabolism Season 1",
+      "enTitle": "The Founder of Diabolism",
       "malid": 37208,
       "type": "ona",
       "releaseDate": "2018-07-09"
@@ -102422,7 +102425,7 @@
    },
    {
       "title": "Lupin III: The First",
-      "enTitle": "Lupin the 3rd: The First",
+      "enTitle": "Lupin III: The First",
       "malid": 40082,
       "type": "movie",
       "releaseDate": "2019-12-06"
@@ -105883,7 +105886,7 @@
       "enTitle": "Mr. Osomatsu-san the Movie: Prologue Theater",
       "malid": 41052,
       "type": "movie",
-      "releaseDate": "2019-11-06"
+      "releaseDate": "2019-03-15"
    },
    {
       "title": "Dorohedoro: Ma no Omake",
@@ -128264,7 +128267,7 @@
       "title": "Diannao Zongdongyuan",
       "malid": 47149,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2016"
    },
    {
       "title": "Kuaile Peng Chacha",
@@ -130663,7 +130666,7 @@
       "title": "Ku Jie de Kexue Zhi Lu: Konglong Da Zuozhan",
       "malid": 47694,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2019"
    },
    {
       "title": "Ku Jie de Kexue Zhi Lu: Wu Tou Hua Kai",
@@ -142301,7 +142304,7 @@
       "enTitle": "Nirvana of Storm Rider",
       "malid": 51274,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-05-17"
    },
    {
       "title": "Katu",
@@ -158213,8 +158216,8 @@
    {
       "title": "Zatsu Tabi: That's Journey",
       "malid": 55514,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2025"
    },
    {
       "title": "Anpanman ga Umareta Hi",
@@ -158508,6 +158511,13 @@
       "malid": 55585,
       "type": "pv",
       "releaseDate": "2022-02-04"
+   },
+   {
+      "title": "Yuanshen: Xumi CM Duanpian",
+      "enTitle": "Genshin Impact: Sumeru PV",
+      "malid": 55586,
+      "type": "pv",
+      "releaseDate": "2022-08-11"
    },
    {
       "title": "Alone",
@@ -159170,7 +159180,7 @@
       "enTitle": "The Café Terrace and Its Goddesses Season 2",
       "malid": 55749,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "Unmei Kyoudoutai!",
@@ -160997,6 +161007,13 @@
       "releaseDate": "2023-07-31"
    },
    {
+      "title": "Juan Siliang 2nd Season",
+      "enTitle": "The Island of Siliang 2nd Season",
+      "malid": 56216,
+      "type": "ona",
+      "releaseDate": "2024-06-01"
+   },
+   {
       "title": "Houkago no Breath",
       "enTitle": "Pokémon: Paldean Winds",
       "malid": 56218,
@@ -161004,7 +161021,7 @@
       "releaseDate": "2023-09-06"
    },
    {
-      "title": "Rekishi ni Nokoru Akujo ni Naru zo: Akuyaku Reijou ni Naru hodo Ouji no Dekiai wa Kasoku suru you desu!",
+      "title": "Rekishi ni Nokoru Akujo ni Naru zo",
       "malid": 56228,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -163708,8 +163725,9 @@
    },
    {
       "title": "Code Geass: Dakkan no Rozé",
+      "enTitle": "Code Geass: Rozé of the Recapture",
       "malid": 56835,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": "2024-05-10"
    },
    {
@@ -164652,7 +164670,7 @@
       "enTitle": "I Parry Everything",
       "malid": 57058,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "Xing Qia Meng Shao Nu 1 Hua Yu Bi Ji",
@@ -165136,7 +165154,7 @@
       "enTitle": "Promise of Wizard",
       "malid": 57152,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Butaman Gokoro",
@@ -165383,7 +165401,7 @@
       "enTitle": "The Magical Girl and the Evil Lieutenant Used to Be Archenemies",
       "malid": 57217,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-09"
    },
    {
       "title": "Geomeongsupeul Jikyeola! Birdy Friends",
@@ -168089,9 +168107,10 @@
    },
    {
       "title": "Hazurewaku no \"Joutai Ijou Skill\" de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
+      "enTitle": "Failure Frame: I Became the Strongest and Annihilated Everything With Low-Level Spells",
       "malid": 57892,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "Shinsekai",
@@ -170412,10 +170431,23 @@
       "releaseDate": "2024-04-17"
    },
    {
+      "title": "Yuanshen: Xuqu PV - Zhi Zhongmu de Huanyan",
+      "enTitle": "Genshin Impact: Overture Teaser - The Final Feast",
+      "malid": 58696,
+      "type": "pv",
+      "releaseDate": "2023-07-03"
+   },
+   {
       "title": "Shadowverse Flame: Seven Shadows-hen Recap",
       "malid": 58705,
       "type": "tv_special",
       "releaseDate": "2024-04-06"
+   },
+   {
+      "title": "Yuri!!! on Ice The Movie: Ice Adolescence PV",
+      "malid": 58707,
+      "type": "pv",
+      "releaseDate": "2020-11-26"
    },
    {
       "title": "Jueshi Zhan Hun",
@@ -170685,5 +170717,75 @@
       "malid": 58845,
       "type": "movie",
       "releaseDate": "1985-03-16"
+   },
+   {
+      "title": "Garena Free Fire",
+      "malid": 58849,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Fujiko Fujio no Kiteretsu Daihyakka",
+      "malid": 58850,
+      "type": "tv_special",
+      "releaseDate": "1987-11-02"
+   },
+   {
+      "title": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
+      "malid": 58853,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kinoko Inu",
+      "malid": 58854,
+      "type": "tv",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Hanazakari no Kimitachi e",
+      "malid": 58861,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ni Yizhi Meiyou Rang wo de Naozi Xiuxigou",
+      "enTitle": "You Never Give Me a Break",
+      "malid": 58863,
+      "type": "music",
+      "releaseDate": "2007"
+   },
+   {
+      "title": "Mahou Shoujo holoWitch! PV",
+      "enTitle": "Magical Girl holoWitches! PV",
+      "malid": 58866,
+      "type": "pv",
+      "releaseDate": "2024-05-16"
+   },
+   {
+      "title": "Jinwu Wei: Feng Qi Jinling",
+      "enTitle": "Jinwu Guard: The Wind Rises in Jinling",
+      "malid": 58876,
+      "type": "ona",
+      "releaseDate": "2024-05-18"
+   },
+   {
+      "title": "Diamond no Ace: Act II (Zoku-hen)",
+      "malid": 58877,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Sayonara Lara",
+      "enTitle": "Goodbye, Lara",
+      "malid": 58878,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ninja Skooler",
+      "malid": 58879,
+      "type": "unknown",
+      "releaseDate": ""
    }
 ]
