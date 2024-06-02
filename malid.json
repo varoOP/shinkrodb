@@ -86230,7 +86230,7 @@
       "releaseDate": "2012-02-10"
    },
    {
-      "title": "9",
+      "title": "9 (Music)",
       "enTitle": "9",
       "malid": 36089,
       "type": "music",
@@ -88543,7 +88543,7 @@
       "releaseDate": "2018-04-10"
    },
    {
-      "title": "Stone Age",
+      "title": "Stone Age: Jeonseol-ui Pes-eul Chaj-aseo",
       "enTitle": "Stone Age: The Legendary Pet",
       "malid": 36657,
       "type": "tv",
@@ -102632,7 +102632,7 @@
       "releaseDate": "2019-07-20"
    },
    {
-      "title": "Pokemon Masters: Trainers Great Gathering Special Animation",
+      "title": "Pokemon Masters: Trainers Daishuuketsu Special Animation",
       "malid": 40143,
       "type": "ona",
       "releaseDate": "2019-06-27"
@@ -110210,7 +110210,7 @@
       "title": "Shin Ougon Bat",
       "enTitle": "The Golden Bat: Millennium Version",
       "malid": 42645,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2000"
    },
    {
@@ -116626,7 +116626,7 @@
    },
    {
       "title": "Long Zu",
-      "enTitle": "Dragon Raja",
+      "enTitle": "Dragon Raja -The Blazing Dawn-",
       "malid": 44408,
       "type": "ona",
       "releaseDate": "2022-08-19"
@@ -131166,7 +131166,7 @@
       "enTitle": "Papilu Rangers",
       "malid": 47806,
       "type": "tv",
-      "releaseDate": "2019-08-05"
+      "releaseDate": "2019-01-02"
    },
    {
       "title": "Pao Pao Meirenyu 2nd Season",
@@ -137121,7 +137121,7 @@
       "enTitle": "The King's Avatar 3",
       "malid": 49559,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-05-31"
    },
    {
       "title": "Shirobako Movie: C96 Gentei Gekijou Maeuriken Kokuchi Eizou",
@@ -155059,10 +155059,10 @@
       "releaseDate": "2023-10-07"
    },
    {
-      "title": "Mahoutsukai Precure! 2",
+      "title": "Mahoutsukai Precure!!: Mirai Days",
       "malid": 54717,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2025-01-12"
    },
    {
       "title": "Petit Cool Doji Danshi no Hitokoma",
@@ -155113,7 +155113,7 @@
       "title": "Kinnikuman: Kanpeki Chоujin Shiso-hen",
       "malid": 54730,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-14"
    },
    {
       "title": "Wulin Buer Zhoukan",
@@ -155165,7 +155165,7 @@
       "enTitle": "Alya Sometimes Hides Her Feelings in Russian",
       "malid": 54744,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-03"
    },
    {
       "title": "Twisted-Wonderland 3-shuunen Kinen PV",
@@ -156969,7 +156969,7 @@
    },
    {
       "title": "Jashin-chan Dropkick \"Seikimatsu-hen\"",
-      "enTitle": "Dropkick on My Devil!!: End of Century Edition",
+      "enTitle": "Dropkick on My Devil!! Apocalypse Day",
       "malid": 55237,
       "type": "tv_special",
       "releaseDate": "2023-12-27"
@@ -158909,8 +158909,8 @@
    {
       "title": "Utagoe wa Mille-Feuille",
       "malid": 55689,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2025"
    },
    {
       "title": "Boku no Kokoro no Yabai Yatsu 2nd Season",
@@ -159315,7 +159315,7 @@
       "enTitle": "[Oshi No Ko] Season 2",
       "malid": 55791,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-03"
    },
    {
       "title": "BT21 Universe 3 Animation",
@@ -159526,10 +159526,9 @@
    },
    {
       "title": "Tasogare Out Focus",
-      "enTitle": "Twilight Out of Focus",
       "malid": 55844,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-04"
    },
    {
       "title": "Kidou Senshi Gundam: Fukushuu no Requiem",
@@ -160510,7 +160509,7 @@
       "title": "NieR:Automata Ver1.1a Part 2",
       "malid": 56063,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-07"
    },
    {
       "title": "Kimi ni Aeta!",
@@ -162162,7 +162161,7 @@
       "title": "Zegapain: STA",
       "malid": 56488,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-08-16"
    },
    {
       "title": "Rondo",
@@ -164228,6 +164227,13 @@
       "releaseDate": "2022-04-20"
    },
    {
+      "title": "Xiehou ta de Shaonu Shidai",
+      "enTitle": "Mom, I'm Sorry",
+      "malid": 56960,
+      "type": "ona",
+      "releaseDate": "2024-05-23"
+   },
+   {
       "title": "Jibun Katte Dazzling",
       "enTitle": "Selfish Dazzling",
       "malid": 56962,
@@ -164625,7 +164631,7 @@
       "enTitle": "I Want to Escape from Princess Lessons",
       "malid": 57050,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025"
    },
    {
       "title": "G vs. G",
@@ -166006,7 +166012,7 @@
       "enTitle": "A Journey Through Another World: Raising Kids While Adventuring",
       "malid": 57380,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-08"
    },
    {
       "title": "Kaixin Chaoren: Yingxiong de Xin",
@@ -167663,7 +167669,7 @@
       "title": "Touhai: Ura Rate Mahjong Touhai Roku",
       "malid": 57796,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Calabi Yau no Sukima",
@@ -167728,6 +167734,7 @@
    },
    {
       "title": "Shoushimin Series",
+      "enTitle": "How to Become Ordinary",
       "malid": 57810,
       "type": "tv",
       "releaseDate": "2024-07"
@@ -168305,7 +168312,7 @@
       "title": "Tasuuketsu",
       "malid": 57945,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-07-03"
    },
    {
       "title": "Himitsu no AiPri",
@@ -169601,6 +169608,30 @@
       "releaseDate": "2022-04-20"
    },
    {
+      "title": "Pop Pop City",
+      "malid": 58318,
+      "type": "ona",
+      "releaseDate": "2024-03-22"
+   },
+   {
+      "title": "Bridge: My Little Friends",
+      "malid": 58319,
+      "type": "ona",
+      "releaseDate": "2024-03-22"
+   },
+   {
+      "title": "Kicks And Punk",
+      "malid": 58320,
+      "type": "ona",
+      "releaseDate": "2024-03-22"
+   },
+   {
+      "title": "Ephemere",
+      "malid": 58321,
+      "type": "ona",
+      "releaseDate": "2024-03-22"
+   },
+   {
       "title": "Huang Pi: Tian Jiang Caishen Mao",
       "enTitle": "Huang Pi: God of Money",
       "malid": 58322,
@@ -169913,6 +169944,18 @@
       "releaseDate": "2015-08-01"
    },
    {
+      "title": "Chichin Pui Pui",
+      "malid": 58412,
+      "type": "music",
+      "releaseDate": "1989-04-05"
+   },
+   {
+      "title": "Koi nan desu",
+      "malid": 58413,
+      "type": "music",
+      "releaseDate": "2015-04-02"
+   },
+   {
       "title": "Shikanoko Nokonoko Koshitantan",
       "enTitle": "My Deer Friend Nokotan",
       "malid": 58426,
@@ -169937,7 +169980,7 @@
       "enTitle": "Good Bye, Dragon Life.",
       "malid": 58445,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Shibuya♡Hachi",
@@ -170124,6 +170167,12 @@
       "malid": 58522,
       "type": "movie",
       "releaseDate": "2024-07-19"
+   },
+   {
+      "title": "Huan Chong Shi",
+      "malid": 58523,
+      "type": "ona",
+      "releaseDate": "2024-05-26"
    },
    {
       "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
@@ -170686,6 +170735,19 @@
       "releaseDate": "2025-01"
    },
    {
+      "title": "Wonder Scale",
+      "malid": 58823,
+      "type": "music",
+      "releaseDate": "2024-05-08"
+   },
+   {
+      "title": "Koukei",
+      "enTitle": "Scene",
+      "malid": 58824,
+      "type": "music",
+      "releaseDate": "2024-05-06"
+   },
+   {
       "title": "Okaimono Panda!",
       "malid": 58827,
       "type": "tv",
@@ -170811,7 +170873,7 @@
       "enTitle": "Dead Dead Demons Dededede Destruction",
       "malid": 58883,
       "type": "ona",
-      "releaseDate": "2024-05-24"
+      "releaseDate": "2024-05-31"
    },
    {
       "title": "Darwin Jihen",
@@ -170908,6 +170970,13 @@
       "releaseDate": "2024-05-23"
    },
    {
+      "title": "Lucky",
+      "enTitle": "Lucky",
+      "malid": 58912,
+      "type": "music",
+      "releaseDate": "2024-05-24"
+   },
+   {
       "title": "Hikaru ga Shinda Natsu",
       "malid": 58913,
       "type": "unknown",
@@ -170945,6 +171014,13 @@
       "malid": 58919,
       "type": "movie",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Dead Dead Demons Dededede Destruction (ONA) Episode 0",
+      "enTitle": "Dead Dead Demons Dededede Destruction Episode 0",
+      "malid": 58920,
+      "type": "ona",
+      "releaseDate": "2024-05-24"
    },
    {
       "title": "Xuan Di Chuanshuo",
@@ -170990,5 +171066,124 @@
       "malid": 58932,
       "type": "tv",
       "releaseDate": "2016-02-09"
+   },
+   {
+      "title": "Dinoster: Gonglyongsuhodae 2nd Season",
+      "enTitle": "Dinoster 2nd Season",
+      "malid": 58933,
+      "type": "tv",
+      "releaseDate": "2024-02-26"
+   },
+   {
+      "title": "Mashle (Zoku-hen)",
+      "malid": 58934,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Nyaaaanvy",
+      "malid": 58935,
+      "type": "tv",
+      "releaseDate": "2024-05-25"
+   },
+   {
+      "title": "Sakamoto Days",
+      "malid": 58939,
+      "type": "tv",
+      "releaseDate": "2025-01"
+   },
+   {
+      "title": "Tomoncar",
+      "malid": 58940,
+      "type": "tv",
+      "releaseDate": "2019"
+   },
+   {
+      "title": "Emerald no Wa",
+      "malid": 58941,
+      "type": "movie",
+      "releaseDate": "2017"
+   },
+   {
+      "title": "Nalang Salgu Sip-eumyeon Kkoli Jeob-eo",
+      "malid": 58942,
+      "type": "cm",
+      "releaseDate": "2024-04-18"
+   },
+   {
+      "title": "We are Gamers!!!!",
+      "malid": 58943,
+      "type": "music",
+      "releaseDate": "2024-05-28"
+   },
+   {
+      "title": "Jochum",
+      "malid": 58944,
+      "type": "tv",
+      "releaseDate": "2024-07"
+   },
+   {
+      "title": "Tish Tash",
+      "malid": 58949,
+      "type": "tv",
+      "releaseDate": "2020-09-28"
+   },
+   {
+      "title": "Kikyou",
+      "malid": 58951,
+      "type": "movie",
+      "releaseDate": "2015"
+   },
+   {
+      "title": "Bye-Bye",
+      "malid": 58952,
+      "type": "music",
+      "releaseDate": "2024-04-01"
+   },
+   {
+      "title": "9",
+      "malid": 58957,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Pipilu Anquan Tegong Dui 1st Season Part 2",
+      "enTitle": "Papilu Rangers 1st Season Part 2",
+      "malid": 58959,
+      "type": "tv",
+      "releaseDate": "2019-07-12"
+   },
+   {
+      "title": "Pipilu Anquan Tegong Dui 2nd Season",
+      "enTitle": "Papilu Rangers 2nd Season",
+      "malid": 58960,
+      "type": "ona",
+      "releaseDate": "2021-03"
+   },
+   {
+      "title": "Pipilu Anquan Tegong Dui 3rd Season",
+      "enTitle": "Papilu Rangers 3rd Season",
+      "malid": 58962,
+      "type": "ona",
+      "releaseDate": "2021-08-06"
+   },
+   {
+      "title": "Ninja Batman tai Yakuza League",
+      "enTitle": "Ninja Batman vs. Yakuza League",
+      "malid": 58964,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Robotex",
+      "malid": 58966,
+      "type": "tv",
+      "releaseDate": "2015-08-21"
+   },
+   {
+      "title": "Haikyuu!! Final Part 2",
+      "malid": 58967,
+      "type": "movie",
+      "releaseDate": ""
    }
 ]
