@@ -5162,7 +5162,7 @@
       "title": "Jinki:Extend - Sorekara",
       "enTitle": "Jinki: Extend",
       "malid": 848,
-      "type": "ova",
+      "type": "special",
       "releaseDate": "2006-02-22"
    },
    {
@@ -11420,6 +11420,7 @@
    },
    {
       "title": "Getsumen to Heiki Mina",
+      "enTitle": "Mina",
       "malid": 1865,
       "type": "tv",
       "releaseDate": "2007-01-14"
@@ -73425,7 +73426,7 @@
       "enTitle": "Days",
       "malid": 32494,
       "type": "tv",
-      "releaseDate": "2016-07-02"
+      "releaseDate": "2016-07-03"
    },
    {
       "title": "BlazBlue: Alter Memory Specials",
@@ -75126,7 +75127,7 @@
       "releaseDate": "2016-09-27"
    },
    {
-      "title": "Island (TV)",
+      "title": "Island",
       "enTitle": "Island",
       "malid": 33012,
       "type": "tv",
@@ -81023,7 +81024,7 @@
    },
    {
       "title": "Minami Kamakura Koukou Joshi Jitensha-bu: Kita yo, Taiwan!",
-      "enTitle": "kura High School Girls Cycling Club: We're In Taiwan!!",
+      "enTitle": "Minami Kamakura High School Girls Cycling Club: We're In Taiwan!!",
       "malid": 34734,
       "type": "special",
       "releaseDate": "2017-05-15"
@@ -105833,7 +105834,7 @@
       "enTitle": "Tale of the Deep-sea Lily",
       "malid": 41033,
       "type": "music",
-      "releaseDate": "2017-04-21"
+      "releaseDate": "2014-02-24"
    },
    {
       "title": "Meryuu",
@@ -109821,7 +109822,7 @@
       "releaseDate": "2020-02-01"
    },
    {
-      "title": "Yeon-ae Haru Jeon Zero",
+      "title": "Yeon-ae Halujeon Zero",
       "enTitle": "A Day Before Us Zero",
       "malid": 42481,
       "type": "ona",
@@ -131163,7 +131164,7 @@
    },
    {
       "title": "Pipilu Anquan Tegong Dui",
-      "enTitle": "Papilu Rangers",
+      "enTitle": "Pipilu Rangers",
       "malid": 47806,
       "type": "tv",
       "releaseDate": "2019-01-02"
@@ -133386,11 +133387,10 @@
       "releaseDate": "2019-11-20"
    },
    {
-      "title": "Super Talk Talk",
-      "enTitle": "Super Talk Talk",
+      "title": "Noonnoppi English Super Talk Talk",
       "malid": 48258,
-      "type": "tv",
-      "releaseDate": ""
+      "type": "ova",
+      "releaseDate": "2000-08-11"
    },
    {
       "title": "Super Hams Band",
@@ -137694,7 +137694,7 @@
       "title": "Kijin Gentoushou",
       "malid": 49778,
       "type": "tv",
-      "releaseDate": "2024-06-27"
+      "releaseDate": "2025"
    },
    {
       "title": "Atasha Kawashiri Kodama da yo: Dangerous Lifehacker no Tadareta Seikatsu",
@@ -137718,7 +137718,8 @@
       "releaseDate": "2022-10-08"
    },
    {
-      "title": "Fairy Tail: 100 Years Quest",
+      "title": "Fairy Tail: 100-nen Quest",
+      "enTitle": "Fairy Tail: 100 Years Quest",
       "malid": 49785,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -138311,7 +138312,7 @@
       "enTitle": "Our Last Crusade or the Rise of a New World Season 2",
       "malid": 49981,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-11"
    },
    {
       "title": "Geu Yeoreum",
@@ -142780,6 +142781,7 @@
    },
    {
       "title": "Rakudai Majo: Fuuka to Yami no Majo",
+      "enTitle": "The Klutzy Witch: Fuuka and the Witch of Darkness",
       "malid": 51404,
       "type": "movie",
       "releaseDate": "2023-03-31"
@@ -143647,7 +143649,7 @@
       "enTitle": "Period of the Mouseman",
       "malid": 51617,
       "type": "movie",
-      "releaseDate": "2018"
+      "releaseDate": "2018-06"
    },
    {
       "title": "Boku no Sensou",
@@ -146259,7 +146261,7 @@
       "enTitle": "No Longer Allowed In Another World",
       "malid": 52367,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-09"
    },
    {
       "title": "AOTU Shijie 4",
@@ -146556,7 +146558,7 @@
       "enTitle": "Days with My Step Sister",
       "malid": 52481,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-04"
    },
    {
       "title": "Sasaki to Pii-chan",
@@ -147215,8 +147217,8 @@
       "releaseDate": "2018-06-30"
    },
    {
-      "title": "Kami no Tou 2nd Season",
-      "enTitle": "Tower of God Season 2",
+      "title": "Kami no Tou: Ouji no Kikan",
+      "enTitle": "Tower of God: Return of the Prince",
       "malid": 52635,
       "type": "tv",
       "releaseDate": "2024-07"
@@ -149187,7 +149189,7 @@
       "title": "Atri: My Dear Moments",
       "malid": 53128,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-14"
    },
    {
       "title": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai",
@@ -153592,7 +153594,7 @@
       "enTitle": "VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream",
       "malid": 54284,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-08"
    },
    {
       "title": "Yao Shen Ji 6th Season",
@@ -154438,7 +154440,7 @@
       "releaseDate": "2015-06-05"
    },
    {
-      "title": "Island",
+      "title": "Island (Music)",
       "enTitle": "Island",
       "malid": 54516,
       "type": "music",
@@ -155088,7 +155090,7 @@
       "enTitle": "The Elusive Samurai",
       "malid": 54724,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Himitsu no Hana no Niwa",
@@ -155111,6 +155113,7 @@
    },
    {
       "title": "Kinnikuman: Kanpeki Chоujin Shiso-hen",
+      "enTitle": "Kinnikuman: Perfect Origin Arc",
       "malid": 54730,
       "type": "tv",
       "releaseDate": "2024-07-14"
@@ -156627,7 +156630,7 @@
       "enTitle": "The Do-Over Damsel Conquers the Dragon Emperor",
       "malid": 55150,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Da Zhu Zai Nian Fan",
@@ -157224,7 +157227,7 @@
       "releaseDate": "2023-03-31"
    },
    {
-      "title": "Beng Huai: Xing Qiong Tiedao - Fei Guang",
+      "title": "Benghuai: Xing Qiong Tiedao - Fei Guang",
       "enTitle": "Honkai: Star Rail - A Flash",
       "malid": 55303,
       "type": "ona",
@@ -159311,7 +159314,7 @@
       "releaseDate": "2023-07-29"
    },
    {
-      "title": "\"Oshi no Ko\" Season 2",
+      "title": "\"Oshi no Ko\" 2nd Season",
       "enTitle": "[Oshi No Ko] Season 2",
       "malid": 55791,
       "type": "tv",
@@ -159548,7 +159551,7 @@
       "enTitle": "Suicide Squad Isekai",
       "malid": 55848,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Night Tail",
@@ -160228,7 +160231,7 @@
       "title": "Koi wa Futago de Warikirenai",
       "malid": 55996,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-10"
    },
    {
       "title": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
@@ -160503,7 +160506,7 @@
       "enTitle": "Why Nobody Remembers My World?",
       "malid": 56062,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-13"
    },
    {
       "title": "NieR:Automata Ver1.1a Part 2",
@@ -160894,7 +160897,7 @@
       "title": "Delico's Nursery",
       "malid": 56179,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-08"
    },
    {
       "title": "Urahara (Unknown)",
@@ -160924,7 +160927,7 @@
       "title": "Grendizer U",
       "malid": 56189,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Ai ni Iku no.",
@@ -160994,6 +160997,13 @@
       "malid": 56213,
       "type": "ona",
       "releaseDate": "2023-07-31"
+   },
+   {
+      "title": "Yi Nian Yong Heng 3rd Season",
+      "enTitle": "A Will Eternal 3rd Season",
+      "malid": 56215,
+      "type": "ona",
+      "releaseDate": "2024-07-03"
    },
    {
       "title": "Juan Siliang 2nd Season",
@@ -162062,7 +162072,7 @@
       "releaseDate": "2020-11-28"
    },
    {
-      "title": "Beng Huai: Xing Qiong Tiedao - Xuanhuang",
+      "title": "Benghuai: Xing Qiong Tiedao - Xuanhuang",
       "enTitle": "Honkai: Star Rail - Ichor of Two Dragons",
       "malid": 56471,
       "type": "ona",
@@ -164242,6 +164252,7 @@
    },
    {
       "title": "Jin Zhan Fashi",
+      "enTitle": "The Melee Mage",
       "malid": 56963,
       "type": "ona",
       "releaseDate": "2023-11-02"
@@ -164847,6 +164858,7 @@
    },
    {
       "title": "Na Nare Hana Nare",
+      "enTitle": "Narenare -Cheer for You!-",
       "malid": 57099,
       "type": "tv",
       "releaseDate": "2024-07"
@@ -165739,7 +165751,7 @@
       "releaseDate": "2021-07-04"
    },
    {
-      "title": "Beng Huai: Xing Qiong Tiedao - Qian Xing Ji You PVs",
+      "title": "Benghuai: Xing Qiong Tiedao - Qian Xing Ji You PVs",
       "enTitle": "Honkai: Star Rail - Myriad Celestia Trailers",
       "malid": 57314,
       "type": "pv",
@@ -165799,7 +165811,7 @@
    },
    {
       "title": "Dandadan",
-      "enTitle": "Dandadan",
+      "enTitle": "DAN DA DAN",
       "malid": 57334,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -166937,7 +166949,7 @@
       "enTitle": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You Season 2",
       "malid": 57616,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Tori no Machi",
@@ -167737,7 +167749,7 @@
       "enTitle": "How to Become Ordinary",
       "malid": 57810,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-07"
    },
    {
       "title": "Intergalactic Bound",
@@ -167787,6 +167799,12 @@
       "malid": 57821,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Atashin'chi Next",
+      "malid": 57822,
+      "type": "ona",
+      "releaseDate": "2024-06-05"
    },
    {
       "title": "Muupon",
@@ -167899,7 +167917,7 @@
       "enTitle": "Plus-Sized Elf",
       "malid": 57845,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-07"
    },
    {
       "title": "VSPO! x Vanguard Animation PV",
@@ -168035,7 +168053,7 @@
       "enTitle": "The Strongest Magician in the Demon Lord's Army Was a Human",
       "malid": 57876,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-03"
    },
    {
       "title": "Sheng Zu",
@@ -168324,7 +168342,7 @@
       "title": "Mayonaka Punch",
       "malid": 57947,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-08"
    },
    {
       "title": "Chocolat Cadabra",
@@ -168656,7 +168674,7 @@
       "enTitle": "Wistoria's Wand and Sword",
       "malid": 58059,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-07"
    },
    {
       "title": "Sekai wa Mada Hajimatte sura Inai",
@@ -170067,6 +170085,7 @@
    },
    {
       "title": "San Xiuzhi Wang",
+      "enTitle": "King of Casual Cultivators",
       "malid": 58493,
       "type": "ona",
       "releaseDate": "2024-04-01"
@@ -170170,6 +170189,7 @@
    },
    {
       "title": "Huan Chong Shi",
+      "enTitle": "The Charm of Soul Pets",
       "malid": 58523,
       "type": "ona",
       "releaseDate": "2024-05-26"
@@ -170836,6 +170856,13 @@
       "releaseDate": "2024-05-16"
    },
    {
+      "title": "Bajie",
+      "enTitle": "Pigsy",
+      "malid": 58869,
+      "type": "movie",
+      "releaseDate": "2023-11-18"
+   },
+   {
       "title": "Jinwu Wei: Feng Qi Jinling",
       "enTitle": "Jinwu Guard: The Wind Rises in Jinling",
       "malid": 58876,
@@ -171148,21 +171175,21 @@
    },
    {
       "title": "Pipilu Anquan Tegong Dui 1st Season Part 2",
-      "enTitle": "Papilu Rangers 1st Season Part 2",
+      "enTitle": "Pipilu Rangers 1st Season Part 2",
       "malid": 58959,
       "type": "tv",
       "releaseDate": "2019-07-12"
    },
    {
       "title": "Pipilu Anquan Tegong Dui 2nd Season",
-      "enTitle": "Papilu Rangers 2nd Season",
+      "enTitle": "Pipilu Rangers 2nd Season",
       "malid": 58960,
       "type": "ona",
       "releaseDate": "2021-03"
    },
    {
       "title": "Pipilu Anquan Tegong Dui 3rd Season",
-      "enTitle": "Papilu Rangers 3rd Season",
+      "enTitle": "Pipilu Rangers 3rd Season",
       "malid": 58962,
       "type": "ona",
       "releaseDate": "2021-08-06"
@@ -171184,6 +171211,154 @@
       "title": "Haikyuu!! Final Part 2",
       "malid": 58967,
       "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Goldenweek",
+      "enTitle": "GOLDENWEEK",
+      "malid": 58983,
+      "type": "music",
+      "releaseDate": "2024-05-24"
+   },
+   {
+      "title": "Replica (2024)",
+      "malid": 58984,
+      "type": "music",
+      "releaseDate": "2024-05-26"
+   },
+   {
+      "title": "0-saiji Start Dash Monogatari",
+      "malid": 58985,
+      "type": "tv",
+      "releaseDate": "2024-07-07"
+   },
+   {
+      "title": "Porong Porong Pororo Guchuljagjeon",
+      "enTitle": "Porong Porong Rescue Mission",
+      "malid": 58992,
+      "type": "movie",
+      "releaseDate": "2013-12-24"
+   },
+   {
+      "title": "Pororo Sinnaneun Ujuyeohaeng",
+      "enTitle": "Pororo's Exciting Space Adventure",
+      "malid": 58993,
+      "type": "movie",
+      "releaseDate": "2014-09-24"
+   },
+   {
+      "title": "Hikare",
+      "malid": 58994,
+      "type": "music",
+      "releaseDate": "2024-04-01"
+   },
+   {
+      "title": "Super Hero",
+      "malid": 58995,
+      "type": "music",
+      "releaseDate": "2024-04-01"
+   },
+   {
+      "title": "Osomatsu-san 4th Season",
+      "malid": 58996,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Blues in the Closet",
+      "malid": 59000,
+      "type": "music",
+      "releaseDate": "2024-06-06"
+   },
+   {
+      "title": "Cheng He Titong",
+      "enTitle": "How Dare You!?",
+      "malid": 59001,
+      "type": "ona",
+      "releaseDate": "2024-06-14"
+   },
+   {
+      "title": "Hazure Skill \"Kinomi Master\": Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite",
+      "malid": 59002,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Leviathan",
+      "malid": 59005,
+      "type": "ona",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Pororo Mabeobsa: Jeonseol-ui Mabeobbong-eul Jikyeola",
+      "enTitle": "Pororo the Wizard: Guardians of the Legendary Magic Wand",
+      "malid": 59006,
+      "type": "ona",
+      "releaseDate": "2018-10"
+   },
+   {
+      "title": "Pororo Mabeobsa 2: Dragon Gisaga Doeeola",
+      "enTitle": "Pororo the Wizard 2: Be a Dragon Knight!",
+      "malid": 59007,
+      "type": "ona",
+      "releaseDate": "2019"
+   },
+   {
+      "title": "Manabu Manabu AI",
+      "malid": 59009,
+      "type": "music",
+      "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Yami Shibai 13",
+      "malid": 59010,
+      "type": "tv",
+      "releaseDate": "2024-07-15"
+   },
+   {
+      "title": "Wuliao Jiu Wanjie",
+      "enTitle": "Don't Give Up!",
+      "malid": 59012,
+      "type": "ona",
+      "releaseDate": "2024-07-05"
+   },
+   {
+      "title": "Bubble Beam Berry Blast",
+      "malid": 59013,
+      "type": "ona",
+      "releaseDate": "2024-06-07"
+   },
+   {
+      "title": "Crong Crong Ujudaesodong",
+      "enTitle": "Crong Crong The Space Adventure",
+      "malid": 59014,
+      "type": "ona",
+      "releaseDate": "2020-05"
+   },
+   {
+      "title": "Pororo Movie: Geugjangpan Dragon Castle Daemoheom",
+      "enTitle": "Pororo: Dragon Castle Adventure",
+      "malid": 59015,
+      "type": "movie",
+      "releaseDate": "2022-07-28"
+   },
+   {
+      "title": "Nyanko no Tetsugaku",
+      "malid": 59016,
+      "type": "music",
+      "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Xia Meng Hui",
+      "enTitle": "Monsoon Blue",
+      "malid": 59018,
+      "type": "movie",
+      "releaseDate": "2023-05-23"
+   },
+   {
+      "title": "Spy x Family Season 3",
+      "malid": 59027,
+      "type": "tv",
       "releaseDate": ""
    }
 ]
