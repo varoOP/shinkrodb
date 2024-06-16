@@ -30470,7 +30470,7 @@
       "releaseDate": "1994-06-22"
    },
    {
-      "title": "Cutie Honey Flash: The Movie",
+      "title": "Cutie Honey F Movie",
       "malid": 6496,
       "type": "movie",
       "releaseDate": "1997-07-12"
@@ -30615,12 +30615,6 @@
       "malid": 6548,
       "type": "music",
       "releaseDate": "2009-05-27"
-   },
-   {
-      "title": "Junjou Romantica Special",
-      "malid": 6553,
-      "type": "special",
-      "releaseDate": "2008"
    },
    {
       "title": "Kawa no Hikari",
@@ -59729,7 +59723,7 @@
       "releaseDate": "2014-06-18"
    },
    {
-      "title": "Days",
+      "title": "Days (Music)",
       "malid": 24823,
       "type": "music",
       "releaseDate": "2014-06-13"
@@ -73422,7 +73416,7 @@
       "releaseDate": "2016-03-04"
    },
    {
-      "title": "Days (TV)",
+      "title": "Days",
       "enTitle": "Days",
       "malid": 32494,
       "type": "tv",
@@ -78594,7 +78588,7 @@
       "releaseDate": "2017-04-12"
    },
    {
-      "title": "Days (TV) OVA",
+      "title": "Days OVA",
       "malid": 34008,
       "type": "ova",
       "releaseDate": "2017-03-17"
@@ -89316,7 +89310,7 @@
       "releaseDate": "2017-12-31"
    },
    {
-      "title": "Caligula (TV)",
+      "title": "Caligula",
       "enTitle": "Caligula",
       "malid": 36828,
       "type": "tv",
@@ -92887,7 +92881,7 @@
       "releaseDate": "2001"
    },
    {
-      "title": "Caligula",
+      "title": "Caligula (Music)",
       "malid": 37733,
       "type": "music",
       "releaseDate": "2012-05-27"
@@ -97367,7 +97361,7 @@
    },
    {
       "title": "Hachi-nan tte, Sore wa Nai deshou!",
-      "enTitle": "The 8th son? Are you kidding me?",
+      "enTitle": "The 8th Son? Are You Kidding Me?",
       "malid": 38830,
       "type": "tv",
       "releaseDate": "2020-04-02"
@@ -110613,7 +110607,7 @@
    },
    {
       "title": "Jing: Shuang Cheng - Feng Qi Pian",
-      "enTitle": "The Mirror: Twin Cities",
+      "enTitle": "The Mirror: Twin Cities - Overture",
       "malid": 42794,
       "type": "ona",
       "releaseDate": "2020-08-15"
@@ -117602,7 +117596,7 @@
       "releaseDate": "2020-01-17"
    },
    {
-      "title": "Hu Yao Xiao Hongniang Fanwai",
+      "title": "Huyao Xiao Hongniang Fanwai",
       "malid": 44625,
       "type": "ona",
       "releaseDate": "2015-06-24"
@@ -122762,18 +122756,6 @@
       "malid": 45821,
       "type": "tv",
       "releaseDate": "2017"
-   },
-   {
-      "title": "Luo Baobei 2nd Season",
-      "malid": 45822,
-      "type": "tv",
-      "releaseDate": "2018"
-   },
-   {
-      "title": "Luo Baobei 3rd Season",
-      "malid": 45823,
-      "type": "tv",
-      "releaseDate": "2018"
    },
    {
       "title": "Qi Qu Baodian Julebu",
@@ -136111,7 +136093,7 @@
       "releaseDate": "2016-08-15"
    },
    {
-      "title": "Shiguang Dailiren Fan Wai Pian: Biwu Zhaoqin",
+      "title": "Shiguang Dailiren Fanwai Pian: Biwu Zhaoqin",
       "enTitle": "Link Click Episode 5.5",
       "malid": 49200,
       "type": "ona",
@@ -136724,7 +136706,7 @@
    },
    {
       "title": "Kaitou Queen wa Circus ga Osuki",
-      "enTitle": "Mirage QUEEN Prefers Circus",
+      "enTitle": "Mirage Queen Prefers Circus",
       "malid": 49423,
       "type": "ova",
       "releaseDate": "2022-06-17"
@@ -147221,7 +147203,7 @@
       "enTitle": "Tower of God: Return of the Prince",
       "malid": 52635,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-07"
    },
    {
       "title": "Fukuro",
@@ -153099,7 +153081,7 @@
       "title": "Cardfight!! Vanguard: Divinez Season 2",
       "malid": 54143,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Cardfight!! Vanguard: D Series Season 8",
@@ -155010,7 +154992,6 @@
    },
    {
       "title": "Shitasaki kara Koi",
-      "enTitle": "Love from the Tip of the Tongue",
       "malid": 54692,
       "type": "ona",
       "releaseDate": "2023-03-10"
@@ -155030,9 +155011,10 @@
    },
    {
       "title": "Kaitou Queen no Yuuga na Vacances",
+      "enTitle": "Mirage Queen Vacances Élégantes",
       "malid": 54705,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "movie",
+      "releaseDate": "2025"
    },
    {
       "title": "Dokgo PV",
@@ -155960,7 +155942,7 @@
       "title": "Giji Harem",
       "malid": 54968,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "The Sukkiri Crawlers",
@@ -156316,7 +156298,7 @@
       "enTitle": "Tying the Knot with an Amagami Sister",
       "malid": 55071,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Xiaoke de Huatu Xie Hua",
@@ -160512,7 +160494,7 @@
       "title": "NieR:Automata Ver1.1a Part 2",
       "malid": 56063,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-05"
    },
    {
       "title": "Kimi ni Aeta!",
@@ -160897,7 +160879,7 @@
       "title": "Delico's Nursery",
       "malid": 56179,
       "type": "tv",
-      "releaseDate": "2024-08"
+      "releaseDate": "2024-08-08"
    },
    {
       "title": "Urahara (Unknown)",
@@ -161990,7 +161972,7 @@
       "enTitle": "Dahliya in Bloom",
       "malid": 56449,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Boku wa Konya, Deteiku",
@@ -163440,6 +163422,7 @@
    },
    {
       "title": "Tadaima, Okaeri",
+      "enTitle": "Tadaima, Okaeri",
       "malid": 56768,
       "type": "tv",
       "releaseDate": "2024-04-09"
@@ -163993,6 +163976,7 @@
    },
    {
       "title": "Pororo Movie: Superstar Daemoheom",
+      "enTitle": "Pororo: Popstar Adventure",
       "malid": 56908,
       "type": "movie",
       "releaseDate": "2023-12-13"
@@ -164861,7 +164845,7 @@
       "enTitle": "Narenare -Cheer for You!-",
       "malid": 57099,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-07"
    },
    {
       "title": "The New Gate",
@@ -166606,7 +166590,7 @@
       "enTitle": "Too Many Losing Heroines!",
       "malid": 57524,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-14"
    },
    {
       "title": "Risou no Himo Seikatsu",
@@ -166746,10 +166730,10 @@
       "releaseDate": "2012-08-19"
    },
    {
-      "title": "Shy 2nd Season",
+      "title": "Shy: Tokyo Dakkan-hen",
       "malid": 57567,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-02"
    },
    {
       "title": "Sora to Umi no Komoriuta",
@@ -166920,6 +166904,7 @@
    },
    {
       "title": "Kimi wa Meido-sama.",
+      "enTitle": "You Are Ms. Servant",
       "malid": 57611,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -167062,7 +167047,7 @@
       "enTitle": "A Nobody's Way Up to an Exploration Hero LV",
       "malid": 57646,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
@@ -168753,7 +168738,7 @@
       "title": "NEET Kunoichi to Nazeka Dousei Hajimemashita",
       "malid": 58082,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Guonian Zhe Lianmeng: Xun Long Ji",
@@ -168954,10 +168939,10 @@
       "releaseDate": "2023-10-28"
    },
    {
-      "title": "Kagaku Manga Survival (TV)",
+      "title": "Kagaku x Bouken Survival!",
       "malid": 58137,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-10"
    },
    {
       "title": "Kimi ga Nozomu Eien: Ayu Mayu Gekijou Prologue",
@@ -170062,7 +170047,7 @@
       "title": "Sengoku Youko: Senma Konton-hen",
       "malid": 58488,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-18"
    },
    {
       "title": "Shen Zhiyi Jiao",
@@ -170125,7 +170110,7 @@
       "title": "Harimaware! Koinu 2nd Season",
       "malid": 58506,
       "type": "tv",
-      "releaseDate": "2024-07"
+      "releaseDate": "2024-07-06"
    },
    {
       "title": "Zhu Xian 2nd Season",
@@ -170234,9 +170219,17 @@
    },
    {
       "title": "Hui Ming: Fenghuo San Yue",
+      "enTitle": "Back to the Great Ming",
       "malid": 58551,
       "type": "ona",
       "releaseDate": "2024-05-02"
+   },
+   {
+      "title": "Jintian de Wancan Jiushi Ni",
+      "enTitle": "Mythical Creatures Are My Dinners",
+      "malid": 58554,
+      "type": "ona",
+      "releaseDate": "2024-06-05"
    },
    {
       "title": "You Shou Yan 3rd Season",
@@ -170836,6 +170829,13 @@
       "releaseDate": "2024-10"
    },
    {
+      "title": "Benghuai: Xing Qiong Tiedao - Yanchu Kaishi Qian",
+      "enTitle": "Honkai: Star Rail - \"Before the Show Starts\"",
+      "malid": 58859,
+      "type": "cm",
+      "releaseDate": "2024-04-30"
+   },
+   {
       "title": "Hanazakari no Kimitachi e",
       "malid": 58861,
       "type": "unknown",
@@ -171065,8 +171065,8 @@
    {
       "title": "Egumi Legacy",
       "malid": 58926,
-      "type": "unknown",
-      "releaseDate": "2024-07"
+      "type": "tv",
+      "releaseDate": "2024-07-09"
    },
    {
       "title": "Koukaku Kidoutai (TV)",
@@ -171193,6 +171193,12 @@
       "malid": 58962,
       "type": "ona",
       "releaseDate": "2021-08-06"
+   },
+   {
+      "title": "Mirai e no Michi",
+      "malid": 58963,
+      "type": "music",
+      "releaseDate": "2024-04-01"
    },
    {
       "title": "Ninja Batman tai Yakuza League",
@@ -171356,9 +171362,268 @@
       "releaseDate": "2023-05-23"
    },
    {
+      "title": "Pororo-wa Chingudeul Geugjangpan Baileoseuleul Eobs-aejwo!",
+      "enTitle": "Pororo and Friends: Virus Busters",
+      "malid": 59021,
+      "type": "movie",
+      "releaseDate": "2022-12-01"
+   },
+   {
+      "title": "Pororo 20-junyeon Special: Chuldong! Linawang-gug Daejagjeon",
+      "enTitle": "Pororo: Adventures In The Magical Kingdom",
+      "malid": 59022,
+      "type": "tv_special",
+      "releaseDate": "2023-05-05"
+   },
+   {
+      "title": "Kaze ni Nare",
+      "malid": 59023,
+      "type": "music",
+      "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Ibiza",
+      "malid": 59025,
+      "type": "music",
+      "releaseDate": "2020-01-23"
+   },
+   {
       "title": "Spy x Family Season 3",
       "malid": 59027,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Pororo Movie: Badas-sog Daemoheom",
+      "enTitle": "Pororo: Underwater Adventure",
+      "malid": 59031,
+      "type": "movie",
+      "releaseDate": "2024-12"
+   },
+   {
+      "title": "Cong Gu Huo Niao Kaishi: Long Cheng Fengyun",
+      "enTitle": "Purgatory Walkers",
+      "malid": 59032,
+      "type": "ona",
+      "releaseDate": "2024-06-08"
+   },
+   {
+      "title": "Pororo Loopy Moheom",
+      "enTitle": "Pororo and Loopy's Adventure",
+      "malid": 59033,
+      "type": "ona",
+      "releaseDate": "2020-09-26"
+   },
+   {
+      "title": "Ramen Chikyuu-gou",
+      "malid": 59034,
+      "type": "music",
+      "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Baby",
+      "malid": 59035,
+      "type": "ona",
+      "releaseDate": "2019-03-19"
+   },
+   {
+      "title": "Shitasaki kara Koi 2nd Season",
+      "malid": 59036,
+      "type": "ona",
+      "releaseDate": "2024-05-19"
+   },
+   {
+      "title": "Pororo Jyulagi Gujodae",
+      "enTitle": "Pororo Jurassic Rescue Squad",
+      "malid": 59037,
+      "type": "ona",
+      "releaseDate": "2018"
+   },
+   {
+      "title": "Porong Porong Sang-eo Bimiljagjeon",
+      "enTitle": "Pororo vs Shark",
+      "malid": 59038,
+      "type": "ona",
+      "releaseDate": "2020"
+   },
+   {
+      "title": "Utopia (2024)",
+      "malid": 59039,
+      "type": "music",
+      "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Qian Ting Zong Dong Yuan: Xun Long",
+      "enTitle": "Happy Little Submarine: The Adventure with Dragon",
+      "malid": 59041,
+      "type": "movie",
+      "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Gangtie Zhi Cheng",
+      "malid": 59042,
+      "type": "movie",
+      "releaseDate": "2024-06-03"
+   },
+   {
+      "title": "Huanying Lai Dao Duo Li Zhi Jia",
+      "enTitle": "Madame: Welcome to Dolly's House",
+      "malid": 59043,
+      "type": "movie",
+      "releaseDate": "2024-06-10"
+   },
+   {
+      "title": "Tamon-kun Ima Docchi!?",
+      "malid": 59047,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Pororo Gonglyong-woldeu",
+      "enTitle": "Pororo Heroes",
+      "malid": 59051,
+      "type": "ona",
+      "releaseDate": "2019"
+   },
+   {
+      "title": "Pororo Gonglyong-woldeu 2",
+      "enTitle": "Pororo Heroes 2",
+      "malid": 59052,
+      "type": "ona",
+      "releaseDate": "2019"
+   },
+   {
+      "title": "Yume wo Nusumu Gang-tachi",
+      "malid": 59053,
+      "type": "music",
+      "releaseDate": "1986-10-02"
+   },
+   {
+      "title": "Suppon Pon",
+      "malid": 59054,
+      "type": "music",
+      "releaseDate": "2024-04-03"
+   },
+   {
+      "title": "Hana wa Saku, Shura no Gotoku",
+      "enTitle": "Flower and Asura",
+      "malid": 59055,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Gachiakuta",
+      "malid": 59062,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Tianting Ban Zhuan Xia",
+      "malid": 59063,
+      "type": "ona",
+      "releaseDate": "2024-06-12"
+   },
+   {
+      "title": "Pororo Gonchung Daemoheom",
+      "enTitle": "Pororo Bugs Adventure",
+      "malid": 59064,
+      "type": "ona",
+      "releaseDate": "2019"
+   },
+   {
+      "title": "Pororo Gonglyong Ppyeoga Sal-anassda!",
+      "enTitle": "Dino Skeletons Came Alive",
+      "malid": 59065,
+      "type": "ona",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Sanjo Osagari Bushi",
+      "malid": 59066,
+      "type": "music",
+      "releaseDate": "1989-06-02"
+   },
+   {
+      "title": "Dungeon Meshi 2nd Season",
+      "enTitle": "Delicious in Dungeon Season 2",
+      "malid": 59068,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Guilty Gear Strive: Dual Rulers",
+      "malid": 59070,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ttogttog Bagsa Eddy",
+      "enTitle": "Eddy The Clever Fox",
+      "malid": 59072,
+      "type": "tv",
+      "releaseDate": "2010-12-01"
+   },
+   {
+      "title": "Ttogttog Bagsa Eddy 2nd Season",
+      "enTitle": "Eddy The Clever Fox 2nd Season",
+      "malid": 59073,
+      "type": "tv",
+      "releaseDate": "2012-10-12"
+   },
+   {
+      "title": "Noraneko Sandogasa",
+      "malid": 59074,
+      "type": "music",
+      "releaseDate": "1980-06-01"
+   },
+   {
+      "title": "Seishun Ojiisan",
+      "malid": 59076,
+      "type": "music",
+      "releaseDate": "2016-07-17"
+   },
+   {
+      "title": "Benghuai: Xing Qiong Tiedao - Gelamo de Yujin",
+      "enTitle": "Honkai: Star Rail - The Embers of Glamoth",
+      "malid": 59077,
+      "type": "ona",
+      "releaseDate": "2024-06-14"
+   },
+   {
+      "title": "Prinsession Orchestra",
+      "malid": 59078,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Itai no Itai no Tondeike",
+      "malid": 59080,
+      "type": "music",
+      "releaseDate": "2024-06-14"
+   },
+   {
+      "title": "Boku no Class wa Saisentan",
+      "malid": 59081,
+      "type": "music",
+      "releaseDate": "1995-08-02"
+   },
+   {
+      "title": "Jin Can Wangshi",
+      "enTitle": "The Golden Wug",
+      "malid": 59084,
+      "type": "ona",
+      "releaseDate": "2024-06-10"
+   },
+   {
+      "title": "Seven Cafe Smoothie Kankyou-hen",
+      "malid": 59085,
+      "type": "cm",
+      "releaseDate": "2024-06-14"
+   },
+   {
+      "title": "Jiandao Di Yi Xian 2nd Season",
+      "malid": 59087,
+      "type": "ona",
+      "releaseDate": "2024-06-12"
    }
 ]
