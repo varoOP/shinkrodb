@@ -12515,7 +12515,7 @@
       "releaseDate": "1964-09-21"
    },
    {
-      "title": "Kikou Ryohei Mellowlink",
+      "title": "Kikou Ryouhei Mellowlink",
       "malid": 2048,
       "type": "ova",
       "releaseDate": "1988-11-21"
@@ -44791,7 +44791,7 @@
    },
    {
       "title": "Tsuritama",
-      "enTitle": "tsuritama",
+      "enTitle": "Tsuritama",
       "malid": 12883,
       "type": "tv",
       "releaseDate": "2012-04-13"
@@ -124363,7 +124363,7 @@
       "enTitle": "Mojospy 2nd Season",
       "malid": 46221,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2012-07-23"
    },
    {
       "title": "Mo Lin Chuanqi",
@@ -135994,6 +135994,7 @@
    },
    {
       "title": "High Card",
+      "enTitle": "High Card",
       "malid": 49154,
       "type": "tv",
       "releaseDate": "2023-01-09"
@@ -139543,11 +139544,11 @@
       "releaseDate": "2019"
    },
    {
-      "title": "Seirei Gensouki 2nd Season",
+      "title": "Seirei Gensouki 2",
       "enTitle": "Seirei Gensouki: Spirit Chronicles Season 2",
       "malid": 50306,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Tonikaku Kawaii 2nd Season",
@@ -140519,6 +140520,7 @@
    },
    {
       "title": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+      "enTitle": "Rurouni Kenshin",
       "malid": 50613,
       "type": "tv",
       "releaseDate": "2023-07-07"
@@ -144502,6 +144504,7 @@
    },
    {
       "title": "Touken Ranbu Kai: Kyoden Moyuru Honnouji",
+      "enTitle": "Touken Ranbu Kai Kyoden",
       "malid": 51859,
       "type": "tv",
       "releaseDate": "2024-04-02"
@@ -145279,6 +145282,7 @@
    },
    {
       "title": "Murai no Koi",
+      "enTitle": "Murai in Love",
       "malid": 52080,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -146537,7 +146541,7 @@
    },
    {
       "title": "Gimai Seikatsu",
-      "enTitle": "Days with My Step Sister",
+      "enTitle": "Days with My Stepsister",
       "malid": 52481,
       "type": "tv",
       "releaseDate": "2024-07-04"
@@ -147200,7 +147204,7 @@
    },
    {
       "title": "Kami no Tou: Ouji no Kikan",
-      "enTitle": "Tower of God: Return of the Prince",
+      "enTitle": "Tower of God Season 2",
       "malid": 52635,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -148129,7 +148133,7 @@
    },
    {
       "title": "Long Zu Episode 0",
-      "enTitle": "Dragon Raja",
+      "enTitle": "Dragon Raja: An Invitation From a Foreign Land",
       "malid": 52890,
       "type": "ona",
       "releaseDate": "2022-08-19"
@@ -149169,6 +149173,7 @@
    },
    {
       "title": "Atri: My Dear Moments",
+      "enTitle": "Atri -My Dear Moments-",
       "malid": 53128,
       "type": "tv",
       "releaseDate": "2024-07-14"
@@ -150129,7 +150134,7 @@
    },
    {
       "title": "Bartender: Kami no Glass",
-      "enTitle": "Bartender: Glass of God",
+      "enTitle": "Bartender Glass of God",
       "malid": 53407,
       "type": "tv",
       "releaseDate": "2024-04-04"
@@ -150654,7 +150659,8 @@
       "releaseDate": "1979-10-06"
    },
    {
-      "title": "Bye-Bye, Earth",
+      "title": "Bye Bye, Earth",
+      "enTitle": "Bye Bye, Earth",
       "malid": 53626,
       "type": "tv",
       "releaseDate": "2024-07-12"
@@ -151915,8 +151921,8 @@
       "releaseDate": "2022-12-23"
    },
    {
-      "title": "Tom to Jerry (2022)",
-      "enTitle": "Tom and Jerry",
+      "title": "Tom to Jerry (ONA)",
+      "enTitle": "Tom and Jerry (ONA)",
       "malid": 53907,
       "type": "ona",
       "releaseDate": "2022-11-11"
@@ -154178,6 +154184,7 @@
    },
    {
       "title": "Ishura",
+      "enTitle": "Ishura",
       "malid": 54449,
       "type": "tv",
       "releaseDate": "2024-01-03"
@@ -155069,7 +155076,6 @@
    },
    {
       "title": "Nige Jouzu no Wakagimi",
-      "enTitle": "The Elusive Samurai",
       "malid": 54724,
       "type": "tv",
       "releaseDate": "2024-07-06"
@@ -155083,9 +155089,10 @@
    },
    {
       "title": "Tsuma, Shougakusei ni Naru.",
+      "enTitle": "If my wife became an elementary school student.",
       "malid": 54726,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Rhapsody",
@@ -155568,7 +155575,7 @@
    },
    {
       "title": "Senpai wa Otokonoko",
-      "enTitle": "Senpai Is an Otokonoko",
+      "enTitle": "Senpai is an Otokonoko",
       "malid": 54855,
       "type": "tv",
       "releaseDate": "2024-07-05"
@@ -155766,6 +155773,7 @@
    },
    {
       "title": "Wind Breaker",
+      "enTitle": "Wind Breaker",
       "malid": 54900,
       "type": "tv",
       "releaseDate": "2024-04-05"
@@ -155810,6 +155818,7 @@
    },
    {
       "title": "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
+      "enTitle": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
       "malid": 54913,
       "type": "tv",
       "releaseDate": "2024-07-02"
@@ -155940,6 +155949,7 @@
    },
    {
       "title": "Giji Harem",
+      "enTitle": "Pseudo Harem",
       "malid": 54968,
       "type": "tv",
       "releaseDate": "2024-07-05"
@@ -157472,6 +157482,7 @@
    },
    {
       "title": "Bucchigiri?!",
+      "enTitle": "Bucchigiri?!",
       "malid": 55358,
       "type": "tv",
       "releaseDate": "2024-01-13"
@@ -159150,7 +159161,7 @@
       "releaseDate": "2024-09-06"
    },
    {
-      "title": "Megami no Café Terrace Season 2",
+      "title": "Megami no Café Terrace 2nd Season",
       "enTitle": "The Café Terrace and Its Goddesses Season 2",
       "malid": 55749,
       "type": "tv",
@@ -159363,7 +159374,7 @@
    },
    {
       "title": "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
-      "enTitle": "Mashle: Magic and Muscles - The Divine Visionary Candidate Exam Arc",
+      "enTitle": "Mashle: Magic and Muscles The Divine Visionary Candidate Exam Arc",
       "malid": 55813,
       "type": "tv",
       "releaseDate": "2024-01-06"
@@ -159511,6 +159522,7 @@
    },
    {
       "title": "Tasogare Out Focus",
+      "enTitle": "Twilight Out of Focus",
       "malid": 55844,
       "type": "tv",
       "releaseDate": "2024-07-04"
@@ -160211,6 +160223,7 @@
    },
    {
       "title": "Koi wa Futago de Warikirenai",
+      "enTitle": "Love Is Indivisible by Twins",
       "malid": 55996,
       "type": "tv",
       "releaseDate": "2024-07-10"
@@ -160485,13 +160498,14 @@
    },
    {
       "title": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
-      "enTitle": "Why Nobody Remembers My World?",
+      "enTitle": "Why Does Nobody Remember Me in This World?",
       "malid": 56062,
       "type": "tv",
       "releaseDate": "2024-07-13"
    },
    {
       "title": "NieR:Automata Ver1.1a Part 2",
+      "enTitle": "NieR:Automata Ver1.1a (Cour 2)",
       "malid": 56063,
       "type": "tv",
       "releaseDate": "2024-07-05"
@@ -160877,6 +160891,7 @@
    },
    {
       "title": "Delico's Nursery",
+      "enTitle": "Delico's Nursery",
       "malid": 56179,
       "type": "tv",
       "releaseDate": "2024-08-08"
@@ -161969,7 +161984,6 @@
    },
    {
       "title": "Madougushi Dahliya wa Utsumukanai",
-      "enTitle": "Dahliya in Bloom",
       "malid": 56449,
       "type": "tv",
       "releaseDate": "2024-07-06"
@@ -163031,6 +163045,7 @@
    },
    {
       "title": "Re:Monster",
+      "enTitle": "Re:Monster",
       "malid": 56690,
       "type": "tv",
       "releaseDate": "2024-04-05"
@@ -164569,6 +164584,7 @@
    },
    {
       "title": "Vampire Dormitory",
+      "enTitle": "Vampire Dormitory",
       "malid": 57031,
       "type": "tv",
       "releaseDate": "2024-04-07"
@@ -166052,6 +166068,7 @@
    },
    {
       "title": "Astro Note",
+      "enTitle": "Astro Note",
       "malid": 57391,
       "type": "tv",
       "releaseDate": "2024-04-05"
@@ -166587,7 +166604,7 @@
    },
    {
       "title": "Make Heroine ga Oosugiru!",
-      "enTitle": "Too Many Losing Heroines!",
+      "enTitle": "Makeine: Too Many Losing Heroines!",
       "malid": 57524,
       "type": "tv",
       "releaseDate": "2024-07-14"
@@ -166668,6 +166685,7 @@
    },
    {
       "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
+      "enTitle": "Rurouni Kenshin Season 2",
       "malid": 57554,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -166731,6 +166749,7 @@
    },
    {
       "title": "Shy: Tokyo Dakkan-hen",
+      "enTitle": "Shy Season 2",
       "malid": 57567,
       "type": "tv",
       "releaseDate": "2024-07-02"
@@ -166958,6 +166977,7 @@
    },
    {
       "title": "Nijiyon Animation 2",
+      "enTitle": "Nijiyon Animation 2",
       "malid": 57623,
       "type": "tv",
       "releaseDate": "2024-04-05"
@@ -167731,7 +167751,7 @@
    },
    {
       "title": "Shoushimin Series",
-      "enTitle": "How to Become Ordinary",
+      "enTitle": "Shoshimin: How to Become Ordinary",
       "malid": 57810,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -167986,6 +168006,7 @@
    },
    {
       "title": "Monogatari Series: Off \u0026 Monster Season",
+      "enTitle": "Monogatari Series: Off \u0026 Monster Season",
       "malid": 57864,
       "type": "ona",
       "releaseDate": "2024-07-06"
@@ -168150,7 +168171,7 @@
       "releaseDate": "2024-01-17"
    },
    {
-      "title": "Pui Pui Molcar Movie",
+      "title": "Pui Pui Molcar the Movie: MOLMAX",
       "malid": 57910,
       "type": "movie",
       "releaseDate": "2024"
@@ -168313,6 +168334,7 @@
    },
    {
       "title": "Tasuuketsu",
+      "enTitle": "Tasuketsu -Fate of the Majority-",
       "malid": 57945,
       "type": "tv",
       "releaseDate": "2024-07-03"
@@ -168656,7 +168678,7 @@
    },
    {
       "title": "Tsue to Tsurugi no Wistoria",
-      "enTitle": "Wistoria's Wand and Sword",
+      "enTitle": "Wistoria: Wand and Sword",
       "malid": 58059,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -169103,8 +169125,8 @@
    {
       "title": "Koneko no Chi: Ponponraa Natsuyasumi",
       "malid": 58196,
-      "type": "unknown",
-      "releaseDate": "2024-07"
+      "type": "ona",
+      "releaseDate": "2024-07-19"
    },
    {
       "title": "Nyaight of the Living Cat",
@@ -169757,7 +169779,6 @@
    },
    {
       "title": "Tensui no Sakuna-hime",
-      "enTitle": "Sakuna: Of Rice and Ruin",
       "malid": 58357,
       "type": "tv",
       "releaseDate": "2024-07-06"
@@ -169960,7 +169981,6 @@
    },
    {
       "title": "Shikanoko Nokonoko Koshitantan",
-      "enTitle": "My Deer Friend Nokotan",
       "malid": 58426,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -170018,7 +170038,7 @@
    },
    {
       "title": "S-Rank Monster no \"Behemoth\" dakedo, Neko to Machigawarete Elf Musume no Pet toshite Kurashitemasu",
-      "enTitle": "I'm a Behemoth, an S-Ranked Monster, but Mistaken for a Cat, I Live as an Elf Girl's Pet",
+      "enTitle": "I am Behemoth of the S Rank Monster, but I am Mistaken as a Cat and I Live as a Pet of Elf Girl.",
       "malid": 58473,
       "type": "tv",
       "releaseDate": ""
@@ -170045,6 +170065,7 @@
    },
    {
       "title": "Sengoku Youko: Senma Konton-hen",
+      "enTitle": "Sengoku Youko",
       "malid": 58488,
       "type": "tv",
       "releaseDate": "2024-07-18"
@@ -170058,6 +170079,7 @@
    },
    {
       "title": "Ganbatte Ikimasshoi",
+      "enTitle": "Give It All",
       "malid": 58491,
       "type": "movie",
       "releaseDate": "2024-10-24"
@@ -170149,6 +170171,7 @@
    },
    {
       "title": "Ao no Exorcist: Yuki no Hate-hen",
+      "enTitle": "Blue Exorcist Season 4",
       "malid": 58516,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -171220,6 +171243,13 @@
       "releaseDate": ""
    },
    {
+      "title": "Sasayaku You ni Koi wo Utau Recaps",
+      "enTitle": "Whisper Me a Love Song Recaps",
+      "malid": 58975,
+      "type": "tv_special",
+      "releaseDate": "2024-06-09"
+   },
+   {
       "title": "Goldenweek",
       "enTitle": "GOLDENWEEK",
       "malid": 58983,
@@ -171394,6 +171424,13 @@
       "releaseDate": ""
    },
    {
+      "title": "One Piece: Kizamareru Rekishi! Gekidou no Shinkyuu Yonkou!",
+      "enTitle": "One Piece: Making History! The Turbulent Old and New Four Emperors!",
+      "malid": 59029,
+      "type": "tv_special",
+      "releaseDate": "2024-06-16"
+   },
+   {
       "title": "Pororo Movie: Badas-sog Daemoheom",
       "enTitle": "Pororo: Underwater Adventure",
       "malid": 59031,
@@ -171477,6 +171514,12 @@
       "malid": 59047,
       "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Maarui Kanojo to Zannen na Kareshi",
+      "malid": 59049,
+      "type": "tv",
+      "releaseDate": "2024-06-08"
    },
    {
       "title": "Pororo Gonglyong-woldeu",
@@ -171596,6 +171639,12 @@
       "releaseDate": "2025"
    },
    {
+      "title": "Tokyo Friday Night",
+      "malid": 59079,
+      "type": "music",
+      "releaseDate": "2024-06-14"
+   },
+   {
       "title": "Itai no Itai no Tondeike",
       "malid": 59080,
       "type": "music",
@@ -171625,5 +171674,112 @@
       "malid": 59087,
       "type": "ona",
       "releaseDate": "2024-06-12"
+   },
+   {
+      "title": "Tokyo Revengers (Zoku-hen)",
+      "malid": 59088,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Douwa Revenger",
+      "malid": 59091,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Shuumatsu Train Doko e Iku? Recap",
+      "enTitle": "Train to the End of the World Recap",
+      "malid": 59094,
+      "type": "tv_special",
+      "releaseDate": "2024-06-17"
+   },
+   {
+      "title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu 2nd Season",
+      "enTitle": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2",
+      "malid": 59095,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Page of Lambda",
+      "malid": 59097,
+      "type": "pv",
+      "releaseDate": "2024-06-15"
+   },
+   {
+      "title": "Bai Lian Feisheng Lu 2nd Season",
+      "enTitle": "Hundred Refining Soaring Record 2nd Season",
+      "malid": 59098,
+      "type": "ona",
+      "releaseDate": "2024-06-14"
+   },
+   {
+      "title": "Grrr Grrr Tummy",
+      "enTitle": "Grrr Grrr Tummy",
+      "malid": 59099,
+      "type": "music",
+      "releaseDate": "2024-06-18"
+   },
+   {
+      "title": "Gujeyeogeseo Sala Dolaon Dwaeji",
+      "enTitle": "Pig That Survived Foot-and-Mouth Disease",
+      "malid": 59111,
+      "type": "movie",
+      "releaseDate": "2024-06-11"
+   },
+   {
+      "title": "Johari",
+      "malid": 59112,
+      "type": "music",
+      "releaseDate": "2024-06-20"
+   },
+   {
+      "title": "Farmagia",
+      "malid": 59113,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Empurple",
+      "malid": 59115,
+      "type": "music",
+      "releaseDate": "2024-06-21"
+   },
+   {
+      "title": "Panasonic Connect CM",
+      "malid": 59116,
+      "type": "cm",
+      "releaseDate": "2024-04-24"
+   },
+   {
+      "title": "Shadowverse Flame: Arc-hen Recap",
+      "malid": 59117,
+      "type": "tv_special",
+      "releaseDate": "2024-06-22"
+   },
+   {
+      "title": "Reginetta-san no Bouken",
+      "malid": 59118,
+      "type": "ova",
+      "releaseDate": "2024-08-30"
+   },
+   {
+      "title": "Imaria",
+      "malid": 59119,
+      "type": "ova",
+      "releaseDate": "2024-08-30"
+   },
+   {
+      "title": "Shounen ga Otona ni Natta Natsu",
+      "malid": 59120,
+      "type": "ova",
+      "releaseDate": "2024-09-06"
+   },
+   {
+      "title": "Hai Yorokonde",
+      "malid": 59128,
+      "type": "music",
+      "releaseDate": "2024-05-27"
    }
 ]
