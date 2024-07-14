@@ -5316,7 +5316,7 @@
    },
    {
       "title": ".hack//Roots",
-      "enTitle": ".hack//roots",
+      "enTitle": ".hack//Roots",
       "malid": 873,
       "type": "tv",
       "releaseDate": "2006-04-06"
@@ -32123,7 +32123,7 @@
       "title": "Ni-hiki no Sanma",
       "malid": 7021,
       "type": "movie",
-      "releaseDate": "1961"
+      "releaseDate": "1960-11-26"
    },
    {
       "title": "G-senjou no Higeki",
@@ -34476,7 +34476,7 @@
       "releaseDate": "2003-12-13"
    },
    {
-      "title": "Tottoko Hamtarou Movie 4: Hamtaro to Fushigi no Oni no Emon Tou",
+      "title": "Tottoko Hamtarou Movie 4: Hamtarou to Fushigi no Oni no Emon Tou",
       "enTitle": "Hamtaro: The Mysterious Ogre's Picture Book Tower",
       "malid": 8109,
       "type": "movie",
@@ -62864,13 +62864,6 @@
       "malid": 28089,
       "type": "tv",
       "releaseDate": "1984-04-03"
-   },
-   {
-      "title": "Asu wo Tsukutta Otoko: Tanabe Sakurou to Biwako Sosui",
-      "enTitle": "The Man Who Has Changed the History: A Drannage of Lake Biwa",
-      "malid": 28091,
-      "type": "movie",
-      "releaseDate": "2003-03-13"
    },
    {
       "title": "Hana wa Saku: Touhoku ni Saku",
@@ -135270,7 +135263,7 @@
       "enTitle": "Overlord: The Sacred Kingdom",
       "malid": 48896,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-09-20"
    },
    {
       "title": "Overlord: Ple Ple Pleiades 4",
@@ -138297,7 +138290,7 @@
       "enTitle": "Our Last Crusade or the Rise of a New World Season 2",
       "malid": 49981,
       "type": "tv",
-      "releaseDate": "2024-07-11"
+      "releaseDate": "2024-07-10"
    },
    {
       "title": "Geu Yeoreum",
@@ -138389,6 +138382,7 @@
    },
    {
       "title": "Edens Zero 2nd Season",
+      "enTitle": "Edens Zero Season 2",
       "malid": 50002,
       "type": "tv",
       "releaseDate": "2023-04-02"
@@ -144577,7 +144571,7 @@
       "enTitle": "God with Three Eyes",
       "malid": 51873,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-07-13"
    },
    {
       "title": "Wo Men de Dong Ao",
@@ -145838,7 +145832,7 @@
       "enTitle": "Sea Battle",
       "malid": 52254,
       "type": "movie",
-      "releaseDate": "1960"
+      "releaseDate": "1960-11-26"
    },
    {
       "title": "Wo Cong Zhu Tian Wan Jie Guilai",
@@ -145970,7 +145964,7 @@
       "title": "New Panty \u0026 Stocking with Garterbelt",
       "malid": 52293,
       "type": "unknown",
-      "releaseDate": ""
+      "releaseDate": "2025"
    },
    {
       "title": "Mahoutsukai Reimeiki PV",
@@ -147186,7 +147180,7 @@
    },
    {
       "title": "Kami no Tou: Ouji no Kikan",
-      "enTitle": "Tower of God Season 2",
+      "enTitle": "Tower of God: Return of the Prince",
       "malid": 52635,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -152446,7 +152440,7 @@
       "title": "Juubee Ninpuuchou Burst",
       "enTitle": "Ninja Scroll Burst",
       "malid": 54017,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2012-06-24"
    },
    {
@@ -153567,7 +153561,7 @@
       "enTitle": "VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream",
       "malid": 54284,
       "type": "tv",
-      "releaseDate": "2024-07-08"
+      "releaseDate": "2024-07-07"
    },
    {
       "title": "Yao Shen Ji 6th Season",
@@ -155549,6 +155543,7 @@
    },
    {
       "title": "Maou 2099",
+      "enTitle": "Demon Lord 2099",
       "malid": 54853,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -161004,6 +160999,7 @@
    },
    {
       "title": "Rekishi ni Nokoru Akujo ni Naru zo",
+      "enTitle": "I’ll Become a Villainess Who Goes Down in History",
       "malid": 56228,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -161540,6 +161536,12 @@
       "releaseDate": "2024-07-06"
    },
    {
+      "title": "Mahoutsukai Sally: Astraea Palace no Party",
+      "malid": 56351,
+      "type": "ova",
+      "releaseDate": "1990"
+   },
+   {
       "title": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru",
       "enTitle": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
       "malid": 56352,
@@ -161965,7 +161967,7 @@
       "title": "Fresh Peach",
       "enTitle": "Fresh Peach",
       "malid": 56448,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2022-11-22"
    },
    {
@@ -162364,7 +162366,7 @@
       "enTitle": "Kimi ni Todoke: From Me to You Season 3",
       "malid": 56538,
       "type": "ona",
-      "releaseDate": "2024-08"
+      "releaseDate": "2024-08-01"
    },
    {
       "title": "Kobuta no Shippo",
@@ -163357,10 +163359,10 @@
    },
    {
       "title": "Shiguang Dailiren: Yingdu Pian",
-      "enTitle": "Link Click: Yingdu Chapter",
+      "enTitle": "Link Click: Bridon Arc",
       "malid": 56752,
       "type": "unknown",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10"
    },
    {
       "title": "Object",
@@ -163496,7 +163498,7 @@
       "enTitle": "Bleach: Thousand-Year Blood War - The Conflict",
       "malid": 56784,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-05"
    },
    {
       "title": "Meitantei Conan Movie 27: 100-man Dollar no Michishirube",
@@ -164244,7 +164246,7 @@
    },
    {
       "title": "Raise wa Tanin ga Ii",
-      "enTitle": "Yakuza Fiancé: Raise wa Tanin ga Ii",
+      "enTitle": "Yakuza Fiancé",
       "malid": 56964,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -165957,6 +165959,7 @@
    },
    {
       "title": "Paripi Koumei: Road to Summer Sonia",
+      "enTitle": "Ya Boy Kongming! Road to Summer Sonia",
       "malid": 57369,
       "type": "movie",
       "releaseDate": "2024-03-01"
@@ -166561,7 +166564,7 @@
       "title": "Puniru wa Kawaii Slime",
       "malid": 57517,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-10"
    },
    {
       "title": "Igniter",
@@ -169475,7 +169478,7 @@
    {
       "title": "Duel Masters LOST: Tsuioku no Suishou",
       "malid": 58275,
-      "type": "tv",
+      "type": "unknown",
       "releaseDate": "2024-10"
    },
    {
@@ -170647,6 +170650,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Michitas to Fumidasu Ippo",
+      "malid": 58759,
+      "type": "cm",
+      "releaseDate": "2024-01-05"
+   },
+   {
       "title": "Salaryman Mudaeri Yonghada Yonghae",
       "enTitle": "Office Worker Mr. Mu",
       "malid": 58762,
@@ -170671,6 +170680,13 @@
       "malid": 58776,
       "type": "ova",
       "releaseDate": "2024-07-26"
+   },
+   {
+      "title": "Shi Cao Lao Long Bei Guan Yi E Long Zhi Ming 2nd Season",
+      "enTitle": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized 2nd Season",
+      "malid": 58779,
+      "type": "tv",
+      "releaseDate": "2024-10"
    },
    {
       "title": "Ikoku Nikki",
@@ -170845,7 +170861,7 @@
       "enTitle": "Medaka Kuroiwa Is Impervious to My Charms",
       "malid": 58853,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025"
    },
    {
       "title": "Kinoko Inu",
@@ -171369,6 +171385,13 @@
       "releaseDate": "2024-07-15"
    },
    {
+      "title": "Gendai Goyaku",
+      "enTitle": "Modern Mistranslation",
+      "malid": 59011,
+      "type": "tv",
+      "releaseDate": "2024-07-07"
+   },
+   {
       "title": "Wuliao Jiu Wanjie",
       "enTitle": "Don't Give Up!",
       "malid": 59012,
@@ -171427,6 +171450,13 @@
       "malid": 59023,
       "type": "music",
       "releaseDate": "2024-06-01"
+   },
+   {
+      "title": "Chan",
+      "enTitle": "Braided",
+      "malid": 59024,
+      "type": "movie",
+      "releaseDate": "2023"
    },
    {
       "title": "Ibiza",
@@ -172271,5 +172301,232 @@
       "malid": 59233,
       "type": "music",
       "releaseDate": "2021-05-25"
+   },
+   {
+      "title": "Minami-ke (Shin Series)",
+      "malid": 59235,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "San Shaonu",
+      "enTitle": "The Umbrella Fairy",
+      "malid": 59236,
+      "type": "movie",
+      "releaseDate": "2024-07-06"
+   },
+   {
+      "title": "Luo Fanchen",
+      "enTitle": "Fall Into the Mortal World",
+      "malid": 59241,
+      "type": "ona",
+      "releaseDate": "2020-06-18"
+   },
+   {
+      "title": "Xi Yangyang Yu Hui Tailang Zhi Shouhu",
+      "enTitle": "Pleasant Goat and Big Big Wolf: The World Guardians",
+      "malid": 59242,
+      "type": "movie",
+      "releaseDate": "2024-07-19"
+   },
+   {
+      "title": "Mayi Chuanqi: Shenmu Qi Yuan",
+      "enTitle": "Ant Legend",
+      "malid": 59243,
+      "type": "movie",
+      "releaseDate": "2023-12-16"
+   },
+   {
+      "title": "Mayi Chuanqi: Liehuo Chongsheng",
+      "enTitle": "Ant Legend 2",
+      "malid": 59244,
+      "type": "movie",
+      "releaseDate": "2024-06-29"
+   },
+   {
+      "title": "Cang Yuan Tu: Dongning Fu Fanwai Pian",
+      "enTitle": "The Demon Hunter: Dongning Mansion Special",
+      "malid": 59245,
+      "type": "ona",
+      "releaseDate": "2024-07-13"
+   },
+   {
+      "title": "Shaonian Bai Ma Zui Chun Feng 2nd Season",
+      "enTitle": "The Young Brewmaster's Adventure 2nd Season",
+      "malid": 59246,
+      "type": "ona",
+      "releaseDate": "2024-07-17"
+   },
+   {
+      "title": "Minna no Furebo: Ole Ole Ola",
+      "malid": 59247,
+      "type": "music",
+      "releaseDate": "1994-04-01"
+   },
+   {
+      "title": "Rat Race",
+      "malid": 59248,
+      "type": "music",
+      "releaseDate": "2022-04-26"
+   },
+   {
+      "title": "Shinkalion: Change the World - Ushinawareta Kioku",
+      "malid": 59251,
+      "type": "tv_special",
+      "releaseDate": "2024-07-07"
+   },
+   {
+      "title": "Sora no Chorus",
+      "malid": 59253,
+      "type": "music",
+      "releaseDate": "1998-04-04"
+   },
+   {
+      "title": "Keep This to Myself",
+      "malid": 59254,
+      "type": "music",
+      "releaseDate": "2022-11-09"
+   },
+   {
+      "title": "Moga CMs",
+      "malid": 59256,
+      "type": "cm",
+      "releaseDate": "2015"
+   },
+   {
+      "title": "Uribo",
+      "malid": 59259,
+      "type": "ona",
+      "releaseDate": "2016-01-07"
+   },
+   {
+      "title": "Kimi e no Fanfare",
+      "malid": 59260,
+      "type": "music",
+      "releaseDate": "2013-06-03"
+   },
+   {
+      "title": "Hearts Are Opening Up",
+      "malid": 59261,
+      "type": "music",
+      "releaseDate": "2023-10-18"
+   },
+   {
+      "title": "Magic Maker: Isekai Mahou no Tsukurikata",
+      "malid": 59265,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Wataridori to Katatsumuri",
+      "malid": 59266,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Sanda",
+      "malid": 59267,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Sekai wa Melody",
+      "malid": 59269,
+      "type": "music",
+      "releaseDate": "1999-10-03"
+   },
+   {
+      "title": "Great Expectations",
+      "malid": 59270,
+      "type": "music",
+      "releaseDate": "2024-05-30"
+   },
+   {
+      "title": "Marine Snow",
+      "malid": 59271,
+      "type": "movie",
+      "releaseDate": "1960-11-26"
+   },
+   {
+      "title": "Electone Vostok",
+      "malid": 59272,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Zero no Hakken",
+      "enTitle": "Discovery of Zero",
+      "malid": 59273,
+      "type": "movie",
+      "releaseDate": "1963"
+   },
+   {
+      "title": "T.P BON Season 2",
+      "malid": 59274,
+      "type": "ona",
+      "releaseDate": "2024-07-17"
+   },
+   {
+      "title": "King of Prism: Dramatic Prism.1",
+      "malid": 59275,
+      "type": "movie",
+      "releaseDate": "2024-08-16"
+   },
+   {
+      "title": "Seitokai ni mo Ana wa Aru! PV",
+      "malid": 59276,
+      "type": "pv",
+      "releaseDate": "2024-07-09"
+   },
+   {
+      "title": "Kanojo, Okarishimasu 4th Season",
+      "enTitle": "Rent-a-Girlfriend Season 4",
+      "malid": 59277,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Trip",
+      "malid": 59278,
+      "type": "movie",
+      "releaseDate": "2005"
+   },
+   {
+      "title": "Akai Inei",
+      "enTitle": "Red Shade",
+      "malid": 59279,
+      "type": "movie",
+      "releaseDate": "2021"
+   },
+   {
+      "title": "Youshi Kei (Joshou)",
+      "enTitle": "Youshi Kei (Prologue)",
+      "malid": 59280,
+      "type": "movie",
+      "releaseDate": "1978"
+   },
+   {
+      "title": "Yowamushi Kemushi",
+      "malid": 59281,
+      "type": "music",
+      "releaseDate": "2016-06-01"
+   },
+   {
+      "title": "H.A.O.U.",
+      "malid": 59282,
+      "type": "music",
+      "releaseDate": "2024-06-28"
+   },
+   {
+      "title": "6-chan ga Nekoronde",
+      "malid": 59293,
+      "type": "music",
+      "releaseDate": "1978-12-01"
+   },
+   {
+      "title": "Hearts Are Opening Up (Passion Pit Remix)",
+      "malid": 59294,
+      "type": "music",
+      "releaseDate": "2024-03-21"
    }
 ]
