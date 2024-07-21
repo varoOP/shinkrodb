@@ -12931,7 +12931,7 @@
       "releaseDate": "1989-04-06"
    },
    {
-      "title": "Tenkuu Senki Shurato: Sousei e no Anto",
+      "title": "Tenkuu Senki Shurato: Sousei e no Antou",
       "malid": 2114,
       "type": "ova",
       "releaseDate": "1991-09-16"
@@ -19540,7 +19540,7 @@
       "releaseDate": "2007-07-25"
    },
    {
-      "title": "Momiji",
+      "title": "Momiji (OVA)",
       "enTitle": "My Sex Tutor",
       "malid": 3303,
       "type": "ova",
@@ -59366,7 +59366,7 @@
       "releaseDate": "2014-07-03"
    },
    {
-      "title": "Yomigaeru Sora Pilot",
+      "title": "Rescue Angel",
       "malid": 24527,
       "type": "special",
       "releaseDate": "2006-10-27"
@@ -83799,7 +83799,7 @@
       "enTitle": "Animated Revue \"Spring\"",
       "malid": 35403,
       "type": "movie",
-      "releaseDate": "1931"
+      "releaseDate": "1931-06"
    },
    {
       "title": "Felix no Meitantei",
@@ -152549,7 +152549,7 @@
    },
    {
       "title": "Tousouchuu: Great Mission",
-      "enTitle": "Run For Money : The Great Mission",
+      "enTitle": "Run For Money: The Great Mission",
       "malid": 54040,
       "type": "tv",
       "releaseDate": "2023-04-02"
@@ -155070,7 +155070,7 @@
    },
    {
       "title": "Tsuma, Shougakusei ni Naru.",
-      "enTitle": "If my wife became an elementary school student.",
+      "enTitle": "If My Wife Becomes an Elementary School Student.",
       "malid": 54726,
       "type": "tv",
       "releaseDate": "2024-10"
@@ -159036,10 +159036,11 @@
       "releaseDate": "2023-05-31"
    },
    {
-      "title": "Miru",
+      "title": "Miru: Watashi no Mirai",
+      "enTitle": "Miru: Paths to My Future",
       "malid": 55727,
       "type": "unknown",
-      "releaseDate": "2024"
+      "releaseDate": "2025-04"
    },
    {
       "title": "Wo Mengjian ni Mengjian wo",
@@ -159492,7 +159493,7 @@
       "title": "Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsurasugiru",
       "malid": 55842,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Rebuild World",
@@ -169143,7 +169144,7 @@
       "title": "Nintama Rantarou Movie: Dokutake Ninja Tai Saikyou no Gunshi",
       "malid": 58201,
       "type": "movie",
-      "releaseDate": "2024-12"
+      "releaseDate": "2024-12-20"
    },
    {
       "title": "Hayaku Yoru e",
@@ -169226,7 +169227,7 @@
       "title": "Given Movie 3: Umi e",
       "malid": 58222,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-09-20"
    },
    {
       "title": "Start Up",
@@ -170075,7 +170076,7 @@
       "enTitle": "Give It All",
       "malid": 58491,
       "type": "movie",
-      "releaseDate": "2024-10-24"
+      "releaseDate": "2024-10-25"
    },
    {
       "title": "Mono",
@@ -170497,6 +170498,13 @@
       "releaseDate": "2024-01-09"
    },
    {
+      "title": "Dixia Cheng Yu Yongshi: Po Jie Shaonu",
+      "enTitle": "Brave The Darkness:The Breakthrough Girl",
+      "malid": 58655,
+      "type": "ona",
+      "releaseDate": "2024-01-18"
+   },
+   {
       "title": "One Piece: Innen no Log! Mugiwara no Ichimi to Cipher Pol",
       "enTitle": "One Piece: The Log of the Rivalry! The Straw Hats vs. Cipher Pol",
       "malid": 58663,
@@ -170646,7 +170654,7 @@
    {
       "title": "5-toubun no Hanayome*",
       "malid": 58755,
-      "type": "unknown",
+      "type": "tv_special",
       "releaseDate": ""
    },
    {
@@ -170989,7 +170997,7 @@
       "releaseDate": "2024-08-30"
    },
    {
-      "title": "Touken Ranbu Kai: Douden Chikashi Habera Umonora",
+      "title": "Touken Ranbu Kai: Douden Chikashi Haberau Monora",
       "malid": 58894,
       "type": "movie",
       "releaseDate": "2024-08-16"
@@ -171914,10 +171922,10 @@
       "releaseDate": "2025"
    },
    {
-      "title": "Ranma ½ (Unknown)",
+      "title": "Ranma ½ (2024)",
       "malid": 59145,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "tv",
+      "releaseDate": "2024-10-06"
    },
    {
       "title": "Sore Ike! Anpanman Movie: Baikinman to Ehon no Lulun",
@@ -172108,6 +172116,12 @@
       "malid": 59187,
       "type": "music",
       "releaseDate": "1991-12"
+   },
+   {
+      "title": "Tokyo (Music)",
+      "malid": 59188,
+      "type": "music",
+      "releaseDate": "2021-07-07"
    },
    {
       "title": "Sentai Daishikkaku 2nd Season",
@@ -172528,5 +172542,141 @@
       "malid": 59294,
       "type": "music",
       "releaseDate": "2024-03-21"
+   },
+   {
+      "title": "Hoshi no Yodel",
+      "malid": 59298,
+      "type": "music",
+      "releaseDate": "1969-06-04"
+   },
+   {
+      "title": "Endless Circle",
+      "malid": 59299,
+      "type": "music",
+      "releaseDate": "1999-05-20"
+   },
+   {
+      "title": "Nyankoro Komoriuta",
+      "malid": 59304,
+      "type": "music",
+      "releaseDate": "1995-02-06"
+   },
+   {
+      "title": "Oh Pilseung Korea",
+      "malid": 59305,
+      "type": "music",
+      "releaseDate": "2007"
+   },
+   {
+      "title": "Zhan Shen: Fanchen Shenyu",
+      "malid": 59306,
+      "type": "ona",
+      "releaseDate": "2024-07-31"
+   },
+   {
+      "title": "Aikatsu Academy!",
+      "malid": 59308,
+      "type": "pv",
+      "releaseDate": "2024-07-16"
+   },
+   {
+      "title": "Gorilla no Mentama",
+      "malid": 59314,
+      "type": "music",
+      "releaseDate": "1989-12-04"
+   },
+   {
+      "title": "Pishitu / Tonda yo",
+      "malid": 59315,
+      "type": "music",
+      "releaseDate": "2002"
+   },
+   {
+      "title": "Sinbi Apartment: Cheolgungiwa Cheolwon Hieolojeu Hantangangui Jeonseol",
+      "malid": 59320,
+      "type": "tv_special",
+      "releaseDate": "2023-12-21"
+   },
+   {
+      "title": "Sinbi Apartment: Bulgeunnunui Sasin",
+      "enTitle": "Shinbi's Haunted House Special: The Red-Eyed Grim Reaper",
+      "malid": 59321,
+      "type": "movie",
+      "releaseDate": "2024-08-14"
+   },
+   {
+      "title": "Shirobuta Kizoku desu ga Zense no Kioku ga Haeta node Hiyoko na Otouto Sodatemasu",
+      "malid": 59322,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Wakiaiai",
+      "malid": 59323,
+      "type": "music",
+      "releaseDate": "2003-12-03"
+   },
+   {
+      "title": "Green Mix",
+      "malid": 59324,
+      "type": "pv",
+      "releaseDate": "2002"
+   },
+   {
+      "title": "Kehin Kazoku",
+      "enTitle": "The Story of a Common Family",
+      "malid": 59325,
+      "type": "ona",
+      "releaseDate": "2009-01-14"
+   },
+   {
+      "title": "Kehin Kazoku Specials",
+      "enTitle": "The Story of a Common Family Specials",
+      "malid": 59326,
+      "type": "special",
+      "releaseDate": "2010-04-09"
+   },
+   {
+      "title": "Shen Wu Tianzun (2024)",
+      "enTitle": "The Legend of Sky Lord (2024)",
+      "malid": 59327,
+      "type": "ona",
+      "releaseDate": "2024-07-27"
+   },
+   {
+      "title": "Incha Couple ga You Gal-tachi to Sex Training Suru Hanashi",
+      "malid": 59328,
+      "type": "ova",
+      "releaseDate": "2024-09-27"
+   },
+   {
+      "title": "Nan no Koreshiki Furoshikiman",
+      "malid": 59333,
+      "type": "music",
+      "releaseDate": "2007-12-01"
+   },
+   {
+      "title": "Yuigadokuson",
+      "malid": 59334,
+      "type": "music",
+      "releaseDate": "2019-09-05"
+   },
+   {
+      "title": "Momiji",
+      "malid": 59338,
+      "type": "music",
+      "releaseDate": "1979-10-01"
+   },
+   {
+      "title": "2002 Civic",
+      "malid": 59339,
+      "type": "music",
+      "releaseDate": "2021-05-26"
+   },
+   {
+      "title": "Jigoku Sensei Nube (2025)",
+      "malid": 59342,
+      "type": "unknown",
+      "releaseDate": "2025"
    }
 ]
