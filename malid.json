@@ -8259,7 +8259,7 @@
       "releaseDate": "1986-03-08"
    },
    {
-      "title": "Nikutai Ten'i",
+      "title": "Nikutai Teni",
       "enTitle": "Body Transfer",
       "malid": 1359,
       "type": "ova",
@@ -30696,7 +30696,8 @@
       "releaseDate": "2010-01-11"
    },
    {
-      "title": "Machine Robo: Leina, The Legend of Wolf Blade",
+      "title": "Leina Kenrou Densetsu",
+      "enTitle": "Leina-Stol in Wolf Sword Legend",
       "malid": 6577,
       "type": "ova",
       "releaseDate": "1988-02-05"
@@ -61944,7 +61945,7 @@
       "title": "Tanuki-san Ooatari",
       "malid": 27377,
       "type": "movie",
-      "releaseDate": "1967-03-19"
+      "releaseDate": "1959-07-07"
    },
    {
       "title": "Sekai no Ouja: King Kong Taikai",
@@ -77369,7 +77370,7 @@
    {
       "title": "Kabushikigaisha Aokishouji",
       "malid": 33695,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2015-04-07"
    },
    {
@@ -77954,7 +77955,7 @@
    {
       "title": "Nekoronde ID",
       "malid": 33849,
-      "type": "special",
+      "type": "pv",
       "releaseDate": "2016-05-14"
    },
    {
@@ -92046,7 +92047,7 @@
       "title": "Asunal Kanayama",
       "enTitle": "Asunal Kanayama",
       "malid": 37535,
-      "type": "special",
+      "type": "cm",
       "releaseDate": "2013-06-03"
    },
    {
@@ -97325,7 +97326,7 @@
    {
       "title": "Wedding Park",
       "malid": 38821,
-      "type": "ona",
+      "type": "cm",
       "releaseDate": "2018-12-10"
    },
    {
@@ -103240,7 +103241,7 @@
       "enTitle": "Uzumaki: Spiral into Horror",
       "malid": 40333,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-09-28"
    },
    {
       "title": "Code Geass: Hangyaku no Lelouch Picture Drama - Kiseki no Anniversary",
@@ -141048,6 +141049,7 @@
    },
    {
       "title": "Yamato yo, Towa ni: Rebel 3199",
+      "enTitle": "Star Blazers: Space Battleship Yamato 3199",
       "malid": 50855,
       "type": "movie",
       "releaseDate": "2024-07-19"
@@ -142068,13 +142070,6 @@
       "malid": 51219,
       "type": "tv",
       "releaseDate": "2023-04-08"
-   },
-   {
-      "title": "15-fun de Wakaru Inazuma Eleven: Ares no Tenbin",
-      "enTitle": "Inazuma Eleven: Ares in 15 Minutes",
-      "malid": 51221,
-      "type": "ona",
-      "releaseDate": "2018-06-26"
    },
    {
       "title": "Uma Musume: Pretty Derby - 1st Anniversary Special Animation",
@@ -143896,7 +143891,7 @@
    },
    {
       "title": "Bishoujo Senshi Sailor Moon Cosmos Movie",
-      "enTitle": "Pretty Guardians Sailor Moon Cosmos the Movie",
+      "enTitle": "Pretty Guardian Sailor Moon Cosmos the Movie",
       "malid": 51716,
       "type": "movie",
       "releaseDate": "2023-06-09"
@@ -145673,10 +145668,10 @@
       "releaseDate": "2023-07-02"
    },
    {
-      "title": "Chi. Chikyuu no Undou ni Tsuite",
+      "title": "Chi.: Chikyuu no Undou ni Tsuite",
       "malid": 52215,
-      "type": "unknown",
-      "releaseDate": "2024"
+      "type": "tv",
+      "releaseDate": "2024-10"
    },
    {
       "title": "Twisted-Wonderland 2-shuunen Kinen PV",
@@ -146220,7 +146215,7 @@
    },
    {
       "title": "Isekai Shikkaku",
-      "enTitle": "No Longer Allowed In Another World",
+      "enTitle": "No Longer Allowed in Another World",
       "malid": 52367,
       "type": "tv",
       "releaseDate": "2024-07-09"
@@ -146833,13 +146828,6 @@
       "malid": 52553,
       "type": "ona",
       "releaseDate": "2022-07-29"
-   },
-   {
-      "title": "15-fun de Wakaru: Kami no Tou",
-      "enTitle": "Tower of God in 15 Minutes",
-      "malid": 52554,
-      "type": "ona",
-      "releaseDate": "2020-06-01"
    },
    {
       "title": "Vivid Vice",
@@ -159514,7 +159502,7 @@
       "enTitle": "Mobile Suit Gundam: Requiem for Vengeance",
       "malid": 55845,
       "type": "ona",
-      "releaseDate": "2024"
+      "releaseDate": "2024-10-17"
    },
    {
       "title": "Synapusyu The Movie: Push Hoppe New World",
@@ -163120,7 +163108,7 @@
       "title": "Kengan Ashura Season 2 Part 2",
       "malid": 56704,
       "type": "ona",
-      "releaseDate": "2024-08"
+      "releaseDate": "2024-08-15"
    },
    {
       "title": "Internet Yamero",
@@ -167492,7 +167480,7 @@
       "title": "BanG Dream! It's MyGO!!!!! Movie",
       "malid": 57754,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2024-09-27"
    },
    {
       "title": "Xiaoke de Huatu Xie Hua Specials",
@@ -168406,7 +168394,7 @@
    {
       "title": "Nukitashi the Animation",
       "malid": 57969,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -169111,6 +169099,7 @@
    },
    {
       "title": "Koneko no Chi: Ponponraa Natsuyasumi",
+      "enTitle": "Chi's Sweet Adventure: Summer Vacation",
       "malid": 58196,
       "type": "ona",
       "releaseDate": "2024-07-19"
@@ -170578,7 +170567,7 @@
    {
       "title": "Ninja to Koroshiya no Futarigurashi",
       "malid": 58725,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -172678,5 +172667,269 @@
       "malid": 59342,
       "type": "unknown",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Hoyahoyaraa",
+      "malid": 59343,
+      "type": "music",
+      "releaseDate": "2006-12-01"
+   },
+   {
+      "title": "Fly Me to the Moon",
+      "malid": 59344,
+      "type": "music",
+      "releaseDate": "2000"
+   },
+   {
+      "title": "Akarui Sekai",
+      "malid": 59345,
+      "type": "ova",
+      "releaseDate": "2008-12-17"
+   },
+   {
+      "title": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
+      "enTitle": "Headhunted to Anothjer World: From Salaryman to Big Four!",
+      "malid": 59349,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Wo De San Ti",
+      "malid": 59351,
+      "type": "ona",
+      "releaseDate": "2014-02-27"
+   },
+   {
+      "title": "Wo De San Ti: Luo Ji Zhuan",
+      "malid": 59352,
+      "type": "ona",
+      "releaseDate": "2016-06-09"
+   },
+   {
+      "title": "Wo De San Ti 4th Season",
+      "malid": 59353,
+      "type": "ona",
+      "releaseDate": "2024-07-14"
+   },
+   {
+      "title": "Hajimete no Boku desu",
+      "malid": 59355,
+      "type": "music",
+      "releaseDate": "1976-08-02"
+   },
+   {
+      "title": "-Socket-",
+      "malid": 59356,
+      "type": "movie",
+      "releaseDate": "2010"
+   },
+   {
+      "title": "Turning the Tera Tide",
+      "malid": 59357,
+      "type": "ona",
+      "releaseDate": "2024-07-15"
+   },
+   {
+      "title": "Net Miracle Shopping",
+      "malid": 59358,
+      "type": "tv",
+      "releaseDate": "2008-10-03"
+   },
+   {
+      "title": "Net Miracle Shopping 2nd Season",
+      "malid": 59359,
+      "type": "tv",
+      "releaseDate": "2010-01-08"
+   },
+   {
+      "title": "Rock wa Lady no Tashinami deshite",
+      "malid": 59360,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Kono Kaisha ni Suki na Hito ga Imasu",
+      "enTitle": "Can You Keep a Secret?",
+      "malid": 59361,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Mayonaka Punch Short Anime",
+      "malid": 59363,
+      "type": "ona",
+      "releaseDate": "2024-07-15"
+   },
+   {
+      "title": "Denglong Dao",
+      "enTitle": "Lantern Blade",
+      "malid": 59366,
+      "type": "ona",
+      "releaseDate": "2024-07-14"
+   },
+   {
+      "title": "Fengyu Lang Qiao: Kunlun Mo Lei",
+      "enTitle": "Slave",
+      "malid": 59367,
+      "type": "ona",
+      "releaseDate": "2024-07-21"
+   },
+   {
+      "title": "Fengyu Lang Qiao: Bishamonten",
+      "enTitle": "Vaisravana",
+      "malid": 59368,
+      "type": "ona",
+      "releaseDate": "2024-07-21"
+   },
+   {
+      "title": "Lycoris Recoil Short Movie",
+      "malid": 59369,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Bokura wa Mitsugo no Otokonoko",
+      "malid": 59370,
+      "type": "music",
+      "releaseDate": "1978-04-06"
+   },
+   {
+      "title": "May",
+      "malid": 59371,
+      "type": "movie",
+      "releaseDate": "2013-05"
+   },
+   {
+      "title": "Kamakura Style",
+      "malid": 59373,
+      "type": "music",
+      "releaseDate": "2024-07-14"
+   },
+   {
+      "title": "Banana Spirit",
+      "malid": 59375,
+      "type": "music",
+      "releaseDate": "1980-10-06"
+   },
+   {
+      "title": "Super Oneechan",
+      "enTitle": "Super Sister",
+      "malid": 59376,
+      "type": "movie",
+      "releaseDate": "2012"
+   },
+   {
+      "title": "Hikari",
+      "malid": 59377,
+      "type": "music",
+      "releaseDate": "2024-07-24"
+   },
+   {
+      "title": "Qingnian Daoyan Xilie",
+      "malid": 59379,
+      "type": "ona",
+      "releaseDate": "2024-07-27"
+   },
+   {
+      "title": "Jiu Wo",
+      "enTitle": "Save Me",
+      "malid": 59380,
+      "type": "ona",
+      "releaseDate": "2024-07-14"
+   },
+   {
+      "title": "Cha A Er Zhong 5th Season",
+      "malid": 59381,
+      "type": "ona",
+      "releaseDate": "2024-07-21"
+   },
+   {
+      "title": "Horangi Deureowayo",
+      "enTitle": "Tiger Coming In",
+      "malid": 59382,
+      "type": "ona",
+      "releaseDate": "2024-07-25"
+   },
+   {
+      "title": "Bu Bai Chi Gu Shici Man Youji",
+      "malid": 59383,
+      "type": "ona",
+      "releaseDate": "2024-01-14"
+   },
+   {
+      "title": "Bu Bai Chi Gu Shici Man Youji 2nd Season",
+      "malid": 59384,
+      "type": "ona",
+      "releaseDate": "2024-07-05"
+   },
+   {
+      "title": "You Shou Yan 4th Season",
+      "enTitle": "Fabulous Beasts 4th Season",
+      "malid": 59385,
+      "type": "ona",
+      "releaseDate": "2024-08-02"
+   },
+   {
+      "title": "Xia Ming Kezhan",
+      "malid": 59386,
+      "type": "ona",
+      "releaseDate": "2024-07-20"
+   },
+   {
+      "title": "Hello Carbot Season 15",
+      "enTitle": "Hello Carbot Star Guardian",
+      "malid": 59387,
+      "type": "tv",
+      "releaseDate": "2024-06-30"
+   },
+   {
+      "title": "Jian Lai",
+      "malid": 59389,
+      "type": "ona",
+      "releaseDate": "2024-08-15"
+   },
+   {
+      "title": "Feng Ling Yu Xiu 2nd Season: Tebie Pian",
+      "malid": 59391,
+      "type": "ona",
+      "releaseDate": "2024-08-07"
+   },
+   {
+      "title": "Niwatori Fighter",
+      "enTitle": "Rooster Fighter",
+      "malid": 59393,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Goukaku Rock'n Roll",
+      "malid": 59394,
+      "type": "music",
+      "releaseDate": "1991-02"
+   },
+   {
+      "title": "Yong Sheng: Hai Shi Xian Ling",
+      "malid": 59398,
+      "type": "ona",
+      "releaseDate": "2024-07-26"
+   },
+   {
+      "title": "Kakkou no Iinazuke 2nd Season",
+      "enTitle": "A Couple of Cuckoos 2nd Season",
+      "malid": 59402,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Binan Koukou Chikyuu Bouei-bu Eternal Love!",
+      "malid": 59406,
+      "type": "movie",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Mononoke Movie: Dai ni Shou - Hinezumi",
+      "malid": 59408,
+      "type": "movie",
+      "releaseDate": "2025-03-14"
    }
 ]
