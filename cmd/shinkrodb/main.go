@@ -26,6 +26,7 @@ func main() {
 	switch cmd := pflag.Arg(0); cmd {
 	case "run":
 		cfg := config.NewConfig()
+		domain.CleanCache("./mal_cache")
 		domain.GetMalIds(cfg)
 		domain.ScrapeMal()
 		domain.GetTvdbIDs()
