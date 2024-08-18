@@ -79363,10 +79363,10 @@
       "releaseDate": "2017-04-05"
    },
    {
-      "title": "Ninja Bear the Animation★",
+      "title": "Ninja Bear the Animation★ PV",
       "malid": 34264,
-      "type": "tv",
-      "releaseDate": "2017"
+      "type": "pv",
+      "releaseDate": "2016-11-11"
    },
    {
       "title": "New Game! Watashi, Shain Ryokou tte Hajimete nanode...",
@@ -139356,7 +139356,7 @@
       "enTitle": "Leer and Guoguo",
       "malid": 50249,
       "type": "ona",
-      "releaseDate": "2021"
+      "releaseDate": "2020-09-04"
    },
    {
       "title": "Chiikawa",
@@ -171943,7 +171943,7 @@
       "releaseDate": "2024-04-24"
    },
    {
-      "title": "Shadowverse Flame: Arc-hen Recap",
+      "title": "Shadowverse Flame: Arc-hen Recaps",
       "malid": 59117,
       "type": "tv_special",
       "releaseDate": "2024-06-22"
@@ -173667,5 +173667,12 @@
       "malid": 59561,
       "type": "tv",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Shingeki no Kyojin Movie: Kanketsu-hen - The Last Attack",
+      "enTitle": "Attack on Titan: The Last Attack",
+      "malid": 59571,
+      "type": "movie",
+      "releaseDate": "2024-11-08"
    }
 ]
