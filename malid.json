@@ -4398,7 +4398,7 @@
       "title": "Chou Henshin Cosprayers vs. Ankoku Uchuu Shougun the Movie",
       "malid": 705,
       "type": "movie",
-      "releaseDate": "2004-08-21"
+      "releaseDate": "2004-04-28"
    },
    {
       "title": "Comic Party Revolution",
@@ -5420,7 +5420,7 @@
       "enTitle": "Candidate for Goddesses",
       "malid": 888,
       "type": "tv",
-      "releaseDate": "2000-01-20"
+      "releaseDate": "2000-01-10"
    },
    {
       "title": "Black Lagoon",
@@ -9364,6 +9364,7 @@
    },
    {
       "title": "Futari wa Precure: Splash☆Star",
+      "enTitle": "Pretty Cure Splash Star",
       "malid": 1534,
       "type": "tv",
       "releaseDate": "2006-02-05"
@@ -9579,6 +9580,7 @@
    },
    {
       "title": "Sumomomo Momomo: Chijou Saikyou no Yome",
+      "enTitle": "Sumomomo Momomo: The World's Strongest Bride",
       "malid": 1568,
       "type": "tv",
       "releaseDate": "2006-10-06"
@@ -20024,6 +20026,7 @@
    },
    {
       "title": "Sumomomo Momomo: Chijou Saikyou no Yome Specials",
+      "enTitle": "Sumomomo Momomo: The World's Strongest Bride Specials",
       "malid": 3419,
       "type": "special",
       "releaseDate": "2007-08-24"
@@ -31401,7 +31404,7 @@
       "releaseDate": "2009-06-29"
    },
    {
-      "title": "Omocha Bako Series Dai 3 Wa: Ehon 1936-nen",
+      "title": "Omocha Bako Series Dai 3-wa: Ehon 1936-nen",
       "malid": 6823,
       "type": "movie",
       "releaseDate": "1934-04-13"
@@ -81375,13 +81378,6 @@
       "malid": 34839,
       "type": "tv",
       "releaseDate": "2018-01-06"
-   },
-   {
-      "title": "Kitsune Tsuki",
-      "enTitle": "Fox Fears",
-      "malid": 34840,
-      "type": "movie",
-      "releaseDate": "2015"
    },
    {
       "title": "Haruniwa Ie no 3 Nin-me",
@@ -148728,7 +148724,7 @@
       "enTitle": "Mechanical Arms",
       "malid": 53033,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-04"
    },
    {
       "title": "Onegai! Momojiri Zoku",
@@ -151060,7 +151056,7 @@
       "title": "Acro Trip",
       "malid": 53723,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-02"
    },
    {
       "title": "Majo wa Kekkyoku Sono Kyaku to... The Animation",
@@ -154738,6 +154734,13 @@
       "releaseDate": "2024-07-19"
    },
    {
+      "title": "Bakeneko Anzu-chan",
+      "enTitle": "Ghost Cat Anzu",
+      "malid": 54603,
+      "type": "movie",
+      "releaseDate": "2024-07-19"
+   },
+   {
       "title": "Potion-danomi de Ikinobimasu!",
       "enTitle": "I Shall Survive Using Potions!",
       "malid": 54616,
@@ -154867,6 +154870,12 @@
       "malid": 54651,
       "type": "music",
       "releaseDate": "2023-02-17"
+   },
+   {
+      "title": "Hisui Chihou no Kiroku Eizou",
+      "malid": 54655,
+      "type": "ona",
+      "releaseDate": "2021-10-19"
    },
    {
       "title": "Buddy Daddies Intermission: Cherry-Pick",
@@ -155567,7 +155576,7 @@
       "enTitle": "Re:ZERO -Starting Life in Another World- Season 3",
       "malid": 54857,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-02"
    },
    {
       "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima +",
@@ -155603,7 +155612,7 @@
    },
    {
       "title": "Blue Lock vs. U-20 Japan",
-      "enTitle": "Blue Lock 2nd Season",
+      "enTitle": "Blue Lock Season 2",
       "malid": 54865,
       "type": "tv",
       "releaseDate": "2024-10-05"
@@ -159394,7 +159403,7 @@
       "enTitle": "Natsume's Book of Friends Season 7",
       "malid": 55823,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-08"
    },
    {
       "title": "Jigokuraku 2nd Season",
@@ -162837,7 +162846,7 @@
       "title": "Ao no Miburo",
       "malid": 56647,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-19"
    },
    {
       "title": "Minami no Shima no Hamehameha Daiou",
@@ -162916,7 +162925,7 @@
       "enTitle": "TRILLION GAME",
       "malid": 56662,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-03"
    },
    {
       "title": "Hoshi no Ko Penky",
@@ -165144,7 +165153,7 @@
       "title": "Creature Hunters",
       "malid": 57150,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2024-10"
    },
    {
       "title": "Mahoutsukai no Yakusoku",
@@ -165915,7 +165924,7 @@
       "title": "Kabushikigaisha Magi-Lumière",
       "malid": 57360,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-04"
    },
    {
       "title": "Shiawase ni Nante Naranaide",
@@ -166568,7 +166577,7 @@
       "title": "Puniru wa Kawaii Slime",
       "malid": 57517,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-06"
    },
    {
       "title": "Igniter",
@@ -166719,7 +166728,7 @@
       "title": "Hyakushou Kizoku 2nd Season",
       "malid": 57562,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-04"
    },
    {
       "title": "Ore wa Hitori de",
@@ -166915,10 +166924,10 @@
    },
    {
       "title": "Kimi wa Meido-sama.",
-      "enTitle": "You Are Ms. Servant",
+      "enTitle": "You Are Ms. Servant.",
       "malid": 57611,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-06"
    },
    {
       "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
@@ -167678,7 +167687,7 @@
       "title": "Touhai: Ura Rate Mahjong Touhai Roku",
       "malid": 57796,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-05"
    },
    {
       "title": "Calabi Yau no Sukima",
@@ -167820,7 +167829,7 @@
       "title": "Mashin Souzouden Wataru",
       "malid": 57827,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Mashin Eiyuuden Wataru: Shichikon no Ryuujinmaru - Saikai",
@@ -168121,7 +168130,7 @@
       "enTitle": "Loner Life in Another World",
       "malid": 57891,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-04"
    },
    {
       "title": "Hazurewaku no \"Joutai Ijou Skill\" de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
@@ -170154,6 +170163,12 @@
       "releaseDate": "2024-03-21"
    },
    {
+      "title": "Mitsuketa! Kuwassu Daisousaku Campaign",
+      "malid": 58508,
+      "type": "pv",
+      "releaseDate": "2024-03-21"
+   },
+   {
       "title": "Zhu Xian 2nd Season",
       "enTitle": "Jade Dynasty",
       "malid": 58509,
@@ -172054,6 +172069,7 @@
    },
    {
       "title": "Ranma ½ (2024)",
+      "enTitle": "Ranma ½",
       "malid": 59145,
       "type": "tv",
       "releaseDate": "2024-10-06"
@@ -172271,7 +172287,7 @@
       "title": "Genjitsu no Yohane: Sunshine in the Mirror Movie",
       "malid": 59190,
       "type": "movie",
-      "releaseDate": ""
+      "releaseDate": "2024-11-29"
    },
    {
       "title": "Kimetsu no Yaiba Movie: Mugen Jou-hen",
@@ -172992,6 +173008,13 @@
       "malid": 59371,
       "type": "movie",
       "releaseDate": "2013-05"
+   },
+   {
+      "title": "Pokemon Unite 3-shuunen PV",
+      "enTitle": "Pokemon Unite 3rd Anniversary PV",
+      "malid": 59372,
+      "type": "pv",
+      "releaseDate": "2024-07-17"
    },
    {
       "title": "Kamakura Style",
@@ -173778,7 +173801,7 @@
       "title": "Ponkotsu Quest x Momoume",
       "malid": 59582,
       "type": "ona",
-      "releaseDate": "2020-11-26"
+      "releaseDate": "2020-12-01"
    },
    {
       "title": "Shasha and Milo Part 2",
@@ -174064,5 +174087,196 @@
       "malid": 59653,
       "type": "ona",
       "releaseDate": "2024-08-17"
+   },
+   {
+      "title": "Jujutsu Kaisen: Kaigyoku/Gyokusetsu",
+      "malid": 59654,
+      "type": "movie",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Omocha Bako Series Dai 2-wa: Kuroneko Banzai",
+      "malid": 59655,
+      "type": "movie",
+      "releaseDate": "1933-12-22"
+   },
+   {
+      "title": "Pokemon Masters EX: 5-shuunen Tokubetsu Eizou wo Koukai!",
+      "enTitle": "Pokemon Masters EX: Arc Suit Awakening",
+      "malid": 59656,
+      "type": "pv",
+      "releaseDate": "2024-08-25"
+   },
+   {
+      "title": "Long Zu Season 2",
+      "enTitle": "Dragon Raja Season 2",
+      "malid": 59662,
+      "type": "ona",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Rakko Rap",
+      "malid": 59664,
+      "type": "music",
+      "releaseDate": "2024-04-17"
+   },
+   {
+      "title": "Bananya: Around the World",
+      "malid": 59666,
+      "type": "ona",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Apocalypse Hotel",
+      "enTitle": "Apocalypse Hotel",
+      "malid": 59675,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Yagyeong",
+      "enTitle": "Perfect Night",
+      "malid": 59676,
+      "type": "music",
+      "releaseDate": "2024-08-28"
+   },
+   {
+      "title": "Momoume",
+      "malid": 59678,
+      "type": "ona",
+      "releaseDate": "2018-05-24"
+   },
+   {
+      "title": "Momoume x Kaunet Collab",
+      "malid": 59679,
+      "type": "cm",
+      "releaseDate": "2019-11-05"
+   },
+   {
+      "title": "Momoume Specials",
+      "malid": 59680,
+      "type": "special",
+      "releaseDate": "2021-06-30"
+   },
+   {
+      "title": "Gyoukou",
+      "enTitle": "Dawn Light",
+      "malid": 59682,
+      "type": "music",
+      "releaseDate": "2024-08-29"
+   },
+   {
+      "title": "Animal Maru",
+      "enTitle": "Animal Circle",
+      "malid": 59683,
+      "type": "music",
+      "releaseDate": "2024-08-25"
+   },
+   {
+      "title": "Ready for Love",
+      "malid": 59684,
+      "type": "music",
+      "releaseDate": "2022-07-29"
+   },
+   {
+      "title": "Yongisanda",
+      "enTitle": "The Dragon Next Door",
+      "malid": 59685,
+      "type": "tv",
+      "releaseDate": "2024-08-27"
+   },
+   {
+      "title": "Kaiba Seichoutsuu",
+      "enTitle": "Hippocampal Pain",
+      "malid": 59687,
+      "type": "music",
+      "releaseDate": "2024-08-29"
+   },
+   {
+      "title": "Game Center Shoujo to Ibunka Kouryuu",
+      "malid": 59689,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ko Sute Yama",
+      "malid": 59690,
+      "type": "music",
+      "releaseDate": "2016-02-13"
+   },
+   {
+      "title": "Crevice",
+      "malid": 59691,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Saba Ningen",
+      "malid": 59692,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Chengyu Zhong Guo",
+      "malid": 59693,
+      "type": "ona",
+      "releaseDate": "2024-08-19"
+   },
+   {
+      "title": "Ali",
+      "enTitle": "Ali's Dream Castle",
+      "malid": 59694,
+      "type": "movie",
+      "releaseDate": "2024-08-17"
+   },
+   {
+      "title": "He Li Zongdongyuan",
+      "malid": 59695,
+      "type": "ona",
+      "releaseDate": "2024-08-03"
+   },
+   {
+      "title": "Jinling Yu Mao",
+      "enTitle": "The Royal Cat",
+      "malid": 59696,
+      "type": "movie",
+      "releaseDate": "2024-08-24"
+   },
+   {
+      "title": "Bishoku-ke no Rule",
+      "malid": 59697,
+      "type": "ova",
+      "releaseDate": "2024-11-29"
+   },
+   {
+      "title": "Taishou Itsuwari Bridal: Migawari Hanayome to Gunpuku no Mouai",
+      "malid": 59698,
+      "type": "ona",
+      "releaseDate": "2024-10-06"
+   },
+   {
+      "title": "Niwatori Hajimete Toya ni Tsuku",
+      "enTitle": "The Hen Begins to Lay Eggs in the Spring",
+      "malid": 59703,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Imomushi",
+      "malid": 59704,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Kamu Kamo Shikamo Nidomo Kamo! (imai Remix)",
+      "malid": 59705,
+      "type": "music",
+      "releaseDate": "2024-08-29"
+   },
+   {
+      "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
+      "malid": 59708,
+      "type": "unknown",
+      "releaseDate": ""
    }
 ]
