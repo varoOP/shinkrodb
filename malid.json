@@ -4155,6 +4155,7 @@
    },
    {
       "title": "Galaxy Angel 4",
+      "enTitle": "Galaxy Angel X",
       "malid": 655,
       "type": "tv",
       "releaseDate": "2004-07-07"
@@ -5861,7 +5862,7 @@
       "enTitle": "Love Hina: Motoko's Choice Between Love or Swords: Don't cry!",
       "malid": 963,
       "type": "special",
-      "releaseDate": "2000-09-27"
+      "releaseDate": "2001-05-02"
    },
    {
       "title": "Hit wo Nerae!",
@@ -11810,6 +11811,7 @@
    },
    {
       "title": "Futari wa Precure: Max Heart",
+      "enTitle": "Pretty Cure Max Heart",
       "malid": 1929,
       "type": "tv",
       "releaseDate": "2005-02-06"
@@ -16804,7 +16806,6 @@
    },
    {
       "title": "Heisei Inu Monogatari Bow Movie",
-      "enTitle": "Heisei Dog Stories: Bow",
       "malid": 2750,
       "type": "movie",
       "releaseDate": "1994-08-20"
@@ -35467,6 +35468,7 @@
    },
    {
       "title": "Ichiban Ushiro no Daimaou Specials",
+      "enTitle": "Demon King Daimao Specials",
       "malid": 8465,
       "type": "special",
       "releaseDate": "2010-06-25"
@@ -37345,8 +37347,8 @@
    {
       "title": "Mianhada Saranghanda",
       "malid": 9254,
-      "type": "movie",
-      "releaseDate": "2008-06-02"
+      "type": "ona",
+      "releaseDate": "2006-08-08"
    },
    {
       "title": "Denki Musou Hana",
@@ -55590,7 +55592,7 @@
    {
       "title": "Kanbee-kun ga Yuku",
       "malid": 21913,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2014-01-02"
    },
    {
@@ -57538,7 +57540,8 @@
       "releaseDate": "2009-09"
    },
    {
-      "title": "Otogi Banashi: Bunbuku Chagama",
+      "title": "Otogibanashi: Bunbuku Chagama",
+      "enTitle": "Fairy-tale: Bunbuku Kettle",
       "malid": 23181,
       "type": "movie",
       "releaseDate": "1917-10-10"
@@ -63701,7 +63704,7 @@
    },
    {
       "title": "Go! Princess Precure",
-      "enTitle": "Go! Princess Precure",
+      "enTitle": "Go! Princess Pretty Cure",
       "malid": 28669,
       "type": "tv",
       "releaseDate": "2015-02-01"
@@ -79428,6 +79431,7 @@
    },
    {
       "title": "Kirakira☆Precure A La Mode",
+      "enTitle": "Kirakira Pretty Cure A La Mode",
       "malid": 34290,
       "type": "tv",
       "releaseDate": "2017-02-05"
@@ -81378,6 +81382,13 @@
       "malid": 34839,
       "type": "tv",
       "releaseDate": "2018-01-06"
+   },
+   {
+      "title": "Kitsune Tsuki",
+      "enTitle": "Fox Fears",
+      "malid": 34840,
+      "type": "movie",
+      "releaseDate": "2015"
    },
    {
       "title": "Haruniwa Ie no 3 Nin-me",
@@ -132710,7 +132721,7 @@
    {
       "title": "Dawang Riji",
       "malid": 48109,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2020-12-31"
    },
    {
@@ -142462,6 +142473,7 @@
    },
    {
       "title": "Baise Shandian",
+      "enTitle": "White Lightning",
       "malid": 51333,
       "type": "ona",
       "releaseDate": "2024-07-20"
@@ -145673,7 +145685,7 @@
       "title": "Chi.: Chikyuu no Undou ni Tsuite",
       "malid": 52215,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-05"
    },
    {
       "title": "Twisted-Wonderland 2-shuunen Kinen PV",
@@ -154734,13 +154746,6 @@
       "releaseDate": "2024-07-19"
    },
    {
-      "title": "Bakeneko Anzu-chan",
-      "enTitle": "Ghost Cat Anzu",
-      "malid": 54603,
-      "type": "movie",
-      "releaseDate": "2024-07-19"
-   },
-   {
       "title": "Potion-danomi de Ikinobimasu!",
       "enTitle": "I Shall Survive Using Potions!",
       "malid": 54616,
@@ -155076,7 +155081,7 @@
       "enTitle": "If My Wife Becomes an Elementary School Student.",
       "malid": 54726,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-06"
    },
    {
       "title": "Rhapsody",
@@ -161007,7 +161012,7 @@
       "enTitle": "I’ll Become a Villainess Who Goes Down in History",
       "malid": 56228,
       "type": "tv",
-      "releaseDate": "2024-10-01"
+      "releaseDate": "2024-10-02"
    },
    {
       "title": "Jiisan Baasan Wakagaeru",
@@ -163943,7 +163948,7 @@
       "title": "Dragon Ball Daima",
       "malid": 56894,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-11"
    },
    {
       "title": "In:App",
@@ -165258,7 +165263,7 @@
       "enTitle": "Blue Box",
       "malid": 57181,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-03"
    },
    {
       "title": "Wu Dong Qian Kun 4th Season",
@@ -166716,7 +166721,7 @@
       "title": "MF Ghost 2nd Season",
       "malid": 57559,
       "type": "tv",
-      "releaseDate": "2024-10-06"
+      "releaseDate": "2024-10-07"
    },
    {
       "title": "Barber Shop feat. Aohi Rame",
@@ -168232,7 +168237,7 @@
       "title": "Tono to Inu",
       "malid": 57924,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-10"
    },
    {
       "title": "Milky☆Highway",
@@ -168973,7 +168978,7 @@
       "title": "Kagaku x Bouken Survival!",
       "malid": 58137,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-05"
    },
    {
       "title": "Kimi ga Nozomu Eien: Ayu Mayu Gekijou Prologue",
@@ -169938,7 +169943,7 @@
       "title": "Neko ni Tensei shita Ojisan",
       "malid": 58395,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-07"
    },
    {
       "title": "Madoromi",
@@ -170025,7 +170030,7 @@
       "enTitle": "Good Bye, Dragon Life.",
       "malid": 58445,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-11"
    },
    {
       "title": "Shibuya♡Hachi",
@@ -170047,7 +170052,7 @@
       "releaseDate": "2024-05-24"
    },
    {
-      "title": "Wonderful Precure! Movie: Dokidoki Game no Sekai de Dai Bouken!",
+      "title": "Wonderful Precure! Movie: Dokidoki Game no Sekai de Daibouken!",
       "malid": 58462,
       "type": "movie",
       "releaseDate": "2024-09-13"
@@ -170211,6 +170216,12 @@
       "releaseDate": "2024-10-06"
    },
    {
+      "title": "Uma Musume: Pretty Derby - Road to the Top (Movie)",
+      "malid": 58517,
+      "type": "movie",
+      "releaseDate": "2024-05-10"
+   },
+   {
       "title": "Sasaki to Pii-chan Season 2",
       "enTitle": "Sasaki and Peeps Season 2",
       "malid": 58518,
@@ -170254,6 +170265,13 @@
       "malid": 58535,
       "type": "ona",
       "releaseDate": "2024-03-23"
+   },
+   {
+      "title": "Hanataba",
+      "enTitle": "Bouqet",
+      "malid": 58536,
+      "type": "music",
+      "releaseDate": "2024-03-27"
    },
    {
       "title": "Yuanshen: Tiwate Pian Mu Jian PV - Dong Ye Yu Xi",
@@ -170750,6 +170768,13 @@
       "releaseDate": "2024-05-01"
    },
    {
+      "title": "Yeon-aejehanguyeog",
+      "enTitle": "No Love Zone",
+      "malid": 58783,
+      "type": "ona",
+      "releaseDate": "2023-12-29"
+   },
+   {
       "title": "Ikoku Nikki",
       "malid": 58788,
       "type": "tv",
@@ -170819,9 +170844,9 @@
       "releaseDate": "2025"
    },
    {
-      "title": "Yaiba",
+      "title": "Shin Samurai-den Yaiba",
       "malid": 58812,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
    },
    {
@@ -170960,7 +170985,7 @@
       "title": "Kinoko Inu",
       "malid": 58854,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-03"
    },
    {
       "title": "Yuru Camp△ Season 3 Specials",
@@ -171335,6 +171360,12 @@
       "releaseDate": "2024-04-01"
    },
    {
+      "title": "Pokemon Concierge (Zoku-hen)",
+      "malid": 58953,
+      "type": "ona",
+      "releaseDate": ""
+   },
+   {
       "title": "9",
       "malid": 58957,
       "type": "tv",
@@ -171452,8 +171483,8 @@
       "title": "Porong Porong Pororo Guchuljagjeon",
       "enTitle": "Porong Porong Rescue Mission",
       "malid": 58992,
-      "type": "movie",
-      "releaseDate": "2013-12-24"
+      "type": "tv_special",
+      "releaseDate": "2013-12-25"
    },
    {
       "title": "Pororo Sinnaneun Ujuyeohaeng",
@@ -171895,6 +171926,12 @@
       "releaseDate": ""
    },
    {
+      "title": "Kenyuu Densetsu Yaiba Pilot",
+      "malid": 59093,
+      "type": "ova",
+      "releaseDate": "1991"
+   },
+   {
       "title": "Shuumatsu Train Doko e Iku? Recap",
       "enTitle": "Train to the End of the World Recap",
       "malid": 59094,
@@ -172065,7 +172102,7 @@
       "title": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
       "malid": 59144,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01"
    },
    {
       "title": "Ranma ½ (2024)",
@@ -172197,7 +172234,7 @@
       "enTitle": "Tonbo! Season 2",
       "malid": 59175,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-05"
    },
    {
       "title": "Pierrot Mahou Shoujo Series (Shinsaku Anime)",
@@ -172699,6 +172736,12 @@
       "releaseDate": "2024-06-28"
    },
    {
+      "title": "Naoe-kun wa Yasesasetai.",
+      "malid": 59290,
+      "type": "tv",
+      "releaseDate": "2024-07-07"
+   },
+   {
       "title": "Huyao Xiao Hongniang: Jing Hua Yuan",
       "malid": 59291,
       "type": "ona",
@@ -173146,6 +173189,12 @@
       "releaseDate": "2024-07-26"
    },
    {
+      "title": "Tong Ching Kahn",
+      "malid": 59399,
+      "type": "music",
+      "releaseDate": "2021-11-17"
+   },
+   {
       "title": "Kakkou no Iinazuke 2nd Season",
       "enTitle": "A Couple of Cuckoos 2nd Season",
       "malid": 59402,
@@ -173250,7 +173299,7 @@
       "enTitle": "Negative Positive Angler",
       "malid": 59425,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-03"
    },
    {
       "title": "Yuureisensen",
@@ -173917,7 +173966,7 @@
    },
    {
       "title": "Monogatari Series: Off \u0026 Monster Season - Zankoku Douwa: Utsukushi-hime",
-      "enTitle": "A Cruel Fairy Tale: The Beautiful Princess",
+      "enTitle": "Monogatari Series: Off \u0026 Monster Season  - A Cruel Fairy Tale: The Beautiful Princess",
       "malid": 59612,
       "type": "ona",
       "releaseDate": "2024-08-17"
@@ -174127,6 +174176,12 @@
       "releaseDate": "2024-10"
    },
    {
+      "title": "Aqutan no Koto Sukisugi☆Song",
+      "malid": 59668,
+      "type": "music",
+      "releaseDate": "2024-08-26"
+   },
+   {
       "title": "Apocalypse Hotel",
       "enTitle": "Apocalypse Hotel",
       "malid": 59675,
@@ -174193,6 +174248,12 @@
       "releaseDate": "2024-08-29"
    },
    {
+      "title": "Gintama on Theater 2D: Kintama-hen",
+      "malid": 59688,
+      "type": "movie",
+      "releaseDate": "2024-11-22"
+   },
+   {
       "title": "Game Center Shoujo to Ibunka Kouryuu",
       "malid": 59689,
       "type": "unknown",
@@ -174250,9 +174311,10 @@
    },
    {
       "title": "Taishou Itsuwari Bridal: Migawari Hanayome to Gunpuku no Mouai",
+      "enTitle": "Taisho Marriage Blanc",
       "malid": 59698,
       "type": "ona",
-      "releaseDate": "2024-10-06"
+      "releaseDate": "2024-10-07"
    },
    {
       "title": "Niwatori Hajimete Toya ni Tsuku",
@@ -174274,9 +174336,230 @@
       "releaseDate": "2024-08-29"
    },
    {
+      "title": "Elf ni Inmon wo Tsukeru Hon The Animation",
+      "malid": 59706,
+      "type": "ova",
+      "releaseDate": "2024-11-29"
+   },
+   {
+      "title": "Bakutsuri Hunters",
+      "malid": 59707,
+      "type": "pv",
+      "releaseDate": "2019-11-15"
+   },
+   {
       "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
       "malid": 59708,
-      "type": "unknown",
+      "type": "tv",
       "releaseDate": ""
+   },
+   {
+      "title": "Inazuma Eleven: Soushuuhen Densetsu no Kickoff",
+      "enTitle": "Inazuma Eleven Movie: The Legendary Kickoff",
+      "malid": 59709,
+      "type": "movie",
+      "releaseDate": "2024-12-27"
+   },
+   {
+      "title": "Inazuma Eleven: Aratanaru Eiyuu-tachi no Joshou",
+      "enTitle": "Inazuma Eleven the Movie: Prologue to the New Heroes",
+      "malid": 59710,
+      "type": "movie",
+      "releaseDate": "2024-12-27"
+   },
+   {
+      "title": "Shibou Yuugi de Meshi wo Kuu.",
+      "malid": 59711,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Herlock Saga: Nibelung no Yubiwa Pilot",
+      "enTitle": "Harlock Saga Pilot",
+      "malid": 59712,
+      "type": "ova",
+      "releaseDate": "1999"
+   },
+   {
+      "title": "Planetarium Doraemon: Uchuu no Mokei",
+      "malid": 59713,
+      "type": "movie",
+      "releaseDate": "2024-07-19"
+   },
+   {
+      "title": "Bunchou Colors",
+      "malid": 59714,
+      "type": "ona",
+      "releaseDate": "2024-08-27"
+   },
+   {
+      "title": "Kidou Senshi Gundam: The Origin - Movie Edition",
+      "malid": 59718,
+      "type": "movie",
+      "releaseDate": "2024-09-13"
+   },
+   {
+      "title": "Kuroko",
+      "malid": 59722,
+      "type": "movie",
+      "releaseDate": "2023"
+   },
+   {
+      "title": "Watashi wa, Watashi to, Watashi ga, Watashi wo,",
+      "malid": 59723,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Taiyou no Carnival",
+      "malid": 59724,
+      "type": "music",
+      "releaseDate": "2024-09-02"
+   },
+   {
+      "title": "Sealook",
+      "malid": 59728,
+      "type": "ona",
+      "releaseDate": "2022-12-01"
+   },
+   {
+      "title": "Shinran: Jinsei no Mokuteki",
+      "malid": 59729,
+      "type": "movie",
+      "releaseDate": "2025-02"
+   },
+   {
+      "title": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu.",
+      "malid": 59730,
+      "type": "tv",
+      "releaseDate": "2025-01"
+   },
+   {
+      "title": "Pochaazu",
+      "malid": 59732,
+      "type": "tv",
+      "releaseDate": "2024-10"
+   },
+   {
+      "title": "Pinkfong Wonder Star Teugbyeolpyeon: Hogiwa Dodugjadongcha",
+      "enTitle": "Pinkfong \u0026 Hogi Mini-Movie: The Tricky Three Cars",
+      "malid": 59738,
+      "type": "movie",
+      "releaseDate": "2023-12-08"
+   },
+   {
+      "title": "Pinkfong Cinema Concert 3: Gingerbread Man-eul Jab-ala",
+      "enTitle": "Pinkfong Sing-Along Movie 3: Catch the Gingerbread Man",
+      "malid": 59739,
+      "type": "movie",
+      "releaseDate": "2023-09-09"
+   },
+   {
+      "title": "Pinkfong-gwa Hogi: Sae Chingu Ninimo",
+      "malid": 59740,
+      "type": "tv",
+      "releaseDate": "2024-09-24"
+   },
+   {
+      "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
+      "enTitle": "The Exiled Heavy Knight Knows How to Game the System",
+      "malid": 59741,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Eien no Blue",
+      "malid": 59742,
+      "type": "music",
+      "releaseDate": "2023-03-23"
+   },
+   {
+      "title": "Maebashi Witches",
+      "malid": 59744,
+      "type": "tv",
+      "releaseDate": "2025-04"
+   },
+   {
+      "title": "Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikaketekita",
+      "enTitle": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
+      "malid": 59745,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Melting",
+      "malid": 59746,
+      "type": "music",
+      "releaseDate": "2024-09-03"
+   },
+   {
+      "title": "Yuuyake Hoshi",
+      "malid": 59747,
+      "type": "music",
+      "releaseDate": "1987-10-02"
+   },
+   {
+      "title": "Violet!?",
+      "malid": 59748,
+      "type": "music",
+      "releaseDate": "2024-09-03"
+   },
+   {
+      "title": "Go-Getters",
+      "malid": 59750,
+      "type": "music",
+      "releaseDate": "2024-09-06"
+   },
+   {
+      "title": "Warau Red List",
+      "malid": 59752,
+      "type": "tv",
+      "releaseDate": "2024-08-14"
+   },
+   {
+      "title": "Taisu Xilie",
+      "enTitle": "Taisu Project",
+      "malid": 59753,
+      "type": "ona",
+      "releaseDate": "2024-08-10"
+   },
+   {
+      "title": "Pihotek",
+      "enTitle": "Pihotek",
+      "malid": 59754,
+      "type": "ona",
+      "releaseDate": "2024-09-06"
+   },
+   {
+      "title": "Raise the Anchor",
+      "enTitle": "Raise the Anchor",
+      "malid": 59755,
+      "type": "music",
+      "releaseDate": "2024-09-04"
+   },
+   {
+      "title": "Yes and No",
+      "malid": 59760,
+      "type": "music",
+      "releaseDate": "2020-06-28"
+   },
+   {
+      "title": "Tian Ying",
+      "malid": 59762,
+      "type": "ona",
+      "releaseDate": "2024-09-21"
+   },
+   {
+      "title": "Yishi Du Zun 2nd Season",
+      "enTitle": "The Sovereign's Ascension 2nd Season",
+      "malid": 59765,
+      "type": "ona",
+      "releaseDate": "2024-09-14"
+   },
+   {
+      "title": "Auto Panther",
+      "malid": 59766,
+      "type": "cm",
+      "releaseDate": "2016-09-19"
    }
 ]
