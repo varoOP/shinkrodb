@@ -38175,7 +38175,7 @@
       "title": "Robin-kun to 100 nin no Otomodachi",
       "enTitle": "Robin with his 100 Friends",
       "malid": 9536,
-      "type": "ona",
+      "type": "tv",
       "releaseDate": "2010-10-11"
    },
    {
@@ -147191,7 +147191,7 @@
    },
    {
       "title": "Kami no Tou: Ouji no Kikan",
-      "enTitle": "Tower of God Season 2",
+      "enTitle": "Tower of God Season 2: Return of the Prince",
       "malid": 52635,
       "type": "tv",
       "releaseDate": "2024-07-07"
@@ -175454,6 +175454,13 @@
       "releaseDate": "2024-09-18"
    },
    {
+      "title": "Sengoku Youko: Senma Konton-hen Recap",
+      "enTitle": "Sengoku Youko 2nd Season Recap",
+      "malid": 59945,
+      "type": "tv_special",
+      "releaseDate": "2024-09-26"
+   },
+   {
       "title": "Neverender",
       "enTitle": "Neverender",
       "malid": 59946,
@@ -175505,6 +175512,12 @@
       "malid": 59958,
       "type": "music",
       "releaseDate": "2024-05-10"
+   },
+   {
+      "title": "Schick x One Piece",
+      "malid": 59959,
+      "type": "cm",
+      "releaseDate": "2010-06-01"
    },
    {
       "title": "Kizu darake Seijo yori Houfuku wo Komete",
@@ -175596,6 +175609,19 @@
       "releaseDate": ""
    },
    {
+      "title": "Doraemon Movie 44: Nobita no e Sekai Monogatari",
+      "malid": 59980,
+      "type": "movie",
+      "releaseDate": "2025-03-07"
+   },
+   {
+      "title": "Taiyou wo Nakushita Hi",
+      "enTitle": "The Day the Sun Was Lost",
+      "malid": 59981,
+      "type": "movie",
+      "releaseDate": "2002"
+   },
+   {
       "title": "Tsue to Tsurugi no Wistoria 2nd Season",
       "enTitle": "Wistoria: Wand and Sword Season 2",
       "malid": 59983,
@@ -175607,5 +175633,46 @@
       "malid": 59985,
       "type": "movie",
       "releaseDate": ""
+   },
+   {
+      "title": "Grand Blue Season 2",
+      "enTitle": "Grand Blue Dreaming Season 2",
+      "malid": 59986,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ai no Shoumi Kigen",
+      "enTitle": "Love's Expiration Date",
+      "malid": 59987,
+      "type": "music",
+      "releaseDate": "2024-09-29"
+   },
+   {
+      "title": "Neppuu",
+      "enTitle": "Hot Wind",
+      "malid": 59988,
+      "type": "music",
+      "releaseDate": "2024-09-29"
+   },
+   {
+      "title": "Kami no Tou: Koubou-sen",
+      "enTitle": "Tower of God Season 2: Workshop Battle",
+      "malid": 59989,
+      "type": "tv",
+      "releaseDate": "2024-10-06"
+   },
+   {
+      "title": "Sengoku Youko: Yonaoshi Kyoudai-hen Recap",
+      "enTitle": "Sengoku Youko Recap",
+      "malid": 59990,
+      "type": "tv_special",
+      "releaseDate": "2024-07-04"
+   },
+   {
+      "title": "High Score Specials",
+      "malid": 59991,
+      "type": "special",
+      "releaseDate": "2012-03-15"
    }
 ]
