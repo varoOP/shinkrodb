@@ -23892,6 +23892,7 @@
    },
    {
       "title": "Grenadier: Hohoemi no Senshi Specials",
+      "enTitle": "Grenadier: The Beautiful Warrior Specials",
       "malid": 4361,
       "type": "special",
       "releaseDate": "2005-01-28"
@@ -24437,7 +24438,7 @@
    },
    {
       "title": "Choujikuu Kidan Southern Cross",
-      "enTitle": "Robotech Masters",
+      "enTitle": "Super Dimension Cavalry Southern Cross",
       "malid": 4503,
       "type": "tv",
       "releaseDate": "1984-04-15"
@@ -26949,10 +26950,10 @@
       "releaseDate": "1977-09-18"
    },
    {
-      "title": "RahXephon Specials",
+      "title": "RahXephon: Tsubasa no Kioku - Memory",
       "malid": 5288,
-      "type": "special",
-      "releaseDate": "2002-03-29"
+      "type": "tv_special",
+      "releaseDate": "2002-04-09"
    },
    {
       "title": "Beast Wars Second Chou Seimeitai Transformers: Lio Convoy Kiki Ippatsu! Movie",
@@ -38437,7 +38438,7 @@
    {
       "title": "Timing",
       "malid": 9662,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2010-10"
    },
    {
@@ -66207,7 +66208,7 @@
       "releaseDate": "1959"
    },
    {
-      "title": "Kaguya-hime",
+      "title": "Kaguya-hime (1961)",
       "malid": 29927,
       "type": "movie",
       "releaseDate": "1961"
@@ -137618,10 +137619,11 @@
       "releaseDate": "2021-04-02"
    },
    {
-      "title": "Wu Chengen Ji Yao Lu",
+      "title": "Ji Yao Lu: Qicheng Pian",
+      "enTitle": "Another Journey to the West",
       "malid": 49757,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-10-03"
    },
    {
       "title": "Zhu Xian",
@@ -141736,7 +141738,7 @@
       "title": "Grisaia: Phantom Trigger the Animation (TV)",
       "malid": 51119,
       "type": "tv",
-      "releaseDate": "2024"
+      "releaseDate": "2025-01"
    },
    {
       "title": "Kamen Rider Saber \u0026 Kamen Rider Zero-One Manner Movie",
@@ -149742,7 +149744,7 @@
       "releaseDate": "2022-12-01"
    },
    {
-      "title": "Fire Emblem Heroes: Fjorm ga Utau - \"Kouri no Hana\"",
+      "title": "Fire Emblem Heroes: Fjorm ga Utau - \"Koori no Hana\"",
       "enTitle": "Fire Emblem Heroes: Fjorm Sings - \"Flower of Ice\"",
       "malid": 53274,
       "type": "music",
@@ -158904,6 +158906,7 @@
    },
    {
       "title": "Utagoe wa Mille-Feuille",
+      "enTitle": "Harmony of Mille-Feuille",
       "malid": 55689,
       "type": "tv",
       "releaseDate": "2025"
@@ -158989,7 +158992,7 @@
       "title": "Boku to Roboko Movie",
       "malid": 55709,
       "type": "movie",
-      "releaseDate": "2024"
+      "releaseDate": "2025-04-18"
    },
    {
       "title": "Hana-Doll*: Reinterpretation of Flowering",
@@ -163130,7 +163133,7 @@
       "enTitle": "My Happy Marriage Season 2",
       "malid": 56701,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-01"
    },
    {
       "title": "Gamera VS Kozamera",
@@ -168455,7 +168458,7 @@
    },
    {
       "title": "Tasuuketsu",
-      "enTitle": "Tasuketsu -Fate of the Majority-",
+      "enTitle": "Tasuketsu: Fate of the Majority",
       "malid": 57945,
       "type": "tv",
       "releaseDate": "2024-07-03"
@@ -170264,6 +170267,12 @@
       "releaseDate": "2024-03-23"
    },
    {
+      "title": "Macross Δ: Delta Toki no Meikyuu Shou Gekijou",
+      "malid": 58495,
+      "type": "special",
+      "releaseDate": "2021"
+   },
+   {
       "title": "Ipponbashi Wataru",
       "malid": 58498,
       "type": "tv_special",
@@ -170897,8 +170906,8 @@
       "title": "Shi Cao Lao Long Bei Guan Yi E Long Zhi Ming 2nd Season",
       "enTitle": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized 2nd Season",
       "malid": 58779,
-      "type": "tv",
-      "releaseDate": "2024-10-03"
+      "type": "ona",
+      "releaseDate": "2024-10-02"
    },
    {
       "title": "Enter The Garden",
@@ -170939,7 +170948,7 @@
       "releaseDate": "2018-01-31"
    },
    {
-      "title": "Wanmei Shijie: Juchang Ban",
+      "title": "Wanmei Shijie Movie: Huo Zhi Huijin",
       "enTitle": "Perfect World Movie",
       "malid": 58797,
       "type": "ona",
@@ -171234,10 +171243,10 @@
       "releaseDate": "2024-05-19"
    },
    {
-      "title": "Dead Dead Demons Dededede Destruction (ONA)",
+      "title": "Dead Dead Demons Dededede Destruction (OVA)",
       "enTitle": "Dead Dead Demons Dededede Destruction",
       "malid": 58883,
-      "type": "ona",
+      "type": "ova",
       "releaseDate": "2024-05-31"
    },
    {
@@ -171387,10 +171396,10 @@
       "releaseDate": "2025"
    },
    {
-      "title": "Dead Dead Demons Dededede Destruction (ONA) Episode 0",
+      "title": "Dead Dead Demons Dededede Destruction (OVA) Episode 0",
       "enTitle": "Dead Dead Demons Dededede Destruction Episode 0",
       "malid": 58920,
-      "type": "ona",
+      "type": "ova",
       "releaseDate": "2024-05-24"
    },
    {
@@ -172296,6 +172305,12 @@
       "releaseDate": "2024-03-18"
    },
    {
+      "title": "Wu Liuqi: Jiyi Suipian",
+      "malid": 59150,
+      "type": "ona",
+      "releaseDate": "2024-10-02"
+   },
+   {
       "title": "Wudi Lu Zhandui 2nd Season",
       "enTitle": "Deer Squad 2nd Season",
       "malid": 59151,
@@ -173046,6 +173061,13 @@
       "releaseDate": "2024-09-27"
    },
    {
+      "title": "Wasurete Kudasai",
+      "enTitle": "Forget it",
+      "malid": 59332,
+      "type": "music",
+      "releaseDate": "2024-07-18"
+   },
+   {
       "title": "Nan no Koreshiki Furoshikiman",
       "malid": 59333,
       "type": "music",
@@ -173309,6 +173331,13 @@
       "releaseDate": "2024-06-30"
    },
    {
+      "title": "Golani Aidolgwa Na",
+      "enTitle": "The Popstar Water Deer and I",
+      "malid": 59388,
+      "type": "movie",
+      "releaseDate": "2024-07-06"
+   },
+   {
       "title": "Jian Lai",
       "enTitle": "Sword of Coming",
       "malid": 59389,
@@ -173359,6 +173388,12 @@
       "malid": 59399,
       "type": "music",
       "releaseDate": "2021-11-17"
+   },
+   {
+      "title": "Mou Ichido",
+      "malid": 59400,
+      "type": "music",
+      "releaseDate": "2022-09-21"
    },
    {
       "title": "Kakkou no Iinazuke 2nd Season",
@@ -174492,6 +174527,18 @@
       "releaseDate": "2024-10-07"
    },
    {
+      "title": "The Girls",
+      "malid": 59700,
+      "type": "music",
+      "releaseDate": "2023-08-25"
+   },
+   {
+      "title": "Start Again",
+      "malid": 59702,
+      "type": "music",
+      "releaseDate": "2024-08-31"
+   },
+   {
       "title": "Niwatori Hajimete Toya ni Tsuku",
       "enTitle": "The Hen Begins to Lay Eggs in the Spring",
       "malid": 59703,
@@ -174613,7 +174660,7 @@
       "title": "Pochaazu",
       "malid": 59732,
       "type": "tv",
-      "releaseDate": "2024-10-09"
+      "releaseDate": "2024-10-08"
    },
    {
       "title": "Pinkfong Wonder Star Teugbyeolpyeon: Hogiwa Dodugjadongcha",
@@ -174951,6 +174998,12 @@
       "releaseDate": "2019-09-29"
    },
    {
+      "title": "Annecy Festival 60th Anniversary PVs",
+      "malid": 59832,
+      "type": "pv",
+      "releaseDate": "2021-06-16"
+   },
+   {
       "title": "Kono Subarashii Sekai ni Shukufuku wo! 3 OVA",
       "enTitle": "KonoSuba: God's Blessing on This Wonderful World! 3 OVA",
       "malid": 59833,
@@ -175002,6 +175055,12 @@
       "releaseDate": "2025-03-26"
    },
    {
+      "title": "F-Chara All Stars Daishuugou: Doraemon \u0026 Perman - Kikiippatsu!?",
+      "malid": 59844,
+      "type": "movie",
+      "releaseDate": "2011-09"
+   },
+   {
       "title": "Kaoru Hana wa Rin to Saku",
       "malid": 59845,
       "type": "tv",
@@ -175015,10 +175074,40 @@
       "releaseDate": "2025"
    },
    {
+      "title": "21 Emon \u0026 Doraemon: Youkoso!! Hotel Tsuzureya e",
+      "malid": 59847,
+      "type": "movie",
+      "releaseDate": "2012-10-03"
+   },
+   {
       "title": "Virgin Punk",
       "malid": 59848,
       "type": "unknown",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Susume Roboket \u0026 Doraemon: Kessen! Kumo no Ue no Tatsumakijou",
+      "malid": 59849,
+      "type": "movie",
+      "releaseDate": "2013-08-28"
+   },
+   {
+      "title": "Doraemon \u0026 Chinpui: Eri-sama Ai no Present Daisakusen",
+      "malid": 59850,
+      "type": "movie",
+      "releaseDate": "2014-09-03"
+   },
+   {
+      "title": "Kiteretsu Daihyakka \u0026 Doraemon: Korosuke no Hajimete no Otsukai",
+      "malid": 59851,
+      "type": "movie",
+      "releaseDate": "2015-09-03"
+   },
+   {
+      "title": "Pokonyan \u0026 Doraemon: Ponpoko-nyan de Koko Hore Nyan Nyan!?",
+      "malid": 59852,
+      "type": "movie",
+      "releaseDate": "2016-09-03"
    },
    {
       "title": "Dark Moon: Tsuki no Saidan",
@@ -175026,6 +175115,42 @@
       "malid": 59853,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Umeboshi Denka \u0026 Doraemon: Panparopan no Suppappa!",
+      "malid": 59854,
+      "type": "movie",
+      "releaseDate": "2017-09-01"
+   },
+   {
+      "title": "Doraemon \u0026 F-Chara All Stars: Getsumen Race de Dai-Pinch!?",
+      "malid": 59855,
+      "type": "movie",
+      "releaseDate": "2019-03-09"
+   },
+   {
+      "title": "Doraemon Tanjou",
+      "malid": 59856,
+      "type": "movie",
+      "releaseDate": "2020-02-08"
+   },
+   {
+      "title": "Doraemon \u0026 F-Chara All Stars: Sukoshi Fushigi Express",
+      "malid": 59857,
+      "type": "movie",
+      "releaseDate": "2021-09-01"
+   },
+   {
+      "title": "Doraemon \u0026 SF Tanpen: Sora kara no Otoshidama",
+      "malid": 59858,
+      "type": "movie",
+      "releaseDate": "2023-02-09"
+   },
+   {
+      "title": "Doraemon \u0026 F-Chara All Stars: Yume no Machi, F Land",
+      "malid": 59859,
+      "type": "movie",
+      "releaseDate": "2024-02-21"
    },
    {
       "title": "Shinobanai! Crypto Ninja Sakuya 3rd Season",
@@ -175041,13 +175166,14 @@
    },
    {
       "title": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san Season 2",
+      "enTitle": "Alya Sometimes Hides Her Feelings in Russian Season 2",
       "malid": 59873,
       "type": "tv",
       "releaseDate": ""
    },
    {
       "title": "Salangui Hachyuping",
-      "enTitle": "Heartsping : Teenieping of Love",
+      "enTitle": "Heartsping: Teenieping of Love",
       "malid": 59874,
       "type": "movie",
       "releaseDate": "2024-08-07"
@@ -175164,7 +175290,28 @@
       "releaseDate": "2024-11-14"
    },
    {
+      "title": "Shooting Star Catch! Tiniping",
+      "malid": 59894,
+      "type": "tv",
+      "releaseDate": "2024-10-03"
+   },
+   {
+      "title": "Danbi wa Kkaebi",
+      "enTitle": "Danbi \u0026 Kebi",
+      "malid": 59895,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Goyang-iga Doeeossda",
+      "enTitle": "I Became a Cat",
+      "malid": 59896,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
       "title": "Kobayashi-san Chi no Maid Dragon: Samishigariya no Ryuu",
+      "enTitle": "Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants to be Loved",
       "malid": 59897,
       "type": "movie",
       "releaseDate": "2025"
@@ -175174,5 +175321,291 @@
       "malid": 59898,
       "type": "tv",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Arawi Keiichi Tanpen",
+      "malid": 59899,
+      "type": "ona",
+      "releaseDate": "2020-05-28"
+   },
+   {
+      "title": "Ai no Yakusoku",
+      "malid": 59901,
+      "type": "ona",
+      "releaseDate": "2024-09-21"
+   },
+   {
+      "title": "Supernova (Grimes Remix)",
+      "malid": 59902,
+      "type": "music",
+      "releaseDate": "2024-09-20"
+   },
+   {
+      "title": "One Piece: Yuruganu Seigi! Kaigun no Hokoritakaki Log!",
+      "enTitle": "One Piece: Unwavering Justice! The Navy's Proud Log!",
+      "malid": 59908,
+      "type": "tv_special",
+      "releaseDate": "2024-09-29"
+   },
+   {
+      "title": "Kinnikuman: Kanpeki Chоujin Shiso-hen Season 2",
+      "enTitle": "Kinnikuman: Perfect Origin Arc Season 2",
+      "malid": 59914,
+      "type": "tv",
+      "releaseDate": "2025-01"
+   },
+   {
+      "title": "Shendao Dizun",
+      "malid": 59915,
+      "type": "ona",
+      "releaseDate": "2024-10-22"
+   },
+   {
+      "title": "Dadao Chaotian",
+      "malid": 59916,
+      "type": "ona",
+      "releaseDate": "2024-10-10"
+   },
+   {
+      "title": "Armageddon (Flava D Remix)",
+      "malid": 59922,
+      "type": "music",
+      "releaseDate": "2024-09-20"
+   },
+   {
+      "title": "Nuno Sanpo",
+      "malid": 59924,
+      "type": "pv",
+      "releaseDate": "2024-09-23"
+   },
+   {
+      "title": "Kaguya-hime (1972)",
+      "malid": 59925,
+      "type": "movie",
+      "releaseDate": "1972"
+   },
+   {
+      "title": "Wan Yu Feng Shen 2nd Season",
+      "malid": 59927,
+      "type": "ona",
+      "releaseDate": "2024-07-15"
+   },
+   {
+      "title": "Ookami to Koushinryou: Merchant Meets the Wise Wolf 2nd Season",
+      "enTitle": "Spice and Wolf: Merchant Meets the Wise Wolf Season 2",
+      "malid": 59928,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kaguya-hime",
+      "malid": 59930,
+      "type": "movie",
+      "releaseDate": "1942-02-24"
+   },
+   {
+      "title": "FNS 27-Jikan TV: Nihon no Rekishi Anime",
+      "malid": 59934,
+      "type": "tv_special",
+      "releaseDate": "2017-09-09"
+   },
+   {
+      "title": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
+      "malid": 59935,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Sunao",
+      "malid": 59936,
+      "type": "music",
+      "releaseDate": "2024-09-24"
+   },
+   {
+      "title": "Peullaseutig-eulo Gadeugchan Sesang, Ili Aideul-i Majuhal Milaega Doel Su Issseubnida.",
+      "enTitle": "A Plastic Story",
+      "malid": 59937,
+      "type": "cm",
+      "releaseDate": "2021-09-13"
+   },
+   {
+      "title": "Zongmen Li Chule Wo Dou Shi Wodi",
+      "malid": 59938,
+      "type": "ona",
+      "releaseDate": "2024-10-14"
+   },
+   {
+      "title": "Tunshi Xingkong Movie: Xueluo Dalu",
+      "enTitle": "Swallowed Star: Blood Luo Continent",
+      "malid": 59939,
+      "type": "ona",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Decapolice",
+      "malid": 59940,
+      "type": "tv",
+      "releaseDate": "2026"
+   },
+   {
+      "title": "Poketoon (2024)",
+      "malid": 59944,
+      "type": "ona",
+      "releaseDate": "2024-09-18"
+   },
+   {
+      "title": "Neverender",
+      "enTitle": "Neverender",
+      "malid": 59946,
+      "type": "music",
+      "releaseDate": "2024-09-25"
+   },
+   {
+      "title": "Biklonz 2nd Season",
+      "malid": 59948,
+      "type": "tv",
+      "releaseDate": "2014-10-08"
+   },
+   {
+      "title": "Biklonz 3rd Season",
+      "malid": 59949,
+      "type": "tv",
+      "releaseDate": "2015-04-01"
+   },
+   {
+      "title": "Jeil Pap",
+      "enTitle": "Jeil Pap",
+      "malid": 59950,
+      "type": "cm",
+      "releaseDate": "2024-07-15"
+   },
+   {
+      "title": "Man Huang Xian Jie",
+      "enTitle": "The Uninhabited Wonderland",
+      "malid": 59951,
+      "type": "ona",
+      "releaseDate": "2024-09-25"
+   },
+   {
+      "title": "Mushen Ji",
+      "enTitle": "Tales of Herding Gods",
+      "malid": 59953,
+      "type": "ona",
+      "releaseDate": "2024-10-27"
+   },
+   {
+      "title": "Senpai wa Otokonoko Movie: Ame Nochi Hare",
+      "malid": 59957,
+      "type": "movie",
+      "releaseDate": "2025-02-14"
+   },
+   {
+      "title": "Goemuli Pineun Sup",
+      "enTitle": "Monster Forest",
+      "malid": 59958,
+      "type": "music",
+      "releaseDate": "2024-05-10"
+   },
+   {
+      "title": "Kizu darake Seijo yori Houfuku wo Komete",
+      "malid": 59961,
+      "type": "unknown",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Bebefinn",
+      "malid": 59962,
+      "type": "ona",
+      "releaseDate": "2022-05-16"
+   },
+   {
+      "title": "Smile (2013)",
+      "malid": 59963,
+      "type": "music",
+      "releaseDate": "2013-04-21"
+   },
+   {
+      "title": "Biklonz 4th Season",
+      "malid": 59964,
+      "type": "tv",
+      "releaseDate": "2015-09-17"
+   },
+   {
+      "title": "Biklonz: Barbarian King Special",
+      "malid": 59965,
+      "type": "tv_special",
+      "releaseDate": "2015-12-10"
+   },
+   {
+      "title": "Biklonz 5th Season",
+      "malid": 59966,
+      "type": "tv",
+      "releaseDate": "2016-09-23"
+   },
+   {
+      "title": "Du Shi Gu Xian Yi",
+      "enTitle": "Immortal Doctor In Modern City",
+      "malid": 59967,
+      "type": "ona",
+      "releaseDate": "2024-10-02"
+   },
+   {
+      "title": "Sword Art Online Alternative: Gun Gale Online II - Gala",
+      "enTitle": "Sword Art Online Alternative: Gun Gale Online II - Gala",
+      "malid": 59968,
+      "type": "ona",
+      "releaseDate": "2024-09-27"
+   },
+   {
+      "title": "Zhen Hun Jie 4th Season",
+      "enTitle": "Rakshasa Street 4th Season",
+      "malid": 59969,
+      "type": "ona",
+      "releaseDate": "2024-11-22"
+   },
+   {
+      "title": "Tensei shitara Slime Datta Ken 4th Season",
+      "enTitle": "That Time I Got Reincarnated as a Slime Season 4",
+      "malid": 59970,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Tensei shitara Slime Datta Ken Movie 2",
+      "malid": 59971,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kitto Zutto",
+      "malid": 59974,
+      "type": "music",
+      "releaseDate": "2024-09-03"
+   },
+   {
+      "title": "Hu He Yao Shi Lu",
+      "malid": 59977,
+      "type": "ona",
+      "releaseDate": "2024-10-05"
+   },
+   {
+      "title": "Sousou no Frieren 2nd Season",
+      "enTitle": "Frieren: Beyond Journey's End Season 2",
+      "malid": 59978,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Tsue to Tsurugi no Wistoria 2nd Season",
+      "enTitle": "Wistoria: Wand and Sword Season 2",
+      "malid": 59983,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Boku no Kokoro no Yabai Yatsu Movie",
+      "malid": 59985,
+      "type": "movie",
+      "releaseDate": ""
    }
 ]
