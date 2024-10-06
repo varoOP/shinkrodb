@@ -20443,7 +20443,7 @@
       "releaseDate": "1998-11-27"
    },
    {
-      "title": "Yume Miru, Anime: on-chan",
+      "title": "Yume Miru, Anime: On-chan",
       "malid": 3500,
       "type": "tv",
       "releaseDate": "2008-01-18"
@@ -26973,7 +26973,7 @@
       "enTitle": "Fist of the North Star: Legend of Kenshiro",
       "malid": 5291,
       "type": "movie",
-      "releaseDate": "2008-10-11"
+      "releaseDate": "2008-10-04"
    },
    {
       "title": "Getter Robo Go",
@@ -34867,7 +34867,7 @@
       "releaseDate": "1997-03-08"
    },
    {
-      "title": "on-chan, Yume Power Daibouken!",
+      "title": "On-chan, Yume Power Daibouken!",
       "enTitle": "On-chan, Dream Power Big Adventure!",
       "malid": 8229,
       "type": "tv_special",
@@ -36499,6 +36499,7 @@
    },
    {
       "title": "Yosuga no Sora",
+      "enTitle": "Yosuga no Sora: In Solitude, Where We Are Least Alone",
       "malid": 8861,
       "type": "tv",
       "releaseDate": "2010-10-04"
@@ -78078,7 +78079,7 @@
    {
       "title": "Fujinkoron-senpai",
       "malid": 33872,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2016-05-23"
    },
    {
@@ -81084,7 +81085,7 @@
       "title": "Fussa-shi PR Anime",
       "enTitle": "Fussa City Promotion Animation",
       "malid": 34746,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2017-01-09"
    },
    {
@@ -93510,7 +93511,7 @@
       "title": "Gaikan Chiba",
       "enTitle": "Gaikan Chiba",
       "malid": 37906,
-      "type": "ona",
+      "type": "pv",
       "releaseDate": "2018-05-16"
    },
    {
@@ -95788,6 +95789,7 @@
    },
    {
       "title": "Choujigen Kakumei Anime: Dimension High School",
+      "enTitle": "Dimension High School",
       "malid": 38449,
       "type": "tv",
       "releaseDate": "2019-01-10"
@@ -137171,7 +137173,7 @@
       "enTitle": "Ya She",
       "malid": 49573,
       "type": "ona",
-      "releaseDate": ""
+      "releaseDate": "2024-10-04"
    },
    {
       "title": "Yi Nian Yong Heng: Chuan Cheng Pian",
@@ -139143,6 +139145,7 @@
    },
    {
       "title": "Love Live! Superstar!! 2nd Season",
+      "enTitle": "Love Live! Superstar!! Season 2",
       "malid": 50203,
       "type": "tv",
       "releaseDate": "2022-07-17"
@@ -145692,6 +145695,7 @@
    },
    {
       "title": "Chi.: Chikyuu no Undou ni Tsuite",
+      "enTitle": "Orb: On the Movements of the Earth",
       "malid": 52215,
       "type": "tv",
       "releaseDate": "2024-10-05"
@@ -149789,6 +149793,7 @@
    },
    {
       "title": "Love Live! Superstar!! 3rd Season",
+      "enTitle": "Love Live! Superstar!! Season 3",
       "malid": 53287,
       "type": "tv",
       "releaseDate": "2024-10-06"
@@ -155213,6 +155218,7 @@
    },
    {
       "title": "The iDOLM@STER Shiny Colors",
+      "enTitle": "The iDOLM@STER Shiny Colors",
       "malid": 54758,
       "type": "tv",
       "releaseDate": "2024-04-06"
@@ -162870,6 +162876,7 @@
    },
    {
       "title": "Ao no Miburo",
+      "enTitle": "Blue Miburo",
       "malid": 56647,
       "type": "tv",
       "releaseDate": "2024-10-19"
@@ -165901,7 +165908,7 @@
    },
    {
       "title": "Dandadan",
-      "enTitle": "DAN DA DAN",
+      "enTitle": "Dan Da Dan",
       "malid": 57334,
       "type": "tv",
       "releaseDate": "2024-10-04"
@@ -166015,6 +166022,7 @@
    },
    {
       "title": "Kabushikigaisha Magi-Lumière",
+      "enTitle": "Magilumiere Magical Girls Inc.",
       "malid": 57360,
       "type": "tv",
       "releaseDate": "2024-10-04"
@@ -166674,6 +166682,7 @@
    },
    {
       "title": "Puniru wa Kawaii Slime",
+      "enTitle": "Puniru is a Kawaii Slime",
       "malid": 57517,
       "type": "tv",
       "releaseDate": "2024-10-06"
@@ -166726,6 +166735,7 @@
    },
    {
       "title": "Youkai Gakkou no Sensei Hajimemashita!",
+      "enTitle": "A Terrified Teacher at Ghoul School!",
       "malid": 57533,
       "type": "tv",
       "releaseDate": "2024-10-08"
@@ -167791,6 +167801,7 @@
    },
    {
       "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+      "enTitle": "Tohai : Ura Rate Mahjong Tohai Roku",
       "malid": 57796,
       "type": "tv",
       "releaseDate": "2024-10-05"
@@ -168452,6 +168463,7 @@
    },
    {
       "title": "Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki",
+      "enTitle": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest",
       "malid": 57944,
       "type": "tv",
       "releaseDate": "2024-10-06"
@@ -169707,6 +169719,7 @@
    },
    {
       "title": "The iDOLM@STER Shiny Colors 2nd Season",
+      "enTitle": "The iDOLM@STER Shiny Colors Season 2",
       "malid": 58302,
       "type": "tv",
       "releaseDate": "2024-10-05"
@@ -170270,7 +170283,7 @@
       "title": "Macross Δ: Delta Toki no Meikyuu Shou Gekijou",
       "malid": 58495,
       "type": "special",
-      "releaseDate": "2021"
+      "releaseDate": "2022-09-28"
    },
    {
       "title": "Ipponbashi Wataru",
@@ -170524,6 +170537,19 @@
       "malid": 58573,
       "type": "unknown",
       "releaseDate": ""
+   },
+   {
+      "title": "Hangugsa Daemoheom",
+      "malid": 58575,
+      "type": "tv",
+      "releaseDate": "2024-03-30"
+   },
+   {
+      "title": "DMZ Dongmul Teuggongdae",
+      "enTitle": "DMZ Animal Rangers",
+      "malid": 58576,
+      "type": "movie",
+      "releaseDate": "2024-02-14"
    },
    {
       "title": "DoReMi Friends",
@@ -171072,7 +171098,7 @@
       "title": "Okaimono Panda!",
       "malid": 58827,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-11-06"
    },
    {
       "title": "Koukou Eisei",
@@ -171144,6 +171170,7 @@
    },
    {
       "title": "Kinoko Inu",
+      "enTitle": "Kinokoinu Mushroom Pup",
       "malid": 58854,
       "type": "tv",
       "releaseDate": "2024-10-03"
@@ -171598,6 +171625,13 @@
       "releaseDate": "2024-06-09"
    },
    {
+      "title": "Kimi ni Todoke: Digest Eizou",
+      "enTitle": "Kimi ni Todoke: From Me to You - Digest Video",
+      "malid": 58978,
+      "type": "ona",
+      "releaseDate": "2023-12-30"
+   },
+   {
       "title": "Hajimari no Mahou: Charm",
       "malid": 58981,
       "type": "music",
@@ -171983,7 +172017,7 @@
       "enTitle": "Dino Skeletons Came Alive",
       "malid": 59065,
       "type": "ona",
-      "releaseDate": "2023"
+      "releaseDate": "2023-04-28"
    },
    {
       "title": "Sanjo Osagari Bushi",
@@ -173428,7 +173462,7 @@
       "releaseDate": "2025"
    },
    {
-      "title": "Mononoke Movie: Dai ni Shou - Hinezumi",
+      "title": "Mononoke Movie: Dai Ni Shou - Hinezumi",
       "malid": 59408,
       "type": "movie",
       "releaseDate": "2025-03-14"
@@ -173676,6 +173710,12 @@
       "releaseDate": "2023"
    },
    {
+      "title": "Star Rail Disco: Odore Kaitakusha",
+      "malid": 59480,
+      "type": "music",
+      "releaseDate": "2024-08-02"
+   },
+   {
       "title": "Yoroshiku",
       "malid": 59482,
       "type": "music",
@@ -173743,7 +173783,7 @@
       "enTitle": "Future's Folktales 2",
       "malid": 59499,
       "type": "tv",
-      "releaseDate": "2024-11-04"
+      "releaseDate": "2024-11-03"
    },
    {
       "title": "Butai ni Tatte",
@@ -174383,7 +174423,7 @@
       "enTitle": "Bananya Around the World",
       "malid": 59666,
       "type": "ona",
-      "releaseDate": "2024-10"
+      "releaseDate": "2024-10-21"
    },
    {
       "title": "Aqutan no Koto Sukisugi☆Song",
@@ -175162,7 +175202,7 @@
       "title": "Jib-i Eopseo",
       "malid": 59868,
       "type": "ona",
-      "releaseDate": "2024"
+      "releaseDate": "2024-11-01"
    },
    {
       "title": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san Season 2",
@@ -175204,7 +175244,7 @@
       "enTitle": "Gill",
       "malid": 59878,
       "type": "movie",
-      "releaseDate": "2024-10-25"
+      "releaseDate": ""
    },
    {
       "title": "32 Beon Daewangingeo",
@@ -175293,7 +175333,7 @@
       "title": "Shooting Star Catch! Tiniping",
       "malid": 59894,
       "type": "tv",
-      "releaseDate": "2024-10-03"
+      "releaseDate": "2024-10-10"
    },
    {
       "title": "Danbi wa Kkaebi",
@@ -175674,5 +175714,188 @@
       "malid": 59991,
       "type": "special",
       "releaseDate": "2012-03-15"
+   },
+   {
+      "title": "Wuhang Zhanshen 2nd Season",
+      "enTitle": "Five Element God of War 2nd Season",
+      "malid": 59993,
+      "type": "ona",
+      "releaseDate": "2024-09-28"
+   },
+   {
+      "title": "Moonlight",
+      "enTitle": "Moonlight",
+      "malid": 59994,
+      "type": "music",
+      "releaseDate": "2024-09-30"
+   },
+   {
+      "title": "Donut Hole",
+      "malid": 59996,
+      "type": "music",
+      "releaseDate": "2024-09-30"
+   },
+   {
+      "title": "Inferno Love Letter",
+      "malid": 59997,
+      "type": "music",
+      "releaseDate": "2024-04-30"
+   },
+   {
+      "title": "Shu Shan Qi Xian Lu 2nd season",
+      "enTitle": "Legend of Sho 2nd seeason",
+      "malid": 59998,
+      "type": "ona",
+      "releaseDate": "2024-09-30"
+   },
+   {
+      "title": "Kamigami Rairai",
+      "malid": 60007,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Chuuzenji-sensei Mononoke Kougiroku: Sensei ga Nazo wo Hodoite Shimau kara.",
+      "enTitle": "The Mononoke Lecture Logs of Chuzenji-sensei: He Just Solves All the Mysteries",
+      "malid": 60009,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Mad Popcorn World!",
+      "malid": 60010,
+      "type": "music",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Saero Gumidyeon: San 257",
+      "malid": 60011,
+      "type": "ona",
+      "releaseDate": "2024-09-29"
+   },
+   {
+      "title": "Re:Zero kara Hajimeru Break Time 3rd Season",
+      "enTitle": "Re:ZERO ~Starting Break Time From Zero~ Season 3",
+      "malid": 60012,
+      "type": "special",
+      "releaseDate": "2024-10-03"
+   },
+   {
+      "title": "Onna Gakusei Nisshi",
+      "malid": 60013,
+      "type": "music",
+      "releaseDate": "2024-09-25"
+   },
+   {
+      "title": "Happyakuyachou Hyouri Kewaishi Specials",
+      "malid": 60014,
+      "type": "special",
+      "releaseDate": "1991-05-24"
+   },
+   {
+      "title": "Holeonaicheu",
+      "enTitle": "Horror Nights",
+      "malid": 60017,
+      "type": "ona",
+      "releaseDate": "2024-02-16"
+   },
+   {
+      "title": "Slime Boukenki",
+      "enTitle": "The Adventures of Slaim",
+      "malid": 60018,
+      "type": "special",
+      "releaseDate": "1995-08-01"
+   },
+   {
+      "title": "Slime Boukenki: Wolf-kun Ganbaru no Maki",
+      "enTitle": "The Adventures of Slaim: Wolf Goes For It!",
+      "malid": 60019,
+      "type": "special",
+      "releaseDate": "1998-07-26"
+   },
+   {
+      "title": "Yeon-ui Pyeonji",
+      "malid": 60020,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Good Morning (2024)",
+      "malid": 60021,
+      "type": "music",
+      "releaseDate": "2024-10-03"
+   },
+   {
+      "title": "One Piece Fan Letter",
+      "malid": 60022,
+      "type": "tv_special",
+      "releaseDate": "2024-10-20"
+   },
+   {
+      "title": "Ore no Imouto ga Konnani Kawaii Wake ga Nai x Toaru Majutsu no Index Movie: Endymion no Kiseki - Kokuchi Eizou",
+      "malid": 60023,
+      "type": "cm",
+      "releaseDate": "2013-03"
+   },
+   {
+      "title": "Monotone",
+      "malid": 60024,
+      "type": "music",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Himekishi wa Barbaroi no Yome",
+      "malid": 60028,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "5-Okunen Button (TV Special)",
+      "malid": 60029,
+      "type": "tv_special",
+      "releaseDate": "2024-09-30"
+   },
+   {
+      "title": "Ana no Naka",
+      "malid": 60030,
+      "type": "tv_special",
+      "releaseDate": "2024-10-09"
+   },
+   {
+      "title": "Anata no You ni",
+      "malid": 60031,
+      "type": "music",
+      "releaseDate": "2018-11-02"
+   },
+   {
+      "title": "Fei Ren Zai 2nd Season Part 3",
+      "malid": 60032,
+      "type": "ona",
+      "releaseDate": "2024-09-30"
+   },
+   {
+      "title": "The iDOLM@STER Shiny Colors 2nd Season: SHHis",
+      "malid": 60045,
+      "type": "ova",
+      "releaseDate": "2025-03-28"
+   },
+   {
+      "title": "Mahou Shoujo ni Akogarete 2nd Season",
+      "malid": 60046,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Bleach 20th PV",
+      "enTitle": "Bleach 20th Anime Anniversary",
+      "malid": 60048,
+      "type": "pv",
+      "releaseDate": "2024-10-05"
+   },
+   {
+      "title": "Mirage",
+      "malid": 60051,
+      "type": "music",
+      "releaseDate": "2024-10-05"
    }
 ]
