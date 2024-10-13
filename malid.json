@@ -2064,7 +2064,7 @@
       "releaseDate": "2002-09-30"
    },
    {
-      "title": "Piano (TV)",
+      "title": "Piano",
       "enTitle": "Piano: The Melody of a Young Girl's Heart",
       "malid": 328,
       "type": "tv",
@@ -3715,7 +3715,7 @@
    },
    {
       "title": "Noein: Mou Hitori no Kimi e",
-      "enTitle": "Noein: to your other self",
+      "enTitle": "Noein: To Your Other Self",
       "malid": 584,
       "type": "tv",
       "releaseDate": "2005-10-12"
@@ -12648,6 +12648,7 @@
    },
    {
       "title": "Sousei Kishi Gaiarth",
+      "enTitle": "Genesis Survivor Gaiarth",
       "malid": 2068,
       "type": "ova",
       "releaseDate": "1992-04-22"
@@ -15637,7 +15638,7 @@
    },
    {
       "title": "Romeo no Aoi Sora",
-      "enTitle": "Romeo and the Black Brothers",
+      "enTitle": "Romeo's Blue Skies",
       "malid": 2559,
       "type": "tv",
       "releaseDate": "1995-01-15"
@@ -23384,6 +23385,7 @@
    },
    {
       "title": "Ichigo Mashimaro Episode 0",
+      "enTitle": "Strawberry Marshmallow Prologue",
       "malid": 4156,
       "type": "special",
       "releaseDate": "2005-06-08"
@@ -31371,6 +31373,7 @@
    },
    {
       "title": "Saa Ikou! Tamagotchi",
+      "enTitle": "Let's Go! Tamagotchi",
       "malid": 6798,
       "type": "tv",
       "releaseDate": "2007-11-29"
@@ -45418,6 +45421,7 @@
    },
    {
       "title": "Shounen Ninja Kaze no Fujimaru",
+      "enTitle": "Samurai Kid",
       "malid": 13307,
       "type": "tv",
       "releaseDate": "1964-06-07"
@@ -52855,6 +52859,7 @@
    },
    {
       "title": "Hontou ni Atta",
+      "enTitle": "Sordid Secret Lives",
       "malid": 19635,
       "type": "ova",
       "releaseDate": "2013-08-02"
@@ -57617,6 +57622,7 @@
    },
    {
       "title": "Mikakunin de Shinkoukei: Kamoniku tte Midori-ppoi Aji ga Suru no ne.",
+      "enTitle": "Engaged to the Unidentified OVA",
       "malid": 23227,
       "type": "ova",
       "releaseDate": "2014-03-28"
@@ -59210,6 +59216,7 @@
    },
    {
       "title": "Mokkai Shiyo?",
+      "enTitle": "Hot Times at Manga Cafe",
       "malid": 24357,
       "type": "ova",
       "releaseDate": "2014-07-04"
@@ -60970,7 +60977,7 @@
       "releaseDate": "2016-01-09"
    },
    {
-      "title": "Sakura Capusule",
+      "title": "Sakura Capsule",
       "malid": 25915,
       "type": "ova",
       "releaseDate": "2014-08-29"
@@ -84685,6 +84692,7 @@
    },
    {
       "title": "Yao Shen Ji",
+      "enTitle": "Tales of Demons and Gods",
       "malid": 35626,
       "type": "ona",
       "releaseDate": "2017-05-09"
@@ -85816,6 +85824,7 @@
    },
    {
       "title": "Mahou Shoujo Lyrical Nanoha: Detonation",
+      "enTitle": "Magical Girl Lyrical Nanoha: Detonation",
       "malid": 35984,
       "type": "movie",
       "releaseDate": "2018-10-19"
@@ -86158,6 +86167,7 @@
    },
    {
       "title": "Macross Δ Movie: Gekijou no Walküre",
+      "enTitle": "Macross Delta the Movie: Passionate Walkure",
       "malid": 36077,
       "type": "movie",
       "releaseDate": "2018-02-09"
@@ -93221,6 +93231,7 @@
    },
    {
       "title": "Osake wa Fuufu ni Natte kara: Yuzu Atsukan",
+      "enTitle": "Love is Like a Cocktail: Fourteenth Glass - Yuzu Hot Sake",
       "malid": 37826,
       "type": "ona",
       "releaseDate": "2018-10-06"
@@ -95265,7 +95276,7 @@
       "releaseDate": "2001-02-01"
    },
    {
-      "title": "Piano",
+      "title": "Piano (Music)",
       "malid": 38309,
       "type": "music",
       "releaseDate": "1997-06-02"
@@ -101567,6 +101578,7 @@
    },
    {
       "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
+      "enTitle": "We Never Learn OVA",
       "malid": 39819,
       "type": "ova",
       "releaseDate": "2019-11-01"
@@ -105533,6 +105545,7 @@
    },
    {
       "title": "Inmou",
+      "enTitle": "Inmou: The Inmoution",
       "malid": 40922,
       "type": "ova",
       "releaseDate": "2020-03-27"
@@ -132188,7 +132201,7 @@
       "title": "Wuzhuang Jingling",
       "malid": 48012,
       "type": "tv",
-      "releaseDate": "2020"
+      "releaseDate": "2020-05-01"
    },
    {
       "title": "Huo Huo Tu",
@@ -133403,13 +133416,6 @@
       "malid": 48262,
       "type": "tv",
       "releaseDate": "2020-05-09"
-   },
-   {
-      "title": "Synostone",
-      "enTitle": "Synostone",
-      "malid": 48263,
-      "type": "tv",
-      "releaseDate": "2019-05-02"
    },
    {
       "title": "Sinbi Apartment 444ho",
@@ -136541,11 +136547,10 @@
       "releaseDate": "2021-12-31"
    },
    {
-      "title": "SK∞ (OVA)",
-      "enTitle": "SK8 the Infinity (OVA)",
+      "title": "SK∞ OVA: Extra Part",
       "malid": 49363,
       "type": "ova",
-      "releaseDate": ""
+      "releaseDate": "2025-03-19"
    },
    {
       "title": "Hyaku",
@@ -139329,7 +139334,7 @@
       "title": "Wannabe",
       "malid": 50242,
       "type": "music",
-      "releaseDate": "2019"
+      "releaseDate": "2019-08-16"
    },
    {
       "title": "Matter",
@@ -140631,6 +140636,7 @@
    },
    {
       "title": "Odd Taxi Movie: In the Woods",
+      "enTitle": "Odd Taxi: In the Woods",
       "malid": 50653,
       "type": "movie",
       "releaseDate": "2022-04-01"
@@ -140850,7 +140856,7 @@
       "enTitle": "I've Been Killing Slimes for 300 Years and Maxed Out My Level Season 2",
       "malid": 50738,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-04"
    },
    {
       "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
@@ -148408,7 +148414,7 @@
       "title": "Versailles no Bara (Movie)",
       "malid": 52967,
       "type": "movie",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01-31"
    },
    {
       "title": "Sylvanian Families: Mini Story - Peony",
@@ -153087,7 +153093,7 @@
       "releaseDate": "2024-07-06"
    },
    {
-      "title": "Cardfight!! Vanguard: D Series Season 8",
+      "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
       "malid": 54144,
       "type": "tv",
       "releaseDate": "2025-01"
@@ -155212,9 +155218,10 @@
    },
    {
       "title": "3-nen Z-gumi Ginpachi-sensei",
+      "enTitle": "3-Z Ginpachi Sensei",
       "malid": 54757,
-      "type": "unknown",
-      "releaseDate": "2025"
+      "type": "tv",
+      "releaseDate": "2025-10"
    },
    {
       "title": "The iDOLM@STER Shiny Colors",
@@ -155637,7 +155644,7 @@
       "enTitle": "Blue Lock 2nd Season",
       "malid": 54865,
       "type": "tv",
-      "releaseDate": "2024-10-05"
+      "releaseDate": "2024-10-06"
    },
    {
       "title": "Blue Lock: Episode Nagi",
@@ -157236,8 +157243,8 @@
       "title": "Bastions",
       "enTitle": "Bastions",
       "malid": 55305,
-      "type": "ona",
-      "releaseDate": "2023-05-13"
+      "type": "tv",
+      "releaseDate": "2023-05-14"
    },
    {
       "title": "Telepath",
@@ -167801,7 +167808,7 @@
    },
    {
       "title": "Touhai: Ura Rate Mahjong Touhai Roku",
-      "enTitle": "Tohai : Ura Rate Mahjong Tohai Roku",
+      "enTitle": "Tohai: Ura Rate Mahjong Tohai Roku",
       "malid": 57796,
       "type": "tv",
       "releaseDate": "2024-10-05"
@@ -170791,6 +170798,7 @@
    },
    {
       "title": "Jueshi Zhan Hun",
+      "enTitle": "Peerless Martial Spirit",
       "malid": 58711,
       "type": "ona",
       "releaseDate": "2024-04-27"
@@ -171166,7 +171174,7 @@
       "enTitle": "Medaka Kuroiwa Is Impervious to My Charms",
       "malid": 58853,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01"
    },
    {
       "title": "Kinoko Inu",
@@ -173160,7 +173168,7 @@
       "enTitle": "Headhunted to Another World: From Salaryman to Big Four!",
       "malid": 59349,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01"
    },
    {
       "title": "Dai Dai Dai Fantasista",
@@ -173460,6 +173468,12 @@
       "malid": 59406,
       "type": "movie",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Iribitari Gal ni Ma〇ko Tsukawasete Morau Hanashi",
+      "malid": 59407,
+      "type": "ona",
+      "releaseDate": "2024-10-04"
    },
    {
       "title": "Mononoke Movie: Dai Ni Shou - Hinezumi",
@@ -173830,7 +173844,7 @@
       "releaseDate": "1993-04-02"
    },
    {
-      "title": "Punirunes 2",
+      "title": "Punirunes: Puni 2",
       "malid": 59512,
       "type": "tv",
       "releaseDate": "2024-10-06"
@@ -174697,7 +174711,7 @@
       "releaseDate": "2025-01"
    },
    {
-      "title": "Pochaazu",
+      "title": "Pochars",
       "malid": 59732,
       "type": "tv",
       "releaseDate": "2024-10-08"
@@ -174807,6 +174821,7 @@
    },
    {
       "title": "Tian Ying",
+      "enTitle": "Shadow of Heaven",
       "malid": 59762,
       "type": "ona",
       "releaseDate": "2024-09-21"
@@ -174843,6 +174858,12 @@
       "malid": 59770,
       "type": "tv_special",
       "releaseDate": "2024-09-07"
+   },
+   {
+      "title": "Shishigari",
+      "malid": 59773,
+      "type": "movie",
+      "releaseDate": "2019-11-03"
    },
    {
       "title": "Tokyo Montage",
@@ -175637,6 +175658,7 @@
    },
    {
       "title": "Hu He Yao Shi Lu",
+      "enTitle": "Tiger Crane",
       "malid": 59977,
       "type": "ona",
       "releaseDate": "2024-10-05"
@@ -175874,6 +175896,19 @@
       "releaseDate": "2024-09-30"
    },
    {
+      "title": "Sakuranbo Message",
+      "enTitle": "Cherry Message",
+      "malid": 60042,
+      "type": "music",
+      "releaseDate": "2024-10-04"
+   },
+   {
+      "title": "Shinsei Kourin Dacryon Luna",
+      "malid": 60044,
+      "type": "ova",
+      "releaseDate": "2024-12-06"
+   },
+   {
       "title": "The iDOLM@STER Shiny Colors 2nd Season: SHHis",
       "malid": 60045,
       "type": "ova",
@@ -175897,5 +175932,163 @@
       "malid": 60051,
       "type": "music",
       "releaseDate": "2024-10-05"
+   },
+   {
+      "title": "Sylvanian Families: Freya no Piece of Secret",
+      "malid": 60052,
+      "type": "tv",
+      "releaseDate": "2024-11-21"
+   },
+   {
+      "title": "Tomodachi no Tomodachi",
+      "malid": 60053,
+      "type": "music",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Yozakura-san Chi no Daisakusen 2nd Season",
+      "malid": 60055,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "\"Oshi no Ko\" 3rd Season",
+      "enTitle": "[Oshi No Ko] Season 3",
+      "malid": 60058,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Nige Jouzu no Wakagimi 2nd Season",
+      "enTitle": "The Elusive Samurai Season 2",
+      "malid": 60059,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Liella no Uta 3",
+      "malid": 60062,
+      "type": "music",
+      "releaseDate": "2024-10-06"
+   },
+   {
+      "title": "Fairy Tail: 100-nen Quest - Kanwa - Lucy's Diary",
+      "enTitle": "Fairy Tail: 100 Years Quest - Going Off Topic - Lucy's Diary",
+      "malid": 60063,
+      "type": "tv_special",
+      "releaseDate": "2024-10-06"
+   },
+   {
+      "title": "Xian Ji Xun Zong",
+      "enTitle": "Searching For The Immortals",
+      "malid": 60066,
+      "type": "ona",
+      "releaseDate": "2024-09-13"
+   },
+   {
+      "title": "Kyoushi no K",
+      "malid": 60067,
+      "type": "ona",
+      "releaseDate": "2024-10-06"
+   },
+   {
+      "title": "Aporia",
+      "malid": 60068,
+      "type": "music",
+      "releaseDate": "2024-10-08"
+   },
+   {
+      "title": "Kaijuu Sekai Seifuku (TV)",
+      "malid": 60070,
+      "type": "tv",
+      "releaseDate": "2025-04"
+   },
+   {
+      "title": "Odayaka Kizoku no Kyuuka no Susume.",
+      "enTitle": "A Gentle Noble's Vacation Recommendation",
+      "malid": 60071,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Baku",
+      "malid": 60072,
+      "type": "music",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Blue Lock: Episode Nagi - Additional Time!",
+      "malid": 60076,
+      "type": "movie",
+      "releaseDate": "2024-04-19"
+   },
+   {
+      "title": "Kakurenbo (Music)",
+      "malid": 60077,
+      "type": "music",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Lucky Doki",
+      "malid": 60079,
+      "type": "music",
+      "releaseDate": "2024-10-09"
+   },
+   {
+      "title": "Nui Story 2",
+      "malid": 60080,
+      "type": "ona",
+      "releaseDate": "2024-10-19"
+   },
+   {
+      "title": "Kowloon Generic Romance",
+      "enTitle": "Kowloon Generic Romance",
+      "malid": 60083,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Meme",
+      "malid": 60085,
+      "type": "music",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Ehagaki",
+      "malid": 60090,
+      "type": "music",
+      "releaseDate": "2013-08-01"
+   },
+   {
+      "title": "Taka no Tsume Gaiden \"Himitsu Kyuusha: Uma no Hizume\"",
+      "malid": 60091,
+      "type": "tv",
+      "releaseDate": "2023-05-04"
+   },
+   {
+      "title": "Taka no Tsume Gaiden \"Himitsu Kyuusha: Uma no Hizume - Grand Prix\"",
+      "malid": 60092,
+      "type": "tv",
+      "releaseDate": "2023-11-30"
+   },
+   {
+      "title": "Taka no Tsume Gaiden \"Himitsu Kyuusha: Uma no Hizume - Derby Conquest\"",
+      "malid": 60093,
+      "type": "tv",
+      "releaseDate": "2024-05-02"
+   },
+   {
+      "title": "Kankin Kuiki Level X (Zoku-hen)",
+      "enTitle": "Lockdown Zone: Lv. X (Sequel)",
+      "malid": 60094,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Boku no Hero Academia: Final Season",
+      "enTitle": "My Hero Academia Final Season",
+      "malid": 60098,
+      "type": "tv",
+      "releaseDate": "2025"
    }
 ]
