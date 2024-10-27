@@ -3040,7 +3040,6 @@
    },
    {
       "title": "Ginban Kaleidoscope",
-      "enTitle": "Skating Rink Kaleidoscope",
       "malid": 476,
       "type": "tv",
       "releaseDate": "2005-10-09"
@@ -16133,7 +16132,8 @@
       "releaseDate": "1981-01-03"
    },
    {
-      "title": "Dorami-chan: Wow, The Kid Gang of Bandits",
+      "title": "Dorami-chan: Arara Shounen Sanzokudan",
+      "enTitle": "Dorami-chan: Wow, The Kid Gang of Bandits",
       "malid": 2636,
       "type": "movie",
       "releaseDate": "1991-03-09"
@@ -70571,7 +70571,7 @@
    },
    {
       "title": "KanColle Movie",
-      "enTitle": "Fleet Girls Collection KanColle Movie Sequence",
+      "enTitle": "KanColle Movie",
       "malid": 31418,
       "type": "movie",
       "releaseDate": "2016-11-26"
@@ -78934,7 +78934,7 @@
       "title": "Minna de Bokumetsu Inshu Unten",
       "malid": 34122,
       "type": "cm",
-      "releaseDate": "2013"
+      "releaseDate": "2012-12-19"
    },
    {
       "title": "Uobbuchou",
@@ -101588,7 +101588,7 @@
    },
    {
       "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
-      "enTitle": "We Never Learn OVA",
+      "enTitle": "We Never Learn: BOKUBEN - The Predecessor [X] with Elegance with the Missing Item on the Beach",
       "malid": 39819,
       "type": "ova",
       "releaseDate": "2019-11-01"
@@ -102065,8 +102065,8 @@
       "releaseDate": "2019-12-27"
    },
    {
-      "title": "Mayonaka no Occult Koumuin OVA",
-      "enTitle": "Midnight Occult Civil Servants OVA",
+      "title": "Mayonaka no Occult Koumuin: Hitoribocchi no Kyuuketsuki/Sakura no Mori no Mankai no Shita",
+      "enTitle": "Midnight Occult Civil Servants: Lonely Vampire/Beneath the Cherry Tree Forest in Full Bloom",
       "malid": 39972,
       "type": "ova",
       "releaseDate": "2019-09-25"
@@ -102184,7 +102184,7 @@
    },
    {
       "title": "Bokutachi wa Benkyou ga Dekinai!",
-      "enTitle": "We Never Learn!: BOKUBEN Season 2",
+      "enTitle": "We Never Learn: BOKUBEN Season 2",
       "malid": 40004,
       "type": "tv",
       "releaseDate": "2019-10-06"
@@ -106321,7 +106321,7 @@
       "title": "Nakitai Watashi wa Neko wo Kaburu",
       "enTitle": "A Whisker Away",
       "malid": 41168,
-      "type": "movie",
+      "type": "ona",
       "releaseDate": "2020-06-18"
    },
    {
@@ -107898,6 +107898,7 @@
    },
    {
       "title": "Yesterday wo Utatte: Haishin-ban Episode",
+      "enTitle": "Sing \"Yesterday\" for Me Extras",
       "malid": 41660,
       "type": "ona",
       "releaseDate": "2020-04-05"
@@ -109975,7 +109976,7 @@
    },
    {
       "title": "Bokutachi wa Benkyou ga Dekinai! Chapel no Kane wa [X] wo Shukufuku Suru",
-      "enTitle": "We Never Learn: BOKUBEN - The Church Bells Bless X",
+      "enTitle": "We Never Learn: BOKUBEN - The Church Bells Bless [X]",
       "malid": 42519,
       "type": "ova",
       "releaseDate": "2020-04-03"
@@ -110774,6 +110775,7 @@
    },
    {
       "title": "Boukyaku Battery",
+      "enTitle": "Oblivion Battery: Jump Festa 2020 Special",
       "malid": 42829,
       "type": "ona",
       "releaseDate": "2020-10-11"
@@ -133887,7 +133889,7 @@
    },
    {
       "title": "Wo Shi Da Shenxian 2nd Season",
-      "enTitle": "Da Shen Xian",
+      "enTitle": "Da Shen Xian 2nd Season",
       "malid": 48369,
       "type": "ona",
       "releaseDate": "2021-02-25"
@@ -143629,7 +143631,6 @@
    },
    {
       "title": "Ao no Orchestra",
-      "enTitle": "Blue Orchestra",
       "malid": 51614,
       "type": "tv",
       "releaseDate": "2023-04-09"
@@ -159184,7 +159185,7 @@
       "releaseDate": "2023-07-16"
    },
    {
-      "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai Kanketsu-hen",
+      "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen",
       "malid": 55748,
       "type": "movie",
       "releaseDate": "2024-09-06"
@@ -164000,7 +164001,7 @@
    },
    {
       "title": "Dragon Ball Daima",
-      "enTitle": "Dragon Ball DAIMA",
+      "enTitle": "Dragon Ball Daima",
       "malid": 56894,
       "type": "tv",
       "releaseDate": "2024-10-11"
@@ -166497,7 +166498,7 @@
    },
    {
       "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
-      "enTitle": "Ascendance of a Bookworm",
+      "enTitle": "Ascendance of a Bookworm Season 4",
       "malid": 57466,
       "type": "unknown",
       "releaseDate": ""
@@ -170237,7 +170238,7 @@
       "enTitle": "I am Behemoth of the S Rank Monster, but I am Mistaken as a Cat and I Live as a Pet of Elf Girl.",
       "malid": 58473,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01"
    },
    {
       "title": "Fanpai Chushihua",
@@ -170374,7 +170375,7 @@
       "enTitle": "The Apothecary Diaries Season 2",
       "malid": 58514,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01-10"
    },
    {
       "title": "Kekkon Yubiwa Monogatari 2nd Season",
@@ -170896,7 +170897,7 @@
       "title": "Gotchard Short Anime: Gotchanime - Furasu Koukou Nanafushigi wo Gotcha Seyo!",
       "malid": 58753,
       "type": "ona",
-      "releaseDate": "2024-04-28"
+      "releaseDate": "2024-04-29"
    },
    {
       "title": "Xiaobing Chuanqi",
@@ -172150,8 +172151,8 @@
    {
       "title": "Douwa Revenger",
       "malid": 59091,
-      "type": "unknown",
-      "releaseDate": ""
+      "type": "ona",
+      "releaseDate": "2024-10-27"
    },
    {
       "title": "Kenyuu Densetsu Yaiba Pilot",
@@ -172367,6 +172368,7 @@
    },
    {
       "title": "Wu Liuqi: Jiyi Suipian",
+      "enTitle": "Scissor Seven: Fragments of Memory",
       "malid": 59150,
       "type": "ona",
       "releaseDate": "2024-10-02"
@@ -173487,7 +173489,7 @@
       "title": "Binan Koukou Chikyuu Bouei-bu Eternal Love!",
       "malid": 59406,
       "type": "movie",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01-24"
    },
    {
       "title": "Iribitari Gal ni Ma〇ko Tsukawasete Morau Hanashi",
@@ -174059,7 +174061,7 @@
       "releaseDate": "2024-08-16"
    },
    {
-      "title": "Around 40 Otoko no Isekai Tsuuhan Seikatsu",
+      "title": "Around 40 Otoko no Isekai Tsuuhan",
       "malid": 59561,
       "type": "tv",
       "releaseDate": "2025"
@@ -175030,11 +175032,11 @@
       "releaseDate": "2025"
    },
    {
-      "title": "Elf-san wa Yaserarenai. Specials",
-      "enTitle": "Plus-Sized Elf Specials",
+      "title": "Elf-san wa Yaserarenai. (ONA)",
+      "enTitle": "Plus-Sized Elf (ONA)",
       "malid": 59820,
-      "type": "special",
-      "releaseDate": "2024-11-21"
+      "type": "ona",
+      "releaseDate": "2024-10-05"
    },
    {
       "title": "Star Wars x One Piece",
@@ -175669,6 +175671,7 @@
    },
    {
       "title": "Tensei shitara Slime Datta Ken Movie 2",
+      "enTitle": "That Time I Got Reincarnated as a Slime Movie 2",
       "malid": 59971,
       "type": "movie",
       "releaseDate": ""
@@ -176077,6 +176080,13 @@
       "releaseDate": "2024-10-01"
    },
    {
+      "title": "Chang Sheng Jie",
+      "enTitle": "World of Immortals",
+      "malid": 60089,
+      "type": "ona",
+      "releaseDate": "2024-10-29"
+   },
+   {
       "title": "Ehagaki",
       "malid": 60090,
       "type": "music",
@@ -176131,13 +176141,19 @@
       "enTitle": "One Piece Log: Fish-Man Island Saga",
       "malid": 60108,
       "type": "tv",
-      "releaseDate": "2024-10-27"
+      "releaseDate": "2024-11-03"
    },
    {
       "title": "Funky Solution",
       "malid": 60119,
       "type": "music",
       "releaseDate": "2018-03-28"
+   },
+   {
+      "title": "Meta",
+      "malid": 60125,
+      "type": "music",
+      "releaseDate": "2024-10-16"
    },
    {
       "title": "Isekai Wear",
@@ -176224,5 +176240,142 @@
       "malid": 60148,
       "type": "music",
       "releaseDate": "2024-10-19"
+   },
+   {
+      "title": "Eris no Seihai",
+      "enTitle": "The Holy Grail of Eris",
+      "malid": 60151,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Blade \u0026 Bastard",
+      "malid": 60152,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Rilakkuma",
+      "malid": 60153,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Ore wa Seikan Kokka no Akutoku Ryoushu!",
+      "malid": 60154,
+      "type": "tv",
+      "releaseDate": "2025-04"
+   },
+   {
+      "title": "Kanpekisugite Kawaige ga Nai to Konyaku Haki sareta Seijo wa Ringoku ni Urareru",
+      "malid": 60157,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen Part 2",
+      "malid": 60159,
+      "type": "movie",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen Part 3",
+      "malid": 60160,
+      "type": "movie",
+      "releaseDate": ""
+   },
+   {
+      "title": "Akujiki Reijou to Kyouketsu Koushaku",
+      "malid": 60162,
+      "type": "tv",
+      "releaseDate": "2025-04"
+   },
+   {
+      "title": "Naoe-kun wa Yasesasetai. (ONA)",
+      "malid": 60163,
+      "type": "ona",
+      "releaseDate": "2024-10-05"
+   },
+   {
+      "title": "Sound of Music",
+      "malid": 60165,
+      "type": "music",
+      "releaseDate": "2015-07-28"
+   },
+   {
+      "title": "Nani Warotonnen",
+      "malid": 60167,
+      "type": "music",
+      "releaseDate": "2024-10-21"
+   },
+   {
+      "title": "Watashi wo Tabetai, Hitodenashi",
+      "enTitle": "This Monster Wants to Eat Me",
+      "malid": 60168,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Wo Shi Da Shenxian 3rd Season",
+      "enTitle": "Da Shen Xian 3rd Season",
+      "malid": 60171,
+      "type": "ona",
+      "releaseDate": "2024-10-28"
+   },
+   {
+      "title": "Ghost in the Rain",
+      "malid": 60173,
+      "type": "music",
+      "releaseDate": "2009-05-31"
+   },
+   {
+      "title": "Kizao",
+      "enTitle": "Kizao",
+      "malid": 60174,
+      "type": "music",
+      "releaseDate": "2024-10-18"
+   },
+   {
+      "title": "Shugotte Lu-knight",
+      "malid": 60175,
+      "type": "music",
+      "releaseDate": "2024-10-10"
+   },
+   {
+      "title": "H.A.O.U. (Roosevelt Remix)",
+      "malid": 60179,
+      "type": "music",
+      "releaseDate": "2024-09-05"
+   },
+   {
+      "title": "Hanei",
+      "malid": 60184,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Kuromi's Pretty Journey: Hacha Mecha! Multiverse Daidasshutsu!",
+      "malid": 60185,
+      "type": "ona",
+      "releaseDate": "2024-10-31"
+   },
+   {
+      "title": "VSPO!",
+      "malid": 60186,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kusari",
+      "malid": 60190,
+      "type": "movie",
+      "releaseDate": "2024"
+   },
+   {
+      "title": "Cheng He Titong 2nd Season",
+      "enTitle": "How Dare You!? 2nd Season",
+      "malid": 60191,
+      "type": "ona",
+      "releaseDate": "2025"
    }
 ]
