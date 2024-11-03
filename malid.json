@@ -8140,7 +8140,7 @@
       "releaseDate": "1995-04-25"
    },
    {
-      "title": "Yami no Shihosha Judge",
+      "title": "Yami no Shihoukan Judge",
       "enTitle": "Judge",
       "malid": 1340,
       "type": "ova",
@@ -14376,7 +14376,7 @@
    {
       "title": "Daiakuji: The Xena Buster Specials",
       "malid": 2353,
-      "type": "special",
+      "type": "ova",
       "releaseDate": "2003-08-28"
    },
    {
@@ -15096,7 +15096,7 @@
       "releaseDate": "1988-11-21"
    },
    {
-      "title": "Nineteen 19",
+      "title": "Nineteen",
       "malid": 2468,
       "type": "ova",
       "releaseDate": "1990-07-27"
@@ -45020,6 +45020,7 @@
    },
    {
       "title": "Anime Koukyoushi: Jungle Taitei",
+      "enTitle": "Symphonic Poem: Jungle Emperor Leo",
       "malid": 13047,
       "type": "ova",
       "releaseDate": "1991-04-01"
@@ -63597,7 +63598,7 @@
       "enTitle": "I Couldn't Become a Hero, So I Reluctantly Decided to Get a Job. Specials",
       "malid": 28593,
       "type": "special",
-      "releaseDate": "2014-01-31"
+      "releaseDate": "2013-12-27"
    },
    {
       "title": "Pac-World",
@@ -84653,12 +84654,6 @@
       "releaseDate": "1996-10-25"
    },
    {
-      "title": "Magical Maho",
-      "malid": 35617,
-      "type": "ova",
-      "releaseDate": "1997-03-17"
-   },
-   {
       "title": "Li'l Chillun'",
       "enTitle": "Li'l Chillun'",
       "malid": 35618,
@@ -86255,7 +86250,7 @@
       "releaseDate": "2012-02-10"
    },
    {
-      "title": "9 (Music)",
+      "title": "9",
       "enTitle": "9",
       "malid": 36089,
       "type": "music",
@@ -104964,7 +104959,8 @@
       "releaseDate": "2019-12-21"
    },
    {
-      "title": "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka: Tokunana OVA",
+      "title": "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka: Tokunana - Ichinen Mae, Nijou Kujaku no Urei",
+      "enTitle": "Special 7: Special Crime Investigation Unit Episode 0.5",
       "malid": 40762,
       "type": "ova",
       "releaseDate": "2020-01-24"
@@ -105017,6 +105013,7 @@
    },
    {
       "title": "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka: Tokunana Recap",
+      "enTitle": "Special 7: Special Crime Investigation Unit Recap",
       "malid": 40780,
       "type": "tv_special",
       "releaseDate": "2019-12-01"
@@ -159071,7 +159068,7 @@
       "releaseDate": "2023-05-16"
    },
    {
-      "title": "4 Ju Aein",
+      "title": "4-ju Aein",
       "enTitle": "4 Week Lovers",
       "malid": 55725,
       "type": "ona",
@@ -164704,7 +164701,7 @@
       "enTitle": "I Want to Escape from Princess Lessons",
       "malid": 57050,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-01-05"
    },
    {
       "title": "G vs. G",
@@ -165532,6 +165529,13 @@
       "malid": 57229,
       "type": "ona",
       "releaseDate": "2023-11-20"
+   },
+   {
+      "title": "Jiaonang Jihua 2",
+      "enTitle": "Capsules 2nd Season",
+      "malid": 57233,
+      "type": "ona",
+      "releaseDate": "2023-12-05"
    },
    {
       "title": "Jiaonang Jihua 2",
@@ -172331,7 +172335,7 @@
       "title": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
       "malid": 59144,
       "type": "tv",
-      "releaseDate": "2025-01"
+      "releaseDate": "2025-01-09"
    },
    {
       "title": "Ranma ½ (2024)",
@@ -174729,6 +174733,7 @@
    },
    {
       "title": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu.",
+      "enTitle": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
       "malid": 59730,
       "type": "tv",
       "releaseDate": "2025-01"
@@ -175525,7 +175530,7 @@
       "enTitle": "Swallowed Star: Blood Luo Continent",
       "malid": 59939,
       "type": "ona",
-      "releaseDate": "2024"
+      "releaseDate": "2024-12-07"
    },
    {
       "title": "Decapolice",
@@ -176377,5 +176382,100 @@
       "malid": 60191,
       "type": "ona",
       "releaseDate": "2025"
+   },
+   {
+      "title": "Flower Rhapsody",
+      "malid": 60192,
+      "type": "music",
+      "releaseDate": "2024-10-26"
+   },
+   {
+      "title": "Momoneko Ondo",
+      "enTitle": "Momoneko Dance Song",
+      "malid": 60202,
+      "type": "pv",
+      "releaseDate": "2012-07-20"
+   },
+   {
+      "title": "Mirai kara Yattekita Mori",
+      "enTitle": "The Forest From the Future",
+      "malid": 60203,
+      "type": "ona",
+      "releaseDate": "2024-09-01"
+   },
+   {
+      "title": "Takkun Kurashi no Tax Note",
+      "malid": 60204,
+      "type": "ova",
+      "releaseDate": "1991-03"
+   },
+   {
+      "title": "Shaonian Jia Guo Meng",
+      "malid": 60207,
+      "type": "tv",
+      "releaseDate": "2024-10-01"
+   },
+   {
+      "title": "Changzheng Xianfeng: Xingguo Zhi Jian",
+      "enTitle": "Long March Hero",
+      "malid": 60208,
+      "type": "tv",
+      "releaseDate": "2021-10-18"
+   },
+   {
+      "title": "Isekai Kenou Seizon-ki",
+      "malid": 60214,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kanojo Face The Animation",
+      "malid": 60216,
+      "type": "ova",
+      "releaseDate": "2025-01-31"
+   },
+   {
+      "title": "Elemon",
+      "malid": 60221,
+      "type": "ona",
+      "releaseDate": "2023-09-28"
+   },
+   {
+      "title": "Kaya-chan wa Kowakunai",
+      "malid": 60223,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Isekai no Sata wa Shachiku Shidai",
+      "malid": 60226,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Kidou Senshi Gundam SEED Freedom Zero",
+      "enTitle": "Mobile Suit Gundam SEED Freedom Zero",
+      "malid": 60230,
+      "type": "unknown",
+      "releaseDate": ""
+   },
+   {
+      "title": "Wanjie Zhuzai",
+      "enTitle": "Lord of Wonderlands",
+      "malid": 60233,
+      "type": "ona",
+      "releaseDate": "2024-10-28"
+   },
+   {
+      "title": "Fuji Lieren",
+      "malid": 60234,
+      "type": "ona",
+      "releaseDate": "2024-09-04"
+   },
+   {
+      "title": "Wu Ni",
+      "malid": 60235,
+      "type": "ona",
+      "releaseDate": "2024-11-07"
    }
 ]
