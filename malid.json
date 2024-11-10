@@ -1125,7 +1125,7 @@
       "releaseDate": "2001-01-13"
    },
    {
-      "title": "Gosenzo San'e",
+      "title": "Gosenzo Sane",
       "enTitle": "Masquerade",
       "malid": 188,
       "type": "ova",
@@ -6761,6 +6761,7 @@
    },
    {
       "title": "Shinkon Gattai Godannar!! 2nd Season",
+      "enTitle": "Marriage of God \u0026 Soul Godannar!! 2nd Season",
       "malid": 1104,
       "type": "tv",
       "releaseDate": "2004-04-06"
@@ -14130,6 +14131,7 @@
    },
    {
       "title": "Muumindani no Suisei",
+      "enTitle": "Comet in Moominland",
       "malid": 2313,
       "type": "movie",
       "releaseDate": "1992-08-08"
@@ -14593,6 +14595,7 @@
    },
    {
       "title": "Tachiguishi Retsuden",
+      "enTitle": "Tachigui: The Amazing Lives of the Fast Food Grifters",
       "malid": 2388,
       "type": "movie",
       "releaseDate": "2006-04-08"
@@ -16712,7 +16715,7 @@
    },
    {
       "title": "Mazinkaiser: Shitou! Ankoku Dai Shougun",
-      "enTitle": "Mazinkaiser: Deathmatch! General Dark",
+      "enTitle": "Mazinkaiser VS Great General of Darkness",
       "malid": 2734,
       "type": "ova",
       "releaseDate": "2003-07-25"
@@ -18977,8 +18980,8 @@
    {
       "title": "Hidamari Sketch Specials",
       "malid": 3165,
-      "type": "special",
-      "releaseDate": "2007-10-18"
+      "type": "tv_special",
+      "releaseDate": "2007-10-19"
    },
    {
       "title": "Ayakashi",
@@ -22869,7 +22872,7 @@
       "enTitle": "Hello Kitty's Paradise",
       "malid": 4023,
       "type": "tv",
-      "releaseDate": "1994-04-06"
+      "releaseDate": "1999-01-05"
    },
    {
       "title": "Sanrio Anime Sekai Meisaku Gekijou",
@@ -24660,7 +24663,7 @@
       "releaseDate": "1996-09-27"
    },
    {
-      "title": "Zoku Gosenzo San'e",
+      "title": "Zoku Gosenzo Sane",
       "malid": 4561,
       "type": "ova",
       "releaseDate": "2000-10-25"
@@ -25652,6 +25655,7 @@
    },
    {
       "title": "Mouryou no Hako",
+      "enTitle": "Box of Goblins",
       "malid": 4879,
       "type": "tv",
       "releaseDate": "2008-10-08"
@@ -42824,6 +42828,7 @@
    },
    {
       "title": "BaBuKa: Gokudou no Tsuma",
+      "enTitle": "Yakuza's Secrets of Sex",
       "malid": 11469,
       "type": "ova",
       "releaseDate": "2011-10-21"
@@ -55084,7 +55089,7 @@
    },
    {
       "title": "Kantai Collection: KanColle",
-      "enTitle": "KanColle: Kantai Collection",
+      "enTitle": "KanColle",
       "malid": 21511,
       "type": "tv",
       "releaseDate": "2015-01-08"
@@ -59800,7 +59805,7 @@
    },
    {
       "title": "Injutsu no Yakata The Animation",
-      "enTitle": "Residence of Obscene Art",
+      "enTitle": "The Residence of Erotic Art",
       "malid": 24849,
       "type": "ova",
       "releaseDate": "2014-08-01"
@@ -60418,6 +60423,7 @@
    },
    {
       "title": "Haikyuu!! Lev Genzan!",
+      "enTitle": "Haikyu!!: Lev Appears!",
       "malid": 25303,
       "type": "ova",
       "releaseDate": "2015-03-04"
@@ -61199,7 +61205,7 @@
       "releaseDate": "2008-01-01"
    },
    {
-      "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season",
+      "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders - Egypt-hen",
       "enTitle": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
       "malid": 26055,
       "type": "tv",
@@ -61214,6 +61220,7 @@
    },
    {
       "title": "Samurai Hormone The Animation",
+      "enTitle": "Sex Code of the Samurai",
       "malid": 26059,
       "type": "ova",
       "releaseDate": "2014-10-03"
@@ -62561,6 +62568,7 @@
    },
    {
       "title": "Madan no Ou to Vanadis: Tigre-kun to Vanadi-chu",
+      "enTitle": "Lord Marksman and Vanadis: Tigre and Vanadish",
       "malid": 27857,
       "type": "ona",
       "releaseDate": "2014-10-10"
@@ -63401,6 +63409,7 @@
    },
    {
       "title": "Sidonia no Kishi Movie",
+      "enTitle": "Knights of Sidonia: The Movie",
       "malid": 28495,
       "type": "movie",
       "releaseDate": "2015-03-06"
@@ -77573,6 +77582,7 @@
    },
    {
       "title": "Megaton-kyuu Musashi",
+      "enTitle": "Megaton Musashi",
       "malid": 33737,
       "type": "tv",
       "releaseDate": "2021-10-01"
@@ -84654,6 +84664,12 @@
       "releaseDate": "1996-10-25"
    },
    {
+      "title": "Magical Maho",
+      "malid": 35617,
+      "type": "ova",
+      "releaseDate": "1997-03-17"
+   },
+   {
       "title": "Li'l Chillun'",
       "enTitle": "Li'l Chillun'",
       "malid": 35618,
@@ -85344,6 +85360,7 @@
    },
    {
       "title": "Haikyuu!! vs. \"Akaten\"",
+      "enTitle": "Haikyu!!: VS \"Failing Marks\"",
       "malid": 35806,
       "type": "ova",
       "releaseDate": "2016-05-02"
@@ -93361,6 +93378,7 @@
    },
    {
       "title": "Uchuu Senkan Tiramisù Specials",
+      "enTitle": "Space Battleship Tiramisu Specials",
       "malid": 37866,
       "type": "special",
       "releaseDate": "2018-06-27"
@@ -131098,7 +131116,7 @@
    {
       "title": "Zai Na Yaoyuan Di Difang",
       "malid": 47791,
-      "type": "special",
+      "type": "tv_special",
       "releaseDate": "2019-10-05"
    },
    {
@@ -134966,6 +134984,7 @@
    },
    {
       "title": "Dakaretai Otoko 1-i ni Odosarete Imasu. Movie: Spain-hen",
+      "enTitle": "DAKAICHI -I'm being harassed by the sexiest man of the year- the Movie: Spain Arc",
       "malid": 48780,
       "type": "movie",
       "releaseDate": "2021-10-09"
@@ -136863,7 +136882,7 @@
       "title": "Beastars Final Season",
       "malid": 49469,
       "type": "ona",
-      "releaseDate": "2024-12"
+      "releaseDate": "2024-12-05"
    },
    {
       "title": "Mamahaha no Tsurego ga Motokano datta",
@@ -140042,6 +140061,7 @@
    },
    {
       "title": "San Ti",
+      "enTitle": "Three-Body",
       "malid": 50445,
       "type": "ona",
       "releaseDate": "2022-12-10"
@@ -140371,6 +140391,7 @@
    },
    {
       "title": "Megaton-kyuu Musashi 2nd Season",
+      "enTitle": "Megaton Musashi Season 2",
       "malid": 50559,
       "type": "tv",
       "releaseDate": "2022-10-07"
@@ -145393,6 +145414,7 @@
    },
    {
       "title": "Mononoke Movie: Karakasa",
+      "enTitle": "Mononoke the Movie: Phantom in the Rain",
       "malid": 52107,
       "type": "movie",
       "releaseDate": "2024-07-26"
@@ -145709,7 +145731,7 @@
       "releaseDate": "2023-07-02"
    },
    {
-      "title": "Chi.: Chikyuu no Undou ni Tsuite",
+      "title": "Chi. Chikyuu no Undou ni Tsuite",
       "enTitle": "Orb: On the Movements of the Earth",
       "malid": 52215,
       "type": "tv",
@@ -152013,7 +152035,7 @@
       "enTitle": "Toilet-Bound Hanako-kun Season 2",
       "malid": 53924,
       "type": "tv",
-      "releaseDate": "2025-01"
+      "releaseDate": "2025-01-12"
    },
    {
       "title": "Chunchun World: Ogenki Taisou",
@@ -153326,6 +153348,7 @@
    },
    {
       "title": "Niehime to Kemono no Ou Mini Anime",
+      "enTitle": "Sacrificial Princess and the King of Beasts Mini Anime",
       "malid": 54210,
       "type": "ona",
       "releaseDate": "2022-11-21"
@@ -155281,6 +155304,7 @@
    },
    {
       "title": "Sousei no Aquarion: Myth of Emotions",
+      "enTitle": "Aquarion: Myth of Emotions",
       "malid": 54769,
       "type": "tv",
       "releaseDate": "2025-01"
@@ -155651,7 +155675,7 @@
    },
    {
       "title": "Blue Lock vs. U-20 Japan",
-      "enTitle": "Blue Lock 2nd Season",
+      "enTitle": "Blue Lock Season 2",
       "malid": 54865,
       "type": "tv",
       "releaseDate": "2024-10-06"
@@ -155816,6 +155840,7 @@
    },
    {
       "title": "Shin Yaranai ka",
+      "enTitle": "Junichi Yamakawa Collection",
       "malid": 54907,
       "type": "ova",
       "releaseDate": "2024-04-01"
@@ -155868,6 +155893,7 @@
    },
    {
       "title": "Edens Zero (Recap Movie)",
+      "enTitle": "Edens Zero Recap Movie",
       "malid": 54917,
       "type": "ona",
       "releaseDate": "2023-04-01"
@@ -157319,7 +157345,7 @@
       "title": "Medalist",
       "malid": 55318,
       "type": "tv",
-      "releaseDate": "2025-01"
+      "releaseDate": "2025-01-05"
    },
    {
       "title": "Kyou, Watashi no Monogatari ga Hashirimasu.: Another Side-hen",
@@ -159779,7 +159805,7 @@
    },
    {
       "title": "Watashi no Shiawase na Kekkon: Watashi no Shiawase na Katachi",
-      "enTitle": "My Happy Marriage OVA",
+      "enTitle": "My Happy Marriage: The Shape of Happiness",
       "malid": 55889,
       "type": "ova",
       "releaseDate": "2024-03-15"
@@ -160783,7 +160809,7 @@
       "enTitle": "UniteUp! -Uni:Birth-",
       "malid": 56135,
       "type": "tv",
-      "releaseDate": "2025-01"
+      "releaseDate": "2025-01-11"
    },
    {
       "title": "Dragon Ball: Nihon Ijin Taishou - Saikyou no Ijin wa Dare?",
@@ -163533,12 +163559,6 @@
       "releaseDate": "2023-09-30"
    },
    {
-      "title": "Alps to Kiken na Mori",
-      "malid": 56777,
-      "type": "ova",
-      "releaseDate": ""
-   },
-   {
       "title": "No Waifu No Life!",
       "malid": 56778,
       "type": "ova",
@@ -165217,14 +165237,14 @@
       "title": "Creature Hunters",
       "malid": 57150,
       "type": "tv",
-      "releaseDate": "2024-10"
+      "releaseDate": ""
    },
    {
       "title": "Mahoutsukai no Yakusoku",
       "enTitle": "Promise of Wizard",
       "malid": 57152,
       "type": "tv",
-      "releaseDate": "2025-01"
+      "releaseDate": "2025-01-06"
    },
    {
       "title": "Butaman Gokoro",
@@ -165529,13 +165549,6 @@
       "malid": 57229,
       "type": "ona",
       "releaseDate": "2023-11-20"
-   },
-   {
-      "title": "Jiaonang Jihua 2",
-      "enTitle": "Capsules 2nd Season",
-      "malid": 57233,
-      "type": "ona",
-      "releaseDate": "2023-12-05"
    },
    {
       "title": "Jiaonang Jihua 2",
@@ -168221,6 +168234,7 @@
    },
    {
       "title": "Shenlong Xing Zhu",
+      "enTitle": "Dragon Star Lord",
       "malid": 57878,
       "type": "ona",
       "releaseDate": "2024-01-20"
@@ -168925,9 +168939,10 @@
    },
    {
       "title": "NEET Kunoichi to Nazeka Dousei Hajimemashita",
+      "enTitle": "I'm Living with an Otaku NEET Kunoichi!?",
       "malid": 58082,
       "type": "tv",
-      "releaseDate": "2025-01"
+      "releaseDate": "2025-01-05"
    },
    {
       "title": "Guonian Zhe Lianmeng: Xun Long Ji",
@@ -169962,7 +169977,7 @@
       "title": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru",
       "malid": 58359,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025-04"
    },
    {
       "title": "Namekuji Aika",
@@ -170300,6 +170315,7 @@
    },
    {
       "title": "Yin Shizong Men Zhang Jiao",
+      "enTitle": "Hidden Sect Leader",
       "malid": 58494,
       "type": "ona",
       "releaseDate": "2024-03-23"
@@ -172046,7 +172062,7 @@
    },
    {
       "title": "Pororo Gonglyong Ppyeoga Sal-anassda!",
-      "enTitle": "Dino Skeletons Came Alive",
+      "enTitle": "Pororo Movie: Pororo's Night at the Dinosaur Museum",
       "malid": 59065,
       "type": "ona",
       "releaseDate": "2023-04-28"
@@ -172559,7 +172575,7 @@
       "enTitle": "Go! Go! Loser Ranger! Season 2",
       "malid": 59189,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-04"
    },
    {
       "title": "Genjitsu no Yohane: Sunshine in the Mirror Movie",
@@ -173253,7 +173269,7 @@
       "title": "Rock wa Lady no Tashinami deshite",
       "malid": 59360,
       "type": "tv",
-      "releaseDate": "2025"
+      "releaseDate": "2025-04"
    },
    {
       "title": "Kono Kaisha ni Suki na Hito ga Imasu",
@@ -174028,6 +174044,7 @@
    },
    {
       "title": "Ganbare! Nakamura-kun!!",
+      "enTitle": "Go For It, Nakamura!",
       "malid": 59551,
       "type": "tv",
       "releaseDate": "2025"
@@ -174571,7 +174588,7 @@
       "title": "Chengyu Zhong Guo",
       "malid": 59693,
       "type": "ona",
-      "releaseDate": "2024-08-19"
+      "releaseDate": "2024-08-16"
    },
    {
       "title": "Ali",
@@ -175702,7 +175719,7 @@
       "releaseDate": ""
    },
    {
-      "title": "Doraemon Movie 44: Nobita no e Sekai Monogatari",
+      "title": "Doraemon Movie 44: Nobita no E Sekai Monogatari",
       "malid": 59980,
       "type": "movie",
       "releaseDate": "2025-03-07"
@@ -176182,13 +176199,13 @@
       "title": "Muchuu sa, Kimi ni.",
       "malid": 60130,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025"
    },
    {
       "title": "Karaoke Iko!",
       "malid": 60131,
       "type": "tv",
-      "releaseDate": ""
+      "releaseDate": "2025"
    },
    {
       "title": "Tudi Ge Ge Shi Da Lao",
@@ -176353,6 +176370,12 @@
       "releaseDate": "2024-09-05"
    },
    {
+      "title": "Kuzuri",
+      "malid": 60180,
+      "type": "music",
+      "releaseDate": "2024-10-23"
+   },
+   {
       "title": "Hanei",
       "malid": 60184,
       "type": "movie",
@@ -176477,5 +176500,90 @@
       "malid": 60235,
       "type": "ona",
       "releaseDate": "2024-11-07"
+   },
+   {
+      "title": "He Zhong Zhi Hai",
+      "enTitle": "Sea in a Box",
+      "malid": 60246,
+      "type": "ona",
+      "releaseDate": "2024-10-03"
+   },
+   {
+      "title": "Shanhai Fu Mo Lu",
+      "enTitle": "Adventures in Subduing the Demons",
+      "malid": 60248,
+      "type": "ona",
+      "releaseDate": "2024-11-11"
+   },
+   {
+      "title": "Wangu Zui Qiang Zong",
+      "malid": 60249,
+      "type": "ona",
+      "releaseDate": "2024-11-06"
+   },
+   {
+      "title": "Maware! Setsugetsuka Pixel Art Version",
+      "malid": 60252,
+      "type": "music",
+      "releaseDate": "2014-05-28"
+   },
+   {
+      "title": "Isekai Munchkin: HP1 no Mama de Saikyou Saisoku Dungeon Kouryaku",
+      "enTitle": "Otherworldly Munchkin",
+      "malid": 60253,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Yano-kun no Futsuu no Hibi",
+      "enTitle": "Yano-kun's Ordinary Days",
+      "malid": 60254,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Arne no Jikenbo",
+      "enTitle": "The Case Book of Arne",
+      "malid": 60255,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Biaozhun Guige Zhanshi",
+      "enTitle": "Ordinary Warrior",
+      "malid": 60257,
+      "type": "ona",
+      "releaseDate": "2024-11-03"
+   },
+   {
+      "title": "Hotel Inhumans",
+      "malid": 60260,
+      "type": "tv",
+      "releaseDate": "2025"
+   },
+   {
+      "title": "Itsudemo Futari",
+      "malid": 60261,
+      "type": "music",
+      "releaseDate": "2024-10-30"
+   },
+   {
+      "title": "Metamorphose.",
+      "malid": 60264,
+      "type": "movie",
+      "releaseDate": "1974"
+   },
+   {
+      "title": "Yuru Camp△ Season 4",
+      "enTitle": "Laid-Back Camp Season 4",
+      "malid": 60267,
+      "type": "tv",
+      "releaseDate": ""
+   },
+   {
+      "title": "Hypnosis Mic: Division Rap Battle Movie",
+      "malid": 60273,
+      "type": "movie",
+      "releaseDate": "2025-02-21"
    }
 ]
