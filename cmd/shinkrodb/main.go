@@ -26,12 +26,13 @@ func main() {
 	switch cmd := pflag.Arg(0); cmd {
 	case "run":
 		cfg := config.NewConfig()
+		domain.SetAnimePaths(rootPath)
 		domain.CleanCache("./mal_cache")
 		domain.GetMalIds(cfg)
 		domain.ScrapeMal()
 		domain.GetTvdbIDs()
 		domain.GetTmdbIds(cfg, rootPath)
-		a := domain.GetAnime("./malid-anidbid-tvdbid-tmdbid.json")
+		a := domain.GetAnime(domain.TMDBIDPath)
 		fmt.Println("Total number of dupes:", domain.CheckDupes(a))
 		unmapped := tvdbmap.CreateAnimeTVDBMap(rootPath)
 		err := tvdbmap.UpdateMaster(unmapped, rootPath)

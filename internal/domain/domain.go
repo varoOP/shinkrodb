@@ -33,10 +33,10 @@ func NewAnimeService(c *colly.Collector) *AnimeService {
 	}
 }
 
-func GetAnime(path string) []Anime {
+func GetAnime(path AnimePath) []Anime {
 	a := []Anime{}
 
-	f, err := os.Open(path)
+	f, err := os.Open(string(path))
 	checkErr(err)
 
 	defer f.Close()
@@ -49,13 +49,13 @@ func GetAnime(path string) []Anime {
 	return a
 }
 
-func StoreAnime(a []Anime, path string) {
+func StoreAnime(a []Anime, path AnimePath) {
 	j, err := json.MarshalIndent(a, "", "   ")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	f, err := os.Create(path)
+	f, err := os.Create(string(path))
 	if err != nil {
 		log.Fatal(err)
 	}

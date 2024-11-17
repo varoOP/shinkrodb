@@ -55,6 +55,7 @@ func (c *clientIDTransport) RoundTrip(req *http.Request) (*http.Response, error)
 }
 
 func GetMalIds(cfg *Config) {
+	fmt.Println("Getting current ids from myanimelist..")
 	c := &http.Client{
 		Transport: &clientIDTransport{ClientID: cfg.MalClientID},
 	}
@@ -74,7 +75,9 @@ func GetMalIds(cfg *Config) {
 		return a[i].MalID < a[j].MalID
 	})
 
-	StoreAnime(a, "./malid.json")
+	StoreAnime(a, MalIDPath)
+	fmt.Println("Stored malids to ", MalIDPath)
+	copyFileIfNotExist(MalIDPath, AniDBIDPath)
 }
 
 func storeAnimeID(c *http.Client, url string, a *[]Anime) string {
@@ -124,7 +127,7 @@ func ScrapeMal() {
 	//extensions.Referer(cc)
 
 	as := NewAnimeService(cc)
-	a := GetAnime("./malid.json")
+	a := GetAnime(AniDBIDPath)
 	as.AnimeSlice = a
 	r := regexp.MustCompile(`aid=(\d+)`)
 	as.c.OnHTML("a[href]", func(e *colly.HTMLElement) {
@@ -156,8 +159,10 @@ func ScrapeMal() {
 
 	for i, v := range as.AnimeSlice {
 		gc = i
-		as.c.Visit(fmt.Sprintf("https://myanimelist.net/anime/%d", v.MalID))
+		if as.AnimeSlice[gc].AnidbID <= 0 {
+			as.c.Visit(fmt.Sprintf("https://myanimelist.net/anime/%d", v.MalID))
+		}
 	}
 
-	StoreAnime(as.AnimeSlice, "./malid-anidbid.json")
+	StoreAnime(as.AnimeSlice, AniDBIDPath)
 }

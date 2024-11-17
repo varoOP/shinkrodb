@@ -12,7 +12,7 @@ func GetTvdbIDs() {
 		log.Fatal(err)
 	}
 
-	a := GetAnime("./malid-anidbid.json")
+	a := GetAnime(AniDBIDPath)
 	for i, anime := range a {
 		if anime.Type == "tv" && anime.AnidbID > 0 {
 			if tvdbid := al.GetTvdbID(anime.AnidbID); tvdbid > 0 {
@@ -21,5 +21,5 @@ func GetTvdbIDs() {
 		}
 	}
 
-	StoreAnime(a, "./malid-anidbid-tvdbid.json")
+	StoreAnime(a, TVDBIDPath)
 }

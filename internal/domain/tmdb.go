@@ -62,7 +62,7 @@ type TMDBAPIResponse struct {
 }
 
 func GetTmdbIds(cfg *Config, rootPath string) {
-	a := GetAnime("./malid-anidbid-tvdbid.json")
+	a := GetAnime(TVDBIDPath)
 	u := buildUrl(cfg.TmdbApiKey)
 	am := &AnimeMovies{}
 	noTmdbTotal := 0
@@ -122,7 +122,7 @@ func GetTmdbIds(cfg *Config, rootPath string) {
 		}
 	}
 
-	StoreAnime(a, "./malid-anidbid-tvdbid-tmdbid.json")
+	StoreAnime(a, TMDBIDPath)
 	log.Println("Total number of movies", totalMovies)
 	log.Println("Total number of movies with TMDBID", withTmdbTotal)
 	log.Println("Total number of movies without TMDBID", noTmdbTotal)

@@ -87,7 +87,7 @@ func GetAnimeTVDBMap(path string) (*AnimeTVDBMap, error) {
 
 func CreateAnimeTVDBMap(path string) *AnimeTVDBMap {
 	am := &AnimeTVDBMap{}
-	a := domain.GetAnime("./malid.json")
+	a := domain.GetAnime(domain.MalIDPath)
 	for _, anime := range a {
 		am.Anime = append(am.Anime, Anime{
 			anime.MalID,

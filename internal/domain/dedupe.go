@@ -61,7 +61,7 @@ func CheckDupes(a []Anime) int {
 		deduped = checkTitle(a, indexes)
 	}
 
-	StoreAnime(deduped, "./for-shinkro.json")
+	StoreAnime(deduped, shinkroPath)
 	return len(dupeanidb)
 }
 
