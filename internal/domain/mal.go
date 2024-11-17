@@ -127,7 +127,7 @@ func ScrapeMal() {
 	//extensions.Referer(cc)
 
 	as := NewAnimeService(cc)
-	a := GetAnime(AniDBIDPath)
+	a := updateMalfromAnidb()
 	as.AnimeSlice = a
 	r := regexp.MustCompile(`aid=(\d+)`)
 	as.c.OnHTML("a[href]", func(e *colly.HTMLElement) {
@@ -165,4 +165,20 @@ func ScrapeMal() {
 	}
 
 	StoreAnime(as.AnimeSlice, AniDBIDPath)
+}
+
+func updateMalfromAnidb() []Anime {
+	mal := GetAnime(MalIDPath)
+
+	for i := range mal {
+
+		animeInfo, exists := typeDateMap[mal[i].MalID]
+		if !exists {
+			continue
+		}
+
+		mal[i].AnidbID = animeInfo.AnidbID
+	}
+
+	return mal
 }
