@@ -2,41 +2,44 @@ package domain
 
 import (
 	"bytes"
+	"errors"
 	"fmt"
 	"log"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strconv"
-	"strings"
-	"sync"
 	"time"
 
 	"golang.org/x/net/html"
 )
 
 var (
-	delCount   int
+	delCount   []int
 	nilMatches []string
-	mutex      sync.Mutex
 )
 
+var anime []Anime
+var typeDateMap map[int]Anime
+
 func CleanCache(rootDir string) {
-	var wg sync.WaitGroup
+	anime = GetAnime(AniDBIDPath)
+	typeDateMap = *loadMalid(anime)
+
+	fmt.Println("Cleaning mal_cache..")
+	exp := `<link\s*rel="canonical"\s*\n*href="https://myanimelist\.net/anime/(\d+)/`
+	re := regexp.MustCompile(exp)
+
 	err := filepath.Walk(rootDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
 
 		if !info.IsDir() {
-			wg.Add(1)
-			go func(path string) {
-				defer wg.Done()
+			func(path string) {
 				doc := readFile(path)
-				if shouldDelete(doc, path) {
-					mutex.Lock()
-					delCount++
-					mutex.Unlock()
+				if delete, id := shouldDelete(doc, path, re); delete {
+					delCount = append(delCount, id)
 					removeFile(path)
 				}
 			}(path)
@@ -44,18 +47,36 @@ func CleanCache(rootDir string) {
 		return nil
 	})
 
+	if errors.Is(err, os.ErrNotExist) {
+		log.Println("mal_cache does not exist and will be created")
+		return
+	}
+
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	wg.Wait()
-
-	fmt.Println("Unable to check the following html pages in cache:")
+	fmt.Printf("Unable to check the following html pages in cache: %v\n", len(nilMatches))
 	for _, v := range nilMatches {
 		fmt.Println(v)
 	}
 
-	fmt.Println("Total number of files deleted: ", delCount)
+	ld := len(delCount)
+	fmt.Println("Total number of files deleted: ", ld)
+	if ld > 0 {
+		fmt.Println("Following MAL pages were deleted from cache:")
+		for _, v := range delCount {
+			fmt.Printf("https://myanimelist.net/anime/%d\n", v)
+		}
+	}
+}
+
+func loadMalid(anime []Anime) *map[int]Anime {
+	idDate := make(map[int]Anime, len(anime))
+	for _, a := range anime {
+		idDate[a.MalID] = a
+	}
+	return &idDate
 }
 
 func removeFile(path string) {
@@ -88,32 +109,46 @@ func readFile(path string) string {
 	return doc
 }
 
-func shouldDelete(doc, path string) bool {
-	return checkTypeAndYear(doc, path) && !checkAnidb(doc)
-}
-
-func checkAnidb(doc string) bool {
-	return strings.Contains(doc, "external-links-anime-pc-anidb")
-
-}
-
-// returns true if the anime is from the current year and it's type is tv
-func checkTypeAndYear(doc, path string) bool {
-	exp := `[\S\s]*(?:https://myanimelist\.net/topanime\.php\?type=(\w+)|Type:</span>\n\s{0,}(\w+)\s{0,}</div>)[\S\s\v]*(?:Aired:</span>\n\s+.*(\d{4}))`
-	re := regexp.MustCompile(exp)
+// returns true if the anime is from the current year, it's type is tv and doesn't have an anidbID
+func shouldDelete(doc, path string, re *regexp.Regexp) (bool, int) {
+	var animeDate time.Time
 	match := re.FindStringSubmatch(doc)
 
 	if match == nil {
 		nilMatches = append(nilMatches, path)
-		return false
+		return false, 0
 	}
 
-	showType := match[1]
-
-	if showType == "" {
-		showType = match[2]
+	malID, err := strconv.Atoi(match[1])
+	if err != nil {
+		log.Printf("Error converting malID from string to int for path: %s\n", path)
+		return false, 0
 	}
 
-	currentYear := strconv.Itoa(time.Now().Year())
-	return showType == "tv" && match[3] == currentYear
+	animeInfo, exists := typeDateMap[malID]
+	if !exists {
+		log.Printf("Warning: malID %d not found in typeDateMap for path: %s\n", malID, path)
+		return true, malID
+	}
+
+	showType := animeInfo.Type
+	dateStr := animeInfo.ReleaseDate
+
+	if dateStr != "" {
+		// Attempt to parse date with various formats
+		animeDate, err = time.Parse("2006-01-02", dateStr)
+		if err != nil {
+			animeDate, err = time.Parse("2006-01", dateStr)
+			if err != nil {
+				animeDate, err = time.Parse("2006", dateStr)
+				if err != nil {
+					log.Printf("Warning: Unable to parse date for malID %d (%s) in path: %s\n", malID, dateStr, path)
+					return false, 0
+				}
+			}
+		}
+	}
+
+	currentYear := time.Now().Year()
+	return showType == "tv" && animeDate.Year() == currentYear && animeInfo.AnidbID <= 0, malID
 }
