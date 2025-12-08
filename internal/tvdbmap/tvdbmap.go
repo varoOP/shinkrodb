@@ -26,8 +26,11 @@ type Anime struct {
 }
 
 type AnimeMapping struct {
-	TvdbSeason int `yaml:"tvdbseason"`
-	Start      int `yaml:"start"`
+	TvdbSeason      int            `yaml:"tvdbseason"`
+	Start           int            `yaml:"start"`
+	MappingType     string         `yaml:"mappingType,omitempty"`
+	ExplicitEpisodes map[int]int   `yaml:"explicitEpisodes,omitempty"`
+	SkipMalEpisodes []int          `yaml:"skipMalEpisodes,omitempty"`
 }
 
 func (am *AnimeTVDBMap) Store(path string) error {
