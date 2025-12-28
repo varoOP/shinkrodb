@@ -1,20 +1,5 @@
 package domain
 
-import (
-	"encoding/json"
-	"io"
-	"log"
-	"os"
-
-	"github.com/gocolly/colly"
-)
-
-type AnimeService struct {
-	Anime      Anime
-	AnimeSlice []Anime
-	c          *colly.Collector
-}
-
 // Anime stores information about an anime
 type Anime struct {
 	MainTitle    string `json:"title"`
@@ -25,50 +10,4 @@ type Anime struct {
 	TmdbID       int    `json:"tmdbid,omitempty"`
 	Type         string `json:"type"`
 	ReleaseDate  string `json:"releaseDate"`
-}
-
-func NewAnimeService(c *colly.Collector) *AnimeService {
-	return &AnimeService{
-		c: c,
-	}
-}
-
-func GetAnime(path AnimePath) []Anime {
-	a := []Anime{}
-
-	f, err := os.Open(string(path))
-	checkErr(err)
-
-	defer f.Close()
-	body, err := io.ReadAll(f)
-	checkErr(err)
-
-	err = json.Unmarshal(body, &a)
-	checkErr(err)
-
-	return a
-}
-
-func StoreAnime(a []Anime, path AnimePath) {
-	j, err := json.MarshalIndent(a, "", "   ")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	f, err := os.Create(string(path))
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	defer f.Close()
-	_, err = f.Write(j)
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
-func checkErr(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
 }
