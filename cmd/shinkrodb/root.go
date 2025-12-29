@@ -40,11 +40,9 @@ func init() {
 	// Global flags
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.shinkrodb.yaml or ./config.yaml)")
 	rootCmd.PersistentFlags().String("root-path", ".", "the path where output is saved")
-	rootCmd.PersistentFlags().String("cache-dir", "./mal_cache", "directory for caching MAL pages")
 
 	// Bind flags to viper
 	viper.BindPFlag("root_path", rootCmd.PersistentFlags().Lookup("root-path"))
-	viper.BindPFlag("cache_dir", rootCmd.PersistentFlags().Lookup("cache-dir"))
 }
 
 // initConfig reads in config file and ENV variables if set.

@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"os"
 	"regexp"
 	"sort"
 	"strconv"
@@ -15,20 +16,22 @@ import (
 	"github.com/gocolly/colly/extensions"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
+	"github.com/varoOP/shinkrodb/internal/cache"
 	"github.com/varoOP/shinkrodb/internal/domain"
+	_ "modernc.org/sqlite"
 )
 
 type Service interface {
 	GetAnimeIDs(ctx context.Context) error
-	ScrapeAniDBIDs(ctx context.Context, cacheDir string) error
+	ScrapeAniDBIDs(ctx context.Context, dbPath string) error
 }
 
 type service struct {
-	log        zerolog.Logger
-	config     *domain.Config
-	animeRepo  domain.AnimeRepository
-	malIDPath  domain.AnimePath
-	anidbPath  domain.AnimePath
+	log       zerolog.Logger
+	config    *domain.Config
+	animeRepo domain.AnimeRepository
+	malIDPath domain.AnimePath
+	anidbPath domain.AnimePath
 }
 
 type MalResponse struct {
@@ -112,11 +115,6 @@ func (s *service) GetAnimeIDs(ctx context.Context) error {
 	}
 	s.log.Info().Str("path", string(s.malIDPath)).Msg("Stored malids")
 
-	// Copy to anidb path if it doesn't exist
-	if err := s.copyFileIfNotExist(ctx, s.malIDPath, s.anidbPath); err != nil {
-		return errors.Wrap(err, "failed to copy file")
-	}
-
 	return nil
 }
 
@@ -161,21 +159,94 @@ func (s *service) storeAnimeID(ctx context.Context, c *http.Client, url string, 
 	return mal.Paging.Next, nil
 }
 
-func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheDir string) error {
-	cc := colly.NewCollector(
-		colly.AllowedDomains("myanimelist.net"),
-		colly.CacheDir(cacheDir),
-	)
-
-	extensions.RandomUserAgent(cc)
-
-	a, err := s.animeRepo.Get(ctx, s.anidbPath)
+func (s *service) ScrapeAniDBIDs(ctx context.Context, dbPath string) error {
+	// Get anime list from malid.json
+	a, err := s.animeRepo.Get(ctx, s.malIDPath)
 	if err != nil {
 		return errors.Wrap(err, "failed to get anime list")
 	}
 
-	// Update from existing AniDB data if available
-	a = s.updateMalfromAnidb(a)
+	// Get all cached entries with AniDB IDs (regardless of release date)
+	// Entries with AniDB IDs are always valid
+	cachedMalIDs := make(map[int]bool)
+	if _, err := os.Stat(dbPath); err == nil {
+		db, err := cache.OpenDB(ctx, dbPath, s.log)
+		if err != nil {
+			s.log.Warn().Err(err).Msg("failed to open cache database, will scrape all")
+		} else {
+			defer db.Close()
+
+			// Get all cache entries that have AniDB IDs (no release date filter)
+			rows, err := db.QueryContext(ctx, `
+				SELECT mal_id, anidb_id 
+				FROM cache_entries 
+				WHERE anidb_id > 0
+			`)
+			if err == nil {
+				defer rows.Close()
+				for rows.Next() {
+					var malID, anidbID int
+					if err := rows.Scan(&malID, &anidbID); err == nil && anidbID > 0 {
+						cachedMalIDs[malID] = true
+						// Update anime list with cached AniDB ID
+						for i := range a {
+							if a[i].MalID == malID {
+								a[i].AnidbID = anidbID
+								break
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Filter to only scrape entries that:
+	// 1. Don't have an AniDB ID in cache
+	// 2. Were released in the last year (based on release_date from anime list)
+	currentYear := time.Now().Year()
+	oneYearAgoYear := currentYear - 1
+	toScrape := []domain.Anime{}
+	for _, anime := range a {
+		if !cachedMalIDs[anime.MalID] && anime.AnidbID <= 0 {
+			// Check if released in the last year
+			shouldScrape := false
+			if anime.ReleaseDate != "" {
+				// Extract year from release_date (format: "YYYY-MM-DD", "YYYY-MM", or "YYYY")
+				if len(anime.ReleaseDate) >= 4 {
+					releaseYearStr := anime.ReleaseDate[:4]
+					if releaseYear, parseErr := strconv.Atoi(releaseYearStr); parseErr == nil {
+						shouldScrape = releaseYear >= oneYearAgoYear
+					}
+				}
+			} else {
+				// If no release date, don't scrape (too old or unknown)
+				shouldScrape = false
+			}
+
+			if shouldScrape {
+				toScrape = append(toScrape, anime)
+			}
+		}
+	}
+
+	if len(toScrape) == 0 {
+		s.log.Info().Msg("All anime already cached, skipping scrape")
+		// Still store the updated list with cached AniDB IDs
+		if err := s.animeRepo.Store(ctx, s.anidbPath, a); err != nil {
+			return errors.Wrap(err, "failed to store AniDB IDs")
+		}
+		return nil
+	}
+
+	s.log.Info().Int("total", len(a)).Int("cached", len(cachedMalIDs)).Int("to_scrape", len(toScrape)).Msg("Starting scrape")
+
+	// Use Colly for scraping (no file cache, using database cache instead)
+	cc := colly.NewCollector(
+		colly.AllowedDomains("myanimelist.net"),
+	)
+
+	extensions.RandomUserAgent(cc)
 
 	r := regexp.MustCompile(`aid=(\d+)`)
 	cc.OnHTML("a[href]", func(e *colly.HTMLElement) {
@@ -207,10 +278,11 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheDir string) error {
 		}
 	})
 
+	// Since to_scrape count is expected to be low, use higher parallelism and lower delays
 	cc.Limit(&colly.LimitRule{
-		RandomDelay: 5 * time.Second,
-		Delay:       5 * time.Second,
-		Parallelism: 10,
+		RandomDelay: 1 * time.Second,
+		Delay:       1 * time.Second,
+		Parallelism: 30,
 		DomainGlob:  "*myanimelist*",
 	})
 
@@ -218,10 +290,17 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheDir string) error {
 		s.log.Debug().Str("url", r.URL.String()).Msg("visiting")
 	})
 
-	for _, v := range a {
-		if v.AnidbID <= 0 {
-			cc.Visit(fmt.Sprintf("https://myanimelist.net/anime/%d", v.MalID))
-		}
+	// Only scrape entries not in cache
+	for _, v := range toScrape {
+		cc.Visit(fmt.Sprintf("https://myanimelist.net/anime/%d", v.MalID))
+	}
+
+	// Wait for scraping to complete
+	cc.Wait()
+
+	// Update database with newly scraped AniDB IDs
+	if err := s.updateCacheDatabase(ctx, dbPath, a); err != nil {
+		s.log.Warn().Err(err).Msg("failed to update cache database")
 	}
 
 	if err := s.animeRepo.Store(ctx, s.anidbPath, a); err != nil {
@@ -231,30 +310,89 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheDir string) error {
 	return nil
 }
 
-func (s *service) updateMalfromAnidb(anime []domain.Anime) []domain.Anime {
-	// This would load from a pre-existing mapping if available
-	// For now, just return the anime list as-is
-	return anime
-}
-
-func (s *service) copyFileIfNotExist(ctx context.Context, srcPath, dstPath domain.AnimePath) error {
-	// Check if destination exists
-	if _, err := s.animeRepo.Get(ctx, dstPath); err == nil {
-		s.log.Debug().Str("path", string(dstPath)).Msg("File already exists, skipping copy")
-		return nil
+func (s *service) updateCacheDatabase(ctx context.Context, dbPath string, animeList []domain.Anime) error {
+	// Check if database exists
+	if _, err := os.Stat(dbPath); os.IsNotExist(err) {
+		return nil // Database doesn't exist yet, skip update
 	}
 
-	// Copy source to destination
-	src, err := s.animeRepo.Get(ctx, srcPath)
+	db, err := cache.OpenDB(ctx, dbPath, s.log)
 	if err != nil {
-		return errors.Wrap(err, "failed to read source file")
+		return errors.Wrap(err, "failed to open cache database")
+	}
+	defer db.Close()
+
+	// Build map of anime for quick lookup
+	animeMap := make(map[int]domain.Anime)
+	for _, a := range animeList {
+		animeMap[a.MalID] = a
 	}
 
-	if err := s.animeRepo.Store(ctx, dstPath, src); err != nil {
-		return errors.Wrap(err, "failed to write destination file")
+	// Update or insert cache entries with current timestamp
+	updateStmt, err := db.PrepareContext(ctx, `
+		UPDATE cache_entries 
+		SET anidb_id = ?, had_anidb_id = ?, last_used = ?, release_date = ?, type = ?
+		WHERE mal_id = ?
+	`)
+	if err != nil {
+		return errors.Wrap(err, "failed to prepare update statement")
+	}
+	defer updateStmt.Close()
+
+	insertStmt, err := db.PrepareContext(ctx, `
+		INSERT OR REPLACE INTO cache_entries 
+		(mal_id, anidb_id, url, cached_at, last_used, html_hash, had_anidb_id, release_date, type)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	`)
+	if err != nil {
+		return errors.Wrap(err, "failed to prepare insert statement")
+	}
+	defer insertStmt.Close()
+
+	now := time.Now().Format(time.RFC3339)
+	updated := 0
+
+	for _, anime := range animeList {
+		url := fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID)
+		hadAniDBID := anime.AnidbID > 0
+
+		// Debug: Log values to catch any bugs
+		if anime.MalID == anime.AnidbID && anime.AnidbID > 0 {
+			s.log.Warn().
+				Int("mal_id", anime.MalID).
+				Int("anidb_id", anime.AnidbID).
+				Msg("WARNING: mal_id equals anidb_id - this should not happen!")
+		}
+
+		// Try to update existing entry (update all entries, not just those with AniDB IDs)
+		result, err := updateStmt.ExecContext(ctx, anime.AnidbID, hadAniDBID, now, anime.ReleaseDate, anime.Type, anime.MalID)
+		if err != nil {
+			s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to update cache entry")
+			continue
+		}
+
+		rowsAffected, _ := result.RowsAffected()
+		if rowsAffected == 0 {
+			// Entry doesn't exist, insert it (create entries for all scraped pages, even without AniDB IDs)
+			_, err = insertStmt.ExecContext(ctx,
+				anime.MalID,
+				anime.AnidbID, // This will be 0 if no AniDB ID found, which is correct
+				url,
+				now,
+				now,
+				"", // html_hash - not needed for new entries
+				hadAniDBID,
+				anime.ReleaseDate,
+				anime.Type,
+			)
+			if err != nil {
+				s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to insert cache entry")
+				continue
+			}
+		}
+		updated++
 	}
 
-	s.log.Debug().Str("src", string(srcPath)).Str("dst", string(dstPath)).Msg("File copied")
+	s.log.Debug().Int("updated_count", updated).Msg("Updated cache database with AniDB IDs")
 	return nil
 }
-

@@ -19,8 +19,8 @@ type Service interface {
 }
 
 type service struct {
-	log        zerolog.Logger
-	animeRepo  domain.AnimeRepository
+	log         zerolog.Logger
+	animeRepo   domain.AnimeRepository
 	aidTitleMap map[int]string
 }
 
@@ -77,12 +77,12 @@ func (s *service) CheckDupes(ctx context.Context, anime []domain.Anime) (int, []
 	s.log.Info().Int("dupe_count", len(dupeanidb)).Msg("Found duplicates")
 
 	// Check titles and remove non-matching entries
-	deduped := s.checkTitle(anime, indexes)
+	deduped := s.checkTitle(ctx, anime, indexes)
 
 	return len(dupeanidb), deduped, nil
 }
 
-func (s *service) checkTitle(anime []domain.Anime, indexes []int) []domain.Anime {
+func (s *service) checkTitle(ctx context.Context, anime []domain.Anime, indexes []int) []domain.Anime {
 	for _, index := range indexes {
 		if index >= len(anime) {
 			continue
@@ -95,7 +95,14 @@ func (s *service) checkTitle(anime []domain.Anime, indexes []int) []domain.Anime
 				Str("anime_title", anime[index].MainTitle).
 				Str("anidb_title", mainTitle).
 				Msg("Deleting non-matching entry")
-			return s.removeIndex(anime, index)
+			// Remove entry and recursively check for more duplicates (same as legacy behavior)
+			removed := s.removeIndex(anime, index)
+			_, deduped, err := s.CheckDupes(ctx, removed)
+			if err != nil {
+				s.log.Warn().Err(err).Msg("failed to recursively check dupes")
+				return removed
+			}
+			return deduped
 		}
 	}
 	return anime
@@ -165,4 +172,3 @@ type Animetitles struct {
 		} `xml:"title"`
 	} `xml:"anime"`
 }
-

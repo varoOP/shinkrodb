@@ -6,7 +6,6 @@ import (
 	"path/filepath"
 
 	"github.com/rs/zerolog"
-	"github.com/varoOP/shinkrodb/internal/cache"
 	"github.com/varoOP/shinkrodb/internal/config"
 	"github.com/varoOP/shinkrodb/internal/dedupe"
 	"github.com/varoOP/shinkrodb/internal/domain"
@@ -28,7 +27,6 @@ type App struct {
 	malService    mal.Service
 	tmdbService   tmdb.Service
 	tvdbService   tvdb.Service
-	cacheService  cache.Service
 	dedupeService dedupe.Service
 }
 
@@ -55,7 +53,6 @@ func NewApp() (*App, error) {
 	malService := mal.NewService(log, cfg, animeRepo, paths.MalIDPath, paths.AniDBPath)
 	tmdbService := tmdb.NewService(log, cfg, animeRepo, mappingRepo, paths)
 	tvdbService := tvdb.NewService(log, animeRepo, mappingRepo, paths)
-	cacheService := cache.NewService(log)
 	dedupeService := dedupe.NewService(log, animeRepo)
 
 	return &App{
@@ -67,13 +64,12 @@ func NewApp() (*App, error) {
 		malService:    malService,
 		tmdbService:   tmdbService,
 		tvdbService:   tvdbService,
-		cacheService:  cacheService,
 		dedupeService: dedupeService,
 	}, nil
 }
 
 // Run executes the full database update process
-func (a *App) Run(rootPath, cacheDir string) error {
+func (a *App) Run(rootPath string) error {
 	ctx := context.Background()
 
 	// Update paths with actual root path
@@ -84,19 +80,14 @@ func (a *App) Run(rootPath, cacheDir string) error {
 	a.tmdbService = tmdb.NewService(a.log, a.config, a.animeRepo, a.mappingRepo, a.paths)
 	a.tvdbService = tvdb.NewService(a.log, a.animeRepo, a.mappingRepo, a.paths)
 
-	// Clean cache
-	dbPath := filepath.Join(rootPath, "shinkrodb.db")
-	if err := a.cacheService.CleanCache(ctx, cacheDir, dbPath, a.animeRepo, a.paths.AniDBPath); err != nil {
-		return fmt.Errorf("failed to clean cache: %w", err)
-	}
-
 	// Get MAL IDs
 	if err := a.malService.GetAnimeIDs(ctx); err != nil {
 		return fmt.Errorf("failed to get MAL IDs: %w", err)
 	}
 
-	// Scrape MAL for AniDB IDs
-	if err := a.malService.ScrapeAniDBIDs(ctx, cacheDir); err != nil {
+	// Scrape MAL for AniDB IDs (cache invalidation happens implicitly - only entries < 1 year old are used)
+	dbPath := filepath.Join(rootPath, "shinkrodb.db")
+	if err := a.malService.ScrapeAniDBIDs(ctx, dbPath); err != nil {
 		return fmt.Errorf("failed to scrape MAL: %w", err)
 	}
 

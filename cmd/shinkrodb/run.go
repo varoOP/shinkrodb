@@ -20,7 +20,6 @@ var runCmd = &cobra.Command{
 6. Creates TVDB mapping files`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		rootPath := viper.GetString("root_path")
-		cacheDir := viper.GetString("cache_dir")
 
 		// Initialize application
 		application, err := app.NewApp()
@@ -29,7 +28,7 @@ var runCmd = &cobra.Command{
 		}
 
 		// Run the update process
-		if err := application.Run(rootPath, cacheDir); err != nil {
+		if err := application.Run(rootPath); err != nil {
 			return fmt.Errorf("run failed: %w", err)
 		}
 

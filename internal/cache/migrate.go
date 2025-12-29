@@ -1,6 +1,7 @@
 package cache
 
 import (
+	"bytes"
 	"context"
 	"crypto/sha256"
 	"encoding/hex"
@@ -15,6 +16,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 	"github.com/varoOP/shinkrodb/internal/domain"
+	"golang.org/x/net/html"
 )
 
 // MigrateCache migrates existing Colly HTML cache to SQLite database
@@ -47,7 +49,11 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 
 	// Prepare regex patterns
 	malIDRegex := regexp.MustCompile(`<link\s*rel="canonical"\s*\n*href="https://myanimelist\.net/anime/(\d+)/`)
-	anidbIDRegex := regexp.MustCompile(`aid=(\d+)`)
+	// Match AniDB URL format: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12345
+	// HTML may have &amp; instead of &, so match both &aid= and &amp;aid=
+	// Using pattern: https://anidb.net/perl-bin/animedb.pl?show=anime&amp.aid=(\d+)
+	// The period (.) matches any character (will match &amp;aid= with semicolon)
+	anidbIDRegex := regexp.MustCompile(`https://anidb\.net/perl-bin/animedb\.pl\?show=anime&amp.aid=(\d+)`)
 
 	// Prepare insert statement (schema always includes release_date and type now)
 	insertStmt, err := db.PrepareContext(ctx, `
@@ -74,7 +80,7 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 			return nil
 		}
 
-		// Read file content
+		// Read and parse HTML file (normalizes HTML structure)
 		file, err := os.Open(path)
 		if err != nil {
 			log.Warn().Err(err).Str("path", path).Msg("failed to open file")
@@ -82,18 +88,44 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 			return nil
 		}
 
-		content, err := io.ReadAll(file)
+		// Parse HTML to normalize structure
+		doc, err := html.Parse(file)
 		file.Close()
 		if err != nil {
-			log.Warn().Err(err).Str("path", path).Msg("failed to read file")
+			log.Warn().Err(err).Str("path", path).Msg("failed to parse HTML")
 			errorCount++
 			return nil
 		}
 
-		htmlContent := string(content)
+		// Render parsed HTML back to string (normalized)
+		var b bytes.Buffer
+		if err := html.Render(&b, doc); err != nil {
+			log.Warn().Err(err).Str("path", path).Msg("failed to render HTML")
+			errorCount++
+			return nil
+		}
+
+		htmlContent := b.String()
+
+		// Also read raw content for hash calculation
+		file, err = os.Open(path)
+		if err != nil {
+			log.Warn().Err(err).Str("path", path).Msg("failed to reopen file for hash")
+			errorCount++
+			return nil
+		}
+		content, err := io.ReadAll(file)
+		file.Close()
+		if err != nil {
+			log.Warn().Err(err).Str("path", path).Msg("failed to read file for hash")
+			errorCount++
+			return nil
+		}
 
 		// Extract MAL ID from HTML
+		// log.Debug().Str("htmlContent", htmlContent).Msg("htmlContent")
 		malIDMatch := malIDRegex.FindStringSubmatch(htmlContent)
+		log.Debug().Strs("malIDMatch", malIDMatch).Msg("malIDMatch")
 		if len(malIDMatch) < 2 {
 			skipped++
 			return nil // Skip files without MAL ID
@@ -107,14 +139,29 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 		}
 
 		// Extract AniDB ID from HTML
+		// Look for AniDB link in the HTML - should be in format: href="...aid=12345..."
 		anidbID := 0
 		hadAniDBID := false
 		anidbMatch := anidbIDRegex.FindStringSubmatch(htmlContent)
+		log.Debug().Strs("anidbMatch", anidbMatch).Msg("anidbMatch")
+		matchedString := "no match"
 		if len(anidbMatch) >= 2 {
-			anidbID, err = strconv.Atoi(anidbMatch[1])
-			if err == nil && anidbID > 0 {
+			matchedString = anidbMatch[0]
+			parsedAnidbID, parseErr := strconv.Atoi(anidbMatch[1])
+			if parseErr == nil && parsedAnidbID > 0 {
+				anidbID = parsedAnidbID
 				hadAniDBID = true
 			}
+		}
+
+		// Debug: Log if mal_id equals anidb_id (should not happen)
+		if malID == anidbID && anidbID > 0 {
+			log.Warn().
+				Int("mal_id", malID).
+				Int("anidb_id", anidbID).
+				Str("path", path).
+				Str("matched_string", matchedString).
+				Msg("WARNING: mal_id equals anidb_id during migration - this should not happen!")
 		}
 
 		// Calculate HTML hash for change detection
@@ -139,16 +186,17 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 		}
 
 		// Insert into database
+		// Parameter order must match: mal_id, anidb_id, url, cached_at, last_used, html_hash, had_anidb_id, release_date, type
 		_, err = insertStmt.ExecContext(ctx,
-			malID,
-			anidbID,
-			url,
-			cachedAt.Format(time.RFC3339),
-			cachedAt.Format(time.RFC3339), // last_used = cached_at initially
-			htmlHash,
-			hadAniDBID,
-			releaseDate,
-			animeType,
+			malID,                         // mal_id
+			anidbID,                       // anidb_id
+			url,                           // url
+			cachedAt.Format(time.RFC3339), // cached_at
+			cachedAt.Format(time.RFC3339), // last_used
+			htmlHash,                      // html_hash
+			hadAniDBID,                    // had_anidb_id
+			releaseDate,                   // release_date
+			animeType,                     // type
 		)
 
 		if err != nil {
