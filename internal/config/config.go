@@ -19,18 +19,33 @@ func Load() (*domain.Config, error) {
 	cfg.MalClientID = viper.GetString("mal_client_id")
 	cfg.TmdbApiKey = viper.GetString("tmdb_api_key")
 	
-	// Scrape mode (default: "default")
-	scrapeModeStr := viper.GetString("scrape_mode")
-	if scrapeModeStr == "" {
-		cfg.ScrapeMode = domain.ScrapeModeDefault
+	// AniDB mode (default: "default")
+	anidbModeStr := viper.GetString("anidb_mode")
+	if anidbModeStr == "" {
+		cfg.AniDBMode = domain.FetchModeDefault
 	} else {
-		cfg.ScrapeMode = domain.ScrapeMode(scrapeModeStr)
-		// Validate scrape mode
-		if cfg.ScrapeMode != domain.ScrapeModeDefault && 
-		   cfg.ScrapeMode != domain.ScrapeModeMissing && 
-		   cfg.ScrapeMode != domain.ScrapeModeAll &&
-		   cfg.ScrapeMode != domain.ScrapeModeSkip {
-			return nil, fmt.Errorf("invalid scrape_mode: %s (must be 'default', 'missing', 'all', or 'skip')", scrapeModeStr)
+		cfg.AniDBMode = domain.FetchMode(anidbModeStr)
+		// Validate AniDB mode
+		if cfg.AniDBMode != domain.FetchModeDefault && 
+		   cfg.AniDBMode != domain.FetchModeMissing && 
+		   cfg.AniDBMode != domain.FetchModeAll &&
+		   cfg.AniDBMode != domain.FetchModeSkip {
+			return nil, fmt.Errorf("invalid anidb_mode: %s (must be 'default', 'missing', 'all', or 'skip')", anidbModeStr)
+		}
+	}
+
+	// TMDB mode (default: "default")
+	tmdbModeStr := viper.GetString("tmdb_mode")
+	if tmdbModeStr == "" {
+		cfg.TMDBMode = domain.FetchModeDefault
+	} else {
+		cfg.TMDBMode = domain.FetchMode(tmdbModeStr)
+		// Validate TMDB mode
+		if cfg.TMDBMode != domain.FetchModeDefault && 
+		   cfg.TMDBMode != domain.FetchModeMissing && 
+		   cfg.TMDBMode != domain.FetchModeAll &&
+		   cfg.TMDBMode != domain.FetchModeSkip {
+			return nil, fmt.Errorf("invalid tmdb_mode: %s (must be 'default', 'missing', 'all', or 'skip')", tmdbModeStr)
 		}
 	}
 

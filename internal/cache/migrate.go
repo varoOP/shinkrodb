@@ -159,6 +159,7 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 		entry := &domain.CacheEntry{
 			MalID:       malID,
 			AnidbID:     anidbID,
+			TmdbID:      0, // TMDB IDs not available in old HTML cache
 			URL:         url,
 			CachedAt:    cachedAt.Format(time.RFC3339),
 			LastUsed:    cachedAt.Format(time.RFC3339),

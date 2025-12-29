@@ -19,17 +19,22 @@ var runCmd = &cobra.Command{
 5. Checks for duplicates
 6. Creates TVDB mapping files
 
-Scraping mode can be configured via --scrape-mode flag or scrape_mode in config:
-  - default: Only scrape MAL IDs without AniDB ID, released in past 1 year, type = "tv" (default)
-  - missing: Scrape all MAL IDs without AniDB ID (no year/type filter)
-  - all: Scrape everything, even if already has AniDB ID in cache
-  - skip: Skip scraping entirely`,
+Fetch modes can be configured via --anidb and --tmdb flags or anidb_mode/tmdb_mode in config:
+  - default: Default behavior (AniDB: only scrape for MAL IDs without AniDB ID, released in past 1 year, type = "tv"; TMDB: only fetch for movies without TMDB ID)
+  - missing: Fetch all entries without ID (no filters)
+  - all: Fetch everything, even if already has ID in cache
+  - skip: Skip fetching entirely`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		rootPath := viper.GetString("root_path")
 
-		// Override scrape mode from CLI flag if provided
-		if scrapeMode, _ := cmd.Flags().GetString("scrape-mode"); scrapeMode != "" {
-			viper.Set("scrape_mode", scrapeMode)
+		// Override AniDB mode from CLI flag if provided
+		if anidbMode, _ := cmd.Flags().GetString("anidb"); anidbMode != "" {
+			viper.Set("anidb_mode", anidbMode)
+		}
+
+		// Override TMDB mode from CLI flag if provided
+		if tmdbMode, _ := cmd.Flags().GetString("tmdb"); tmdbMode != "" {
+			viper.Set("tmdb_mode", tmdbMode)
 		}
 
 		// Initialize application
@@ -48,7 +53,8 @@ Scraping mode can be configured via --scrape-mode flag or scrape_mode in config:
 }
 
 func init() {
-	runCmd.Flags().String("scrape-mode", "", "Scraping mode: 'default' (past year, tv only), 'missing' (all without AniDB ID), 'all' (everything), or 'skip' (skip scraping)")
+	runCmd.Flags().String("anidb", "", "AniDB fetch mode: 'default' (past year, tv only), 'missing' (all without AniDB ID), 'all' (everything), or 'skip' (skip fetching)")
+	runCmd.Flags().String("tmdb", "", "TMDB fetch mode: 'default' (only movies without TMDB ID), 'missing' (all movies without TMDB ID), 'all' (everything), or 'skip' (skip fetching)")
 	rootCmd.AddCommand(runCmd)
 }
 

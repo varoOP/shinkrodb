@@ -10,6 +10,7 @@ import (
 	"net/url"
 	"path/filepath"
 	"regexp"
+	"time"
 
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
@@ -17,7 +18,7 @@ import (
 )
 
 type Service interface {
-	GetTmdbIds(ctx context.Context, rootPath string) error
+	GetTmdbIds(ctx context.Context, rootPath string, cacheRepo domain.CacheRepo) error
 }
 
 type service struct {
@@ -60,10 +61,38 @@ func NewService(log zerolog.Logger, config *domain.Config, animeRepo domain.Anim
 	}
 }
 
-func (s *service) GetTmdbIds(ctx context.Context, rootPath string) error {
+func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo domain.CacheRepo) error {
 	a, err := s.animeRepo.Get(ctx, s.paths.TVDBPath)
 	if err != nil {
 		return errors.Wrap(err, "failed to get anime list")
+	}
+
+	// Get cached TMDB IDs
+	cachedTmdbIDs := make(map[int]int)
+	if cacheRepo != nil {
+		tmdbMap, err := cacheRepo.GetTMDBIDs(ctx)
+		if err == nil {
+			cachedTmdbIDs = tmdbMap
+			// Update anime list with cached TMDB IDs
+			for i := range a {
+				if tmdbID, found := cachedTmdbIDs[a[i].MalID]; found && tmdbID > 0 {
+					a[i].TmdbID = tmdbID
+				}
+			}
+		}
+	}
+
+	// Filter movies to fetch based on configured TMDB mode
+	toFetch := s.filterMoviesToFetch(a, cachedTmdbIDs)
+
+	if len(toFetch) == 0 {
+		s.log.Info().Msg("All movies already cached, skipping TMDB API calls")
+		// Still store the updated list with cached TMDB IDs
+		if err := s.animeRepo.Store(ctx, s.paths.TMDBPath, a); err != nil {
+			return errors.Wrap(err, "failed to store TMDB IDs")
+		}
+		// Still update master files
+		return s.updateMasterFiles(ctx, rootPath, a)
 	}
 
 	u := s.buildUrl(s.config.TmdbApiKey)
@@ -72,55 +101,84 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string) error {
 	withTmdbTotal := 0
 	totalMovies := 0
 
-	for i, anime := range a {
-		if anime.Type == "movie" {
-			totalMovies++
-			target := *u
-			query := target.Query()
-			if anime.EnglishTitle != "" {
-				query.Add("query", anime.EnglishTitle)
-			} else {
-				query.Add("query", anime.MainTitle)
-			}
+	// Build map for O(1) MAL ID lookup
+	malIDToIndex := make(map[int]int, len(a))
+	for i := range a {
+		malIDToIndex[a[i].MalID] = i
+	}
 
-			if anime.ReleaseDate == "" {
-				noTmdbTotal++
-				s.log.Debug().Str("title", anime.MainTitle).Msg("does not have a release date")
-				continue
-			}
+	for _, anime := range toFetch {
+		totalMovies++
+		target := *u
+		query := target.Query()
+		if anime.EnglishTitle != "" {
+			query.Add("query", anime.EnglishTitle)
+		} else {
+			query.Add("query", anime.MainTitle)
+		}
 
-			year := s.getYear(anime.ReleaseDate)
-			query.Add("year", year)
-			target.RawQuery = query.Encode()
+		if anime.ReleaseDate == "" {
+			noTmdbTotal++
+			s.log.Debug().Str("title", anime.MainTitle).Msg("does not have a release date")
+			continue
+		}
 
-			tmdb, err := s.searchTMDB(ctx, target.String())
-			if err != nil {
-				s.log.Warn().Err(err).Str("title", anime.MainTitle).Msg("failed to search TMDB")
-				continue
-			}
+		year := s.getYear(anime.ReleaseDate)
+		query.Add("year", year)
+		target.RawQuery = query.Encode()
 
-			matched := false
-			for _, result := range tmdb.Results {
-				if result.ReleaseDate == anime.ReleaseDate || tmdb.TotalResults == 1 {
+		tmdb, err := s.searchTMDB(ctx, target.String())
+		if err != nil {
+			s.log.Warn().Err(err).Str("title", anime.MainTitle).Msg("failed to search TMDB")
+			continue
+		}
+
+		matched := false
+		for _, result := range tmdb.Results {
+			if result.ReleaseDate == anime.ReleaseDate || tmdb.TotalResults == 1 {
+				// O(1) lookup using map
+				if i, found := malIDToIndex[anime.MalID]; found {
 					a[i].TmdbID = result.ID
 					withTmdbTotal++
 					matched = true
 					s.log.Debug().Str("title", anime.MainTitle).Int("tmdb_id", result.ID).Msg("TMDBID added")
-					break
-				} else {
-					s.log.Warn().
-						Str("title", anime.MainTitle).
-						Str("tmdb_date", result.ReleaseDate).
-						Str("mal_date", anime.ReleaseDate).
-						Int("total_results", tmdb.TotalResults).
-						Msg("TMDB date does not match MAL date and has multiple results")
-				}
-			}
 
-			if !matched {
-				noTmdbTotal++
-				am.Add(anime.MainTitle, 0, anime.MalID)
+					// Update cache immediately when TMDB ID is found
+					if cacheRepo != nil {
+						now := time.Now().Format(time.RFC3339)
+						entry := &domain.CacheEntry{
+							MalID:       anime.MalID,
+							AnidbID:     a[i].AnidbID,
+							TmdbID:      result.ID,
+							URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID),
+							CachedAt:    now,
+							LastUsed:    now,
+							HadAniDBID:  a[i].AnidbID > 0,
+							ReleaseDate: anime.ReleaseDate,
+							Type:        anime.Type,
+						}
+
+						if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
+							s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to update cache")
+						} else {
+							s.log.Debug().Int("mal_id", anime.MalID).Int("tmdb_id", result.ID).Msg("Updated cache")
+						}
+					}
+				}
+				break
+			} else {
+				s.log.Warn().
+					Str("title", anime.MainTitle).
+					Str("tmdb_date", result.ReleaseDate).
+					Str("mal_date", anime.ReleaseDate).
+					Int("total_results", tmdb.TotalResults).
+					Msg("TMDB date does not match MAL date and has multiple results")
 			}
+		}
+
+		if !matched {
+			noTmdbTotal++
+			am.Add(anime.MainTitle, 0, anime.MalID)
 		}
 	}
 
@@ -133,6 +191,68 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string) error {
 		Int("with_tmdbid", withTmdbTotal).
 		Int("without_tmdbid", noTmdbTotal).
 		Msg("TMDB ID mapping complete")
+
+	if err := s.animeRepo.Store(ctx, s.paths.TMDBPath, a); err != nil {
+		return errors.Wrap(err, "failed to store TMDB IDs")
+	}
+
+	return s.updateMasterFiles(ctx, rootPath, a)
+}
+
+// filterMoviesToFetch filters movies based on configured TMDB mode
+func (s *service) filterMoviesToFetch(animeList []domain.Anime, cachedTmdbIDs map[int]int) []domain.Anime {
+	// Skip fetching if mode is set to skip
+	if s.config.TMDBMode == domain.FetchModeSkip {
+		return []domain.Anime{}
+	}
+
+	toFetch := []domain.Anime{}
+
+	for _, anime := range animeList {
+		if anime.Type != "movie" {
+			continue
+		}
+
+		shouldFetch := false
+
+		switch s.config.TMDBMode {
+		case domain.FetchModeAll:
+			// Fetch everything, even if already has TMDB ID in cache
+			shouldFetch = true
+
+		case domain.FetchModeMissing:
+			// Fetch all movies without TMDB ID (no filters)
+			// Skip if already cached with TMDB ID
+			if _, found := cachedTmdbIDs[anime.MalID]; found && anime.TmdbID > 0 {
+				continue
+			}
+			shouldFetch = true
+
+		case domain.FetchModeDefault:
+			// Default: only fetch movies without TMDB ID
+			// Skip if already cached with TMDB ID
+			if _, found := cachedTmdbIDs[anime.MalID]; found && anime.TmdbID > 0 {
+				continue
+			}
+			shouldFetch = true
+		}
+
+		if shouldFetch {
+			toFetch = append(toFetch, anime)
+		}
+	}
+
+	return toFetch
+}
+
+// updateMasterFiles updates the TMDB master mapping files
+func (s *service) updateMasterFiles(ctx context.Context, rootPath string, animeList []domain.Anime) error {
+	am := &domain.AnimeMovies{}
+	for _, anime := range animeList {
+		if anime.Type == "movie" && anime.TmdbID == 0 {
+			am.Add(anime.MainTitle, 0, anime.MalID)
+		}
+	}
 
 	if err := s.mappingRepo.StoreTMDBMaster(ctx, filepath.Join(rootPath, "tmdb-mal-unmapped.yaml"), am); err != nil {
 		return errors.Wrap(err, "failed to store unmapped movies")

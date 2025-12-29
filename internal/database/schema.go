@@ -26,8 +26,9 @@ CREATE INDEX idx_type ON cache_entries(type);
 // cacheMigrations[0] is empty because version 0 uses the base schema
 var cacheMigrations = []string{
 	"", // Version 0 is the base schema, so cacheMigrations[0] is empty
-	// Future migrations go here, e.g.:
-	// `-- Migration 1: Example future migration
-	// ALTER TABLE cache_entries ADD COLUMN new_field TEXT;`,
+	// Migration 1: Add tmdb_id column
+	`-- Migration 1: Add tmdb_id column for TMDB ID caching
+ALTER TABLE cache_entries ADD COLUMN tmdb_id INTEGER NOT NULL DEFAULT 0;
+CREATE INDEX idx_tmdb_id ON cache_entries(tmdb_id);`,
 }
 

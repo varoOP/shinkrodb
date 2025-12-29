@@ -106,7 +106,7 @@ func (a *App) Run(rootPath string) error {
 	}
 
 	// Get TMDB IDs
-	if err := a.tmdbService.GetTmdbIds(ctx, rootPath); err != nil {
+	if err := a.tmdbService.GetTmdbIds(ctx, rootPath, cacheRepo); err != nil {
 		return fmt.Errorf("failed to get TMDB IDs: %w", err)
 	}
 

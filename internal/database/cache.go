@@ -59,12 +59,49 @@ func (r *CacheRepo) GetAniDBIDs(ctx context.Context) (map[int]int, error) {
 	return result, nil
 }
 
+// GetTMDBIDs returns a map of MAL ID to TMDB ID for entries that have TMDB IDs
+func (r *CacheRepo) GetTMDBIDs(ctx context.Context) (map[int]int, error) {
+	queryBuilder := r.db.squirrel.
+		Select("mal_id", "tmdb_id").
+		From("cache_entries").
+		Where(sq.Gt{"tmdb_id": 0})
+
+	query, args, err := queryBuilder.ToSql()
+	if err != nil {
+		return nil, errors.Wrap(err, "error building query")
+	}
+
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("GetTMDBIDs")
+
+	rows, err := r.db.handler.QueryContext(ctx, query, args...)
+	if err != nil {
+		return nil, errors.Wrap(err, "error executing query")
+	}
+	defer rows.Close()
+
+	result := make(map[int]int)
+	for rows.Next() {
+		var malID, tmdbID int
+		if err := rows.Scan(&malID, &tmdbID); err != nil {
+			return nil, errors.Wrap(err, "error scanning row")
+		}
+		result[malID] = tmdbID
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, errors.Wrap(err, "error iterating rows")
+	}
+
+	return result, nil
+}
+
 // UpsertEntry inserts or updates a cache entry
 func (r *CacheRepo) UpsertEntry(ctx context.Context, entry *domain.CacheEntry) error {
 	// Try to update first
 	updateBuilder := r.db.squirrel.
 		Update("cache_entries").
 		Set("anidb_id", entry.AnidbID).
+		Set("tmdb_id", entry.TmdbID).
 		Set("had_anidb_id", entry.HadAniDBID).
 		Set("last_used", entry.LastUsed).
 		Set("release_date", entry.ReleaseDate).
@@ -91,8 +128,8 @@ func (r *CacheRepo) UpsertEntry(ctx context.Context, entry *domain.CacheEntry) e
 	// No rows affected, insert new entry using Replace (SQLite INSERT OR REPLACE)
 	insertBuilder := r.db.squirrel.
 		Replace("cache_entries").
-		Columns("mal_id", "anidb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
-		Values(entry.MalID, entry.AnidbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
+		Columns("mal_id", "anidb_id", "tmdb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
+		Values(entry.MalID, entry.AnidbID, entry.TmdbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
 
 	query, args, err = insertBuilder.ToSql()
 	if err != nil {
@@ -114,8 +151,8 @@ func (r *CacheRepo) UpsertEntry(ctx context.Context, entry *domain.CacheEntry) e
 func (r *CacheRepo) InsertEntry(ctx context.Context, entry *domain.CacheEntry) error {
 	queryBuilder := r.db.squirrel.
 		Replace("cache_entries").
-		Columns("mal_id", "anidb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
-		Values(entry.MalID, entry.AnidbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
+		Columns("mal_id", "anidb_id", "tmdb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
+		Values(entry.MalID, entry.AnidbID, entry.TmdbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
 
 	query, args, err := queryBuilder.ToSql()
 	if err != nil {

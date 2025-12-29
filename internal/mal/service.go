@@ -241,6 +241,7 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 						entry := &domain.CacheEntry{
 							MalID:       malID,
 							AnidbID:     anidbid,
+							TmdbID:      a[i].TmdbID,
 							URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", malID),
 							CachedAt:    now,
 							LastUsed:    now,
@@ -320,6 +321,7 @@ func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.Cach
 		entry := &domain.CacheEntry{
 			MalID:       anime.MalID,
 			AnidbID:     anime.AnidbID,
+			TmdbID:      anime.TmdbID,
 			URL:         url,
 			CachedAt:    now,
 			LastUsed:    now,
@@ -339,10 +341,10 @@ func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.Cach
 	return nil
 }
 
-// filterAnimeToScrape filters anime list based on configured scrape mode
+// filterAnimeToScrape filters anime list based on configured AniDB mode
 func (s *service) filterAnimeToScrape(animeList []domain.Anime, cachedMalIDs map[int]bool) []domain.Anime {
 	// Skip scraping if mode is set to skip
-	if s.config.ScrapeMode == domain.ScrapeModeSkip {
+	if s.config.AniDBMode == domain.FetchModeSkip {
 		return []domain.Anime{}
 	}
 
@@ -353,12 +355,12 @@ func (s *service) filterAnimeToScrape(animeList []domain.Anime, cachedMalIDs map
 	for _, anime := range animeList {
 		shouldScrape := false
 
-		switch s.config.ScrapeMode {
-		case domain.ScrapeModeAll:
+		switch s.config.AniDBMode {
+		case domain.FetchModeAll:
 			// Scrape everything, even if already has AniDB ID in cache
 			shouldScrape = true
 
-		case domain.ScrapeModeMissing:
+		case domain.FetchModeMissing:
 			// Scrape all entries without AniDB ID (no filters)
 			// Skip if already cached with AniDB ID
 			if cachedMalIDs[anime.MalID] || anime.AnidbID > 0 {
@@ -366,7 +368,7 @@ func (s *service) filterAnimeToScrape(animeList []domain.Anime, cachedMalIDs map
 			}
 			shouldScrape = true
 
-		case domain.ScrapeModeDefault:
+		case domain.FetchModeDefault:
 			// Default: only scrape entries that:
 			// - Don't have AniDB ID
 			// - Released in the last year
