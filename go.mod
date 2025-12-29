@@ -3,6 +3,7 @@ module github.com/varoOP/shinkrodb
 go 1.24.0
 
 require (
+	github.com/Masterminds/squirrel v1.5.4
 	github.com/gocolly/colly v1.2.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.34.0
@@ -28,6 +29,8 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/kennygrant/sanitize v1.2.4 // indirect
+	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
+	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect

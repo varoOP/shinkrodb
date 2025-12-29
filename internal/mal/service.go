@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"os"
 	"regexp"
 	"sort"
 	"strconv"
@@ -16,14 +15,12 @@ import (
 	"github.com/gocolly/colly/extensions"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
-	"github.com/varoOP/shinkrodb/internal/cache"
 	"github.com/varoOP/shinkrodb/internal/domain"
-	_ "modernc.org/sqlite"
 )
 
 type Service interface {
 	GetAnimeIDs(ctx context.Context) error
-	ScrapeAniDBIDs(ctx context.Context, dbPath string) error
+	ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo) error
 }
 
 type service struct {
@@ -159,7 +156,7 @@ func (s *service) storeAnimeID(ctx context.Context, c *http.Client, url string, 
 	return mal.Paging.Next, nil
 }
 
-func (s *service) ScrapeAniDBIDs(ctx context.Context, dbPath string) error {
+func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo) error {
 	// Get anime list from malid.json
 	a, err := s.animeRepo.Get(ctx, s.malIDPath)
 	if err != nil {
@@ -169,31 +166,17 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, dbPath string) error {
 	// Get all cached entries with AniDB IDs (regardless of release date)
 	// Entries with AniDB IDs are always valid
 	cachedMalIDs := make(map[int]bool)
-	if _, err := os.Stat(dbPath); err == nil {
-		db, err := cache.OpenDB(ctx, dbPath, s.log)
-		if err != nil {
-			s.log.Warn().Err(err).Msg("failed to open cache database, will scrape all")
-		} else {
-			defer db.Close()
-
-			// Get all cache entries that have AniDB IDs (no release date filter)
-			rows, err := db.QueryContext(ctx, `
-				SELECT mal_id, anidb_id 
-				FROM cache_entries 
-				WHERE anidb_id > 0
-			`)
-			if err == nil {
-				defer rows.Close()
-				for rows.Next() {
-					var malID, anidbID int
-					if err := rows.Scan(&malID, &anidbID); err == nil && anidbID > 0 {
-						cachedMalIDs[malID] = true
-						// Update anime list with cached AniDB ID
-						for i := range a {
-							if a[i].MalID == malID {
-								a[i].AnidbID = anidbID
-								break
-							}
+	if cacheRepo != nil {
+		anidbMap, err := cacheRepo.GetAniDBIDs(ctx)
+		if err == nil {
+			for malID, anidbID := range anidbMap {
+				if anidbID > 0 {
+					cachedMalIDs[malID] = true
+					// Update anime list with cached AniDB ID
+					for i := range a {
+						if a[i].MalID == malID {
+							a[i].AnidbID = anidbID
+							break
 						}
 					}
 				}
@@ -299,7 +282,7 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, dbPath string) error {
 	cc.Wait()
 
 	// Update database with newly scraped AniDB IDs
-	if err := s.updateCacheDatabase(ctx, dbPath, a); err != nil {
+	if err := s.updateCacheDatabase(ctx, cacheRepo, a); err != nil {
 		s.log.Warn().Err(err).Msg("failed to update cache database")
 	}
 
@@ -310,44 +293,11 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, dbPath string) error {
 	return nil
 }
 
-func (s *service) updateCacheDatabase(ctx context.Context, dbPath string, animeList []domain.Anime) error {
+func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.CacheRepo, animeList []domain.Anime) error {
 	// Check if database exists
-	if _, err := os.Stat(dbPath); os.IsNotExist(err) {
-		return nil // Database doesn't exist yet, skip update
+	if cacheRepo == nil {
+		return nil // No cache repository provided, skip update
 	}
-
-	db, err := cache.OpenDB(ctx, dbPath, s.log)
-	if err != nil {
-		return errors.Wrap(err, "failed to open cache database")
-	}
-	defer db.Close()
-
-	// Build map of anime for quick lookup
-	animeMap := make(map[int]domain.Anime)
-	for _, a := range animeList {
-		animeMap[a.MalID] = a
-	}
-
-	// Update or insert cache entries with current timestamp
-	updateStmt, err := db.PrepareContext(ctx, `
-		UPDATE cache_entries 
-		SET anidb_id = ?, had_anidb_id = ?, last_used = ?, release_date = ?, type = ?
-		WHERE mal_id = ?
-	`)
-	if err != nil {
-		return errors.Wrap(err, "failed to prepare update statement")
-	}
-	defer updateStmt.Close()
-
-	insertStmt, err := db.PrepareContext(ctx, `
-		INSERT OR REPLACE INTO cache_entries 
-		(mal_id, anidb_id, url, cached_at, last_used, html_hash, had_anidb_id, release_date, type)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`)
-	if err != nil {
-		return errors.Wrap(err, "failed to prepare insert statement")
-	}
-	defer insertStmt.Close()
 
 	now := time.Now().Format(time.RFC3339)
 	updated := 0
@@ -364,31 +314,21 @@ func (s *service) updateCacheDatabase(ctx context.Context, dbPath string, animeL
 				Msg("WARNING: mal_id equals anidb_id - this should not happen!")
 		}
 
-		// Try to update existing entry (update all entries, not just those with AniDB IDs)
-		result, err := updateStmt.ExecContext(ctx, anime.AnidbID, hadAniDBID, now, anime.ReleaseDate, anime.Type, anime.MalID)
-		if err != nil {
-			s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to update cache entry")
-			continue
+		// Upsert cache entry using repository
+		entry := &domain.CacheEntry{
+			MalID:       anime.MalID,
+			AnidbID:     anime.AnidbID,
+			URL:         url,
+			CachedAt:    now,
+			LastUsed:    now,
+			HadAniDBID:  hadAniDBID,
+			ReleaseDate: anime.ReleaseDate,
+			Type:        anime.Type,
 		}
 
-		rowsAffected, _ := result.RowsAffected()
-		if rowsAffected == 0 {
-			// Entry doesn't exist, insert it (create entries for all scraped pages, even without AniDB IDs)
-			_, err = insertStmt.ExecContext(ctx,
-				anime.MalID,
-				anime.AnidbID, // This will be 0 if no AniDB ID found, which is correct
-				url,
-				now,
-				now,
-				"", // html_hash - not needed for new entries
-				hadAniDBID,
-				anime.ReleaseDate,
-				anime.Type,
-			)
-			if err != nil {
-				s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to insert cache entry")
-				continue
-			}
+		if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
+			s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to upsert cache entry")
+			continue
 		}
 		updated++
 	}

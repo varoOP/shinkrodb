@@ -3,10 +3,7 @@ package cache
 import (
 	"bytes"
 	"context"
-	"crypto/sha256"
-	"encoding/hex"
 	"fmt"
-	"io"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -15,6 +12,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
+	"github.com/varoOP/shinkrodb/internal/database"
 	"github.com/varoOP/shinkrodb/internal/domain"
 	"golang.org/x/net/html"
 )
@@ -41,30 +39,21 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 	}
 
 	// Open database (schema migration happens automatically)
-	db, err := OpenDB(ctx, dbPath, log)
+	dbDir := filepath.Dir(dbPath)
+	db, err := database.NewDB(dbDir, log)
 	if err != nil {
 		return errors.Wrap(err, "failed to open database")
 	}
 	defer db.Close()
 
+	// Create repository for database operations
+	cacheRepo := database.NewCacheRepo(log, db)
+
 	// Prepare regex patterns
 	malIDRegex := regexp.MustCompile(`<link\s*rel="canonical"\s*\n*href="https://myanimelist\.net/anime/(\d+)/`)
-	// Match AniDB URL format: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12345
-	// HTML may have &amp; instead of &, so match both &aid= and &amp;aid=
-	// Using pattern: https://anidb.net/perl-bin/animedb.pl?show=anime&amp.aid=(\d+)
-	// The period (.) matches any character (will match &amp;aid= with semicolon)
 	anidbIDRegex := regexp.MustCompile(`https://anidb\.net/perl-bin/animedb\.pl\?show=anime&amp.aid=(\d+)`)
 
-	// Prepare insert statement (schema always includes release_date and type now)
-	insertStmt, err := db.PrepareContext(ctx, `
-		INSERT OR REPLACE INTO cache_entries 
-		(mal_id, anidb_id, url, cached_at, last_used, html_hash, had_anidb_id, release_date, type)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`)
-	if err != nil {
-		return errors.Wrap(err, "failed to prepare insert statement")
-	}
-	defer insertStmt.Close()
+	// Repository is ready for database operations
 
 	// Walk cache directory
 	var migrated, skipped, errorCount int
@@ -106,21 +95,6 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 		}
 
 		htmlContent := b.String()
-
-		// Also read raw content for hash calculation
-		file, err = os.Open(path)
-		if err != nil {
-			log.Warn().Err(err).Str("path", path).Msg("failed to reopen file for hash")
-			errorCount++
-			return nil
-		}
-		content, err := io.ReadAll(file)
-		file.Close()
-		if err != nil {
-			log.Warn().Err(err).Str("path", path).Msg("failed to read file for hash")
-			errorCount++
-			return nil
-		}
 
 		// Extract MAL ID from HTML
 		// log.Debug().Str("htmlContent", htmlContent).Msg("htmlContent")
@@ -164,10 +138,6 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 				Msg("WARNING: mal_id equals anidb_id during migration - this should not happen!")
 		}
 
-		// Calculate HTML hash for change detection
-		hash := sha256.Sum256(content)
-		htmlHash := hex.EncodeToString(hash[:])
-
 		// Get file modification time as cached_at
 		cachedAt := info.ModTime()
 		if cachedAt.IsZero() {
@@ -185,21 +155,19 @@ func MigrateCache(ctx context.Context, cacheDir, dbPath string, animeRepo domain
 			animeType = anime.Type
 		}
 
-		// Insert into database
-		// Parameter order must match: mal_id, anidb_id, url, cached_at, last_used, html_hash, had_anidb_id, release_date, type
-		_, err = insertStmt.ExecContext(ctx,
-			malID,                         // mal_id
-			anidbID,                       // anidb_id
-			url,                           // url
-			cachedAt.Format(time.RFC3339), // cached_at
-			cachedAt.Format(time.RFC3339), // last_used
-			htmlHash,                      // html_hash
-			hadAniDBID,                    // had_anidb_id
-			releaseDate,                   // release_date
-			animeType,                     // type
-		)
+		// Insert into database using repository
+		entry := &domain.CacheEntry{
+			MalID:       malID,
+			AnidbID:     anidbID,
+			URL:         url,
+			CachedAt:    cachedAt.Format(time.RFC3339),
+			LastUsed:    cachedAt.Format(time.RFC3339),
+			HadAniDBID:  hadAniDBID,
+			ReleaseDate: releaseDate,
+			Type:        animeType,
+		}
 
-		if err != nil {
+		if err := cacheRepo.InsertEntry(ctx, entry); err != nil {
 			log.Warn().Err(err).Int("mal_id", malID).Str("path", path).Msg("failed to insert entry")
 			errorCount++
 			return nil

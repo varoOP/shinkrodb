@@ -7,6 +7,7 @@ import (
 
 	"github.com/rs/zerolog"
 	"github.com/varoOP/shinkrodb/internal/config"
+	"github.com/varoOP/shinkrodb/internal/database"
 	"github.com/varoOP/shinkrodb/internal/dedupe"
 	"github.com/varoOP/shinkrodb/internal/domain"
 	"github.com/varoOP/shinkrodb/internal/format"
@@ -85,9 +86,17 @@ func (a *App) Run(rootPath string) error {
 		return fmt.Errorf("failed to get MAL IDs: %w", err)
 	}
 
+	// Initialize database and cache repository
+	db, err := database.NewDB(rootPath, a.log)
+	if err != nil {
+		return fmt.Errorf("failed to initialize database: %w", err)
+	}
+	defer db.Close()
+
+	cacheRepo := database.NewCacheRepo(a.log, db)
+
 	// Scrape MAL for AniDB IDs (cache invalidation happens implicitly - only entries < 1 year old are used)
-	dbPath := filepath.Join(rootPath, "shinkrodb.db")
-	if err := a.malService.ScrapeAniDBIDs(ctx, dbPath); err != nil {
+	if err := a.malService.ScrapeAniDBIDs(ctx, cacheRepo); err != nil {
 		return fmt.Errorf("failed to scrape MAL: %w", err)
 	}
 
