@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 	"path/filepath"
+	"strings"
 	"sync"
 
 	sq "github.com/Masterminds/squirrel"
@@ -30,16 +31,25 @@ func NewDB(dir string, log zerolog.Logger) (*DB, error) {
 
 	var (
 		err error
-		DSN = filepath.Join(dir, "shinkrodb.db") + "?_pragma=busy_timeout%3d1000"
 	)
+
+	// Build PRAGMA statements as DSN parameters (following autobrr pattern)
+	pragmaSlice := []string{
+		// Set busy timeout to 1 second. It forces the driver to keep retrying a locked operation before giving up.
+		"?_pragma=busy_timeout(1000)",
+		// Enable Write-Ahead Logging (WAL). SQLite performs better with the WAL because it allows
+		// multiple readers to operate while data is being written.
+		"_pragma=journal_mode(WAL)",
+		// Default is FULL. Reducing this to NORMAL saves a significant amount of disk I/O (fsyncs).
+		"_pragma=synchronous(NORMAL)",
+	}
+
+	pragmas := strings.Join(pragmaSlice, "&")
+	DSN := filepath.Join(dir, "shinkrodb.db") + pragmas
 
 	db.handler, err = sql.Open("sqlite", DSN)
 	if err != nil {
 		return nil, errors.Wrap(err, "unable to connect to database")
-	}
-
-	if _, err = db.handler.Exec(`PRAGMA journal_mode = wal;`); err != nil {
-		return nil, errors.Wrap(err, "unable to enable WAL mode")
 	}
 
 	// Ensure schema is up to date (migrates if needed)

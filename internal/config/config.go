@@ -18,6 +18,20 @@ func Load() (*domain.Config, error) {
 	// Load from Viper (config file + env vars)
 	cfg.MalClientID = viper.GetString("mal_client_id")
 	cfg.TmdbApiKey = viper.GetString("tmdb_api_key")
+	
+	// Scrape mode (default: "default")
+	scrapeModeStr := viper.GetString("scrape_mode")
+	if scrapeModeStr == "" {
+		cfg.ScrapeMode = domain.ScrapeModeDefault
+	} else {
+		cfg.ScrapeMode = domain.ScrapeMode(scrapeModeStr)
+		// Validate scrape mode
+		if cfg.ScrapeMode != domain.ScrapeModeDefault && 
+		   cfg.ScrapeMode != domain.ScrapeModeMissing && 
+		   cfg.ScrapeMode != domain.ScrapeModeAll {
+			return nil, fmt.Errorf("invalid scrape_mode: %s (must be 'default', 'missing', or 'all')", scrapeModeStr)
+		}
+	}
 
 	// Fallback to secrets.json for backward compatibility
 	// This allows existing setups to continue working

@@ -88,16 +88,20 @@ func (r *CacheRepo) UpsertEntry(ctx context.Context, entry *domain.CacheEntry) e
 		return nil // Update successful
 	}
 
-	// No rows affected, insert new entry using INSERT OR REPLACE (SQLite syntax)
-	// Squirrel doesn't support INSERT OR REPLACE directly, so we use raw SQL
-	insertQuery := `INSERT OR REPLACE INTO cache_entries 
-		(mal_id, anidb_id, url, cached_at, last_used, had_anidb_id, release_date, type)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
-	insertArgs := []interface{}{entry.MalID, entry.AnidbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type}
+	// No rows affected, insert new entry using Replace (SQLite INSERT OR REPLACE)
+	insertBuilder := r.db.squirrel.
+		Replace("cache_entries").
+		Columns("mal_id", "anidb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
+		Values(entry.MalID, entry.AnidbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
 
-	r.log.Trace().Str("query", insertQuery).Interface("args", insertArgs).Msg("UpsertEntry insert")
+	query, args, err = insertBuilder.ToSql()
+	if err != nil {
+		return errors.Wrap(err, "error building insert query")
+	}
 
-	_, err = r.db.handler.ExecContext(ctx, insertQuery, insertArgs...)
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpsertEntry insert")
+
+	_, err = r.db.handler.ExecContext(ctx, query, args...)
 	if err != nil {
 		return errors.Wrap(err, "error executing insert query")
 	}
@@ -106,16 +110,21 @@ func (r *CacheRepo) UpsertEntry(ctx context.Context, entry *domain.CacheEntry) e
 }
 
 // InsertEntry inserts a new cache entry (used during migration)
-// Uses INSERT OR REPLACE for SQLite compatibility
+// Uses Replace (SQLite INSERT OR REPLACE) for SQLite compatibility
 func (r *CacheRepo) InsertEntry(ctx context.Context, entry *domain.CacheEntry) error {
-	query := `INSERT OR REPLACE INTO cache_entries 
-		(mal_id, anidb_id, url, cached_at, last_used, had_anidb_id, release_date, type)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
-	args := []interface{}{entry.MalID, entry.AnidbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type}
+	queryBuilder := r.db.squirrel.
+		Replace("cache_entries").
+		Columns("mal_id", "anidb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
+		Values(entry.MalID, entry.AnidbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
+
+	query, args, err := queryBuilder.ToSql()
+	if err != nil {
+		return errors.Wrap(err, "error building insert query")
+	}
 
 	r.log.Trace().Str("query", query).Interface("args", args).Msg("InsertEntry")
 
-	_, err := r.db.handler.ExecContext(ctx, query, args...)
+	_, err = r.db.handler.ExecContext(ctx, query, args...)
 	if err != nil {
 		return errors.Wrap(err, "error executing insert query")
 	}
@@ -125,19 +134,30 @@ func (r *CacheRepo) InsertEntry(ctx context.Context, entry *domain.CacheEntry) e
 
 // GetEntriesByReleaseYear returns cache entries for anime released in a specific year
 func (r *CacheRepo) GetEntriesByReleaseYear(ctx context.Context, year int) ([]*domain.CacheEntry, error) {
-	// This is a complex query that's better done with raw SQL for now
-	// Can be refactored to use Squirrel if needed
-	query := `
-		SELECT mal_id, anidb_id, release_date, type, had_anidb_id
-		FROM cache_entries
-		WHERE release_date IS NOT NULL
-		  AND release_date != ''
-		  AND (CAST(strftime('%Y', release_date) AS INTEGER) = ? OR 
-		       CAST(SUBSTR(release_date, 1, 4) AS INTEGER) = ?)
-		  AND (had_anidb_id = 0 OR anidb_id = 0)
-	`
+	queryBuilder := r.db.squirrel.
+		Select("mal_id", "anidb_id", "release_date", "type", "had_anidb_id").
+		From("cache_entries").
+		Where(sq.And{
+			sq.Expr("release_date IS NOT NULL"),
+			sq.NotEq{"release_date": ""},
+			sq.Or{
+				sq.Expr("CAST(strftime('%Y', release_date) AS INTEGER) = ?", year),
+				sq.Expr("CAST(SUBSTR(release_date, 1, 4) AS INTEGER) = ?", year),
+			},
+			sq.Or{
+				sq.Eq{"had_anidb_id": 0},
+				sq.Eq{"anidb_id": 0},
+			},
+		})
 
-	rows, err := r.db.handler.QueryContext(ctx, query, year, year)
+	query, args, err := queryBuilder.ToSql()
+	if err != nil {
+		return nil, errors.Wrap(err, "error building query")
+	}
+
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("GetEntriesByReleaseYear")
+
+	rows, err := r.db.handler.QueryContext(ctx, query, args...)
 	if err != nil {
 		return nil, errors.Wrap(err, "error executing query")
 	}

@@ -184,34 +184,8 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 		}
 	}
 
-	// Filter to only scrape entries that:
-	// 1. Don't have an AniDB ID in cache
-	// 2. Were released in the last year (based on release_date from anime list)
-	currentYear := time.Now().Year()
-	oneYearAgoYear := currentYear - 1
-	toScrape := []domain.Anime{}
-	for _, anime := range a {
-		if !cachedMalIDs[anime.MalID] && anime.AnidbID <= 0 {
-			// Check if released in the last year
-			shouldScrape := false
-			if anime.ReleaseDate != "" {
-				// Extract year from release_date (format: "YYYY-MM-DD", "YYYY-MM", or "YYYY")
-				if len(anime.ReleaseDate) >= 4 {
-					releaseYearStr := anime.ReleaseDate[:4]
-					if releaseYear, parseErr := strconv.Atoi(releaseYearStr); parseErr == nil {
-						shouldScrape = releaseYear >= oneYearAgoYear
-					}
-				}
-			} else {
-				// If no release date, don't scrape (too old or unknown)
-				shouldScrape = false
-			}
-
-			if shouldScrape {
-				toScrape = append(toScrape, anime)
-			}
-		}
-	}
+	// Filter entries to scrape based on configured scrape mode
+	toScrape := s.filterAnimeToScrape(a, cachedMalIDs)
 
 	if len(toScrape) == 0 {
 		s.log.Info().Msg("All anime already cached, skipping scrape")
@@ -254,6 +228,27 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 					if a[i].MalID == malID {
 						a[i].AnidbID = anidbid
 						s.log.Debug().Int("anidbid", anidbid).Int("malid", malID).Msg("Parsed AniDB ID")
+
+						// Update cache immediately when AniDB ID is found
+						if cacheRepo != nil {
+							now := time.Now().Format(time.RFC3339)
+							entry := &domain.CacheEntry{
+								MalID:       malID,
+								AnidbID:     anidbid,
+								URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", malID),
+								CachedAt:    now,
+								LastUsed:    now,
+								HadAniDBID:  true,
+								ReleaseDate: a[i].ReleaseDate,
+								Type:        a[i].Type,
+							}
+
+							if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
+								s.log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update cache")
+							} else {
+								s.log.Debug().Int("mal_id", malID).Int("anidb_id", anidbid).Msg("Updated cache")
+							}
+						}
 						break
 					}
 				}
@@ -281,7 +276,8 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 	// Wait for scraping to complete
 	cc.Wait()
 
-	// Update database with newly scraped AniDB IDs
+	// Update database with any remaining entries (for entries without AniDB IDs, we still want to cache the visit)
+	// Note: Entries with AniDB IDs are already updated immediately in OnHTML callback
 	if err := s.updateCacheDatabase(ctx, cacheRepo, a); err != nil {
 		s.log.Warn().Err(err).Msg("failed to update cache database")
 	}
@@ -315,6 +311,8 @@ func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.Cach
 		}
 
 		// Upsert cache entry using repository
+		// Note: Entries with AniDB IDs are already updated immediately in OnHTML callback,
+		// but we still update here to ensure all entries (including those without AniDB IDs) are cached
 		entry := &domain.CacheEntry{
 			MalID:       anime.MalID,
 			AnidbID:     anime.AnidbID,
@@ -333,6 +331,65 @@ func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.Cach
 		updated++
 	}
 
-	s.log.Debug().Int("updated_count", updated).Msg("Updated cache database with AniDB IDs")
+	s.log.Debug().Int("updated_count", updated).Msg("Updated cache database with remaining entries")
 	return nil
+}
+
+// filterAnimeToScrape filters anime list based on configured scrape mode
+func (s *service) filterAnimeToScrape(animeList []domain.Anime, cachedMalIDs map[int]bool) []domain.Anime {
+	toScrape := []domain.Anime{}
+	currentYear := time.Now().Year()
+	oneYearAgoYear := currentYear - 1
+
+	for _, anime := range animeList {
+		shouldScrape := false
+
+		switch s.config.ScrapeMode {
+		case domain.ScrapeModeAll:
+			// Scrape everything, even if already has AniDB ID in cache
+			shouldScrape = true
+
+		case domain.ScrapeModeMissing:
+			// Scrape all entries without AniDB ID (no filters)
+			// Skip if already cached with AniDB ID
+			if cachedMalIDs[anime.MalID] || anime.AnidbID > 0 {
+				continue
+			}
+			shouldScrape = true
+
+		case domain.ScrapeModeDefault:
+			// Default: only scrape entries that:
+			// - Don't have AniDB ID
+			// - Released in the last year
+			// - Type = "tv"
+			// Skip if already cached with AniDB ID
+			if cachedMalIDs[anime.MalID] || anime.AnidbID > 0 {
+				continue
+			}
+
+			if anime.Type != "tv" {
+				shouldScrape = false
+				break
+			}
+
+			if anime.ReleaseDate != "" {
+				// Extract year from release_date (format: "YYYY-MM-DD", "YYYY-MM", or "YYYY")
+				if len(anime.ReleaseDate) >= 4 {
+					releaseYearStr := anime.ReleaseDate[:4]
+					if releaseYear, parseErr := strconv.Atoi(releaseYearStr); parseErr == nil {
+						shouldScrape = releaseYear >= oneYearAgoYear
+					}
+				}
+			} else {
+				// If no release date, don't scrape (too old or unknown)
+				shouldScrape = false
+			}
+		}
+
+		if shouldScrape {
+			toScrape = append(toScrape, anime)
+		}
+	}
+
+	return toScrape
 }
