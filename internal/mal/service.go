@@ -198,6 +198,12 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 
 	s.log.Info().Int("total", len(a)).Int("cached", len(cachedMalIDs)).Int("to_scrape", len(toScrape)).Msg("Starting scrape")
 
+	// Build map for O(1) MAL ID lookup
+	malIDToIndex := make(map[int]int, len(a))
+	for i := range a {
+		malIDToIndex[a[i].MalID] = i
+	}
+
 	// Use Colly for scraping (no file cache, using database cache instead)
 	cc := colly.NewCollector(
 		colly.AllowedDomains("myanimelist.net"),
@@ -224,32 +230,30 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 			malIDMatch := regexp.MustCompile(`/anime/(\d+)`).FindStringSubmatch(e.Request.URL.String())
 			if len(malIDMatch) >= 2 {
 				malID, _ := strconv.Atoi(malIDMatch[1])
-				for i := range a {
-					if a[i].MalID == malID {
-						a[i].AnidbID = anidbid
-						s.log.Debug().Int("anidbid", anidbid).Int("malid", malID).Msg("Parsed AniDB ID")
+				// O(1) lookup using map instead of O(n) linear search
+				if i, found := malIDToIndex[malID]; found {
+					a[i].AnidbID = anidbid
+					s.log.Debug().Int("anidbid", anidbid).Int("malid", malID).Msg("Parsed AniDB ID")
 
-						// Update cache immediately when AniDB ID is found
-						if cacheRepo != nil {
-							now := time.Now().Format(time.RFC3339)
-							entry := &domain.CacheEntry{
-								MalID:       malID,
-								AnidbID:     anidbid,
-								URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", malID),
-								CachedAt:    now,
-								LastUsed:    now,
-								HadAniDBID:  true,
-								ReleaseDate: a[i].ReleaseDate,
-								Type:        a[i].Type,
-							}
-
-							if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
-								s.log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update cache")
-							} else {
-								s.log.Debug().Int("mal_id", malID).Int("anidb_id", anidbid).Msg("Updated cache")
-							}
+					// Update cache immediately when AniDB ID is found
+					if cacheRepo != nil {
+						now := time.Now().Format(time.RFC3339)
+						entry := &domain.CacheEntry{
+							MalID:       malID,
+							AnidbID:     anidbid,
+							URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", malID),
+							CachedAt:    now,
+							LastUsed:    now,
+							HadAniDBID:  true,
+							ReleaseDate: a[i].ReleaseDate,
+							Type:        a[i].Type,
 						}
-						break
+
+						if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
+							s.log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update cache")
+						} else {
+							s.log.Debug().Int("mal_id", malID).Int("anidb_id", anidbid).Msg("Updated cache")
+						}
 					}
 				}
 			}
