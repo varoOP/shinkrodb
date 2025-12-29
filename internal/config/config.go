@@ -28,8 +28,9 @@ func Load() (*domain.Config, error) {
 		// Validate scrape mode
 		if cfg.ScrapeMode != domain.ScrapeModeDefault && 
 		   cfg.ScrapeMode != domain.ScrapeModeMissing && 
-		   cfg.ScrapeMode != domain.ScrapeModeAll {
-			return nil, fmt.Errorf("invalid scrape_mode: %s (must be 'default', 'missing', or 'all')", scrapeModeStr)
+		   cfg.ScrapeMode != domain.ScrapeModeAll &&
+		   cfg.ScrapeMode != domain.ScrapeModeSkip {
+			return nil, fmt.Errorf("invalid scrape_mode: %s (must be 'default', 'missing', 'all', or 'skip')", scrapeModeStr)
 		}
 	}
 

@@ -22,7 +22,8 @@ var runCmd = &cobra.Command{
 Scraping mode can be configured via --scrape-mode flag or scrape_mode in config:
   - default: Only scrape MAL IDs without AniDB ID, released in past 1 year, type = "tv" (default)
   - missing: Scrape all MAL IDs without AniDB ID (no year/type filter)
-  - all: Scrape everything, even if already has AniDB ID in cache`,
+  - all: Scrape everything, even if already has AniDB ID in cache
+  - skip: Skip scraping entirely`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		rootPath := viper.GetString("root_path")
 
@@ -47,7 +48,7 @@ Scraping mode can be configured via --scrape-mode flag or scrape_mode in config:
 }
 
 func init() {
-	runCmd.Flags().String("scrape-mode", "", "Scraping mode: 'default' (past year, tv only), 'missing' (all without AniDB ID), or 'all' (everything)")
+	runCmd.Flags().String("scrape-mode", "", "Scraping mode: 'default' (past year, tv only), 'missing' (all without AniDB ID), 'all' (everything), or 'skip' (skip scraping)")
 	rootCmd.AddCommand(runCmd)
 }
 

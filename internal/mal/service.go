@@ -337,6 +337,11 @@ func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.Cach
 
 // filterAnimeToScrape filters anime list based on configured scrape mode
 func (s *service) filterAnimeToScrape(animeList []domain.Anime, cachedMalIDs map[int]bool) []domain.Anime {
+	// Skip scraping if mode is set to skip
+	if s.config.ScrapeMode == domain.ScrapeModeSkip {
+		return []domain.Anime{}
+	}
+
 	toScrape := []domain.Anime{}
 	currentYear := time.Now().Year()
 	oneYearAgoYear := currentYear - 1

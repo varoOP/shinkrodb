@@ -10,6 +10,8 @@ const (
 	ScrapeModeMissing ScrapeMode = "missing"
 	// ScrapeModeAll - Scrape everything, even if already has AniDB ID in cache
 	ScrapeModeAll ScrapeMode = "all"
+	// ScrapeModeSkip - Skip scraping entirely
+	ScrapeModeSkip ScrapeMode = "skip"
 )
 
 type Config struct {
