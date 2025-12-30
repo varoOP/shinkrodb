@@ -30,6 +30,7 @@ type AnimeList struct {
 
 	// Cache for O(1) lookups
 	tvdbMap map[int]int
+	tmdbMap map[int]int
 }
 
 const (
@@ -43,6 +44,7 @@ const (
 func NewAnimeList(ctx context.Context, cacheDir string) (*AnimeList, error) {
 	al := &AnimeList{
 		tvdbMap: make(map[int]int),
+		tmdbMap: make(map[int]int),
 	}
 
 	var body []byte
@@ -174,16 +176,26 @@ func (a *AnimeList) buildMap() {
 			continue // Skip invalid AniDB IDs
 		}
 
+		// Build TVDB map
 		tvdbID, err := strconv.Atoi(anime.Tvdbid)
-		if err != nil || tvdbID == 0 {
-			continue // Skip invalid or empty TVDB IDs
+		if err == nil && tvdbID > 0 {
+			a.tvdbMap[anidbID] = tvdbID
 		}
 
-		a.tvdbMap[anidbID] = tvdbID
+		// Build TMDB map
+		tmdbID, err := strconv.Atoi(anime.Tmdbid)
+		if err == nil && tmdbID > 0 {
+			a.tmdbMap[anidbID] = tmdbID
+		}
 	}
 }
 
 // GetTvdbID returns the TVDB ID for a given AniDB ID (O(1) lookup)
 func (a *AnimeList) GetTvdbID(aid int) int {
 	return a.tvdbMap[aid]
+}
+
+// GetTmdbID returns the TMDB ID for a given AniDB ID (O(1) lookup)
+func (a *AnimeList) GetTmdbID(aid int) int {
+	return a.tmdbMap[aid]
 }

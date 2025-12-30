@@ -15,6 +15,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 	"github.com/varoOP/shinkrodb/internal/domain"
+	"github.com/varoOP/shinkrodb/pkg/animelist"
 )
 
 type Service interface {
@@ -54,10 +55,10 @@ type TMDBAPIResponse struct {
 func NewService(log zerolog.Logger, config *domain.Config, animeRepo domain.AnimeRepository, mappingRepo domain.MappingRepository, paths *domain.Paths) Service {
 	return &service{
 		log:         log.With().Str("module", "tmdb").Logger(),
-		config:     config,
-		animeRepo:  animeRepo,
+		config:      config,
+		animeRepo:   animeRepo,
 		mappingRepo: mappingRepo,
-		paths:      paths,
+		paths:       paths,
 	}
 }
 
@@ -86,7 +87,7 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 	toFetch := s.filterMoviesToFetch(a, cachedTmdbIDs)
 
 	if len(toFetch) == 0 {
-		s.log.Info().Msg("All movies already cached, skipping TMDB API calls")
+		s.log.Info().Msg("All movies already cached, skipping TMDB lookups")
 		// Still store the updated list with cached TMDB IDs
 		if err := s.animeRepo.Store(ctx, s.paths.TMDBPath, a); err != nil {
 			return errors.Wrap(err, "failed to store TMDB IDs")
@@ -95,10 +96,18 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 		return s.updateMasterFiles(ctx, rootPath, a)
 	}
 
+	// Load anime-list.xml to check for TMDB IDs (similar to TVDB service)
+	al, err := animelist.NewAnimeList(ctx, rootPath)
+	if err != nil {
+		s.log.Warn().Err(err).Msg("failed to load anime-list.xml, will use TMDB API only")
+		al = nil
+	}
+
 	u := s.buildUrl(s.config.TmdbApiKey)
 	am := &domain.AnimeMovies{}
 	noTmdbTotal := 0
 	withTmdbTotal := 0
+	fromAnimeListTotal := 0
 	totalMovies := 0
 
 	// Build map for O(1) MAL ID lookup
@@ -109,39 +118,22 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 
 	for _, anime := range toFetch {
 		totalMovies++
-		target := *u
-		query := target.Query()
-		if anime.EnglishTitle != "" {
-			query.Add("query", anime.EnglishTitle)
-		} else {
-			query.Add("query", anime.MainTitle)
-		}
-
-		if anime.ReleaseDate == "" {
-			noTmdbTotal++
-			s.log.Debug().Str("title", anime.MainTitle).Msg("does not have a release date")
-			continue
-		}
-
-		year := s.getYear(anime.ReleaseDate)
-		query.Add("year", year)
-		target.RawQuery = query.Encode()
-
-		tmdb, err := s.searchTMDB(ctx, target.String())
-		if err != nil {
-			s.log.Warn().Err(err).Str("title", anime.MainTitle).Msg("failed to search TMDB")
-			continue
-		}
-
 		matched := false
-		for _, result := range tmdb.Results {
-			if result.ReleaseDate == anime.ReleaseDate || tmdb.TotalResults == 1 {
-				// O(1) lookup using map
+
+		// First, try to get TMDB ID from anime-list.xml if we have an AniDB ID
+		if al != nil && anime.AnidbID > 0 {
+			if tmdbID := al.GetTmdbID(anime.AnidbID); tmdbID > 0 {
+				// Found in anime-list.xml
 				if i, found := malIDToIndex[anime.MalID]; found {
-					a[i].TmdbID = result.ID
+					a[i].TmdbID = tmdbID
 					withTmdbTotal++
+					fromAnimeListTotal++
 					matched = true
-					s.log.Debug().Str("title", anime.MainTitle).Int("tmdb_id", result.ID).Msg("TMDBID added")
+					s.log.Debug().
+						Str("title", anime.MainTitle).
+						Int("tmdb_id", tmdbID).
+						Int("anidb_id", anime.AnidbID).
+						Msg("TMDBID found in anime-list.xml")
 
 					// Update cache immediately when TMDB ID is found
 					if cacheRepo != nil {
@@ -149,7 +141,7 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 						entry := &domain.CacheEntry{
 							MalID:       anime.MalID,
 							AnidbID:     a[i].AnidbID,
-							TmdbID:      result.ID,
+							TmdbID:      tmdbID,
 							URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID),
 							CachedAt:    now,
 							LastUsed:    now,
@@ -161,24 +153,88 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 						if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
 							s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to update cache")
 						} else {
-							s.log.Debug().Int("mal_id", anime.MalID).Int("tmdb_id", result.ID).Msg("Updated cache")
+							s.log.Debug().Int("mal_id", anime.MalID).Int("tmdb_id", tmdbID).Msg("Updated cache")
 						}
 					}
 				}
-				break
-			} else {
-				s.log.Warn().
-					Str("title", anime.MainTitle).
-					Str("tmdb_date", result.ReleaseDate).
-					Str("mal_date", anime.ReleaseDate).
-					Int("total_results", tmdb.TotalResults).
-					Msg("TMDB date does not match MAL date and has multiple results")
 			}
 		}
 
+		// If not found in anime-list.xml, fall back to TMDB API
 		if !matched {
-			noTmdbTotal++
-			am.Add(anime.MainTitle, 0, anime.MalID)
+			target := *u
+			query := target.Query()
+			if anime.EnglishTitle != "" {
+				query.Add("query", anime.EnglishTitle)
+			} else {
+				query.Add("query", anime.MainTitle)
+			}
+
+			if anime.ReleaseDate == "" {
+				noTmdbTotal++
+				s.log.Debug().Str("title", anime.MainTitle).Msg("does not have a release date")
+				am.Add(anime.MainTitle, 0, anime.MalID)
+				continue
+			}
+
+			year := s.getYear(anime.ReleaseDate)
+			query.Add("year", year)
+			target.RawQuery = query.Encode()
+
+			tmdb, err := s.searchTMDB(ctx, target.String())
+			if err != nil {
+				s.log.Warn().Err(err).Str("title", anime.MainTitle).Msg("failed to search TMDB")
+				noTmdbTotal++
+				am.Add(anime.MainTitle, 0, anime.MalID)
+				continue
+			}
+
+			for _, result := range tmdb.Results {
+				if result.ReleaseDate == anime.ReleaseDate || tmdb.TotalResults == 1 {
+					// O(1) lookup using map
+					if i, found := malIDToIndex[anime.MalID]; found {
+						a[i].TmdbID = result.ID
+						withTmdbTotal++
+						matched = true
+						s.log.Debug().Str("title", anime.MainTitle).Int("tmdb_id", result.ID).Msg("TMDBID added from API")
+
+						// Update cache immediately when TMDB ID is found
+						if cacheRepo != nil {
+							now := time.Now().Format(time.RFC3339)
+							entry := &domain.CacheEntry{
+								MalID:       anime.MalID,
+								AnidbID:     a[i].AnidbID,
+								TmdbID:      result.ID,
+								URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID),
+								CachedAt:    now,
+								LastUsed:    now,
+								HadAniDBID:  a[i].AnidbID > 0,
+								ReleaseDate: anime.ReleaseDate,
+								Type:        anime.Type,
+							}
+
+							if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
+								s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to update cache")
+							} else {
+								s.log.Debug().Int("mal_id", anime.MalID).Int("tmdb_id", result.ID).Msg("Updated cache")
+							}
+						}
+					}
+					break
+				} else {
+					s.log.Warn().
+						Str("title", anime.MainTitle).
+						Str("tmdb_date", result.ReleaseDate).
+						Str("mal_date", anime.ReleaseDate).
+						Int("total_results", tmdb.TotalResults).
+						Msg("TMDB date does not match MAL date and has multiple results")
+				}
+			}
+
+			if !matched {
+				noTmdbTotal++
+				am.Add(anime.MainTitle, 0, anime.MalID)
+			}
 		}
 	}
 
@@ -189,6 +245,8 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 	s.log.Info().
 		Int("total_movies", totalMovies).
 		Int("with_tmdbid", withTmdbTotal).
+		Int("from_anime_list", fromAnimeListTotal).
+		Int("from_api", withTmdbTotal-fromAnimeListTotal).
 		Int("without_tmdbid", noTmdbTotal).
 		Msg("TMDB ID mapping complete")
 
@@ -342,4 +400,3 @@ func (s *service) updateMaster(ctx context.Context, existing, new *domain.AnimeM
 
 	return s.mappingRepo.StoreTMDBMaster(ctx, path, new)
 }
-
