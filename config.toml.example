@@ -14,3 +14,6 @@ tmdb_api_key = ""
 # TMDB fetch mode: "default", "missing", "all", or "skip" (optional, default: "default")
 # tmdb_mode = "default"
 
+# Discord webhook URL for notifications (optional)
+# discord_webhook_url = ""
+

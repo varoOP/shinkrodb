@@ -15,8 +15,9 @@ const (
 )
 
 type Config struct {
-	MalClientID string    `toml:"mal_client_id" mapstructure:"mal_client_id"`
-	TmdbApiKey  string    `toml:"tmdb_api_key" mapstructure:"tmdb_api_key"`
-	AniDBMode   FetchMode `toml:"anidb_mode" mapstructure:"anidb_mode"`
-	TMDBMode    FetchMode `toml:"tmdb_mode" mapstructure:"tmdb_mode"`
+	MalClientID      string    `toml:"mal_client_id" mapstructure:"mal_client_id"`
+	TmdbApiKey       string    `toml:"tmdb_api_key" mapstructure:"tmdb_api_key"`
+	AniDBMode        FetchMode `toml:"anidb_mode" mapstructure:"anidb_mode"`
+	TMDBMode         FetchMode `toml:"tmdb_mode" mapstructure:"tmdb_mode"`
+	DiscordWebhookURL string   `toml:"discord_webhook_url" mapstructure:"discord_webhook_url"`
 }

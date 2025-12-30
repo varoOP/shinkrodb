@@ -13,6 +13,7 @@ import (
 	"github.com/varoOP/shinkrodb/internal/format"
 	"github.com/varoOP/shinkrodb/internal/logger"
 	"github.com/varoOP/shinkrodb/internal/mal"
+	"github.com/varoOP/shinkrodb/internal/notification"
 	"github.com/varoOP/shinkrodb/internal/repository"
 	"github.com/varoOP/shinkrodb/internal/tmdb"
 	"github.com/varoOP/shinkrodb/internal/tvdb"
@@ -20,15 +21,16 @@ import (
 
 // App represents the main application with all dependencies initialized
 type App struct {
-	log           zerolog.Logger
-	config        *domain.Config
-	paths         *domain.Paths
-	animeRepo     domain.AnimeRepository
-	mappingRepo   domain.MappingRepository
-	malService    mal.Service
-	tmdbService   tmdb.Service
-	tvdbService   tvdb.Service
-	dedupeService dedupe.Service
+	log             zerolog.Logger
+	config          *domain.Config
+	paths           *domain.Paths
+	animeRepo       domain.AnimeRepository
+	mappingRepo     domain.MappingRepository
+	malService      mal.Service
+	tmdbService     tmdb.Service
+	tvdbService     tvdb.Service
+	dedupeService   dedupe.Service
+	notificationService domain.NotificationService
 }
 
 // NewApp creates a new application instance with all dependencies initialized
@@ -55,23 +57,34 @@ func NewApp() (*App, error) {
 	tmdbService := tmdb.NewService(log, cfg, animeRepo, mappingRepo, paths)
 	tvdbService := tvdb.NewService(log, animeRepo, mappingRepo, paths)
 	dedupeService := dedupe.NewService(log, animeRepo)
+	notificationService := notification.NewService(log, cfg.DiscordWebhookURL)
 
 	return &App{
-		log:           log,
-		config:        cfg,
-		paths:         paths,
-		animeRepo:     animeRepo,
-		mappingRepo:   mappingRepo,
-		malService:    malService,
-		tmdbService:   tmdbService,
-		tvdbService:   tvdbService,
-		dedupeService: dedupeService,
+		log:                log,
+		config:             cfg,
+		paths:              paths,
+		animeRepo:          animeRepo,
+		mappingRepo:        mappingRepo,
+		malService:         malService,
+		tmdbService:        tmdbService,
+		tvdbService:        tvdbService,
+		dedupeService:      dedupeService,
+		notificationService: notificationService,
 	}, nil
 }
 
 // Run executes the full database update process
-func (a *App) Run(rootPath string) error {
+func (a *App) Run(rootPath string) (err error) {
 	ctx := context.Background()
+	
+	// Send error notification if run fails
+	defer func() {
+		if err != nil {
+			if notifyErr := a.notificationService.SendError(ctx, err); notifyErr != nil {
+				a.log.Warn().Err(notifyErr).Msg("Failed to send error notification")
+			}
+		}
+	}()
 
 	// Update paths with actual root path
 	a.paths = domain.NewPaths(rootPath)
@@ -130,7 +143,7 @@ func (a *App) Run(rootPath string) error {
 	}
 
 	// Calculate and log final statistics
-	stats := calculateStatistics(deduped)
+	stats := calculateStatistics(deduped, dupeCount)
 	a.log.Info().
 		Int("total_mal_ids", stats.TotalMALIDs).
 		Int("mal_ids_with_anidb", stats.MALIDsWithAniDB).
@@ -146,26 +159,19 @@ func (a *App) Run(rootPath string) error {
 		Float64("tvdb_coverage_pct", stats.TVDBCoveragePercent).
 		Msg("=== FINAL STATISTICS ===")
 
+	// Send success notification
+	if notifyErr := a.notificationService.SendSuccess(ctx, stats); notifyErr != nil {
+		a.log.Warn().Err(notifyErr).Msg("Failed to send success notification")
+	}
+
 	return nil
 }
 
-// Statistics holds the final statistics for the run
-type Statistics struct {
-	TotalMALIDs           int
-	MALIDsWithAniDB       int
-	TotalMovies           int
-	MoviesWithTMDB        int
-	TotalTVShows          int
-	TVShowsWithTVDB       int
-	AniDBCoveragePercent  float64
-	TMDBCoveragePercent   float64
-	TVDBCoveragePercent   float64
-}
-
 // calculateStatistics calculates comprehensive statistics from the final anime list
-func calculateStatistics(animeList []domain.Anime) Statistics {
-	stats := Statistics{
+func calculateStatistics(animeList []domain.Anime, dupeCount int) domain.Statistics {
+	stats := domain.Statistics{
 		TotalMALIDs: len(animeList),
+		DupeCount:   dupeCount,
 	}
 
 	for _, anime := range animeList {

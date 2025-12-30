@@ -16,6 +16,7 @@ func Load() (*domain.Config, error) {
 	// Load from Viper (config file + env vars)
 	cfg.MalClientID = viper.GetString("mal_client_id")
 	cfg.TmdbApiKey = viper.GetString("tmdb_api_key")
+	cfg.DiscordWebhookURL = viper.GetString("discord_webhook_url")
 	
 	// AniDB mode (default: "default")
 	anidbModeStr := viper.GetString("anidb_mode")
