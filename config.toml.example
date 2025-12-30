@@ -1,0 +1,16 @@
+# ShinkroDB Configuration
+# Copy this file to $HOME/.config/shinkrodb/config.toml or use --config flag
+# Alternatively, set environment variables with SHINKRODB_ prefix
+
+# MyAnimeList API Client ID (required)
+mal_client_id = ""
+
+# TMDB API Key (required)
+tmdb_api_key = ""
+
+# AniDB fetch mode: "default", "missing", "all", or "skip" (optional, default: "default")
+# anidb_mode = "default"
+
+# TMDB fetch mode: "default", "missing", "all", or "skip" (optional, default: "default")
+# tmdb_mode = "default"
+

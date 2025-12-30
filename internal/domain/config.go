@@ -15,8 +15,8 @@ const (
 )
 
 type Config struct {
-	MalClientID string     `json:"mal-client-id"`
-	TmdbApiKey  string     `json:"tmdb-api-key"`
-	AniDBMode   FetchMode  `json:"anidb-mode"`
-	TMDBMode    FetchMode  `json:"tmdb-mode"`
+	MalClientID string    `toml:"mal_client_id" mapstructure:"mal_client_id"`
+	TmdbApiKey  string    `toml:"tmdb_api_key" mapstructure:"tmdb_api_key"`
+	AniDBMode   FetchMode `toml:"anidb_mode" mapstructure:"anidb_mode"`
+	TMDBMode    FetchMode `toml:"tmdb_mode" mapstructure:"tmdb_mode"`
 }

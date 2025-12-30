@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -38,7 +39,7 @@ func init() {
 	cobra.OnInitialize(initConfig)
 
 	// Global flags
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.shinkrodb.yaml or ./config.yaml)")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.config/shinkrodb/config.toml)")
 	rootCmd.PersistentFlags().String("root-path", ".", "the path where output is saved")
 
 	// Bind flags to viper
@@ -47,26 +48,29 @@ func init() {
 
 // initConfig reads in config file and ENV variables if set.
 func initConfig() {
-	if cfgFile != "" {
-		// Use config file from the flag.
-		viper.SetConfigFile(cfgFile)
-	} else {
-		// Search for config in home directory and current directory
-		home, err := os.UserHomeDir()
-		if err == nil {
-			viper.AddConfigPath(home)
-		}
-		viper.AddConfigPath(".")
-		viper.SetConfigType("yaml")
-		viper.SetConfigName(".shinkrodb")
-		viper.SetConfigName("config")
-	}
-
 	// Environment variables
 	viper.SetEnvPrefix("SHINKRODB")
 	viper.AutomaticEnv()
 
-	// If a config file is found, read it in.
+	if cfgFile != "" {
+		// Use config file from the flag.
+		viper.SetConfigFile(cfgFile)
+		viper.SetConfigType("toml")
+	} else {
+		// Default to $HOME/.config/shinkrodb/config.toml
+		home, err := os.UserHomeDir()
+		if err == nil {
+			defaultConfigPath := filepath.Join(home, ".config", "shinkrodb", "config.toml")
+			viper.SetConfigFile(defaultConfigPath)
+			viper.SetConfigType("toml")
+		} else {
+			// Fallback to current directory if home directory can't be determined
+			viper.SetConfigFile("./config.toml")
+			viper.SetConfigType("toml")
+		}
+	}
+
+	// If a config file is found, read it in (config file is optional)
 	if err := viper.ReadInConfig(); err == nil {
 		fmt.Fprintln(os.Stderr, "Using config file:", viper.ConfigFileUsed())
 	}
