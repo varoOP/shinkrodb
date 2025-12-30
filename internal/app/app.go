@@ -129,7 +129,80 @@ func (a *App) Run(rootPath string) error {
 		return fmt.Errorf("failed to store deduped anime: %w", err)
 	}
 
+	// Calculate and log final statistics
+	stats := calculateStatistics(deduped)
+	a.log.Info().
+		Int("total_mal_ids", stats.TotalMALIDs).
+		Int("mal_ids_with_anidb", stats.MALIDsWithAniDB).
+		Int("mal_ids_without_anidb", stats.TotalMALIDs-stats.MALIDsWithAniDB).
+		Int("total_movies", stats.TotalMovies).
+		Int("movies_with_tmdb", stats.MoviesWithTMDB).
+		Int("movies_without_tmdb", stats.TotalMovies-stats.MoviesWithTMDB).
+		Int("total_tv_shows", stats.TotalTVShows).
+		Int("tv_shows_with_tvdb", stats.TVShowsWithTVDB).
+		Int("tv_shows_without_tvdb", stats.TotalTVShows-stats.TVShowsWithTVDB).
+		Float64("anidb_coverage_pct", stats.AniDBCoveragePercent).
+		Float64("tmdb_coverage_pct", stats.TMDBCoveragePercent).
+		Float64("tvdb_coverage_pct", stats.TVDBCoveragePercent).
+		Msg("=== FINAL STATISTICS ===")
+
 	return nil
+}
+
+// Statistics holds the final statistics for the run
+type Statistics struct {
+	TotalMALIDs           int
+	MALIDsWithAniDB       int
+	TotalMovies           int
+	MoviesWithTMDB        int
+	TotalTVShows          int
+	TVShowsWithTVDB       int
+	AniDBCoveragePercent  float64
+	TMDBCoveragePercent   float64
+	TVDBCoveragePercent   float64
+}
+
+// calculateStatistics calculates comprehensive statistics from the final anime list
+func calculateStatistics(animeList []domain.Anime) Statistics {
+	stats := Statistics{
+		TotalMALIDs: len(animeList),
+	}
+
+	for _, anime := range animeList {
+		// Count AniDB coverage
+		if anime.AnidbID > 0 {
+			stats.MALIDsWithAniDB++
+		}
+
+		// Count movies and TMDB coverage
+		if anime.Type == "movie" {
+			stats.TotalMovies++
+			if anime.TmdbID > 0 {
+				stats.MoviesWithTMDB++
+			}
+		}
+
+		// Count TV shows and TVDB coverage
+		if anime.Type == "tv" {
+			stats.TotalTVShows++
+			if anime.TvdbID > 0 {
+				stats.TVShowsWithTVDB++
+			}
+		}
+	}
+
+	// Calculate coverage percentages
+	if stats.TotalMALIDs > 0 {
+		stats.AniDBCoveragePercent = (float64(stats.MALIDsWithAniDB) / float64(stats.TotalMALIDs)) * 100
+	}
+	if stats.TotalMovies > 0 {
+		stats.TMDBCoveragePercent = (float64(stats.MoviesWithTMDB) / float64(stats.TotalMovies)) * 100
+	}
+	if stats.TotalTVShows > 0 {
+		stats.TVDBCoveragePercent = (float64(stats.TVShowsWithTVDB) / float64(stats.TotalTVShows)) * 100
+	}
+
+	return stats
 }
 
 // GenerateMappings generates mapping files from master files

@@ -192,26 +192,27 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 			}
 
 			// Try old matching logic first (exact date match OR single result)
+			// This matches the original behavior exactly: loop through all results,
+			// match on exact date OR single result, log warnings for non-matches
 			var tmdbID int
 			for _, result := range tmdb.Results {
 				if result.ReleaseDate == anime.ReleaseDate || tmdb.TotalResults == 1 {
 					tmdbID = result.ID
 					matched = true
-					s.log.Debug().Str("title", anime.MainTitle).Int("tmdb_id", result.ID).Msg("TMDBID added from API (old logic)")
+					s.log.Debug().Str("title", anime.MainTitle).Int("tmdb_id", result.ID).Msg("TMDBID added from API")
 					break
+				} else {
+					// Log warning for each non-matching result (matches old behavior)
+					s.log.Warn().
+						Str("title", anime.MainTitle).
+						Str("tmdb_date", result.ReleaseDate).
+						Str("mal_date", anime.ReleaseDate).
+						Int("total_results", tmdb.TotalResults).
+						Msg("TMDB date does not match MAL date and has multiple results")
 				}
 			}
 
-			// Log warning only if old logic failed and we have multiple results
-			if !matched && tmdb.TotalResults > 1 {
-				s.log.Warn().
-					Str("title", anime.MainTitle).
-					Str("mal_date", anime.ReleaseDate).
-					Int("total_results", tmdb.TotalResults).
-					Msg("TMDB date does not match MAL date and has multiple results")
-			}
-
-			// If old logic failed, try new confidence score method
+			// If old logic failed (no match found), try new confidence score method
 			if !matched {
 				s.log.Trace().
 					Str("title", anime.MainTitle).
