@@ -87,7 +87,7 @@ func (s *service) GetAnimeIDs(ctx context.Context) error {
 	}
 
 	a := []domain.Anime{}
-	next, err := s.storeAnimeID(ctx, c, "https://api.myanimelist.net/v2/anime/ranking?ranking_type=all&limit=500&fields={media_type,start_date,alternative_titles{en}}", &a)
+	next, err := s.storeAnimeID(ctx, c, "https://api.myanimelist.net/v2/anime/ranking?ranking_type=all&limit=500&fields={media_type,start_date,alternative_titles}", &a)
 	if err != nil {
 		return errors.Wrap(err, "failed to fetch initial MAL IDs")
 	}
@@ -145,11 +145,13 @@ func (s *service) storeAnimeID(ctx context.Context, c *http.Client, url string, 
 
 	for _, v := range mal.Data {
 		*a = append(*a, domain.Anime{
-			MainTitle:    v.Node.Title,
-			EnglishTitle: v.Node.AlternativeTitles.English,
-			MalID:        v.Node.ID,
-			Type:         v.Node.MediaType,
-			ReleaseDate:  v.Node.StartDate,
+			MainTitle:     v.Node.Title,
+			EnglishTitle:  v.Node.AlternativeTitles.English,
+			JapaneseTitle: v.Node.AlternativeTitles.Japanese,
+			Synonyms:      v.Node.AlternativeTitles.Synonyms,
+			MalID:         v.Node.ID,
+			Type:          v.Node.MediaType,
+			ReleaseDate:   v.Node.StartDate,
 		})
 	}
 
