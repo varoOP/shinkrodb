@@ -183,7 +183,7 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 			query.Add("year", year)
 			target.RawQuery = query.Encode()
 
-			tmdb, err := s.searchTMDB(ctx, target.String(), anime)
+			tmdb, err := s.searchTMDB(ctx, target.String())
 			if err != nil {
 				s.log.Warn().Err(err).Str("title", anime.MainTitle).Msg("failed to search TMDB")
 				noTmdbTotal++
@@ -191,49 +191,81 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 				continue
 			}
 
-			// Use improved matching logic with scoring
-			bestMatch := s.findBestMatch(anime, tmdb.Results)
-			const minConfidenceScore = 50.0 // Minimum score to accept a match
-
-			// If no match or low confidence, try fallback searches with synonyms/Japanese titles
-			if bestMatch == nil || bestMatch.Score < minConfidenceScore {
-				if tmdb.TotalResults == 0 || bestMatch == nil {
-					s.log.Trace().
-						Str("title", anime.MainTitle).
-						Int("mal_id", anime.MalID).
-						Msg("No results from initial search, trying fallback searches with synonyms/Japanese titles")
-				} else {
-					s.log.Trace().
-						Str("title", anime.MainTitle).
-						Int("mal_id", anime.MalID).
-						Float64("score", bestMatch.Score).
-						Msg("Low confidence score, trying fallback searches")
-				}
-
-				// Try fallback searches
-				fallbackMatch := s.tryFallbackSearches(ctx, anime, u, year)
-				if fallbackMatch != nil && (bestMatch == nil || fallbackMatch.Score > bestMatch.Score) {
-					bestMatch = fallbackMatch
-					s.log.Trace().
-						Str("title", anime.MainTitle).
-						Int("tmdb_id", bestMatch.ID).
-						Float64("score", bestMatch.Score).
-						Msg("Found match via fallback search")
+			// Try old matching logic first (exact date match OR single result)
+			var tmdbID int
+			for _, result := range tmdb.Results {
+				if result.ReleaseDate == anime.ReleaseDate || tmdb.TotalResults == 1 {
+					tmdbID = result.ID
+					matched = true
+					s.log.Debug().Str("title", anime.MainTitle).Int("tmdb_id", result.ID).Msg("TMDBID added from API (old logic)")
+					break
 				}
 			}
 
-			if bestMatch != nil && bestMatch.Score >= minConfidenceScore {
-				// O(1) lookup using map
-				if i, found := malIDToIndex[anime.MalID]; found {
-					a[i].TmdbID = bestMatch.ID
-					withTmdbTotal++
+			// Log warning only if old logic failed and we have multiple results
+			if !matched && tmdb.TotalResults > 1 {
+				s.log.Warn().
+					Str("title", anime.MainTitle).
+					Str("mal_date", anime.ReleaseDate).
+					Int("total_results", tmdb.TotalResults).
+					Msg("TMDB date does not match MAL date and has multiple results")
+			}
+
+			// If old logic failed, try new confidence score method
+			if !matched {
+				s.log.Trace().
+					Str("title", anime.MainTitle).
+					Int("mal_id", anime.MalID).
+					Msg("Old matching logic failed, trying confidence score method")
+
+				bestMatch := s.findBestMatch(anime, tmdb.Results)
+				const minConfidenceScore = 50.0 // Minimum score to accept a match
+
+				// If still no match, try fallback searches with synonyms/Japanese titles
+				if bestMatch == nil || bestMatch.Score < minConfidenceScore {
+					if tmdb.TotalResults == 0 || bestMatch == nil {
+						s.log.Trace().
+							Str("title", anime.MainTitle).
+							Int("mal_id", anime.MalID).
+							Msg("No results from confidence score, trying fallback searches with synonyms/Japanese titles")
+					} else {
+						s.log.Trace().
+							Str("title", anime.MainTitle).
+							Int("mal_id", anime.MalID).
+							Float64("score", bestMatch.Score).
+							Msg("Low confidence score, trying fallback searches")
+					}
+
+					// Try fallback searches
+					fallbackMatch := s.tryFallbackSearches(ctx, anime, u, year)
+					if fallbackMatch != nil && (bestMatch == nil || fallbackMatch.Score > bestMatch.Score) {
+						bestMatch = fallbackMatch
+						s.log.Trace().
+							Str("title", anime.MainTitle).
+							Int("tmdb_id", bestMatch.ID).
+							Float64("score", bestMatch.Score).
+							Msg("Found match via fallback search")
+					}
+				}
+
+				if bestMatch != nil && bestMatch.Score >= minConfidenceScore {
+					tmdbID = bestMatch.ID
 					matched = true
 					s.log.Info().
 						Str("title", anime.MainTitle).
 						Int("mal_id", anime.MalID).
 						Int("tmdb_id", bestMatch.ID).
 						Float64("match_score", bestMatch.Score).
-						Msg("TMDB ID found")
+						Msg("TMDB ID found (confidence score method)")
+				}
+			}
+
+			// Update anime list and cache if matched
+			if matched && tmdbID > 0 {
+				// O(1) lookup using map
+				if i, found := malIDToIndex[anime.MalID]; found {
+					a[i].TmdbID = tmdbID
+					withTmdbTotal++
 
 					// Update cache immediately when TMDB ID is found
 					if cacheRepo != nil {
@@ -241,7 +273,7 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 						entry := &domain.CacheEntry{
 							MalID:       anime.MalID,
 							AnidbID:     a[i].AnidbID,
-							TmdbID:      bestMatch.ID,
+							TmdbID:      tmdbID,
 							URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID),
 							CachedAt:    now,
 							LastUsed:    now,
@@ -362,7 +394,7 @@ func (s *service) updateMasterFiles(ctx context.Context, rootPath string, animeL
 	return nil
 }
 
-func (s *service) searchTMDB(ctx context.Context, url string, anime domain.Anime) (*TMDBAPIResponse, error) {
+func (s *service) searchTMDB(ctx context.Context, url string) (*TMDBAPIResponse, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to create request")
@@ -616,7 +648,7 @@ func (s *service) searchWithTitle(ctx context.Context, anime domain.Anime, baseU
 		Str("search_type", searchType).
 		Msg("Trying fallback search")
 
-	tmdb, err := s.searchTMDB(ctx, target.String(), anime)
+	tmdb, err := s.searchTMDB(ctx, target.String())
 	if err != nil {
 		s.log.Debug().Err(err).Str("search_title", searchTitle).Msg("fallback search failed")
 		return nil
