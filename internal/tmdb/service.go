@@ -98,8 +98,8 @@ func (s *service) GetTmdbIds(ctx context.Context, rootPath string, cacheRepo dom
 		return s.updateMasterFiles(ctx, rootPath, a)
 	}
 
-	// Load anime-list.xml to check for TMDB IDs (similar to TVDB service)
-	al, err := animelist.NewAnimeList(ctx, rootPath)
+	// Load anime-list.xml from current directory (./) instead of root-path
+	al, err := animelist.NewAnimeList(ctx, ".")
 	if err != nil {
 		s.log.Warn().Err(err).Msg("failed to load anime-list.xml, will use TMDB API only")
 		al = nil

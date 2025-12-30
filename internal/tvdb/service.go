@@ -33,8 +33,8 @@ func NewService(log zerolog.Logger, animeRepo domain.AnimeRepository, mappingRep
 }
 
 func (s *service) GetTvdbIDs(ctx context.Context, rootPath string) error {
-	// Use rootPath as cache directory for the anime-list.xml file
-	al, err := animelist.NewAnimeList(ctx, rootPath)
+	// Store anime-list.xml in current directory (./) instead of root-path
+	al, err := animelist.NewAnimeList(ctx, ".")
 	if err != nil {
 		return errors.Wrap(err, "failed to create anime list")
 	}

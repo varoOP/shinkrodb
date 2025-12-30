@@ -87,7 +87,8 @@ func (a *App) Run(rootPath string) error {
 	}
 
 	// Initialize database and cache repository
-	db, err := database.NewDB(rootPath, a.log)
+	// Store database in current directory (./) instead of root-path
+	db, err := database.NewDB(".", a.log)
 	if err != nil {
 		return fmt.Errorf("failed to initialize database: %w", err)
 	}

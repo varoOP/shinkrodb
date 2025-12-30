@@ -10,7 +10,8 @@ CREATE TABLE cache_entries (
 	had_anidb_id BOOLEAN NOT NULL DEFAULT 0,
 	release_date TEXT,
 	type TEXT,
-	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	tmdb_id INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE INDEX idx_cached_at ON cache_entries(cached_at);
@@ -19,6 +20,7 @@ CREATE INDEX idx_anidb_id ON cache_entries(anidb_id);
 CREATE INDEX idx_had_anidb_id ON cache_entries(had_anidb_id);
 CREATE INDEX idx_release_date ON cache_entries(release_date);
 CREATE INDEX idx_type ON cache_entries(type);
+CREATE INDEX idx_tmdb_id ON cache_entries(tmdb_id);
 `
 
 // cacheMigrations contains incremental schema changes
@@ -31,4 +33,3 @@ var cacheMigrations = []string{
 ALTER TABLE cache_entries ADD COLUMN tmdb_id INTEGER NOT NULL DEFAULT 0;
 CREATE INDEX idx_tmdb_id ON cache_entries(tmdb_id);`,
 }
-

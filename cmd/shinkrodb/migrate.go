@@ -26,8 +26,8 @@ After migration, you can use the new efficient cache system.`,
 		cacheDir, _ := cmd.Flags().GetString("cache-dir")
 		rootPath := viper.GetString("root_path")
 
-		// Create database path in root directory
-		dbPath := filepath.Join(rootPath, "shinkrodb.db")
+		// Create database path in current directory (./) instead of root-path
+		dbPath := filepath.Join(".", "shinkrodb.db")
 
 		log := logger.NewLogger()
 
