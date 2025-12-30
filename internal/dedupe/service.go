@@ -5,7 +5,6 @@ import (
 	"encoding/xml"
 	"fmt"
 	"net/http"
-	"sort"
 	"strconv"
 	"strings"
 
@@ -33,87 +32,82 @@ func NewService(log zerolog.Logger, animeRepo domain.AnimeRepository) Service {
 }
 
 func (s *service) CheckDupes(ctx context.Context, anime []domain.Anime) (int, []domain.Anime, error) {
-	dupeanidb := []domain.Anime{}
-	indexes := []int{}
-
-	// Find duplicates
-	for i, v := range anime {
-		if v.AnidbID == 0 {
-			continue
+	// Build map: AniDB ID -> []indices for O(1) duplicate detection
+	// Only consider entries with AniDB ID and type "tv"
+	anidbToIndices := make(map[int][]int)
+	for i, a := range anime {
+		if a.AnidbID > 0 && a.Type == "tv" {
+			anidbToIndices[a.AnidbID] = append(anidbToIndices[a.AnidbID], i)
 		}
+	}
 
-		count := 0
-		for _, vv := range anime {
-			if v.AnidbID == vv.AnidbID && v.Type == vv.Type && v.Type == "tv" {
-				count++
-			}
-		}
-
-		if count > 1 {
-			dupeanidb = append(dupeanidb, v)
-			indexes = append(indexes, i)
-			// Initialize map entry if needed
-			if _, ok := s.aidTitleMap[v.AnidbID]; !ok {
-				s.aidTitleMap[v.AnidbID] = ""
+	// Find AniDB IDs with duplicates (more than one entry)
+	duplicateAnidbIDs := make(map[int]bool)
+	for anidbID, indices := range anidbToIndices {
+		if len(indices) > 1 {
+			duplicateAnidbIDs[anidbID] = true
+			// Initialize title map entry
+			if _, ok := s.aidTitleMap[anidbID]; !ok {
+				s.aidTitleMap[anidbID] = ""
 			}
 		}
 	}
 
-	// Fill title map if needed
-	if len(s.aidTitleMap) > 0 {
-		if err := s.fillAidTitleMap(ctx); err != nil {
-			s.log.Warn().Err(err).Msg("failed to fill AniDB title map")
-		}
-	}
-
-	sort.SliceStable(dupeanidb, func(i, j int) bool {
-		return dupeanidb[i].AnidbID < dupeanidb[j].AnidbID
-	})
-
-	if len(indexes) == 0 {
+	if len(duplicateAnidbIDs) == 0 {
 		return 0, anime, nil
 	}
 
-	s.log.Info().Int("dupe_count", len(dupeanidb)).Msg("Found duplicates")
+	// Fill title map for all duplicate AniDB IDs
+	if err := s.fillAidTitleMap(ctx); err != nil {
+		s.log.Warn().Err(err).Msg("failed to fill AniDB title map")
+		// Continue with empty titles - will keep all entries
+	}
 
-	// Check titles and remove non-matching entries
-	deduped := s.checkTitle(ctx, anime, indexes)
+	// Build set of indices to remove (more efficient than recursive calls)
+	indicesToRemove := make(map[int]bool)
 
-	return len(dupeanidb), deduped, nil
-}
-
-func (s *service) checkTitle(ctx context.Context, anime []domain.Anime, indexes []int) []domain.Anime {
-	for _, index := range indexes {
-		if index >= len(anime) {
+	// Check each duplicate group
+	for anidbID := range duplicateAnidbIDs {
+		mainTitle := s.aidTitleMap[anidbID]
+		if mainTitle == "" {
+			// No title found, can't determine which to remove - keep all
 			continue
 		}
 
-		mainTitle := s.aidTitleMap[anime[index].AnidbID]
-		if mainTitle != "" && !strings.EqualFold(anime[index].MainTitle, mainTitle) {
-			s.log.Debug().
-				Int("mal_id", anime[index].MalID).
-				Str("anime_title", anime[index].MainTitle).
-				Str("anidb_title", mainTitle).
-				Msg("Deleting non-matching entry")
-			// Remove entry and recursively check for more duplicates (same as legacy behavior)
-			removed := s.removeIndex(anime, index)
-			_, deduped, err := s.CheckDupes(ctx, removed)
-			if err != nil {
-				s.log.Warn().Err(err).Msg("failed to recursively check dupes")
-				return removed
+		// Find entries that don't match the AniDB main title
+		for _, index := range anidbToIndices[anidbID] {
+			if !strings.EqualFold(anime[index].MainTitle, mainTitle) {
+				indicesToRemove[index] = true
+				s.log.Debug().
+					Int("mal_id", anime[index].MalID).
+					Str("anime_title", anime[index].MainTitle).
+					Str("anidb_title", mainTitle).
+					Int("anidb_id", anidbID).
+					Msg("Marking non-matching entry for removal")
 			}
-			return deduped
 		}
 	}
-	return anime
+
+	if len(indicesToRemove) == 0 {
+		return len(duplicateAnidbIDs), anime, nil
+	}
+
+	s.log.Info().
+		Int("dupe_groups", len(duplicateAnidbIDs)).
+		Int("entries_to_remove", len(indicesToRemove)).
+		Msg("Found duplicates")
+
+	// Remove entries in reverse order to maintain correct indices
+	deduped := make([]domain.Anime, 0, len(anime)-len(indicesToRemove))
+	for i := range anime {
+		if !indicesToRemove[i] {
+			deduped = append(deduped, anime[i])
+		}
+	}
+
+	return len(duplicateAnidbIDs), deduped, nil
 }
 
-func (s *service) removeIndex(anime []domain.Anime, index int) []domain.Anime {
-	if index < 0 || index >= len(anime) {
-		return anime
-	}
-	return append(anime[:index], anime[index+1:]...)
-}
 
 func (s *service) fillAidTitleMap(ctx context.Context) error {
 	anidb := &Animetitles{}
@@ -139,22 +133,30 @@ func (s *service) fillAidTitleMap(ctx context.Context) error {
 		return errors.Wrap(err, "failed to decode XML")
 	}
 
-	// Fill map for all requested AniDB IDs
+	// Build a map of AniDB ID -> main title for O(1) lookup
+	anidbTitleMap := make(map[int]string)
+	for _, anime := range anidb.Anime {
+		aid, err := strconv.Atoi(anime.Aid)
+		if err != nil {
+			continue // Skip invalid AniDB IDs
+		}
+
+		// Find main title
+		for _, title := range anime.Title {
+			if title.Type == "main" {
+				anidbTitleMap[aid] = title.Text
+				break
+			}
+		}
+	}
+
+	// Fill requested AniDB IDs from the map
 	for key := range s.aidTitleMap {
 		if s.aidTitleMap[key] != "" {
 			continue // Already filled
 		}
-
-		for _, anime := range anidb.Anime {
-			if anime.Aid == strconv.Itoa(key) {
-				for _, title := range anime.Title {
-					if title.Type == "main" {
-						s.aidTitleMap[key] = title.Text
-						break
-					}
-				}
-				break
-			}
+		if title, found := anidbTitleMap[key]; found {
+			s.aidTitleMap[key] = title
 		}
 	}
 
