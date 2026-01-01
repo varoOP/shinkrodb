@@ -8,6 +8,7 @@ type CacheRepo interface {
 	GetTMDBIDs(ctx context.Context) (map[int]int, error)
 	UpsertEntry(ctx context.Context, entry *CacheEntry) error
 	InsertEntry(ctx context.Context, entry *CacheEntry) error
+	UpdateTMDBID(ctx context.Context, malID, tmdbID int, releaseDate, animeType string) error
 	GetEntriesByReleaseYear(ctx context.Context, year int) ([]*CacheEntry, error)
 	DeleteEntry(ctx context.Context, malID int) error
 }

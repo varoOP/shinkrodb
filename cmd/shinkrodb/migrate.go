@@ -33,41 +33,47 @@ After migration, you can use the new efficient cache system.`,
 
 		log.Info().
 			Str("cache_dir", cacheDir).
+			Str("root_path", rootPath).
 			Str("db_path", dbPath).
 			Msg("Starting cache migration")
 
-		// Load configuration
-		cfg, err := config.Load()
-		if err != nil {
-			return fmt.Errorf("failed to load config: %w", err)
-		}
-
-		// Initialize repository to get anime data (for release date/type from MAL API)
+		// Initialize repository to get anime data
 		animeRepo := repository.NewFileRepository(log)
 		paths := domain.NewPaths(rootPath)
 
-		// Fetch MAL IDs first (needed for release dates/types in migration)
-		malSvc := mal.NewService(log, cfg, animeRepo, paths.MalIDPath, paths.AniDBPath)
-		if err := malSvc.GetAnimeIDs(cmd.Context()); err != nil {
-			return fmt.Errorf("failed to get MAL IDs: %w", err)
+		// Only fetch MAL IDs if cache-dir is provided (needed for release dates/types in migration)
+		if cacheDir != "" {
+			// Load configuration
+			cfg, err := config.Load()
+			if err != nil {
+				return fmt.Errorf("failed to load config: %w", err)
+			}
+
+			// Fetch MAL IDs first (needed for release dates/types in migration)
+			malSvc := mal.NewService(log, cfg, animeRepo, paths.MalIDPath, paths.AniDBPath)
+			if err := malSvc.GetAnimeIDs(cmd.Context()); err != nil {
+				return fmt.Errorf("failed to get MAL IDs: %w", err)
+			}
 		}
 
-		// Run migration - use MAL ID path since that's where release dates come from initially
-		if err := cache.MigrateCache(cmd.Context(), cacheDir, dbPath, animeRepo, paths.MalIDPath, log); err != nil {
+		// Run migration - conditionally process cache-dir and rootpath
+		if err := cache.MigrateCache(cmd.Context(), cacheDir, rootPath, dbPath, animeRepo, paths, log); err != nil {
 			return fmt.Errorf("migration failed: %w", err)
 		}
 
 		log.Info().Msg("Migration completed successfully!")
 		fmt.Printf("\n✓ Cache migration complete!\n")
 		fmt.Printf("  Database: %s\n", dbPath)
-		fmt.Printf("  You can now use the new cache system.\n")
-		fmt.Printf("  Old cache directory (%s) can be kept for backup or removed.\n\n", cacheDir)
+		if cacheDir != "" {
+			fmt.Printf("  Old cache directory (%s) can be kept for backup or removed.\n", cacheDir)
+		}
+		fmt.Printf("  You can now use the new cache system.\n\n")
 
 		return nil
 	},
 }
 
 func init() {
-	migrateCmd.Flags().String("cache-dir", "./mal_cache", "directory containing HTML cache files to migrate")
+	migrateCmd.Flags().String("cache-dir", "", "directory containing HTML cache files to migrate (optional, skips MAL cache migration if not provided)")
 	rootCmd.AddCommand(migrateCmd)
 }
