@@ -3,7 +3,6 @@ package cache
 import (
 	"bytes"
 	"context"
-	"fmt"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -145,26 +144,9 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 					Msg("WARNING: mal_id equals anidb_id during migration - this should not happen!")
 			}
 
-			// Construct URL
-			url := fmt.Sprintf("https://myanimelist.net/anime/%d", malID)
-
-			// Get release date and type from anime data
-			releaseDate := ""
-			animeType := ""
-			if anime, exists := animeMap[malID]; exists {
-				releaseDate = anime.ReleaseDate
-				animeType = anime.Type
-			}
-
 			// Insert into database using new separate tables
-			// Update MAL cache
-			if err := cacheRepo.UpsertMAL(ctx, malID, url, releaseDate, animeType); err != nil {
-				log.Warn().Err(err).Int("mal_id", malID).Str("path", path).Msg("failed to insert MAL cache")
-				errorCount++
-				return nil
-			}
-
-			// Update AniDB cache
+			// Note: mal_cache should only be updated in GetAnimeIDs, not here
+			// Update AniDB cache only
 			if err := cacheRepo.UpsertAniDB(ctx, malID, anidbID); err != nil {
 				log.Warn().Err(err).Int("mal_id", malID).Str("path", path).Msg("failed to insert AniDB cache")
 				errorCount++
@@ -208,14 +190,9 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 			}
 
 			// Update or create cache entries with TMDB IDs
+			// Note: mal_cache should only be updated in GetAnimeIDs, not here
 			updatedCount := 0
 			for malID, anime := range animeMap {
-				// Ensure MAL cache exists first
-				url := fmt.Sprintf("https://myanimelist.net/anime/%d", malID)
-				if err := cacheRepo.UpsertMAL(ctx, malID, url, anime.ReleaseDate, anime.Type); err != nil {
-					log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update MAL cache for TMDB entry")
-				}
-
 				// UpsertTMDB will update existing entries or create new ones if they don't exist
 				if err := cacheRepo.UpsertTMDB(ctx, malID, anime.TmdbID); err != nil {
 					log.Warn().Err(err).Int("mal_id", malID).Int("tmdb_id", anime.TmdbID).Msg("failed to update/create TMDB ID")
