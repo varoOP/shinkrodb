@@ -2,6 +2,8 @@ package database
 
 import (
 	"context"
+	"fmt"
+	"time"
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/pkg/errors"
@@ -160,6 +162,54 @@ func (r *CacheRepo) InsertEntry(ctx context.Context, entry *domain.CacheEntry) e
 	}
 
 	r.log.Trace().Str("query", query).Interface("args", args).Msg("InsertEntry")
+
+	_, err = r.db.handler.ExecContext(ctx, query, args...)
+	if err != nil {
+		return errors.Wrap(err, "error executing insert query")
+	}
+
+	return nil
+}
+
+// UpdateTMDBID updates only the tmdb_id field for an existing cache entry
+// If the entry doesn't exist, it creates a new entry with MAL ID, TMDB ID, release date, and type
+func (r *CacheRepo) UpdateTMDBID(ctx context.Context, malID, tmdbID int, releaseDate, animeType string) error {
+	// Try to update first
+	updateBuilder := r.db.squirrel.
+		Update("cache_entries").
+		Set("tmdb_id", tmdbID).
+		Where(sq.Eq{"mal_id": malID})
+
+	query, args, err := updateBuilder.ToSql()
+	if err != nil {
+		return errors.Wrap(err, "error building update query")
+	}
+
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpdateTMDBID update")
+
+	result, err := r.db.handler.ExecContext(ctx, query, args...)
+	if err != nil {
+		return errors.Wrap(err, "error executing update query")
+	}
+
+	rowsAffected, _ := result.RowsAffected()
+	if rowsAffected > 0 {
+		return nil // Update successful
+	}
+
+	// No rows affected, entry doesn't exist - create a new entry with available data
+	now := time.Now().Format(time.RFC3339)
+	insertBuilder := r.db.squirrel.
+		Replace("cache_entries").
+		Columns("mal_id", "anidb_id", "tmdb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
+		Values(malID, 0, tmdbID, fmt.Sprintf("https://myanimelist.net/anime/%d", malID), now, now, false, releaseDate, animeType)
+
+	query, args, err = insertBuilder.ToSql()
+	if err != nil {
+		return errors.Wrap(err, "error building insert query")
+	}
+
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpdateTMDBID insert")
 
 	_, err = r.db.handler.ExecContext(ctx, query, args...)
 	if err != nil {
