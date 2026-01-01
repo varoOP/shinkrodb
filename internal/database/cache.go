@@ -2,7 +2,6 @@ package database
 
 import (
 	"context"
-	"fmt"
 	"time"
 
 	sq "github.com/Masterminds/squirrel"
@@ -25,12 +24,35 @@ func NewCacheRepo(log zerolog.Logger, db *DB) domain.CacheRepo {
 	}
 }
 
+// UpsertMAL inserts or updates a MAL cache entry
+func (r *CacheRepo) UpsertMAL(ctx context.Context, malID int, url, releaseDate, animeType string) error {
+	now := time.Now().Format(time.RFC3339)
+
+	queryBuilder := r.db.squirrel.
+		Replace("mal_cache").
+		Columns("mal_id", "url", "release_date", "type", "cached_at", "last_used").
+		Values(malID, url, releaseDate, animeType, now, now)
+
+	query, args, err := queryBuilder.ToSql()
+	if err != nil {
+		return errors.Wrap(err, "error building query")
+	}
+
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpsertMAL")
+
+	_, err = r.db.handler.ExecContext(ctx, query, args...)
+	if err != nil {
+		return errors.Wrap(err, "error executing query")
+	}
+
+	return nil
+}
+
 // GetAniDBIDs returns a map of MAL ID to AniDB ID for entries that have AniDB IDs
 func (r *CacheRepo) GetAniDBIDs(ctx context.Context) (map[int]int, error) {
 	queryBuilder := r.db.squirrel.
 		Select("mal_id", "anidb_id").
-		From("cache_entries").
-		Where(sq.Gt{"anidb_id": 0})
+		From("anidb_cache")
 
 	query, args, err := queryBuilder.ToSql()
 	if err != nil {
@@ -61,12 +83,36 @@ func (r *CacheRepo) GetAniDBIDs(ctx context.Context) (map[int]int, error) {
 	return result, nil
 }
 
+// UpsertAniDB inserts or updates an AniDB cache entry
+func (r *CacheRepo) UpsertAniDB(ctx context.Context, malID, anidbID int) error {
+	now := time.Now().Format(time.RFC3339)
+	hadAniDBID := anidbID > 0
+
+	queryBuilder := r.db.squirrel.
+		Replace("anidb_cache").
+		Columns("mal_id", "anidb_id", "had_anidb_id", "cached_at", "last_used").
+		Values(malID, anidbID, hadAniDBID, now, now)
+
+	query, args, err := queryBuilder.ToSql()
+	if err != nil {
+		return errors.Wrap(err, "error building query")
+	}
+
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpsertAniDB")
+
+	_, err = r.db.handler.ExecContext(ctx, query, args...)
+	if err != nil {
+		return errors.Wrap(err, "error executing query")
+	}
+
+	return nil
+}
+
 // GetTMDBIDs returns a map of MAL ID to TMDB ID for entries that have TMDB IDs
 func (r *CacheRepo) GetTMDBIDs(ctx context.Context) (map[int]int, error) {
 	queryBuilder := r.db.squirrel.
 		Select("mal_id", "tmdb_id").
-		From("cache_entries").
-		Where(sq.Gt{"tmdb_id": 0})
+		From("tmdb_cache")
 
 	query, args, err := queryBuilder.ToSql()
 	if err != nil {
@@ -97,143 +143,47 @@ func (r *CacheRepo) GetTMDBIDs(ctx context.Context) (map[int]int, error) {
 	return result, nil
 }
 
-// UpsertEntry inserts or updates a cache entry
-func (r *CacheRepo) UpsertEntry(ctx context.Context, entry *domain.CacheEntry) error {
-	// Try to update first
-	updateBuilder := r.db.squirrel.
-		Update("cache_entries").
-		Set("anidb_id", entry.AnidbID).
-		Set("tmdb_id", entry.TmdbID).
-		Set("had_anidb_id", entry.HadAniDBID).
-		Set("last_used", entry.LastUsed).
-		Set("release_date", entry.ReleaseDate).
-		Set("type", entry.Type).
-		Where(sq.Eq{"mal_id": entry.MalID})
+// UpsertTMDB inserts or updates a TMDB cache entry
+func (r *CacheRepo) UpsertTMDB(ctx context.Context, malID, tmdbID int) error {
+	now := time.Now().Format(time.RFC3339)
+	hasTmdbID := tmdbID > 0
 
-	query, args, err := updateBuilder.ToSql()
-	if err != nil {
-		return errors.Wrap(err, "error building update query")
-	}
-
-	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpsertEntry update")
-
-	result, err := r.db.handler.ExecContext(ctx, query, args...)
-	if err != nil {
-		return errors.Wrap(err, "error executing update query")
-	}
-
-	rowsAffected, _ := result.RowsAffected()
-	if rowsAffected > 0 {
-		return nil // Update successful
-	}
-
-	// No rows affected, insert new entry using Replace (SQLite INSERT OR REPLACE)
-	insertBuilder := r.db.squirrel.
-		Replace("cache_entries").
-		Columns("mal_id", "anidb_id", "tmdb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
-		Values(entry.MalID, entry.AnidbID, entry.TmdbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
-
-	query, args, err = insertBuilder.ToSql()
-	if err != nil {
-		return errors.Wrap(err, "error building insert query")
-	}
-
-	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpsertEntry insert")
-
-	_, err = r.db.handler.ExecContext(ctx, query, args...)
-	if err != nil {
-		return errors.Wrap(err, "error executing insert query")
-	}
-
-	return nil
-}
-
-// InsertEntry inserts a new cache entry (used during migration)
-// Uses Replace (SQLite INSERT OR REPLACE) for SQLite compatibility
-func (r *CacheRepo) InsertEntry(ctx context.Context, entry *domain.CacheEntry) error {
 	queryBuilder := r.db.squirrel.
-		Replace("cache_entries").
-		Columns("mal_id", "anidb_id", "tmdb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
-		Values(entry.MalID, entry.AnidbID, entry.TmdbID, entry.URL, entry.CachedAt, entry.LastUsed, entry.HadAniDBID, entry.ReleaseDate, entry.Type)
+		Replace("tmdb_cache").
+		Columns("mal_id", "tmdb_id", "has_tmdb_id", "cached_at", "last_used").
+		Values(malID, tmdbID, hasTmdbID, now, now)
 
 	query, args, err := queryBuilder.ToSql()
 	if err != nil {
-		return errors.Wrap(err, "error building insert query")
+		return errors.Wrap(err, "error building query")
 	}
 
-	r.log.Trace().Str("query", query).Interface("args", args).Msg("InsertEntry")
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpsertTMDB")
 
 	_, err = r.db.handler.ExecContext(ctx, query, args...)
 	if err != nil {
-		return errors.Wrap(err, "error executing insert query")
-	}
-
-	return nil
-}
-
-// UpdateTMDBID updates only the tmdb_id field for an existing cache entry
-// If the entry doesn't exist, it creates a new entry with MAL ID, TMDB ID, release date, and type
-func (r *CacheRepo) UpdateTMDBID(ctx context.Context, malID, tmdbID int, releaseDate, animeType string) error {
-	// Try to update first
-	updateBuilder := r.db.squirrel.
-		Update("cache_entries").
-		Set("tmdb_id", tmdbID).
-		Where(sq.Eq{"mal_id": malID})
-
-	query, args, err := updateBuilder.ToSql()
-	if err != nil {
-		return errors.Wrap(err, "error building update query")
-	}
-
-	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpdateTMDBID update")
-
-	result, err := r.db.handler.ExecContext(ctx, query, args...)
-	if err != nil {
-		return errors.Wrap(err, "error executing update query")
-	}
-
-	rowsAffected, _ := result.RowsAffected()
-	if rowsAffected > 0 {
-		return nil // Update successful
-	}
-
-	// No rows affected, entry doesn't exist - create a new entry with available data
-	now := time.Now().Format(time.RFC3339)
-	insertBuilder := r.db.squirrel.
-		Replace("cache_entries").
-		Columns("mal_id", "anidb_id", "tmdb_id", "url", "cached_at", "last_used", "had_anidb_id", "release_date", "type").
-		Values(malID, 0, tmdbID, fmt.Sprintf("https://myanimelist.net/anime/%d", malID), now, now, false, releaseDate, animeType)
-
-	query, args, err = insertBuilder.ToSql()
-	if err != nil {
-		return errors.Wrap(err, "error building insert query")
-	}
-
-	r.log.Trace().Str("query", query).Interface("args", args).Msg("UpdateTMDBID insert")
-
-	_, err = r.db.handler.ExecContext(ctx, query, args...)
-	if err != nil {
-		return errors.Wrap(err, "error executing insert query")
+		return errors.Wrap(err, "error executing query")
 	}
 
 	return nil
 }
 
 // GetEntriesByReleaseYear returns cache entries for anime released in a specific year
-func (r *CacheRepo) GetEntriesByReleaseYear(ctx context.Context, year int) ([]*domain.CacheEntry, error) {
+func (r *CacheRepo) GetEntriesByReleaseYear(ctx context.Context, year int) ([]*domain.MALCacheEntry, error) {
 	queryBuilder := r.db.squirrel.
-		Select("mal_id", "anidb_id", "release_date", "type", "had_anidb_id").
-		From("cache_entries").
+		Select("m.mal_id", "m.release_date", "m.type").
+		From("mal_cache m").
+		LeftJoin("anidb_cache a ON m.mal_id = a.mal_id").
 		Where(sq.And{
-			sq.Expr("release_date IS NOT NULL"),
-			sq.NotEq{"release_date": ""},
+			sq.Expr("m.release_date IS NOT NULL"),
+			sq.NotEq{"m.release_date": ""},
 			sq.Or{
-				sq.Expr("CAST(strftime('%Y', release_date) AS INTEGER) = ?", year),
-				sq.Expr("CAST(SUBSTR(release_date, 1, 4) AS INTEGER) = ?", year),
+				sq.Expr("CAST(strftime('%Y', m.release_date) AS INTEGER) = ?", year),
+				sq.Expr("CAST(SUBSTR(m.release_date, 1, 4) AS INTEGER) = ?", year),
 			},
 			sq.Or{
-				sq.Eq{"had_anidb_id": 0},
-				sq.Eq{"anidb_id": 0},
+				sq.Expr("a.mal_id IS NULL"),
+				sq.Eq{"a.anidb_id": 0},
 			},
 		})
 
@@ -250,14 +200,12 @@ func (r *CacheRepo) GetEntriesByReleaseYear(ctx context.Context, year int) ([]*d
 	}
 	defer rows.Close()
 
-	var entries []*domain.CacheEntry
+	var entries []*domain.MALCacheEntry
 	for rows.Next() {
-		entry := &domain.CacheEntry{}
-		var hadAniDBID bool
-		if err := rows.Scan(&entry.MalID, &entry.AnidbID, &entry.ReleaseDate, &entry.Type, &hadAniDBID); err != nil {
+		entry := &domain.MALCacheEntry{}
+		if err := rows.Scan(&entry.MalID, &entry.ReleaseDate, &entry.Type); err != nil {
 			return nil, errors.Wrap(err, "error scanning row")
 		}
-		entry.HadAniDBID = hadAniDBID
 		entries = append(entries, entry)
 	}
 
@@ -268,10 +216,10 @@ func (r *CacheRepo) GetEntriesByReleaseYear(ctx context.Context, year int) ([]*d
 	return entries, nil
 }
 
-// DeleteEntry deletes a cache entry by MAL ID
-func (r *CacheRepo) DeleteEntry(ctx context.Context, malID int) error {
+// DeleteMAL deletes a MAL cache entry (cascade deletes AniDB and TMDB entries)
+func (r *CacheRepo) DeleteMAL(ctx context.Context, malID int) error {
 	queryBuilder := r.db.squirrel.
-		Delete("cache_entries").
+		Delete("mal_cache").
 		Where(sq.Eq{"mal_id": malID})
 
 	query, args, err := queryBuilder.ToSql()
@@ -279,7 +227,7 @@ func (r *CacheRepo) DeleteEntry(ctx context.Context, malID int) error {
 		return errors.Wrap(err, "error building delete query")
 	}
 
-	r.log.Trace().Str("query", query).Interface("args", args).Msg("DeleteEntry")
+	r.log.Trace().Str("query", query).Interface("args", args).Msg("DeleteMAL")
 
 	_, err = r.db.handler.ExecContext(ctx, query, args...)
 	if err != nil {

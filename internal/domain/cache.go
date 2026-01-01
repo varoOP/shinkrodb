@@ -4,24 +4,28 @@ import "context"
 
 // CacheRepo defines the interface for cache database operations
 type CacheRepo interface {
+	// MAL cache operations
+	UpsertMAL(ctx context.Context, malID int, url, releaseDate, animeType string) error
+	
+	// AniDB cache operations
 	GetAniDBIDs(ctx context.Context) (map[int]int, error)
+	UpsertAniDB(ctx context.Context, malID, anidbID int) error
+	
+	// TMDB cache operations
 	GetTMDBIDs(ctx context.Context) (map[int]int, error)
-	UpsertEntry(ctx context.Context, entry *CacheEntry) error
-	InsertEntry(ctx context.Context, entry *CacheEntry) error
-	UpdateTMDBID(ctx context.Context, malID, tmdbID int, releaseDate, animeType string) error
-	GetEntriesByReleaseYear(ctx context.Context, year int) ([]*CacheEntry, error)
-	DeleteEntry(ctx context.Context, malID int) error
+	UpsertTMDB(ctx context.Context, malID, tmdbID int) error
+	
+	// Query operations
+	GetEntriesByReleaseYear(ctx context.Context, year int) ([]*MALCacheEntry, error)
+	DeleteMAL(ctx context.Context, malID int) error
 }
 
-// CacheEntry represents a cache entry in the database
-type CacheEntry struct {
+// MALCacheEntry represents a MAL cache entry
+type MALCacheEntry struct {
 	MalID       int
-	AnidbID     int
-	TmdbID      int
 	URL         string
-	CachedAt    string
-	LastUsed    string
-	HadAniDBID  bool
 	ReleaseDate string
 	Type        string
+	CachedAt    string
+	LastUsed    string
 }

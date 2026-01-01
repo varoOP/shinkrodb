@@ -8,7 +8,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"strconv"
-	"time"
 
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
@@ -122,10 +121,9 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 				return nil
 			}
 
-			// Extract AniDB ID from HTML (only if cacheDir is provided)
+			// Extract AniDB ID from HTML
 			// Look for AniDB link in the HTML - should be in format: href="...aid=12345..."
 			anidbID := 0
-			hadAniDBID := false
 			anidbMatch := anidbIDRegex.FindStringSubmatch(htmlContent)
 			log.Debug().Strs("anidbMatch", anidbMatch).Msg("anidbMatch")
 			matchedString := "no match"
@@ -134,7 +132,6 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 				parsedAnidbID, parseErr := strconv.Atoi(anidbMatch[1])
 				if parseErr == nil && parsedAnidbID > 0 {
 					anidbID = parsedAnidbID
-					hadAniDBID = true
 				}
 			}
 
@@ -148,16 +145,10 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 					Msg("WARNING: mal_id equals anidb_id during migration - this should not happen!")
 			}
 
-			// Get file modification time as cached_at
-			cachedAt := info.ModTime()
-			if cachedAt.IsZero() {
-				cachedAt = time.Now()
-			}
-
 			// Construct URL
 			url := fmt.Sprintf("https://myanimelist.net/anime/%d", malID)
 
-			// Get release date and type from anime data (for invalidation logic)
+			// Get release date and type from anime data
 			releaseDate := ""
 			animeType := ""
 			if anime, exists := animeMap[malID]; exists {
@@ -165,21 +156,17 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 				animeType = anime.Type
 			}
 
-			// Insert into database using repository
-			entry := &domain.CacheEntry{
-				MalID:       malID,
-				AnidbID:     anidbID,
-				TmdbID:      0, // TMDB IDs not available in old HTML cache
-				URL:         url,
-				CachedAt:    cachedAt.Format(time.RFC3339),
-				LastUsed:    cachedAt.Format(time.RFC3339),
-				HadAniDBID:  hadAniDBID,
-				ReleaseDate: releaseDate,
-				Type:        animeType,
+			// Insert into database using new separate tables
+			// Update MAL cache
+			if err := cacheRepo.UpsertMAL(ctx, malID, url, releaseDate, animeType); err != nil {
+				log.Warn().Err(err).Int("mal_id", malID).Str("path", path).Msg("failed to insert MAL cache")
+				errorCount++
+				return nil
 			}
 
-			if err := cacheRepo.InsertEntry(ctx, entry); err != nil {
-				log.Warn().Err(err).Int("mal_id", malID).Str("path", path).Msg("failed to insert entry")
+			// Update AniDB cache
+			if err := cacheRepo.UpsertAniDB(ctx, malID, anidbID); err != nil {
+				log.Warn().Err(err).Int("mal_id", malID).Str("path", path).Msg("failed to insert AniDB cache")
 				errorCount++
 				return nil
 			}
@@ -206,7 +193,7 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 	// Update TMDB IDs from existing JSON file if rootPath is provided
 	if rootPath != "" {
 		log.Info().Str("tmdb_path", string(paths.TMDBPath)).Msg("Updating TMDB IDs from existing JSON file")
-		
+
 		// Get anime data with TMDB IDs from the JSON file
 		animeList, err := animeRepo.Get(ctx, paths.TMDBPath)
 		if err != nil {
@@ -223,9 +210,14 @@ func MigrateCache(ctx context.Context, cacheDir, rootPath, dbPath string, animeR
 			// Update or create cache entries with TMDB IDs
 			updatedCount := 0
 			for malID, anime := range animeMap {
-				// UpdateTMDBID will update existing entries or create new ones if they don't exist
-				// Pass release date and type from the anime data
-				if err := cacheRepo.UpdateTMDBID(ctx, malID, anime.TmdbID, anime.ReleaseDate, anime.Type); err != nil {
+				// Ensure MAL cache exists first
+				url := fmt.Sprintf("https://myanimelist.net/anime/%d", malID)
+				if err := cacheRepo.UpsertMAL(ctx, malID, url, anime.ReleaseDate, anime.Type); err != nil {
+					log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update MAL cache for TMDB entry")
+				}
+
+				// UpsertTMDB will update existing entries or create new ones if they don't exist
+				if err := cacheRepo.UpsertTMDB(ctx, malID, anime.TmdbID); err != nil {
 					log.Warn().Err(err).Int("mal_id", malID).Int("tmdb_id", anime.TmdbID).Msg("failed to update/create TMDB ID")
 					continue
 				}

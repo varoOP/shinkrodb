@@ -8,6 +8,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/varoOP/shinkrodb/internal/cache"
 	"github.com/varoOP/shinkrodb/internal/config"
+	"github.com/varoOP/shinkrodb/internal/database"
 	"github.com/varoOP/shinkrodb/internal/domain"
 	"github.com/varoOP/shinkrodb/internal/logger"
 	"github.com/varoOP/shinkrodb/internal/mal"
@@ -43,6 +44,15 @@ After migration, you can use the new efficient cache system.`,
 
 		// Only fetch MAL IDs if cache-dir is provided (needed for release dates/types in migration)
 		if cacheDir != "" {
+			// Initialize database and cache repository first
+			db, err := database.NewDB(".", log)
+			if err != nil {
+				return fmt.Errorf("failed to initialize database: %w", err)
+			}
+			defer db.Close()
+
+			cacheRepo := database.NewCacheRepo(log, db)
+
 			// Load configuration
 			cfg, err := config.Load()
 			if err != nil {
@@ -51,7 +61,7 @@ After migration, you can use the new efficient cache system.`,
 
 			// Fetch MAL IDs first (needed for release dates/types in migration)
 			malSvc := mal.NewService(log, cfg, animeRepo, paths.MalIDPath, paths.AniDBPath)
-			if err := malSvc.GetAnimeIDs(cmd.Context()); err != nil {
+			if err := malSvc.GetAnimeIDs(cmd.Context(), cacheRepo); err != nil {
 				return fmt.Errorf("failed to get MAL IDs: %w", err)
 			}
 		}

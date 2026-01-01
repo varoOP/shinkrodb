@@ -19,7 +19,7 @@ import (
 )
 
 type Service interface {
-	GetAnimeIDs(ctx context.Context) error
+	GetAnimeIDs(ctx context.Context, cacheRepo domain.CacheRepo) error
 	ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo) error
 }
 
@@ -80,7 +80,7 @@ func NewService(log zerolog.Logger, config *domain.Config, animeRepo domain.Anim
 	}
 }
 
-func (s *service) GetAnimeIDs(ctx context.Context) error {
+func (s *service) GetAnimeIDs(ctx context.Context, cacheRepo domain.CacheRepo) error {
 	s.log.Info().Msg("Getting current ids from myanimelist..")
 	c := &http.Client{
 		Transport: &clientIDTransport{ClientID: s.config.MalClientID},
@@ -106,6 +106,17 @@ func (s *service) GetAnimeIDs(ctx context.Context) error {
 	sort.SliceStable(a, func(i, j int) bool {
 		return a[i].MalID < a[j].MalID
 	})
+
+	// Update mal_cache table with all MAL IDs
+	if cacheRepo != nil {
+		for _, anime := range a {
+			url := fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID)
+			if err := cacheRepo.UpsertMAL(ctx, anime.MalID, url, anime.ReleaseDate, anime.Type); err != nil {
+				s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to update MAL cache")
+			}
+		}
+		s.log.Info().Int("count", len(a)).Msg("Updated mal_cache")
+	}
 
 	if err := s.animeRepo.Store(ctx, s.malIDPath, a); err != nil {
 		return errors.Wrap(err, "failed to store MAL IDs")
@@ -237,25 +248,13 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 					a[i].AnidbID = anidbid
 					s.log.Debug().Int("anidbid", anidbid).Int("malid", malID).Msg("Parsed AniDB ID")
 
-					// Update cache immediately when AniDB ID is found
+					// Update AniDB cache immediately when AniDB ID is found
+					// Note: mal_cache should only be updated in GetAnimeIDs, not here
 					if cacheRepo != nil {
-						now := time.Now().Format(time.RFC3339)
-						entry := &domain.CacheEntry{
-							MalID:       malID,
-							AnidbID:     anidbid,
-							TmdbID:      a[i].TmdbID,
-							URL:         fmt.Sprintf("https://myanimelist.net/anime/%d", malID),
-							CachedAt:    now,
-							LastUsed:    now,
-							HadAniDBID:  true,
-							ReleaseDate: a[i].ReleaseDate,
-							Type:        a[i].Type,
-						}
-
-						if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
-							s.log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update cache")
+						if err := cacheRepo.UpsertAniDB(ctx, malID, anidbid); err != nil {
+							s.log.Warn().Err(err).Int("mal_id", malID).Msg("failed to update AniDB cache")
 						} else {
-							s.log.Debug().Int("mal_id", malID).Int("anidb_id", anidbid).Msg("Updated cache")
+							s.log.Debug().Int("mal_id", malID).Int("anidb_id", anidbid).Msg("Updated AniDB cache")
 						}
 					}
 				}
@@ -283,63 +282,13 @@ func (s *service) ScrapeAniDBIDs(ctx context.Context, cacheRepo domain.CacheRepo
 	// Wait for scraping to complete
 	cc.Wait()
 
-	// Update database with any remaining entries (for entries without AniDB IDs, we still want to cache the visit)
-	// Note: Entries with AniDB IDs are already updated immediately in OnHTML callback
-	if err := s.updateCacheDatabase(ctx, cacheRepo, a); err != nil {
-		s.log.Warn().Err(err).Msg("failed to update cache database")
-	}
+	// Note: Entries with AniDB IDs were already updated in OnHTML callback
+	// Entries without AniDB IDs are not cached - they'll be scraped again next time
 
 	if err := s.animeRepo.Store(ctx, s.anidbPath, a); err != nil {
 		return errors.Wrap(err, "failed to store AniDB IDs")
 	}
 
-	return nil
-}
-
-func (s *service) updateCacheDatabase(ctx context.Context, cacheRepo domain.CacheRepo, animeList []domain.Anime) error {
-	// Check if database exists
-	if cacheRepo == nil {
-		return nil // No cache repository provided, skip update
-	}
-
-	now := time.Now().Format(time.RFC3339)
-	updated := 0
-
-	for _, anime := range animeList {
-		url := fmt.Sprintf("https://myanimelist.net/anime/%d", anime.MalID)
-		hadAniDBID := anime.AnidbID > 0
-
-		// Debug: Log values to catch any bugs
-		if anime.MalID == anime.AnidbID && anime.AnidbID > 0 {
-			s.log.Warn().
-				Int("mal_id", anime.MalID).
-				Int("anidb_id", anime.AnidbID).
-				Msg("WARNING: mal_id equals anidb_id - this should not happen!")
-		}
-
-		// Upsert cache entry using repository
-		// Note: Entries with AniDB IDs are already updated immediately in OnHTML callback,
-		// but we still update here to ensure all entries (including those without AniDB IDs) are cached
-		entry := &domain.CacheEntry{
-			MalID:       anime.MalID,
-			AnidbID:     anime.AnidbID,
-			TmdbID:      anime.TmdbID,
-			URL:         url,
-			CachedAt:    now,
-			LastUsed:    now,
-			HadAniDBID:  hadAniDBID,
-			ReleaseDate: anime.ReleaseDate,
-			Type:        anime.Type,
-		}
-
-		if err := cacheRepo.UpsertEntry(ctx, entry); err != nil {
-			s.log.Warn().Err(err).Int("mal_id", anime.MalID).Msg("failed to upsert cache entry")
-			continue
-		}
-		updated++
-	}
-
-	s.log.Debug().Int("updated_count", updated).Msg("Updated cache database with remaining entries")
 	return nil
 }
 

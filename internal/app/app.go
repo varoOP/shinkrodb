@@ -94,11 +94,6 @@ func (a *App) Run(rootPath string) (err error) {
 	a.tmdbService = tmdb.NewService(a.log, a.config, a.animeRepo, a.mappingRepo, a.paths)
 	a.tvdbService = tvdb.NewService(a.log, a.animeRepo, a.mappingRepo, a.paths)
 
-	// Get MAL IDs
-	if err := a.malService.GetAnimeIDs(ctx); err != nil {
-		return fmt.Errorf("failed to get MAL IDs: %w", err)
-	}
-
 	// Initialize database and cache repository
 	// Store database in current directory (./) instead of root-path
 	db, err := database.NewDB(".", a.log)
@@ -108,6 +103,11 @@ func (a *App) Run(rootPath string) (err error) {
 	defer db.Close()
 
 	cacheRepo := database.NewCacheRepo(a.log, db)
+
+	// Get MAL IDs and update mal_cache
+	if err := a.malService.GetAnimeIDs(ctx, cacheRepo); err != nil {
+		return fmt.Errorf("failed to get MAL IDs: %w", err)
+	}
 
 	// Scrape MAL for AniDB IDs (cache invalidation happens implicitly - only entries < 1 year old are used)
 	if err := a.malService.ScrapeAniDBIDs(ctx, cacheRepo); err != nil {
